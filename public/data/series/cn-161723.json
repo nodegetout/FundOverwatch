@@ -1,0 +1,1562 @@
+[
+  {
+    "date": "2025-09-04",
+    "nav": 1.7139,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-05",
+    "nav": 1.698,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-08",
+    "nav": 1.6886,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-09",
+    "nav": 1.7021,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-10",
+    "nav": 1.704,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-11",
+    "nav": 1.7126,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-12",
+    "nav": 1.6875,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-15",
+    "nav": 1.6729,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-16",
+    "nav": 1.6563,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-17",
+    "nav": 1.6505,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-18",
+    "nav": 1.6207,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-19",
+    "nav": 1.6216,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-22",
+    "nav": 1.606,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-23",
+    "nav": 1.6297,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-24",
+    "nav": 1.6249,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-25",
+    "nav": 1.6154,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-26",
+    "nav": 1.618,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-29",
+    "nav": 1.6104,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-09-30",
+    "nav": 1.5989,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-09",
+    "nav": 1.5952,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-10",
+    "nav": 1.6025,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-13",
+    "nav": 1.6137,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-14",
+    "nav": 1.6522,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-15",
+    "nav": 1.6618,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-16",
+    "nav": 1.6845,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-17",
+    "nav": 1.6795,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-20",
+    "nav": 1.6777,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-21",
+    "nav": 1.6827,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-22",
+    "nav": 1.6982,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-23",
+    "nav": 1.7087,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-24",
+    "nav": 1.7016,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-27",
+    "nav": 1.702,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-28",
+    "nav": 1.6993,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-29",
+    "nav": 1.6658,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-30",
+    "nav": 1.6664,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-10-31",
+    "nav": 1.6647,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-03",
+    "nav": 1.6852,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-04",
+    "nav": 1.7181,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-05",
+    "nav": 1.718,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-06",
+    "nav": 1.7111,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-07",
+    "nav": 1.7089,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-10",
+    "nav": 1.7192,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-11",
+    "nav": 1.7249,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-12",
+    "nav": 1.7327,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-13",
+    "nav": 1.7318,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-14",
+    "nav": 1.7359,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-17",
+    "nav": 1.7144,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-18",
+    "nav": 1.7101,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-19",
+    "nav": 1.7237,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-20",
+    "nav": 1.7377,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-21",
+    "nav": 1.721,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-24",
+    "nav": 1.7083,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-25",
+    "nav": 1.7298,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-26",
+    "nav": 1.7171,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-27",
+    "nav": 1.7257,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-11-28",
+    "nav": 1.7123,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-01",
+    "nav": 1.7245,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-02",
+    "nav": 1.7248,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-03",
+    "nav": 1.7107,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-04",
+    "nav": 1.7039,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-05",
+    "nav": 1.6944,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-08",
+    "nav": 1.6947,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-09",
+    "nav": 1.6936,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-10",
+    "nav": 1.6682,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-11",
+    "nav": 1.6734,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-12",
+    "nav": 1.6693,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-15",
+    "nav": 1.671,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-16",
+    "nav": 1.6624,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-17",
+    "nav": 1.6643,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-18",
+    "nav": 1.6957,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-19",
+    "nav": 1.6885,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-22",
+    "nav": 1.6794,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-23",
+    "nav": 1.6854,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-24",
+    "nav": 1.6807,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-25",
+    "nav": 1.6798,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-26",
+    "nav": 1.6741,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-29",
+    "nav": 1.6902,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-30",
+    "nav": 1.6881,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2025-12-31",
+    "nav": 1.6898,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-05",
+    "nav": 1.6841,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-06",
+    "nav": 1.6923,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-07",
+    "nav": 1.681,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-08",
+    "nav": 1.6663,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-09",
+    "nav": 1.6595,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-12",
+    "nav": 1.6648,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-13",
+    "nav": 1.6746,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-14",
+    "nav": 1.6467,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-15",
+    "nav": 1.6359,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-16",
+    "nav": 1.6191,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-19",
+    "nav": 1.6102,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-20",
+    "nav": 1.6218,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-21",
+    "nav": 1.5975,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-22",
+    "nav": 1.5912,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-23",
+    "nav": 1.5782,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-26",
+    "nav": 1.5838,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-27",
+    "nav": 1.582,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-28",
+    "nav": 1.5727,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-29",
+    "nav": 1.5959,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-01-30",
+    "nav": 1.59,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-02",
+    "nav": 1.5921,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-03",
+    "nav": 1.5799,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-04",
+    "nav": 1.6009,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-05",
+    "nav": 1.6261,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-06",
+    "nav": 1.6217,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-09",
+    "nav": 1.627,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-10",
+    "nav": 1.631,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-11",
+    "nav": 1.6341,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-12",
+    "nav": 1.6125,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-13",
+    "nav": 1.6019,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-24",
+    "nav": 1.5976,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-25",
+    "nav": 1.5902,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-26",
+    "nav": 1.587,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-02-27",
+    "nav": 1.5866,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-02",
+    "nav": 1.5951,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-03",
+    "nav": 1.6104,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-04",
+    "nav": 1.5941,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-05",
+    "nav": 1.6078,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-06",
+    "nav": 1.6103,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-09",
+    "nav": 1.6002,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-10",
+    "nav": 1.6035,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-11",
+    "nav": 1.617,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-12",
+    "nav": 1.6265,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-13",
+    "nav": 1.6326,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-16",
+    "nav": 1.6385,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-17",
+    "nav": 1.6513,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-18",
+    "nav": 1.6447,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-19",
+    "nav": 1.6415,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-20",
+    "nav": 1.6372,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-23",
+    "nav": 1.5863,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-24",
+    "nav": 1.6179,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-25",
+    "nav": 1.6278,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-26",
+    "nav": 1.6335,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-27",
+    "nav": 1.6257,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-30",
+    "nav": 1.6331,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-03-31",
+    "nav": 1.6432,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-01",
+    "nav": 1.6451,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-02",
+    "nav": 1.6532,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-03",
+    "nav": 1.6353,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-07",
+    "nav": 1.6207,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-08",
+    "nav": 1.6332,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-09",
+    "nav": 1.6201,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-10",
+    "nav": 1.6181,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-13",
+    "nav": 1.6182,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-14",
+    "nav": 1.6315,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-15",
+    "nav": 1.648,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-16",
+    "nav": 1.6428,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-17",
+    "nav": 1.6365,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-20",
+    "nav": 1.6525,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-21",
+    "nav": 1.6583,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-22",
+    "nav": 1.6475,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-23",
+    "nav": 1.6531,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-24",
+    "nav": 1.6485,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-27",
+    "nav": 1.6429,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-28",
+    "nav": 1.6491,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-29",
+    "nav": 1.6435,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-04-30",
+    "nav": 1.6323,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-06",
+    "nav": 1.6188,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-07",
+    "nav": 1.614,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-08",
+    "nav": 1.613,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-11",
+    "nav": 1.6127,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-12",
+    "nav": 1.6091,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-13",
+    "nav": 1.6067,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-14",
+    "nav": 1.6104,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-15",
+    "nav": 1.6037,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-18",
+    "nav": 1.5892,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-19",
+    "nav": 1.5949,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-20",
+    "nav": 1.5815,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-21",
+    "nav": 1.5849,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-22",
+    "nav": 1.582,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-25",
+    "nav": 1.5819,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-26",
+    "nav": 1.585,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-27",
+    "nav": 1.5802,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-28",
+    "nav": 1.5705,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-05-29",
+    "nav": 1.5974,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-01",
+    "nav": 1.6151,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-02",
+    "nav": 1.6244,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-03",
+    "nav": 1.6101,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-04",
+    "nav": 1.5933,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-05",
+    "nav": 1.6131,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-08",
+    "nav": 1.6225,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-09",
+    "nav": 1.6308,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-10",
+    "nav": 1.6555,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-11",
+    "nav": 1.6508,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-12",
+    "nav": 1.6738,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-15",
+    "nav": 1.6499,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-16",
+    "nav": 1.6305,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-17",
+    "nav": 1.6162,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-18",
+    "nav": 1.5764,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-22",
+    "nav": 1.5877,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-23",
+    "nav": 1.6036,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-24",
+    "nav": 1.5663,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-25",
+    "nav": 1.5532,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-26",
+    "nav": 1.5411,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-29",
+    "nav": 1.5478,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-06-30",
+    "nav": 1.5133,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-01",
+    "nav": 1.5234,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-02",
+    "nav": 1.5415,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-03",
+    "nav": 1.5408,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-06",
+    "nav": 1.5682,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-07",
+    "nav": 1.5703,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-08",
+    "nav": 1.584,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-09",
+    "nav": 1.5707,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-10",
+    "nav": 1.5807,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-13",
+    "nav": 1.6082,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-14",
+    "nav": 1.6105,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-15",
+    "nav": 1.6284,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-16",
+    "nav": 1.6147,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-17",
+    "nav": 1.6273,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-20",
+    "nav": 1.6629,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-21",
+    "nav": 1.629,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-22",
+    "nav": 1.6465,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-23",
+    "nav": 1.6553,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-24",
+    "nav": 1.6599,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-27",
+    "nav": 1.66,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-28",
+    "nav": 1.6835,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-29",
+    "nav": 1.6864,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-30",
+    "nav": 1.7273,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-07-31",
+    "nav": 1.7053,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-03",
+    "nav": 1.7136,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-04",
+    "nav": 1.6702,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-05",
+    "nav": 1.6526,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-06",
+    "nav": 1.6579,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-07",
+    "nav": 1.6477,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-10",
+    "nav": 1.6542,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-11",
+    "nav": 1.6539,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-12",
+    "nav": 1.6482,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-13",
+    "nav": 1.6557,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-14",
+    "nav": 1.6467,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-17",
+    "nav": 1.6432,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-18",
+    "nav": 1.6532,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-19",
+    "nav": 1.6811,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-20",
+    "nav": 1.6874,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-21",
+    "nav": 1.6826,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-24",
+    "nav": 1.7037,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-25",
+    "nav": 1.6935,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-26",
+    "nav": 1.706,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-27",
+    "nav": 1.6895,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-28",
+    "nav": 1.6812,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-08-31",
+    "nav": 1.7076,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-01",
+    "nav": 1.7381,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-02",
+    "nav": 1.7389,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-03",
+    "nav": 1.7307,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-04",
+    "nav": 1.7454,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-07",
+    "nav": 1.7208,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-08",
+    "nav": 1.7268,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-09",
+    "nav": 1.7299,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-10",
+    "nav": 1.755,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-11",
+    "nav": 1.7471,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-14",
+    "nav": 1.7607,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-15",
+    "nav": 1.7399,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-16",
+    "nav": 1.7288,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-17",
+    "nav": 1.7239,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-18",
+    "nav": 1.7185,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-21",
+    "nav": 1.7261,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-22",
+    "nav": 1.7246,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-23",
+    "nav": 1.7174,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-24",
+    "nav": 1.7243,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-28",
+    "nav": 1.7224,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-29",
+    "nav": 1.7262,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-09-30",
+    "nav": 1.7516,
+    "price": null,
+    "benchmarkPrice": null
+  }
+]

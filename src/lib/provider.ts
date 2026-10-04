@@ -9,6 +9,8 @@ export interface CollectionContext {
 
 export interface FundDataProvider {
   readonly name: string;
-  collectQuote(fund: Fund, context: CollectionContext): Promise<Quote>;
-  collectHoldings(fund: Fund, context: CollectionContext): Promise<HoldingsSnapshot>;
+  collectFund(fund: Fund, context: CollectionContext): Promise<{
+    quotes: Quote[];
+    holdings: HoldingsSnapshot;
+  }>;
 }

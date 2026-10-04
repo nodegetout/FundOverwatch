@@ -1,0 +1,13 @@
+[
+  {
+    "period": "month",
+    "periodKey": "2026-09",
+    "fundId": "cn-001595",
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-30",
+    "startPrice": 1.8001,
+    "endPrice": 1.8136,
+    "return": 0.007499583356480155,
+    "observations": 21
+  }
+]
