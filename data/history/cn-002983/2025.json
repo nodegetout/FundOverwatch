@@ -1,0 +1,1977 @@
+[
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-04",
+    "nav": 1.6182,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-05",
+    "nav": 1.6567,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-08",
+    "nav": 1.6675,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-09",
+    "nav": 1.6326,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-10",
+    "nav": 1.6353,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-11",
+    "nav": 1.6716,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-12",
+    "nav": 1.6702,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-15",
+    "nav": 1.6583,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-16",
+    "nav": 1.6522,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-17",
+    "nav": 1.6693,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-18",
+    "nav": 1.6595,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-19",
+    "nav": 1.6662,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-22",
+    "nav": 1.6501,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-23",
+    "nav": 1.6277,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-24",
+    "nav": 1.648,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-25",
+    "nav": 1.6384,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-26",
+    "nav": 1.6301,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-29",
+    "nav": 1.6382,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-09-30",
+    "nav": 1.6654,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-09",
+    "nav": 1.6868,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-10",
+    "nav": 1.6624,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-13",
+    "nav": 1.6694,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-14",
+    "nav": 1.645,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-15",
+    "nav": 1.6666,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-16",
+    "nav": 1.6478,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-17",
+    "nav": 1.5838,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-20",
+    "nav": 1.5998,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-21",
+    "nav": 1.6343,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-22",
+    "nav": 1.6106,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-23",
+    "nav": 1.6012,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-24",
+    "nav": 1.6329,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-27",
+    "nav": 1.6828,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-28",
+    "nav": 1.6919,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-29",
+    "nav": 1.6964,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-30",
+    "nav": 1.6558,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-10-31",
+    "nav": 1.6254,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-03",
+    "nav": 1.6306,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-04",
+    "nav": 1.6086,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-05",
+    "nav": 1.6037,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-06",
+    "nav": 1.6262,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-07",
+    "nav": 1.6261,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-10",
+    "nav": 1.6308,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-11",
+    "nav": 1.6101,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-12",
+    "nav": 1.589,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-13",
+    "nav": 1.6039,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-14",
+    "nav": 1.5831,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-17",
+    "nav": 1.5908,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-18",
+    "nav": 1.5819,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-19",
+    "nav": 1.5752,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-20",
+    "nav": 1.5671,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-21",
+    "nav": 1.5266,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-24",
+    "nav": 1.5786,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-25",
+    "nav": 1.5865,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-26",
+    "nav": 1.5648,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-27",
+    "nav": 1.5608,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-11-28",
+    "nav": 1.5973,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-01",
+    "nav": 1.601,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-02",
+    "nav": 1.5928,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-03",
+    "nav": 1.5799,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-04",
+    "nav": 1.5954,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-05",
+    "nav": 1.6418,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-08",
+    "nav": 1.6505,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-09",
+    "nav": 1.6587,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-10",
+    "nav": 1.6776,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-11",
+    "nav": 1.6671,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-12",
+    "nav": 1.6791,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-15",
+    "nav": 1.6802,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-16",
+    "nav": 1.6582,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-17",
+    "nav": 1.6639,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-18",
+    "nav": 1.6748,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-19",
+    "nav": 1.6947,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-22",
+    "nav": 1.7248,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-23",
+    "nav": 1.7315,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-24",
+    "nav": 1.7861,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-25",
+    "nav": 1.8233,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-26",
+    "nav": 1.8402,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-29",
+    "nav": 1.8289,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-30",
+    "nav": 1.8191,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2025-12-31",
+    "nav": 1.8403,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  }
+]

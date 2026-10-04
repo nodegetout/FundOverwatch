@@ -1,0 +1,1898 @@
+[
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-04",
+    "nav": 1.7139,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-05",
+    "nav": 1.698,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-08",
+    "nav": 1.6886,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-09",
+    "nav": 1.7021,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-10",
+    "nav": 1.704,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-11",
+    "nav": 1.7126,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-12",
+    "nav": 1.6875,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-15",
+    "nav": 1.6729,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-16",
+    "nav": 1.6563,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-17",
+    "nav": 1.6505,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-18",
+    "nav": 1.6207,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-19",
+    "nav": 1.6216,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-22",
+    "nav": 1.606,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-23",
+    "nav": 1.6297,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-24",
+    "nav": 1.6249,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-25",
+    "nav": 1.6154,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-26",
+    "nav": 1.618,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-29",
+    "nav": 1.6104,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-09-30",
+    "nav": 1.5989,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-09",
+    "nav": 1.5952,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-10",
+    "nav": 1.6025,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-13",
+    "nav": 1.6137,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-14",
+    "nav": 1.6522,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-15",
+    "nav": 1.6618,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-16",
+    "nav": 1.6845,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-17",
+    "nav": 1.6795,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-20",
+    "nav": 1.6777,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-21",
+    "nav": 1.6827,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-22",
+    "nav": 1.6982,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-23",
+    "nav": 1.7087,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-24",
+    "nav": 1.7016,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-27",
+    "nav": 1.702,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-28",
+    "nav": 1.6993,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-29",
+    "nav": 1.6658,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-30",
+    "nav": 1.6664,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-10-31",
+    "nav": 1.6647,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-03",
+    "nav": 1.6852,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-04",
+    "nav": 1.7181,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-05",
+    "nav": 1.718,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-06",
+    "nav": 1.7111,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-07",
+    "nav": 1.7089,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-10",
+    "nav": 1.7192,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-11",
+    "nav": 1.7249,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-12",
+    "nav": 1.7327,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-13",
+    "nav": 1.7318,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-14",
+    "nav": 1.7359,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-17",
+    "nav": 1.7144,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-18",
+    "nav": 1.7101,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-19",
+    "nav": 1.7237,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-20",
+    "nav": 1.7377,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-21",
+    "nav": 1.721,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-24",
+    "nav": 1.7083,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-25",
+    "nav": 1.7298,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-26",
+    "nav": 1.7171,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-27",
+    "nav": 1.7257,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-11-28",
+    "nav": 1.7123,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-01",
+    "nav": 1.7245,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-02",
+    "nav": 1.7248,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-03",
+    "nav": 1.7107,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-04",
+    "nav": 1.7039,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-05",
+    "nav": 1.6944,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-08",
+    "nav": 1.6947,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-09",
+    "nav": 1.6936,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-10",
+    "nav": 1.6682,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-11",
+    "nav": 1.6734,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-12",
+    "nav": 1.6693,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-15",
+    "nav": 1.671,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-16",
+    "nav": 1.6624,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-17",
+    "nav": 1.6643,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-18",
+    "nav": 1.6957,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-19",
+    "nav": 1.6885,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-22",
+    "nav": 1.6794,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-23",
+    "nav": 1.6854,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-24",
+    "nav": 1.6807,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-25",
+    "nav": 1.6798,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-26",
+    "nav": 1.6741,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-29",
+    "nav": 1.6902,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-30",
+    "nav": 1.6881,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-161723",
+    "date": "2025-12-31",
+    "nav": 1.6898,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "stale",
+      "source": "eastmoney-f10-nav-v1",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
+        "最近已公布净值日期为 2026-09-30。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  }
+]

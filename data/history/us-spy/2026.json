@@ -6,9 +6,11 @@
     "price": 687.9921,
     "benchmarkPrice": 155.8272,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-01T13:00:00+08:00",
       "warnings": [
@@ -24,9 +26,11 @@
     "price": 687.4527,
     "benchmarkPrice": 155.7182,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-02T13:00:00+08:00",
       "warnings": [
@@ -42,9 +46,11 @@
     "price": 685.59,
     "benchmarkPrice": 155.3617,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-05T13:00:00+08:00",
       "warnings": [
@@ -60,9 +66,11 @@
     "price": 684.9132,
     "benchmarkPrice": 155.2374,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-06T13:00:00+08:00",
       "warnings": [
@@ -78,9 +86,11 @@
     "price": 684.2222,
     "benchmarkPrice": 155.1127,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-07T13:00:00+08:00",
       "warnings": [
@@ -96,9 +106,11 @@
     "price": 683.5257,
     "benchmarkPrice": 154.9889,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-08T13:00:00+08:00",
       "warnings": [
@@ -114,9 +126,11 @@
     "price": 682.8326,
     "benchmarkPrice": 154.8673,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-09T13:00:00+08:00",
       "warnings": [
@@ -132,9 +146,11 @@
     "price": 680.8614,
     "benchmarkPrice": 154.5292,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-12T13:00:00+08:00",
       "warnings": [
@@ -150,9 +166,11 @@
     "price": 680.2688,
     "benchmarkPrice": 154.4297,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-13T13:00:00+08:00",
       "warnings": [
@@ -168,9 +186,11 @@
     "price": 679.7219,
     "benchmarkPrice": 154.3387,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-14T13:00:00+08:00",
       "warnings": [
@@ -186,9 +206,11 @@
     "price": 679.2281,
     "benchmarkPrice": 154.2573,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-15T13:00:00+08:00",
       "warnings": [
@@ -204,9 +226,11 @@
     "price": 678.7942,
     "benchmarkPrice": 154.1866,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-16T13:00:00+08:00",
       "warnings": [
@@ -222,9 +246,11 @@
     "price": 677.9089,
     "benchmarkPrice": 154.0475,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-19T13:00:00+08:00",
       "warnings": [
@@ -240,9 +266,11 @@
     "price": 677.7679,
     "benchmarkPrice": 154.0279,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-20T13:00:00+08:00",
       "warnings": [
@@ -258,9 +286,11 @@
     "price": 677.7094,
     "benchmarkPrice": 154.0226,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-21T13:00:00+08:00",
       "warnings": [
@@ -276,9 +306,11 @@
     "price": 677.7353,
     "benchmarkPrice": 154.0321,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-22T13:00:00+08:00",
       "warnings": [
@@ -294,9 +326,11 @@
     "price": 677.8467,
     "benchmarkPrice": 154.0567,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-23T13:00:00+08:00",
       "warnings": [
@@ -312,9 +346,11 @@
     "price": 678.6892,
     "benchmarkPrice": 154.2216,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-26T13:00:00+08:00",
       "warnings": [
@@ -330,9 +366,11 @@
     "price": 679.1335,
     "benchmarkPrice": 154.3068,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-27T13:00:00+08:00",
       "warnings": [
@@ -348,9 +386,11 @@
     "price": 679.6544,
     "benchmarkPrice": 154.4065,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-28T13:00:00+08:00",
       "warnings": [
@@ -366,9 +406,11 @@
     "price": 680.2475,
     "benchmarkPrice": 154.5205,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-29T13:00:00+08:00",
       "warnings": [
@@ -384,9 +426,11 @@
     "price": 680.9077,
     "benchmarkPrice": 154.6481,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-01-30T13:00:00+08:00",
       "warnings": [
@@ -402,9 +446,11 @@
     "price": 683.232,
     "benchmarkPrice": 155.1053,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-02T13:00:00+08:00",
       "warnings": [
@@ -420,9 +466,11 @@
     "price": 684.0988,
     "benchmarkPrice": 155.2796,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-03T13:00:00+08:00",
       "warnings": [
@@ -438,9 +486,11 @@
     "price": 684.9993,
     "benchmarkPrice": 155.4632,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-04T13:00:00+08:00",
       "warnings": [
@@ -456,9 +506,11 @@
     "price": 685.926,
     "benchmarkPrice": 155.6549,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-05T13:00:00+08:00",
       "warnings": [
@@ -474,9 +526,11 @@
     "price": 686.8709,
     "benchmarkPrice": 155.8535,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-06T13:00:00+08:00",
       "warnings": [
@@ -492,9 +546,11 @@
     "price": 689.7373,
     "benchmarkPrice": 156.4784,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-09T13:00:00+08:00",
       "warnings": [
@@ -510,9 +566,11 @@
     "price": 690.6781,
     "benchmarkPrice": 156.6919,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-10T13:00:00+08:00",
       "warnings": [
@@ -528,9 +586,11 @@
     "price": 691.5996,
     "benchmarkPrice": 156.9057,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-11T13:00:00+08:00",
       "warnings": [
@@ -546,9 +606,11 @@
     "price": 692.4951,
     "benchmarkPrice": 157.1184,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-12T13:00:00+08:00",
       "warnings": [
@@ -564,9 +626,11 @@
     "price": 693.3585,
     "benchmarkPrice": 157.3287,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-13T13:00:00+08:00",
       "warnings": [
@@ -582,9 +646,11 @@
     "price": 695.7026,
     "benchmarkPrice": 157.9317,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-16T13:00:00+08:00",
       "warnings": [
@@ -600,9 +666,11 @@
     "price": 696.387,
     "benchmarkPrice": 158.1192,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-17T13:00:00+08:00",
       "warnings": [
@@ -618,9 +686,11 @@
     "price": 697.0173,
     "benchmarkPrice": 158.298,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-18T13:00:00+08:00",
       "warnings": [
@@ -636,9 +706,11 @@
     "price": 697.5907,
     "benchmarkPrice": 158.4669,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-19T13:00:00+08:00",
       "warnings": [
@@ -654,9 +726,11 @@
     "price": 698.1054,
     "benchmarkPrice": 158.625,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-20T13:00:00+08:00",
       "warnings": [
@@ -672,9 +746,11 @@
     "price": 699.288,
     "benchmarkPrice": 159.0255,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-23T13:00:00+08:00",
       "warnings": [
@@ -690,9 +766,11 @@
     "price": 699.5614,
     "benchmarkPrice": 159.132,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-24T13:00:00+08:00",
       "warnings": [
@@ -708,9 +786,11 @@
     "price": 699.7756,
     "benchmarkPrice": 159.2241,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-25T13:00:00+08:00",
       "warnings": [
@@ -726,9 +806,11 @@
     "price": 699.9321,
     "benchmarkPrice": 159.3015,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-26T13:00:00+08:00",
       "warnings": [
@@ -744,9 +826,11 @@
     "price": 700.0326,
     "benchmarkPrice": 159.3638,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-02-27T13:00:00+08:00",
       "warnings": [
@@ -762,9 +846,11 @@
     "price": 700.0213,
     "benchmarkPrice": 159.4599,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-02T13:00:00+08:00",
       "warnings": [
@@ -780,9 +866,11 @@
     "price": 699.9221,
     "benchmarkPrice": 159.4621,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-03T13:00:00+08:00",
       "warnings": [
@@ -798,9 +886,11 @@
     "price": 699.7803,
     "benchmarkPrice": 159.4497,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-04T13:00:00+08:00",
       "warnings": [
@@ -816,9 +906,11 @@
     "price": 699.5988,
     "benchmarkPrice": 159.4234,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-05T13:00:00+08:00",
       "warnings": [
@@ -834,9 +926,11 @@
     "price": 699.3808,
     "benchmarkPrice": 159.3837,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-06T13:00:00+08:00",
       "warnings": [
@@ -852,9 +946,11 @@
     "price": 698.5406,
     "benchmarkPrice": 159.1919,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-09T13:00:00+08:00",
       "warnings": [
@@ -870,9 +966,11 @@
     "price": 698.2091,
     "benchmarkPrice": 159.1067,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-10T13:00:00+08:00",
       "warnings": [
@@ -888,9 +986,11 @@
     "price": 697.8572,
     "benchmarkPrice": 159.0126,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-11T13:00:00+08:00",
       "warnings": [
@@ -906,9 +1006,11 @@
     "price": 697.4879,
     "benchmarkPrice": 158.9107,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-12T13:00:00+08:00",
       "warnings": [
@@ -924,9 +1026,11 @@
     "price": 697.1043,
     "benchmarkPrice": 158.8023,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-13T13:00:00+08:00",
       "warnings": [
@@ -942,9 +1046,11 @@
     "price": 695.898,
     "benchmarkPrice": 158.4504,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-16T13:00:00+08:00",
       "warnings": [
@@ -960,9 +1066,11 @@
     "price": 695.4872,
     "benchmarkPrice": 158.3287,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-17T13:00:00+08:00",
       "warnings": [
@@ -978,9 +1086,11 @@
     "price": 695.077,
     "benchmarkPrice": 158.207,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-18T13:00:00+08:00",
       "warnings": [
@@ -996,9 +1106,11 @@
     "price": 694.6705,
     "benchmarkPrice": 158.0868,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-19T13:00:00+08:00",
       "warnings": [
@@ -1014,9 +1126,11 @@
     "price": 694.2706,
     "benchmarkPrice": 157.9692,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-20T13:00:00+08:00",
       "warnings": [
@@ -1032,9 +1146,11 @@
     "price": 693.1413,
     "benchmarkPrice": 157.6462,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-23T13:00:00+08:00",
       "warnings": [
@@ -1050,9 +1166,11 @@
     "price": 692.7988,
     "benchmarkPrice": 157.5524,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-24T13:00:00+08:00",
       "warnings": [
@@ -1068,9 +1186,11 @@
     "price": 692.4787,
     "benchmarkPrice": 157.4675,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-25T13:00:00+08:00",
       "warnings": [
@@ -1086,9 +1206,11 @@
     "price": 692.1841,
     "benchmarkPrice": 157.3926,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-26T13:00:00+08:00",
       "warnings": [
@@ -1104,9 +1226,11 @@
     "price": 691.9185,
     "benchmarkPrice": 157.3285,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-27T13:00:00+08:00",
       "warnings": [
@@ -1122,9 +1246,11 @@
     "price": 691.3279,
     "benchmarkPrice": 157.2095,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-30T13:00:00+08:00",
       "warnings": [
@@ -1140,9 +1266,11 @@
     "price": 691.2105,
     "benchmarkPrice": 157.1965,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-03-31T13:00:00+08:00",
       "warnings": [
@@ -1158,9 +1286,11 @@
     "price": 691.1379,
     "benchmarkPrice": 157.1976,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-01T13:00:00+08:00",
       "warnings": [
@@ -1176,9 +1306,11 @@
     "price": 691.1132,
     "benchmarkPrice": 157.2131,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-02T13:00:00+08:00",
       "warnings": [
@@ -1194,9 +1326,11 @@
     "price": 691.1388,
     "benchmarkPrice": 157.2432,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-03T13:00:00+08:00",
       "warnings": [
@@ -1212,9 +1346,11 @@
     "price": 691.5414,
     "benchmarkPrice": 157.4213,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-06T13:00:00+08:00",
       "warnings": [
@@ -1230,9 +1366,11 @@
     "price": 691.7902,
     "benchmarkPrice": 157.5092,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-07T13:00:00+08:00",
       "warnings": [
@@ -1248,9 +1386,11 @@
     "price": 692.0984,
     "benchmarkPrice": 157.6108,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-08T13:00:00+08:00",
       "warnings": [
@@ -1266,9 +1406,11 @@
     "price": 692.4665,
     "benchmarkPrice": 157.7256,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-09T13:00:00+08:00",
       "warnings": [
@@ -1284,9 +1426,11 @@
     "price": 692.8948,
     "benchmarkPrice": 157.8529,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-10T13:00:00+08:00",
       "warnings": [
@@ -1302,9 +1446,11 @@
     "price": 694.5327,
     "benchmarkPrice": 158.3017,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-13T13:00:00+08:00",
       "warnings": [
@@ -1320,9 +1466,11 @@
     "price": 695.1912,
     "benchmarkPrice": 158.4704,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-14T13:00:00+08:00",
       "warnings": [
@@ -1338,9 +1486,11 @@
     "price": 695.9017,
     "benchmarkPrice": 158.6469,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-15T13:00:00+08:00",
       "warnings": [
@@ -1356,9 +1506,11 @@
     "price": 696.6608,
     "benchmarkPrice": 158.8301,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-16T13:00:00+08:00",
       "warnings": [
@@ -1374,9 +1526,11 @@
     "price": 697.4646,
     "benchmarkPrice": 159.0185,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-17T13:00:00+08:00",
       "warnings": [
@@ -1392,9 +1546,11 @@
     "price": 700.0947,
     "benchmarkPrice": 159.6031,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-20T13:00:00+08:00",
       "warnings": [
@@ -1410,9 +1566,11 @@
     "price": 701.0252,
     "benchmarkPrice": 159.7999,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-21T13:00:00+08:00",
       "warnings": [
@@ -1428,9 +1586,11 @@
     "price": 701.9718,
     "benchmarkPrice": 159.9955,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-22T13:00:00+08:00",
       "warnings": [
@@ -1446,9 +1606,11 @@
     "price": 702.9275,
     "benchmarkPrice": 160.1883,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-23T13:00:00+08:00",
       "warnings": [
@@ -1464,9 +1626,11 @@
     "price": 703.8849,
     "benchmarkPrice": 160.3772,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-24T13:00:00+08:00",
       "warnings": [
@@ -1482,9 +1646,11 @@
     "price": 706.6903,
     "benchmarkPrice": 160.9072,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-27T13:00:00+08:00",
       "warnings": [
@@ -1500,9 +1666,11 @@
     "price": 707.5771,
     "benchmarkPrice": 161.0677,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-28T13:00:00+08:00",
       "warnings": [
@@ -1518,9 +1686,11 @@
     "price": 708.4268,
     "benchmarkPrice": 161.2182,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-29T13:00:00+08:00",
       "warnings": [
@@ -1536,9 +1706,11 @@
     "price": 709.232,
     "benchmarkPrice": 161.3577,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-04-30T13:00:00+08:00",
       "warnings": [
@@ -1554,9 +1726,11 @@
     "price": 709.9855,
     "benchmarkPrice": 161.4854,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-01T13:00:00+08:00",
       "warnings": [
@@ -1572,9 +1746,11 @@
     "price": 711.8715,
     "benchmarkPrice": 161.7899,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-04T13:00:00+08:00",
       "warnings": [
@@ -1590,9 +1766,11 @@
     "price": 712.3569,
     "benchmarkPrice": 161.8632,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-05T13:00:00+08:00",
       "warnings": [
@@ -1608,9 +1786,11 @@
     "price": 712.7631,
     "benchmarkPrice": 161.9217,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-06T13:00:00+08:00",
       "warnings": [
@@ -1626,9 +1806,11 @@
     "price": 713.0869,
     "benchmarkPrice": 161.9652,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-07T13:00:00+08:00",
       "warnings": [
@@ -1644,9 +1826,11 @@
     "price": 713.3259,
     "benchmarkPrice": 161.9936,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-08T13:00:00+08:00",
       "warnings": [
@@ -1662,9 +1846,11 @@
     "price": 713.5246,
     "benchmarkPrice": 161.9885,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-11T13:00:00+08:00",
       "warnings": [
@@ -1680,9 +1866,11 @@
     "price": 713.4198,
     "benchmarkPrice": 161.9576,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-12T13:00:00+08:00",
       "warnings": [
@@ -1698,9 +1886,11 @@
     "price": 713.2327,
     "benchmarkPrice": 161.9128,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-13T13:00:00+08:00",
       "warnings": [
@@ -1716,9 +1906,11 @@
     "price": 712.9667,
     "benchmarkPrice": 161.8548,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-14T13:00:00+08:00",
       "warnings": [
@@ -1734,9 +1926,11 @@
     "price": 712.6263,
     "benchmarkPrice": 161.7842,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-15T13:00:00+08:00",
       "warnings": [
@@ -1752,9 +1946,11 @@
     "price": 711.2137,
     "benchmarkPrice": 161.5058,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-18T13:00:00+08:00",
       "warnings": [
@@ -1770,9 +1966,11 @@
     "price": 710.6346,
     "benchmarkPrice": 161.3942,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-19T13:00:00+08:00",
       "warnings": [
@@ -1788,9 +1986,11 @@
     "price": 710.014,
     "benchmarkPrice": 161.2749,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-20T13:00:00+08:00",
       "warnings": [
@@ -1806,9 +2006,11 @@
     "price": 709.3603,
     "benchmarkPrice": 161.1494,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-21T13:00:00+08:00",
       "warnings": [
@@ -1824,9 +2026,11 @@
     "price": 708.6819,
     "benchmarkPrice": 161.0188,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-22T13:00:00+08:00",
       "warnings": [
@@ -1842,9 +2046,11 @@
     "price": 706.5882,
     "benchmarkPrice": 160.6098,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-25T13:00:00+08:00",
       "warnings": [
@@ -1860,9 +2066,11 @@
     "price": 705.9005,
     "benchmarkPrice": 160.4724,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-26T13:00:00+08:00",
       "warnings": [
@@ -1878,9 +2086,11 @@
     "price": 705.2323,
     "benchmarkPrice": 160.3366,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-27T13:00:00+08:00",
       "warnings": [
@@ -1896,9 +2106,11 @@
     "price": 704.5919,
     "benchmarkPrice": 160.2039,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-28T13:00:00+08:00",
       "warnings": [
@@ -1914,9 +2126,11 @@
     "price": 703.9873,
     "benchmarkPrice": 160.0757,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-05-29T13:00:00+08:00",
       "warnings": [
@@ -1932,9 +2146,11 @@
     "price": 702.4582,
     "benchmarkPrice": 159.7301,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-01T13:00:00+08:00",
       "warnings": [
@@ -1950,9 +2166,11 @@
     "price": 702.0639,
     "benchmarkPrice": 159.6319,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-02T13:00:00+08:00",
       "warnings": [
@@ -1968,9 +2186,11 @@
     "price": 701.7355,
     "benchmarkPrice": 159.5441,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-03T13:00:00+08:00",
       "warnings": [
@@ -1986,9 +2206,11 @@
     "price": 701.4771,
     "benchmarkPrice": 159.4676,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-04T13:00:00+08:00",
       "warnings": [
@@ -2004,9 +2226,11 @@
     "price": 701.2916,
     "benchmarkPrice": 159.4033,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-05T13:00:00+08:00",
       "warnings": [
@@ -2022,9 +2246,11 @@
     "price": 701.1904,
     "benchmarkPrice": 159.2909,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-08T13:00:00+08:00",
       "warnings": [
@@ -2040,9 +2266,11 @@
     "price": 701.3103,
     "benchmarkPrice": 159.2821,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-09T13:00:00+08:00",
       "warnings": [
@@ -2058,9 +2286,11 @@
     "price": 701.5057,
     "benchmarkPrice": 159.2883,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-10T13:00:00+08:00",
       "warnings": [
@@ -2076,9 +2306,11 @@
     "price": 701.775,
     "benchmarkPrice": 159.3096,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-11T13:00:00+08:00",
       "warnings": [
@@ -2094,9 +2326,11 @@
     "price": 702.1155,
     "benchmarkPrice": 159.3463,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-12T13:00:00+08:00",
       "warnings": [
@@ -2112,9 +2346,11 @@
     "price": 703.53,
     "benchmarkPrice": 159.5469,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-15T13:00:00+08:00",
       "warnings": [
@@ -2130,9 +2366,11 @@
     "price": 704.1182,
     "benchmarkPrice": 159.643,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-16T13:00:00+08:00",
       "warnings": [
@@ -2148,9 +2386,11 @@
     "price": 704.7566,
     "benchmarkPrice": 159.753,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-17T13:00:00+08:00",
       "warnings": [
@@ -2166,9 +2406,11 @@
     "price": 705.4396,
     "benchmarkPrice": 159.8762,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-18T13:00:00+08:00",
       "warnings": [
@@ -2184,9 +2426,11 @@
     "price": 706.1617,
     "benchmarkPrice": 160.0119,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-19T13:00:00+08:00",
       "warnings": [
@@ -2202,9 +2446,11 @@
     "price": 708.5032,
     "benchmarkPrice": 160.485,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-22T13:00:00+08:00",
       "warnings": [
@@ -2220,9 +2466,11 @@
     "price": 709.3224,
     "benchmarkPrice": 160.6613,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-23T13:00:00+08:00",
       "warnings": [
@@ -2238,9 +2486,11 @@
     "price": 710.1513,
     "benchmarkPrice": 160.8451,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-24T13:00:00+08:00",
       "warnings": [
@@ -2256,9 +2506,11 @@
     "price": 710.9842,
     "benchmarkPrice": 161.035,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-25T13:00:00+08:00",
       "warnings": [
@@ -2274,9 +2526,11 @@
     "price": 711.8159,
     "benchmarkPrice": 161.2298,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-26T13:00:00+08:00",
       "warnings": [
@@ -2292,9 +2546,11 @@
     "price": 714.2539,
     "benchmarkPrice": 161.8307,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-29T13:00:00+08:00",
       "warnings": [
@@ -2310,9 +2566,11 @@
     "price": 715.0326,
     "benchmarkPrice": 162.0319,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-06-30T13:00:00+08:00",
       "warnings": [
@@ -2328,9 +2586,11 @@
     "price": 715.788,
     "benchmarkPrice": 162.2313,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-01T13:00:00+08:00",
       "warnings": [
@@ -2346,9 +2606,11 @@
     "price": 716.5164,
     "benchmarkPrice": 162.4276,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-02T13:00:00+08:00",
       "warnings": [
@@ -2364,9 +2626,11 @@
     "price": 717.2151,
     "benchmarkPrice": 162.6194,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-03T13:00:00+08:00",
       "warnings": [
@@ -2382,9 +2646,11 @@
     "price": 719.1076,
     "benchmarkPrice": 163.1559,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-06T13:00:00+08:00",
       "warnings": [
@@ -2400,9 +2666,11 @@
     "price": 719.664,
     "benchmarkPrice": 163.3179,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-07T13:00:00+08:00",
       "warnings": [
@@ -2418,9 +2686,11 @@
     "price": 720.1808,
     "benchmarkPrice": 163.4697,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-08T13:00:00+08:00",
       "warnings": [
@@ -2436,9 +2706,11 @@
     "price": 720.6568,
     "benchmarkPrice": 163.6105,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-09T13:00:00+08:00",
       "warnings": [
@@ -2454,9 +2726,11 @@
     "price": 721.091,
     "benchmarkPrice": 163.7392,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-10T13:00:00+08:00",
       "warnings": [
@@ -2472,9 +2746,11 @@
     "price": 722.1373,
     "benchmarkPrice": 164.0473,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-13T13:00:00+08:00",
       "warnings": [
@@ -2490,9 +2766,11 @@
     "price": 722.3992,
     "benchmarkPrice": 164.1221,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-14T13:00:00+08:00",
       "warnings": [
@@ -2508,9 +2786,11 @@
     "price": 722.6174,
     "benchmarkPrice": 164.1825,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-15T13:00:00+08:00",
       "warnings": [
@@ -2526,9 +2806,11 @@
     "price": 722.7918,
     "benchmarkPrice": 164.2284,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-16T13:00:00+08:00",
       "warnings": [
@@ -2544,9 +2826,11 @@
     "price": 722.9223,
     "benchmarkPrice": 164.2595,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-17T13:00:00+08:00",
       "warnings": [
@@ -2562,9 +2846,11 @@
     "price": 723.0521,
     "benchmarkPrice": 164.2668,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-20T13:00:00+08:00",
       "warnings": [
@@ -2580,9 +2866,11 @@
     "price": 723.009,
     "benchmarkPrice": 164.2415,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-21T13:00:00+08:00",
       "warnings": [
@@ -2598,9 +2886,11 @@
     "price": 722.9235,
     "benchmarkPrice": 164.2034,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-22T13:00:00+08:00",
       "warnings": [
@@ -2616,9 +2906,11 @@
     "price": 722.7963,
     "benchmarkPrice": 164.1529,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-23T13:00:00+08:00",
       "warnings": [
@@ -2634,9 +2926,11 @@
     "price": 722.6282,
     "benchmarkPrice": 164.0909,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-24T13:00:00+08:00",
       "warnings": [
@@ -2652,9 +2946,11 @@
     "price": 721.8899,
     "benchmarkPrice": 163.8451,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-27T13:00:00+08:00",
       "warnings": [
@@ -2670,9 +2966,11 @@
     "price": 721.571,
     "benchmarkPrice": 163.7467,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-28T13:00:00+08:00",
       "warnings": [
@@ -2688,9 +2986,11 @@
     "price": 721.219,
     "benchmarkPrice": 163.642,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-29T13:00:00+08:00",
       "warnings": [
@@ -2706,9 +3006,11 @@
     "price": 720.8363,
     "benchmarkPrice": 163.5323,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-30T13:00:00+08:00",
       "warnings": [
@@ -2724,9 +3026,11 @@
     "price": 720.4259,
     "benchmarkPrice": 163.4188,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-07-31T13:00:00+08:00",
       "warnings": [
@@ -2742,9 +3046,11 @@
     "price": 719.0618,
     "benchmarkPrice": 163.0688,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-03T13:00:00+08:00",
       "warnings": [
@@ -2760,9 +3066,11 @@
     "price": 718.5758,
     "benchmarkPrice": 162.9535,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-04T13:00:00+08:00",
       "warnings": [
@@ -2778,9 +3086,11 @@
     "price": 718.0817,
     "benchmarkPrice": 162.8412,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-05T13:00:00+08:00",
       "warnings": [
@@ -2796,9 +3106,11 @@
     "price": 717.5843,
     "benchmarkPrice": 162.733,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-06T13:00:00+08:00",
       "warnings": [
@@ -2814,9 +3126,11 @@
     "price": 717.0888,
     "benchmarkPrice": 162.6304,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-07T13:00:00+08:00",
       "warnings": [
@@ -2832,9 +3146,11 @@
     "price": 715.6701,
     "benchmarkPrice": 162.3677,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-10T13:00:00+08:00",
       "warnings": [
@@ -2850,9 +3166,11 @@
     "price": 715.239,
     "benchmarkPrice": 162.2989,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-11T13:00:00+08:00",
       "warnings": [
@@ -2868,9 +3186,11 @@
     "price": 714.8387,
     "benchmarkPrice": 162.2411,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-12T13:00:00+08:00",
       "warnings": [
@@ -2886,9 +3206,11 @@
     "price": 714.4749,
     "benchmarkPrice": 162.1953,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-13T13:00:00+08:00",
       "warnings": [
@@ -2904,9 +3226,11 @@
     "price": 714.1536,
     "benchmarkPrice": 162.1622,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-14T13:00:00+08:00",
       "warnings": [
@@ -2922,9 +3246,11 @@
     "price": 713.4977,
     "benchmarkPrice": 162.1452,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-17T13:00:00+08:00",
       "warnings": [
@@ -2940,9 +3266,11 @@
     "price": 713.3982,
     "benchmarkPrice": 162.1684,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-18T13:00:00+08:00",
       "warnings": [
@@ -2958,9 +3286,11 @@
     "price": 713.3652,
     "benchmarkPrice": 162.2066,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-19T13:00:00+08:00",
       "warnings": [
@@ -2976,9 +3306,11 @@
     "price": 713.4024,
     "benchmarkPrice": 162.2597,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-20T13:00:00+08:00",
       "warnings": [
@@ -2994,9 +3326,11 @@
     "price": 713.5124,
     "benchmarkPrice": 162.3278,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-21T13:00:00+08:00",
       "warnings": [
@@ -3012,9 +3346,11 @@
     "price": 714.2978,
     "benchmarkPrice": 162.6193,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-24T13:00:00+08:00",
       "warnings": [
@@ -3030,9 +3366,11 @@
     "price": 714.7134,
     "benchmarkPrice": 162.7443,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-25T13:00:00+08:00",
       "warnings": [
@@ -3048,9 +3386,11 @@
     "price": 715.2049,
     "benchmarkPrice": 162.8821,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-26T13:00:00+08:00",
       "warnings": [
@@ -3066,9 +3406,11 @@
     "price": 715.7705,
     "benchmarkPrice": 163.0321,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-27T13:00:00+08:00",
       "warnings": [
@@ -3084,9 +3426,11 @@
     "price": 716.4076,
     "benchmarkPrice": 163.1934,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-28T13:00:00+08:00",
       "warnings": [
@@ -3102,9 +3446,11 @@
     "price": 718.7081,
     "benchmarkPrice": 163.7354,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-08-31T13:00:00+08:00",
       "warnings": [
@@ -3120,9 +3466,11 @@
     "price": 719.5876,
     "benchmarkPrice": 163.9317,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-01T13:00:00+08:00",
       "warnings": [
@@ -3138,9 +3486,11 @@
     "price": 720.5133,
     "benchmarkPrice": 164.1338,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-02T13:00:00+08:00",
       "warnings": [
@@ -3156,9 +3506,11 @@
     "price": 721.4778,
     "benchmarkPrice": 164.3404,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-03T13:00:00+08:00",
       "warnings": [
@@ -3174,9 +3526,11 @@
     "price": 722.4735,
     "benchmarkPrice": 164.5503,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-04T13:00:00+08:00",
       "warnings": [
@@ -3192,9 +3546,11 @@
     "price": 725.5641,
     "benchmarkPrice": 165.1854,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-07T13:00:00+08:00",
       "warnings": [
@@ -3210,9 +3566,11 @@
     "price": 726.5996,
     "benchmarkPrice": 165.3943,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-08T13:00:00+08:00",
       "warnings": [
@@ -3228,9 +3586,11 @@
     "price": 727.6228,
     "benchmarkPrice": 165.5997,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-09T13:00:00+08:00",
       "warnings": [
@@ -3246,9 +3606,11 @@
     "price": 728.6246,
     "benchmarkPrice": 165.8001,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-10T13:00:00+08:00",
       "warnings": [
@@ -3264,9 +3626,11 @@
     "price": 729.5964,
     "benchmarkPrice": 165.9942,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-11T13:00:00+08:00",
       "warnings": [
@@ -3282,9 +3646,11 @@
     "price": 732.2482,
     "benchmarkPrice": 166.527,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-14T13:00:00+08:00",
       "warnings": [
@@ -3300,9 +3666,11 @@
     "price": 733.019,
     "benchmarkPrice": 166.6844,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-15T13:00:00+08:00",
       "warnings": [
@@ -3318,9 +3686,11 @@
     "price": 733.7221,
     "benchmarkPrice": 166.8301,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-16T13:00:00+08:00",
       "warnings": [
@@ -3336,9 +3706,11 @@
     "price": 734.352,
     "benchmarkPrice": 166.9631,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-17T13:00:00+08:00",
       "warnings": [
@@ -3354,9 +3726,11 @@
     "price": 734.904,
     "benchmarkPrice": 167.0828,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-18T13:00:00+08:00",
       "warnings": [
@@ -3372,9 +3746,11 @@
     "price": 736.0591,
     "benchmarkPrice": 167.3559,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-21T13:00:00+08:00",
       "warnings": [
@@ -3390,9 +3766,11 @@
     "price": 736.2709,
     "benchmarkPrice": 167.4169,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-22T13:00:00+08:00",
       "warnings": [
@@ -3408,9 +3786,11 @@
     "price": 736.3954,
     "benchmarkPrice": 167.4625,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-23T13:00:00+08:00",
       "warnings": [
@@ -3426,9 +3806,11 @@
     "price": 736.4338,
     "benchmarkPrice": 167.4928,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-24T13:00:00+08:00",
       "warnings": [
@@ -3444,9 +3826,11 @@
     "price": 736.3881,
     "benchmarkPrice": 167.5076,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-25T13:00:00+08:00",
       "warnings": [
@@ -3462,9 +3846,11 @@
     "price": 735.781,
     "benchmarkPrice": 167.4629,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-28T13:00:00+08:00",
       "warnings": [
@@ -3480,9 +3866,11 @@
     "price": 735.4375,
     "benchmarkPrice": 167.4197,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-29T13:00:00+08:00",
       "warnings": [
@@ -3498,9 +3886,11 @@
     "price": 735.0329,
     "benchmarkPrice": 167.3634,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-09-30T13:00:00+08:00",
       "warnings": [
@@ -3516,9 +3906,11 @@
     "price": 734.5739,
     "benchmarkPrice": 167.2948,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-10-01T13:00:00+08:00",
       "warnings": [
@@ -3534,11 +3926,33 @@
     "price": 734.0677,
     "benchmarkPrice": 167.2147,
     "currency": "USD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2026-10-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2026-10-05",
+    "nav": 732.9807,
+    "price": 732.3415,
+    "benchmarkPrice": 166.916,
+    "currency": "USD",
+    "valuation": "final",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
+      "isSimulated": true,
+      "collectedAt": "2026-10-05T13:00:00+08:00",
       "warnings": [
         "Deterministic simulated data; not a live market quote."
       ],

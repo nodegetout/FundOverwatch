@@ -20,6 +20,7 @@ export const fundSchema = z.object({
 export const qualitySchema = z.object({
   status: z.enum(["complete", "partial", "stale", "error"]),
   source: z.string().min(1),
+  dataMode: z.enum(["real", "simulated"]).default("simulated"),
   isSimulated: z.boolean(),
   collectedAt: timestamp,
   warnings: z.array(z.string()),
@@ -33,6 +34,7 @@ export const quoteSchema = z.object({
   price: z.number().positive().nullable(),
   benchmarkPrice: z.number().positive().nullable(),
   currency: z.string().length(3),
+  valuation: z.enum(["intraday", "final"]).default("final"),
   quality: qualitySchema
 });
 
@@ -94,7 +96,7 @@ export const siteIndexSchema = z.object({
   asOf: z.string().regex(isoDate),
   mode: z.enum(["intraday", "final"]),
   dataStatus: z.enum(["complete", "partial", "error"]),
-  isSimulated: z.literal(true),
+  dataMode: z.enum(["real", "simulated", "mixed"]),
   summaries: z.array(fundSummarySchema)
 });
 

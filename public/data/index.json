@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-02T13:00:00+08:00",
-  "asOf": "2026-10-02",
+  "generatedAt": "2026-10-05T13:00:00+08:00",
+  "asOf": "2026-10-05",
   "mode": "final",
-  "dataStatus": "complete",
-  "isSimulated": true,
+  "dataStatus": "partial",
+  "dataMode": "mixed",
   "summaries": [
     {
       "fund": {
@@ -21,16 +21,18 @@
       },
       "latestQuote": {
         "fundId": "us-spy",
-        "date": "2026-10-02",
-        "nav": 734.2777,
-        "price": 734.0677,
-        "benchmarkPrice": 167.2147,
+        "date": "2026-10-05",
+        "nav": 732.9807,
+        "price": 732.3415,
+        "benchmarkPrice": 166.916,
         "currency": "USD",
+        "valuation": "final",
         "quality": {
           "status": "complete",
           "source": "deterministic-mock-v1",
+          "dataMode": "simulated",
           "isSimulated": true,
-          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "collectedAt": "2026-10-05T13:00:00+08:00",
           "warnings": [
             "Deterministic simulated data; not a live market quote."
           ],
@@ -39,28 +41,28 @@
       },
       "analytics": {
         "fundId": "us-spy",
-        "asOf": "2026-10-02",
-        "nav": 734.2777,
-        "price": 734.0677,
+        "asOf": "2026-10-05",
+        "nav": 732.9807,
+        "price": 732.3415,
         "returns": {
-          "day": -0.0006891069775281089,
-          "week": -0.003151055808750969,
-          "month": 0.018812144064516145,
-          "year": 0.08962658348664365
+          "day": -0.0023515542231321573,
+          "week": -0.004674624650541359,
+          "month": 0.01365863246195187,
+          "year": 0.08587746842229893
         },
-        "annualizedVolatility": 0.019574177839513575,
+        "annualizedVolatility": 0.019692093629342277,
         "maxDrawdown": -0.017858724045606622,
         "movingAverages": {
-          "day20": 733.134655,
-          "day60": 723.4501899999999
+          "day20": 733.473525,
+          "day60": 723.62026
         },
-        "benchmarkReturn": 0.0915609908309103,
-        "excessReturn": -0.001934407344266642,
-        "observations": 309
+        "benchmarkReturn": 0.08843448695894862,
+        "excessReturn": -0.002557018536649691,
+        "observations": 310
       },
       "holdings": {
         "fundId": "us-spy",
-        "date": "2026-10-02",
+        "date": "2026-10-05",
         "holdings": [
           {
             "name": "Apple",
@@ -107,8 +109,9 @@
         "quality": {
           "status": "complete",
           "source": "deterministic-mock-v1",
+          "dataMode": "simulated",
           "isSimulated": true,
-          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "collectedAt": "2026-10-05T13:00:00+08:00",
           "warnings": [
             "Illustrative top holdings; weights outside the top holdings are grouped as Other."
           ],
@@ -132,16 +135,18 @@
       },
       "latestQuote": {
         "fundId": "hk-2800",
-        "date": "2026-10-02",
-        "nav": 22.7292,
-        "price": 22.7227,
-        "benchmarkPrice": 119.8663,
+        "date": "2026-10-05",
+        "nav": 22.5359,
+        "price": 22.5163,
+        "benchmarkPrice": 118.8447,
         "currency": "HKD",
+        "valuation": "final",
         "quality": {
           "status": "complete",
           "source": "deterministic-mock-v1",
+          "dataMode": "simulated",
           "isSimulated": true,
-          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "collectedAt": "2026-10-05T13:00:00+08:00",
           "warnings": [
             "Deterministic simulated data; not a live market quote."
           ],
@@ -150,28 +155,28 @@
       },
       "analytics": {
         "fundId": "hk-2800",
-        "asOf": "2026-10-02",
-        "nav": 22.7292,
-        "price": 22.7227,
+        "asOf": "2026-10-05",
+        "nav": 22.5359,
+        "price": 22.5163,
         "returns": {
-          "day": -0.003224221580789721,
-          "week": -0.022187509413339135,
-          "month": -0.026715039577836386,
-          "year": -0.00945958316804485
+          "day": -0.009083427585630188,
+          "week": -0.021927709796664807,
+          "month": -0.040299550759106295,
+          "year": -0.01820029040233373
         },
-        "annualizedVolatility": 0.05888831794647269,
+        "annualizedVolatility": 0.059364340362950095,
         "maxDrawdown": -0.06793898786819352,
         "movingAverages": {
-          "day20": 23.390899999999995,
-          "day60": 22.88417833333333
+          "day20": 23.336724999999994,
+          "day60": 22.87104499999999
         },
-        "benchmarkReturn": -0.007703018623009927,
-        "excessReturn": -0.001756564545034922,
-        "observations": 309
+        "benchmarkReturn": -0.015891351547400845,
+        "excessReturn": -0.002308938854932885,
+        "observations": 310
       },
       "holdings": {
         "fundId": "hk-2800",
-        "date": "2026-10-02",
+        "date": "2026-10-05",
         "holdings": [
           {
             "name": "Tencent",
@@ -230,127 +235,9 @@
         "quality": {
           "status": "complete",
           "source": "deterministic-mock-v1",
+          "dataMode": "simulated",
           "isSimulated": true,
-          "collectedAt": "2026-10-02T13:00:00+08:00",
-          "warnings": [
-            "Illustrative top holdings; weights outside the top holdings are grouped as Other."
-          ],
-          "missingFields": []
-        }
-      }
-    },
-    {
-      "fund": {
-        "id": "cn-510300",
-        "symbol": "510300",
-        "name": "华泰柏瑞沪深300ETF",
-        "market": "CN",
-        "exchange": "SSE",
-        "currency": "CNY",
-        "assetClass": "Equity",
-        "benchmark": "沪深300指数",
-        "timezone": "Asia/Shanghai",
-        "inceptionDate": "2012-05-04",
-        "providerRef": "mock:cn-510300"
-      },
-      "latestQuote": {
-        "fundId": "cn-510300",
-        "date": "2026-10-02",
-        "nav": 4.8252,
-        "price": 4.8238,
-        "benchmarkPrice": 130.6712,
-        "currency": "CNY",
-        "quality": {
-          "status": "complete",
-          "source": "deterministic-mock-v1",
-          "isSimulated": true,
-          "collectedAt": "2026-10-02T13:00:00+08:00",
-          "warnings": [
-            "Deterministic simulated data; not a live market quote."
-          ],
-          "missingFields": []
-        }
-      },
-      "analytics": {
-        "fundId": "cn-510300",
-        "asOf": "2026-10-02",
-        "nav": 4.8252,
-        "price": 4.8238,
-        "returns": {
-          "day": 0.0022230994577299157,
-          "week": 0.009353225502709783,
-          "month": -0.04276387593514963,
-          "year": 0.04422556553739576
-        },
-        "annualizedVolatility": 0.0672015193157461,
-        "maxDrawdown": -0.07646310175552007,
-        "movingAverages": {
-          "day20": 4.835755000000001,
-          "day60": 4.916270000000001
-        },
-        "benchmarkReturn": 0.04608009760229148,
-        "excessReturn": -0.0018545320648957198,
-        "observations": 309
-      },
-      "holdings": {
-        "fundId": "cn-510300",
-        "date": "2026-10-02",
-        "holdings": [
-          {
-            "name": "贵州茅台",
-            "symbol": "600519",
-            "weight": 0.052,
-            "sector": "Consumer Staples",
-            "country": "China"
-          },
-          {
-            "name": "宁德时代",
-            "symbol": "300750",
-            "weight": 0.031,
-            "sector": "Industrials",
-            "country": "China"
-          },
-          {
-            "name": "中国平安",
-            "symbol": "601318",
-            "weight": 0.028,
-            "sector": "Financials",
-            "country": "China"
-          }
-        ],
-        "sectors": [
-          {
-            "name": "Other",
-            "weight": 0.889
-          },
-          {
-            "name": "Consumer Staples",
-            "weight": 0.052
-          },
-          {
-            "name": "Industrials",
-            "weight": 0.031
-          },
-          {
-            "name": "Financials",
-            "weight": 0.028
-          }
-        ],
-        "countries": [
-          {
-            "name": "Other",
-            "weight": 0.889
-          },
-          {
-            "name": "China",
-            "weight": 0.111
-          }
-        ],
-        "quality": {
-          "status": "complete",
-          "source": "deterministic-mock-v1",
-          "isSimulated": true,
-          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "collectedAt": "2026-10-05T13:00:00+08:00",
           "warnings": [
             "Illustrative top holdings; weights outside the top holdings are grouped as Other."
           ],
@@ -374,16 +261,18 @@
       },
       "latestQuote": {
         "fundId": "jp-1321",
-        "date": "2026-10-02",
-        "nav": 49870.2211,
-        "price": 49855.9626,
-        "benchmarkPrice": 151.4238,
+        "date": "2026-10-05",
+        "nav": 49674.8117,
+        "price": 49631.4961,
+        "benchmarkPrice": 150.8274,
         "currency": "JPY",
+        "valuation": "final",
         "quality": {
           "status": "complete",
           "source": "deterministic-mock-v1",
+          "dataMode": "simulated",
           "isSimulated": true,
-          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "collectedAt": "2026-10-05T13:00:00+08:00",
           "warnings": [
             "Deterministic simulated data; not a live market quote."
           ],
@@ -392,28 +281,28 @@
       },
       "analytics": {
         "fundId": "jp-1321",
-        "asOf": "2026-10-02",
-        "nav": 49870.2211,
-        "price": 49855.9626,
+        "asOf": "2026-10-05",
+        "nav": 49674.8117,
+        "price": 49631.4961,
         "returns": {
-          "day": -0.0016119665354322743,
-          "week": -0.011145661778657723,
-          "month": -0.009124945332001366,
-          "year": 0.050438924662152385
+          "day": -0.00450229999169649,
+          "week": -0.01098609678673379,
+          "month": -0.01655009117393691,
+          "year": 0.04569172709652447
         },
-        "annualizedVolatility": 0.031230616107576194,
+        "annualizedVolatility": 0.03147037831934852,
         "maxDrawdown": -0.03282784795854521,
         "movingAverages": {
-          "day20": 50539.820455,
-          "day60": 49748.66787666666
+          "day20": 50488.50645,
+          "day60": 49744.35689
         },
-        "benchmarkReturn": 0.05230320193193072,
-        "excessReturn": -0.001864277269778336,
-        "observations": 309
+        "benchmarkReturn": 0.04815421468386316,
+        "excessReturn": -0.002462487587338691,
+        "observations": 310
       },
       "holdings": {
         "fundId": "jp-1321",
-        "date": "2026-10-02",
+        "date": "2026-10-05",
         "holdings": [
           {
             "name": "Fast Retailing",
@@ -468,12 +357,670 @@
         "quality": {
           "status": "complete",
           "source": "deterministic-mock-v1",
+          "dataMode": "simulated",
           "isSimulated": true,
-          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "collectedAt": "2026-10-05T13:00:00+08:00",
           "warnings": [
             "Illustrative top holdings; weights outside the top holdings are grouped as Other."
           ],
           "missingFields": []
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-025852",
+        "symbol": "025852",
+        "name": "富国港股精选混合(QDII)人民币",
+        "market": "CN",
+        "exchange": "中国公募基金",
+        "currency": "CNY",
+        "assetClass": "Mixed",
+        "benchmark": "恒生指数收益率(经估值汇率调整)*80%+中债-国债总全价(1-3年)指数收益率*15%+银行人民币活期存款利率(税后)*5%",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2025-12-12",
+        "providerRef": "eastmoney:025852"
+      },
+      "latestQuote": {
+        "fundId": "cn-025852",
+        "date": "2026-09-30",
+        "nav": 0.8979,
+        "price": null,
+        "benchmarkPrice": null,
+        "currency": "CNY",
+        "valuation": "final",
+        "quality": {
+          "status": "stale",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "日终单位净值，不是盘中估值或交易价格。",
+            "最近已公布净值日期为 2026-09-30。"
+          ],
+          "missingFields": [
+            "price",
+            "benchmarkPrice"
+          ]
+        }
+      },
+      "analytics": {
+        "fundId": "cn-025852",
+        "asOf": "2026-09-30",
+        "nav": 0.8979,
+        "price": null,
+        "returns": {
+          "day": 0.00616315553563429,
+          "week": -0.00894039735099339,
+          "month": -0.017937219730941645,
+          "year": null
+        },
+        "annualizedVolatility": 0.18163656132884295,
+        "maxDrawdown": -0.18629173989455172,
+        "movingAverages": {
+          "day20": 0.9050650000000001,
+          "day60": 0.9105850000000001
+        },
+        "benchmarkReturn": null,
+        "excessReturn": null,
+        "observations": 185
+      },
+      "holdings": {
+        "fundId": "cn-025852",
+        "date": "2026-09-30",
+        "holdings": [],
+        "sectors": [],
+        "countries": [],
+        "quality": {
+          "status": "partial",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+          ],
+          "missingFields": [
+            "holdings",
+            "sectors",
+            "countries"
+          ]
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-002983",
+        "symbol": "002983",
+        "name": "长信国防军工量化混合",
+        "market": "CN",
+        "exchange": "中国公募基金",
+        "currency": "CNY",
+        "assetClass": "Mixed",
+        "benchmark": "申万国防军工指数收益率*90%+中债-综合财富(1年以下)指数收益率*10%",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2017-01-05",
+        "providerRef": "eastmoney:002983"
+      },
+      "latestQuote": {
+        "fundId": "cn-002983",
+        "date": "2026-09-30",
+        "nav": 1.6963,
+        "price": null,
+        "benchmarkPrice": null,
+        "currency": "CNY",
+        "valuation": "final",
+        "quality": {
+          "status": "stale",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "日终单位净值，不是盘中估值或交易价格。",
+            "最近已公布净值日期为 2026-09-30。",
+            "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+          ],
+          "missingFields": [
+            "price",
+            "benchmarkPrice"
+          ]
+        }
+      },
+      "analytics": {
+        "fundId": "cn-002983",
+        "asOf": "2026-09-30",
+        "nav": 1.6963,
+        "price": null,
+        "returns": {
+          "day": -0.009575524026391058,
+          "week": -0.04942560941440177,
+          "month": -0.026290109637793546,
+          "year": 0.018554101116848853
+        },
+        "annualizedVolatility": 0.3119114527771126,
+        "maxDrawdown": -0.27165030704511384,
+        "movingAverages": {
+          "day20": 1.7562749999999998,
+          "day60": 1.682566666666666
+        },
+        "benchmarkReturn": null,
+        "excessReturn": null,
+        "observations": 260
+      },
+      "holdings": {
+        "fundId": "cn-002983",
+        "date": "2026-09-30",
+        "holdings": [],
+        "sectors": [],
+        "countries": [],
+        "quality": {
+          "status": "partial",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+          ],
+          "missingFields": [
+            "holdings",
+            "sectors",
+            "countries"
+          ]
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-005051",
+        "symbol": "005051",
+        "name": "摩根标普港股通低波红利指数A",
+        "market": "CN",
+        "exchange": "中国公募基金",
+        "currency": "CNY",
+        "assetClass": "Equity",
+        "benchmark": "标普港股通低波红利指数收益率*95%+税后银行活期存款收益率*5%",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2017-12-04",
+        "providerRef": "eastmoney:005051"
+      },
+      "latestQuote": {
+        "fundId": "cn-005051",
+        "date": "2026-09-30",
+        "nav": 1.2456,
+        "price": null,
+        "benchmarkPrice": null,
+        "currency": "CNY",
+        "valuation": "final",
+        "quality": {
+          "status": "stale",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "日终单位净值，不是盘中估值或交易价格。",
+            "最近已公布净值日期为 2026-09-30。"
+          ],
+          "missingFields": [
+            "price",
+            "benchmarkPrice"
+          ]
+        }
+      },
+      "analytics": {
+        "fundId": "cn-005051",
+        "asOf": "2026-09-30",
+        "nav": 1.2456,
+        "price": null,
+        "returns": {
+          "day": 0.004678173899016036,
+          "week": 0.009891357223933861,
+          "month": -0.015647226173541973,
+          "year": 0.01806293420514926
+        },
+        "annualizedVolatility": 0.11688931059940709,
+        "maxDrawdown": -0.15697420201136858,
+        "movingAverages": {
+          "day20": 1.251535,
+          "day60": 1.2508400000000002
+        },
+        "benchmarkReturn": null,
+        "excessReturn": null,
+        "observations": 260
+      },
+      "holdings": {
+        "fundId": "cn-005051",
+        "date": "2026-09-30",
+        "holdings": [],
+        "sectors": [],
+        "countries": [],
+        "quality": {
+          "status": "partial",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+          ],
+          "missingFields": [
+            "holdings",
+            "sectors",
+            "countries"
+          ]
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-018736",
+        "symbol": "018736",
+        "name": "景顺长城景颐裕利债券A",
+        "market": "CN",
+        "exchange": "中国公募基金",
+        "currency": "CNY",
+        "assetClass": "Bond",
+        "benchmark": "中债-1-5年债券综合财富(总值)指数收益率*90%+沪深300指数收益率*7%+恒生指数收益率*3%",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2023-11-16",
+        "providerRef": "eastmoney:018736"
+      },
+      "latestQuote": {
+        "fundId": "cn-018736",
+        "date": "2026-09-30",
+        "nav": 1.1465,
+        "price": null,
+        "benchmarkPrice": null,
+        "currency": "CNY",
+        "valuation": "final",
+        "quality": {
+          "status": "stale",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "日终单位净值，不是盘中估值或交易价格。",
+            "最近已公布净值日期为 2026-09-30。"
+          ],
+          "missingFields": [
+            "price",
+            "benchmarkPrice"
+          ]
+        }
+      },
+      "analytics": {
+        "fundId": "cn-018736",
+        "asOf": "2026-09-30",
+        "nav": 1.1465,
+        "price": null,
+        "returns": {
+          "day": -0.0005230581466305617,
+          "week": -0.005723701326857955,
+          "month": -0.004428621048975234,
+          "year": 0.038402318630558874
+        },
+        "annualizedVolatility": 0.029381095960293226,
+        "maxDrawdown": -0.0184070187510752,
+        "movingAverages": {
+          "day20": 1.149765,
+          "day60": 1.1500966666666665
+        },
+        "benchmarkReturn": null,
+        "excessReturn": null,
+        "observations": 260
+      },
+      "holdings": {
+        "fundId": "cn-018736",
+        "date": "2026-09-30",
+        "holdings": [],
+        "sectors": [],
+        "countries": [],
+        "quality": {
+          "status": "partial",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+          ],
+          "missingFields": [
+            "holdings",
+            "sectors",
+            "countries"
+          ]
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-001595",
+        "symbol": "001595",
+        "name": "天弘中证银行ETF联接C",
+        "market": "CN",
+        "exchange": "中国公募基金",
+        "currency": "CNY",
+        "assetClass": "Equity",
+        "benchmark": "中证银行指数收益率*95%+银行活期存款利率(税后)*5%",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2015-07-08",
+        "providerRef": "eastmoney:001595"
+      },
+      "latestQuote": {
+        "fundId": "cn-001595",
+        "date": "2026-09-30",
+        "nav": 1.8136,
+        "price": null,
+        "benchmarkPrice": null,
+        "currency": "CNY",
+        "valuation": "final",
+        "quality": {
+          "status": "stale",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "日终单位净值，不是盘中估值或交易价格。",
+            "最近已公布净值日期为 2026-09-30。"
+          ],
+          "missingFields": [
+            "price",
+            "benchmarkPrice"
+          ]
+        }
+      },
+      "analytics": {
+        "fundId": "cn-001595",
+        "asOf": "2026-09-30",
+        "nav": 1.8136,
+        "price": null,
+        "returns": {
+          "day": 0.014658162694416443,
+          "week": 0.019621071569123627,
+          "month": 0.025559828093191683,
+          "year": 0.09134673245877978
+        },
+        "annualizedVolatility": 0.14224425293422752,
+        "maxDrawdown": -0.13210785670782355,
+        "movingAverages": {
+          "day20": 1.7947850000000003,
+          "day60": 1.7446833333333338
+        },
+        "benchmarkReturn": null,
+        "excessReturn": null,
+        "observations": 260
+      },
+      "holdings": {
+        "fundId": "cn-001595",
+        "date": "2026-09-30",
+        "holdings": [],
+        "sectors": [],
+        "countries": [],
+        "quality": {
+          "status": "partial",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+          ],
+          "missingFields": [
+            "holdings",
+            "sectors",
+            "countries"
+          ]
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-161723",
+        "symbol": "161723",
+        "name": "招商中证银行指数A",
+        "market": "CN",
+        "exchange": "中国公募基金",
+        "currency": "CNY",
+        "assetClass": "Equity",
+        "benchmark": "中证银行指数收益率*95%+金融机构人民币活期存款基准利率(税后)*5%",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2015-05-20",
+        "providerRef": "eastmoney:161723"
+      },
+      "latestQuote": {
+        "fundId": "cn-161723",
+        "date": "2026-09-30",
+        "nav": 1.7516,
+        "price": null,
+        "benchmarkPrice": null,
+        "currency": "CNY",
+        "valuation": "final",
+        "quality": {
+          "status": "stale",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "日终单位净值，不是盘中估值或交易价格。",
+            "最近已公布净值日期为 2026-09-30。"
+          ],
+          "missingFields": [
+            "price",
+            "benchmarkPrice"
+          ]
+        }
+      },
+      "analytics": {
+        "fundId": "cn-161723",
+        "asOf": "2026-09-30",
+        "nav": 1.7516,
+        "price": null,
+        "returns": {
+          "day": 0.014714401575715463,
+          "week": 0.019913823221148208,
+          "month": 0.025767158585148664,
+          "year": 0.09550315842141477
+        },
+        "annualizedVolatility": 0.1415431987798532,
+        "maxDrawdown": -0.12913621453645618,
+        "movingAverages": {
+          "day20": 1.73295,
+          "day60": 1.684456666666667
+        },
+        "benchmarkReturn": null,
+        "excessReturn": null,
+        "observations": 260
+      },
+      "holdings": {
+        "fundId": "cn-161723",
+        "date": "2026-09-30",
+        "holdings": [],
+        "sectors": [],
+        "countries": [],
+        "quality": {
+          "status": "partial",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+          ],
+          "missingFields": [
+            "holdings",
+            "sectors",
+            "countries"
+          ]
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-018993",
+        "symbol": "018993",
+        "name": "中欧数字经济混合发起A",
+        "market": "CN",
+        "exchange": "中国公募基金",
+        "currency": "CNY",
+        "assetClass": "Mixed",
+        "benchmark": "中证数字经济主题指数收益率*65%+中证港股通综合指数(人民币)收益率*15%+银行活期存款利率(税后)*20%",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2023-09-12",
+        "providerRef": "eastmoney:018993"
+      },
+      "latestQuote": {
+        "fundId": "cn-018993",
+        "date": "2026-09-30",
+        "nav": 3.4851,
+        "price": null,
+        "benchmarkPrice": null,
+        "currency": "CNY",
+        "valuation": "final",
+        "quality": {
+          "status": "stale",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "日终单位净值，不是盘中估值或交易价格。",
+            "最近已公布净值日期为 2026-09-30。"
+          ],
+          "missingFields": [
+            "price",
+            "benchmarkPrice"
+          ]
+        }
+      },
+      "analytics": {
+        "fundId": "cn-018993",
+        "asOf": "2026-09-30",
+        "nav": 3.4851,
+        "price": null,
+        "returns": {
+          "day": -0.009492681540429149,
+          "week": -0.07640324375894414,
+          "month": -0.04687542732120875,
+          "year": 0.14265573770491802
+        },
+        "annualizedVolatility": 0.43337172722274553,
+        "maxDrawdown": -0.359156202913109,
+        "movingAverages": {
+          "day20": 3.6277500000000003,
+          "day60": 3.6914333333333333
+        },
+        "benchmarkReturn": null,
+        "excessReturn": null,
+        "observations": 260
+      },
+      "holdings": {
+        "fundId": "cn-018993",
+        "date": "2026-09-30",
+        "holdings": [],
+        "sectors": [],
+        "countries": [],
+        "quality": {
+          "status": "partial",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+          ],
+          "missingFields": [
+            "holdings",
+            "sectors",
+            "countries"
+          ]
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-017641",
+        "symbol": "017641",
+        "name": "摩根标普500指数(QDII)人民币A",
+        "market": "CN",
+        "exchange": "中国公募基金",
+        "currency": "CNY",
+        "assetClass": "Equity",
+        "benchmark": "标普500指数收益率(经汇率调整后)*95%+银行活期存款利率(税后)*5%",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2023-04-06",
+        "providerRef": "eastmoney:017641"
+      },
+      "latestQuote": {
+        "fundId": "cn-017641",
+        "date": "2026-09-29",
+        "nav": 1.6974,
+        "price": null,
+        "benchmarkPrice": null,
+        "currency": "CNY",
+        "valuation": "final",
+        "quality": {
+          "status": "stale",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "日终单位净值，不是盘中估值或交易价格。",
+            "最近已公布净值日期为 2026-09-29。"
+          ],
+          "missingFields": [
+            "price",
+            "benchmarkPrice"
+          ]
+        }
+      },
+      "analytics": {
+        "fundId": "cn-017641",
+        "asOf": "2026-09-29",
+        "nav": 1.6974,
+        "price": null,
+        "returns": {
+          "day": -0.0013531799729363803,
+          "week": -0.011933174224343701,
+          "month": -0.008875394137568549,
+          "year": 0.09608678806664095
+        },
+        "annualizedVolatility": 0.11802235748316652,
+        "maxDrawdown": -0.09244383080205854,
+        "movingAverages": {
+          "day20": 1.70169,
+          "day60": 1.6941616666666668
+        },
+        "benchmarkReturn": null,
+        "excessReturn": null,
+        "observations": 260
+      },
+      "holdings": {
+        "fundId": "cn-017641",
+        "date": "2026-09-29",
+        "holdings": [],
+        "sectors": [],
+        "countries": [],
+        "quality": {
+          "status": "partial",
+          "source": "eastmoney-f10-nav-v1",
+          "dataMode": "real",
+          "isSimulated": false,
+          "collectedAt": "2026-10-05T13:00:00+08:00",
+          "warnings": [
+            "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+          ],
+          "missingFields": [
+            "holdings",
+            "sectors",
+            "countries"
+          ]
         }
       }
     }

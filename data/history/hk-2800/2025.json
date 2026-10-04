@@ -6,9 +6,11 @@
     "price": 22.6474,
     "benchmarkPrice": 119.2323,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-07-29T13:00:00+08:00",
       "warnings": [
@@ -24,9 +26,11 @@
     "price": 22.6159,
     "benchmarkPrice": 119.0708,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-07-30T13:00:00+08:00",
       "warnings": [
@@ -42,9 +46,11 @@
     "price": 22.5794,
     "benchmarkPrice": 118.8795,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-07-31T13:00:00+08:00",
       "warnings": [
@@ -60,9 +66,11 @@
     "price": 22.5382,
     "benchmarkPrice": 118.6603,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-01T13:00:00+08:00",
       "warnings": [
@@ -78,9 +86,11 @@
     "price": 22.3901,
     "benchmarkPrice": 117.8552,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-04T13:00:00+08:00",
       "warnings": [
@@ -96,9 +106,11 @@
     "price": 22.3338,
     "benchmarkPrice": 117.5456,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-05T13:00:00+08:00",
       "warnings": [
@@ -114,9 +126,11 @@
     "price": 22.2747,
     "benchmarkPrice": 117.2197,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-06T13:00:00+08:00",
       "warnings": [
@@ -132,9 +146,11 @@
     "price": 22.2132,
     "benchmarkPrice": 116.8804,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-07T13:00:00+08:00",
       "warnings": [
@@ -150,9 +166,11 @@
     "price": 22.15,
     "benchmarkPrice": 116.5307,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-08T13:00:00+08:00",
       "warnings": [
@@ -168,9 +186,11 @@
     "price": 21.954,
     "benchmarkPrice": 115.4494,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-11T13:00:00+08:00",
       "warnings": [
@@ -186,9 +206,11 @@
     "price": 21.8883,
     "benchmarkPrice": 115.0887,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-12T13:00:00+08:00",
       "warnings": [
@@ -204,9 +226,11 @@
     "price": 21.8232,
     "benchmarkPrice": 114.7331,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-13T13:00:00+08:00",
       "warnings": [
@@ -222,9 +246,11 @@
     "price": 21.7593,
     "benchmarkPrice": 114.3857,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-14T13:00:00+08:00",
       "warnings": [
@@ -240,9 +266,11 @@
     "price": 21.697,
     "benchmarkPrice": 114.0495,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-15T13:00:00+08:00",
       "warnings": [
@@ -258,9 +286,11 @@
     "price": 21.5252,
     "benchmarkPrice": 113.1369,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-18T13:00:00+08:00",
       "warnings": [
@@ -276,9 +306,11 @@
     "price": 21.4745,
     "benchmarkPrice": 112.8737,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-19T13:00:00+08:00",
       "warnings": [
@@ -294,9 +326,11 @@
     "price": 21.4278,
     "benchmarkPrice": 112.6349,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-20T13:00:00+08:00",
       "warnings": [
@@ -312,9 +346,11 @@
     "price": 21.3856,
     "benchmarkPrice": 112.4228,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-21T13:00:00+08:00",
       "warnings": [
@@ -330,9 +366,11 @@
     "price": 21.3481,
     "benchmarkPrice": 112.2391,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-22T13:00:00+08:00",
       "warnings": [
@@ -348,9 +386,11 @@
     "price": 21.2678,
     "benchmarkPrice": 111.875,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-25T13:00:00+08:00",
       "warnings": [
@@ -366,9 +406,11 @@
     "price": 21.2526,
     "benchmarkPrice": 111.8198,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-26T13:00:00+08:00",
       "warnings": [
@@ -384,9 +426,11 @@
     "price": 21.2435,
     "benchmarkPrice": 111.7988,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-27T13:00:00+08:00",
       "warnings": [
@@ -402,9 +446,11 @@
     "price": 21.2407,
     "benchmarkPrice": 111.8125,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-28T13:00:00+08:00",
       "warnings": [
@@ -420,9 +466,11 @@
     "price": 21.2442,
     "benchmarkPrice": 111.8609,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-08-29T13:00:00+08:00",
       "warnings": [
@@ -438,9 +486,11 @@
     "price": 21.2931,
     "benchmarkPrice": 112.2103,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-01T13:00:00+08:00",
       "warnings": [
@@ -456,9 +506,11 @@
     "price": 21.3219,
     "benchmarkPrice": 112.3922,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-02T13:00:00+08:00",
       "warnings": [
@@ -474,9 +526,11 @@
     "price": 21.3568,
     "benchmarkPrice": 112.6047,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-03T13:00:00+08:00",
       "warnings": [
@@ -492,9 +546,11 @@
     "price": 21.3974,
     "benchmarkPrice": 112.8463,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-04T13:00:00+08:00",
       "warnings": [
@@ -510,9 +566,11 @@
     "price": 21.4436,
     "benchmarkPrice": 113.1151,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-05T13:00:00+08:00",
       "warnings": [
@@ -528,9 +586,11 @@
     "price": 21.612,
     "benchmarkPrice": 114.063,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-08T13:00:00+08:00",
       "warnings": [
@@ -546,9 +606,11 @@
     "price": 21.6766,
     "benchmarkPrice": 114.4179,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-09T13:00:00+08:00",
       "warnings": [
@@ -564,9 +626,11 @@
     "price": 21.7448,
     "benchmarkPrice": 114.7877,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-10T13:00:00+08:00",
       "warnings": [
@@ -582,9 +646,11 @@
     "price": 21.816,
     "benchmarkPrice": 115.1696,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-11T13:00:00+08:00",
       "warnings": [
@@ -600,9 +666,11 @@
     "price": 21.8895,
     "benchmarkPrice": 115.5605,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-12T13:00:00+08:00",
       "warnings": [
@@ -618,9 +686,11 @@
     "price": 22.1187,
     "benchmarkPrice": 116.7561,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-15T13:00:00+08:00",
       "warnings": [
@@ -636,9 +706,11 @@
     "price": 22.1958,
     "benchmarkPrice": 117.1517,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-16T13:00:00+08:00",
       "warnings": [
@@ -654,9 +726,11 @@
     "price": 22.2722,
     "benchmarkPrice": 117.5406,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-17T13:00:00+08:00",
       "warnings": [
@@ -672,9 +746,11 @@
     "price": 22.3472,
     "benchmarkPrice": 117.9197,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-18T13:00:00+08:00",
       "warnings": [
@@ -690,9 +766,11 @@
     "price": 22.4203,
     "benchmarkPrice": 118.286,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-19T13:00:00+08:00",
       "warnings": [
@@ -708,9 +786,11 @@
     "price": 22.6211,
     "benchmarkPrice": 119.2796,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-22T13:00:00+08:00",
       "warnings": [
@@ -726,9 +806,11 @@
     "price": 22.68,
     "benchmarkPrice": 119.567,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-23T13:00:00+08:00",
       "warnings": [
@@ -744,9 +826,11 @@
     "price": 22.7339,
     "benchmarkPrice": 119.8286,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-24T13:00:00+08:00",
       "warnings": [
@@ -762,9 +846,11 @@
     "price": 22.7824,
     "benchmarkPrice": 120.0623,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-25T13:00:00+08:00",
       "warnings": [
@@ -780,9 +866,11 @@
     "price": 22.825,
     "benchmarkPrice": 120.2663,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-26T13:00:00+08:00",
       "warnings": [
@@ -798,9 +886,11 @@
     "price": 22.914,
     "benchmarkPrice": 120.6856,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-29T13:00:00+08:00",
       "warnings": [
@@ -816,9 +906,11 @@
     "price": 22.9298,
     "benchmarkPrice": 120.7577,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-09-30T13:00:00+08:00",
       "warnings": [
@@ -834,9 +926,11 @@
     "price": 22.9384,
     "benchmarkPrice": 120.7948,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-01T13:00:00+08:00",
       "warnings": [
@@ -852,9 +946,11 @@
     "price": 22.9397,
     "benchmarkPrice": 120.7968,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-02T13:00:00+08:00",
       "warnings": [
@@ -870,9 +966,11 @@
     "price": 22.9337,
     "benchmarkPrice": 120.7638,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-03T13:00:00+08:00",
       "warnings": [
@@ -888,9 +986,11 @@
     "price": 22.873,
     "benchmarkPrice": 120.4596,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-06T13:00:00+08:00",
       "warnings": [
@@ -906,9 +1006,11 @@
     "price": 22.8392,
     "benchmarkPrice": 120.2929,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-07T13:00:00+08:00",
       "warnings": [
@@ -924,9 +1026,11 @@
     "price": 22.7991,
     "benchmarkPrice": 120.0959,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-08T13:00:00+08:00",
       "warnings": [
@@ -942,9 +1046,11 @@
     "price": 22.7531,
     "benchmarkPrice": 119.8701,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-09T13:00:00+08:00",
       "warnings": [
@@ -960,9 +1066,11 @@
     "price": 22.7016,
     "benchmarkPrice": 119.6176,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-10T13:00:00+08:00",
       "warnings": [
@@ -978,9 +1086,11 @@
     "price": 22.5197,
     "benchmarkPrice": 118.7223,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-13T13:00:00+08:00",
       "warnings": [
@@ -996,9 +1106,11 @@
     "price": 22.4518,
     "benchmarkPrice": 118.3865,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-14T13:00:00+08:00",
       "warnings": [
@@ -1014,9 +1126,11 @@
     "price": 22.3814,
     "benchmarkPrice": 118.0366,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-15T13:00:00+08:00",
       "warnings": [
@@ -1032,9 +1146,11 @@
     "price": 22.309,
     "benchmarkPrice": 117.6756,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-16T13:00:00+08:00",
       "warnings": [
@@ -1050,9 +1166,11 @@
     "price": 22.2354,
     "benchmarkPrice": 117.3065,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-17T13:00:00+08:00",
       "warnings": [
@@ -1068,9 +1186,11 @@
     "price": 22.0139,
     "benchmarkPrice": 116.1824,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-20T13:00:00+08:00",
       "warnings": [
@@ -1086,9 +1206,11 @@
     "price": 21.942,
     "benchmarkPrice": 115.8126,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-21T13:00:00+08:00",
       "warnings": [
@@ -1104,9 +1226,11 @@
     "price": 21.8723,
     "benchmarkPrice": 115.4505,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-22T13:00:00+08:00",
       "warnings": [
@@ -1122,9 +1246,11 @@
     "price": 21.8052,
     "benchmarkPrice": 115.0991,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-23T13:00:00+08:00",
       "warnings": [
@@ -1140,9 +1266,11 @@
     "price": 21.7414,
     "benchmarkPrice": 114.7614,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-24T13:00:00+08:00",
       "warnings": [
@@ -1158,9 +1286,11 @@
     "price": 21.575,
     "benchmarkPrice": 113.8584,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-27T13:00:00+08:00",
       "warnings": [
@@ -1176,9 +1306,11 @@
     "price": 21.5295,
     "benchmarkPrice": 113.6025,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-28T13:00:00+08:00",
       "warnings": [
@@ -1194,9 +1326,11 @@
     "price": 21.4895,
     "benchmarkPrice": 113.373,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-29T13:00:00+08:00",
       "warnings": [
@@ -1212,9 +1346,11 @@
     "price": 21.4554,
     "benchmarkPrice": 113.1718,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-30T13:00:00+08:00",
       "warnings": [
@@ -1230,9 +1366,11 @@
     "price": 21.4275,
     "benchmarkPrice": 113.0005,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-10-31T13:00:00+08:00",
       "warnings": [
@@ -1248,9 +1386,11 @@
     "price": 21.3828,
     "benchmarkPrice": 112.6801,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-03T13:00:00+08:00",
       "warnings": [
@@ -1266,9 +1406,11 @@
     "price": 21.3812,
     "benchmarkPrice": 112.6408,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-04T13:00:00+08:00",
       "warnings": [
@@ -1284,9 +1426,11 @@
     "price": 21.3863,
     "benchmarkPrice": 112.6362,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-05T13:00:00+08:00",
       "warnings": [
@@ -1302,9 +1446,11 @@
     "price": 21.3979,
     "benchmarkPrice": 112.6662,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-06T13:00:00+08:00",
       "warnings": [
@@ -1320,9 +1466,11 @@
     "price": 21.416,
     "benchmarkPrice": 112.7307,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-07T13:00:00+08:00",
       "warnings": [
@@ -1338,9 +1486,11 @@
     "price": 21.507,
     "benchmarkPrice": 113.1249,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-10T13:00:00+08:00",
       "warnings": [
@@ -1356,9 +1506,11 @@
     "price": 21.5487,
     "benchmarkPrice": 113.3196,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-11T13:00:00+08:00",
       "warnings": [
@@ -1374,9 +1526,11 @@
     "price": 21.5954,
     "benchmarkPrice": 113.5436,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-12T13:00:00+08:00",
       "warnings": [
@@ -1392,9 +1546,11 @@
     "price": 21.6468,
     "benchmarkPrice": 113.7951,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-13T13:00:00+08:00",
       "warnings": [
@@ -1410,9 +1566,11 @@
     "price": 21.7025,
     "benchmarkPrice": 114.0721,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-14T13:00:00+08:00",
       "warnings": [
@@ -1428,9 +1586,11 @@
     "price": 21.8902,
     "benchmarkPrice": 115.0321,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-17T13:00:00+08:00",
       "warnings": [
@@ -1446,9 +1606,11 @@
     "price": 21.958,
     "benchmarkPrice": 115.3865,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-18T13:00:00+08:00",
       "warnings": [
@@ -1464,9 +1626,11 @@
     "price": 22.0276,
     "benchmarkPrice": 115.7533,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-19T13:00:00+08:00",
       "warnings": [
@@ -1482,9 +1646,11 @@
     "price": 22.0983,
     "benchmarkPrice": 116.1297,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-20T13:00:00+08:00",
       "warnings": [
@@ -1500,9 +1666,11 @@
     "price": 22.1697,
     "benchmarkPrice": 116.5125,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-21T13:00:00+08:00",
       "warnings": [
@@ -1518,9 +1686,11 @@
     "price": 22.3824,
     "benchmarkPrice": 117.6682,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-24T13:00:00+08:00",
       "warnings": [
@@ -1536,9 +1706,11 @@
     "price": 22.4511,
     "benchmarkPrice": 118.0454,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-25T13:00:00+08:00",
       "warnings": [
@@ -1554,9 +1726,11 @@
     "price": 22.5178,
     "benchmarkPrice": 118.4134,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-26T13:00:00+08:00",
       "warnings": [
@@ -1572,9 +1746,11 @@
     "price": 22.5821,
     "benchmarkPrice": 118.7693,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-27T13:00:00+08:00",
       "warnings": [
@@ -1590,9 +1766,11 @@
     "price": 22.6436,
     "benchmarkPrice": 119.1101,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-11-28T13:00:00+08:00",
       "warnings": [
@@ -1608,9 +1786,11 @@
     "price": 22.8064,
     "benchmarkPrice": 120.0155,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-01T13:00:00+08:00",
       "warnings": [
@@ -1626,9 +1806,11 @@
     "price": 22.8523,
     "benchmarkPrice": 120.27,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-02T13:00:00+08:00",
       "warnings": [
@@ -1644,9 +1826,11 @@
     "price": 22.8935,
     "benchmarkPrice": 120.4974,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-03T13:00:00+08:00",
       "warnings": [
@@ -1662,9 +1846,11 @@
     "price": 22.9296,
     "benchmarkPrice": 120.6958,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-04T13:00:00+08:00",
       "warnings": [
@@ -1680,9 +1866,11 @@
     "price": 22.9606,
     "benchmarkPrice": 120.8636,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-05T13:00:00+08:00",
       "warnings": [
@@ -1698,9 +1886,11 @@
     "price": 23.02,
     "benchmarkPrice": 121.1715,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-08T13:00:00+08:00",
       "warnings": [
@@ -1716,9 +1906,11 @@
     "price": 23.0283,
     "benchmarkPrice": 121.2064,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-09T13:00:00+08:00",
       "warnings": [
@@ -1734,9 +1926,11 @@
     "price": 23.0306,
     "benchmarkPrice": 121.2068,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-10T13:00:00+08:00",
       "warnings": [
@@ -1752,9 +1946,11 @@
     "price": 23.0271,
     "benchmarkPrice": 121.1727,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-11T13:00:00+08:00",
       "warnings": [
@@ -1770,9 +1966,11 @@
     "price": 23.0176,
     "benchmarkPrice": 121.1045,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-12T13:00:00+08:00",
       "warnings": [
@@ -1788,9 +1986,11 @@
     "price": 22.9547,
     "benchmarkPrice": 120.703,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-15T13:00:00+08:00",
       "warnings": [
@@ -1806,9 +2006,11 @@
     "price": 22.9228,
     "benchmarkPrice": 120.5075,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-16T13:00:00+08:00",
       "warnings": [
@@ -1824,9 +2026,11 @@
     "price": 22.8856,
     "benchmarkPrice": 120.2837,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-17T13:00:00+08:00",
       "warnings": [
@@ -1842,9 +2046,11 @@
     "price": 22.8435,
     "benchmarkPrice": 120.0335,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-18T13:00:00+08:00",
       "warnings": [
@@ -1860,9 +2066,11 @@
     "price": 22.7969,
     "benchmarkPrice": 119.7592,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-19T13:00:00+08:00",
       "warnings": [
@@ -1878,9 +2086,11 @@
     "price": 22.6329,
     "benchmarkPrice": 118.8152,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-22T13:00:00+08:00",
       "warnings": [
@@ -1896,9 +2106,11 @@
     "price": 22.5716,
     "benchmarkPrice": 118.4691,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-23T13:00:00+08:00",
       "warnings": [
@@ -1914,9 +2126,11 @@
     "price": 22.5078,
     "benchmarkPrice": 118.1121,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-24T13:00:00+08:00",
       "warnings": [
@@ -1932,9 +2146,11 @@
     "price": 22.4419,
     "benchmarkPrice": 117.7473,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-25T13:00:00+08:00",
       "warnings": [
@@ -1950,9 +2166,11 @@
     "price": 22.3745,
     "benchmarkPrice": 117.3777,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-26T13:00:00+08:00",
       "warnings": [
@@ -1968,9 +2186,11 @@
     "price": 22.1688,
     "benchmarkPrice": 116.2717,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-29T13:00:00+08:00",
       "warnings": [
@@ -1986,9 +2206,11 @@
     "price": 22.1009,
     "benchmarkPrice": 115.9144,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-30T13:00:00+08:00",
       "warnings": [
@@ -2004,9 +2226,11 @@
     "price": 22.0344,
     "benchmarkPrice": 115.5679,
     "currency": "HKD",
+    "valuation": "final",
     "quality": {
       "status": "complete",
       "source": "deterministic-mock-v1",
+      "dataMode": "simulated",
       "isSimulated": true,
       "collectedAt": "2025-12-31T13:00:00+08:00",
       "warnings": [

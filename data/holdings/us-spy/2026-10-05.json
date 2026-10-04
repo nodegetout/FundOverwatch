@@ -1,0 +1,58 @@
+{
+  "fundId": "us-spy",
+  "date": "2026-10-05",
+  "holdings": [
+    {
+      "name": "Apple",
+      "symbol": "AAPL",
+      "weight": 0.071,
+      "sector": "Technology",
+      "country": "United States"
+    },
+    {
+      "name": "Microsoft",
+      "symbol": "MSFT",
+      "weight": 0.067,
+      "sector": "Technology",
+      "country": "United States"
+    },
+    {
+      "name": "NVIDIA",
+      "symbol": "NVDA",
+      "weight": 0.061,
+      "sector": "Technology",
+      "country": "United States"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "Other",
+      "weight": 0.801
+    },
+    {
+      "name": "Technology",
+      "weight": 0.199
+    }
+  ],
+  "countries": [
+    {
+      "name": "Other",
+      "weight": 0.801
+    },
+    {
+      "name": "United States",
+      "weight": 0.199
+    }
+  ],
+  "quality": {
+    "status": "complete",
+    "source": "deterministic-mock-v1",
+    "dataMode": "simulated",
+    "isSimulated": true,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "Illustrative top holdings; weights outside the top holdings are grouped as Other."
+    ],
+    "missingFields": []
+  }
+}

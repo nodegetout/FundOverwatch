@@ -1,0 +1,70 @@
+{
+  "fundId": "hk-2800",
+  "date": "2026-10-05",
+  "holdings": [
+    {
+      "name": "Tencent",
+      "symbol": "0700",
+      "weight": 0.082,
+      "sector": "Communication",
+      "country": "China"
+    },
+    {
+      "name": "AIA",
+      "symbol": "1299",
+      "weight": 0.073,
+      "sector": "Financials",
+      "country": "Hong Kong"
+    },
+    {
+      "name": "HSBC",
+      "symbol": "0005",
+      "weight": 0.069,
+      "sector": "Financials",
+      "country": "United Kingdom"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "Other",
+      "weight": 0.776
+    },
+    {
+      "name": "Financials",
+      "weight": 0.142
+    },
+    {
+      "name": "Communication",
+      "weight": 0.082
+    }
+  ],
+  "countries": [
+    {
+      "name": "Other",
+      "weight": 0.776
+    },
+    {
+      "name": "China",
+      "weight": 0.082
+    },
+    {
+      "name": "Hong Kong",
+      "weight": 0.073
+    },
+    {
+      "name": "United Kingdom",
+      "weight": 0.069
+    }
+  ],
+  "quality": {
+    "status": "complete",
+    "source": "deterministic-mock-v1",
+    "dataMode": "simulated",
+    "isSimulated": true,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "Illustrative top holdings; weights outside the top holdings are grouped as Other."
+    ],
+    "missingFields": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "fundId": "cn-005051",
+  "date": "2026-09-30",
+  "holdings": [],
+  "sectors": [],
+  "countries": [],
+  "quality": {
+    "status": "partial",
+    "source": "eastmoney-f10-nav-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "该公开接口仅用于单位净值历史，未提供可规范化的持仓快照。"
+    ],
+    "missingFields": [
+      "holdings",
+      "sectors",
+      "countries"
+    ]
+  }
+}

@@ -29,6 +29,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       contents: write
     outputs:
@@ -71,6 +72,8 @@ jobs:
             args+=("--date=$RUN_DATE")
           fi
           npm run data:generate -- "${args[@]}"
+          npm run lint
+          npm run typecheck
           npm run data:verify
           npm test
           npm run build
@@ -86,7 +89,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data public/data
-          git commit -m "chore(data): refresh simulated fund data [skip ci]"
+          git commit -m "chore(data): refresh fund data [skip ci]"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
