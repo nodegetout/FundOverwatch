@@ -1,0 +1,65 @@
+{
+  "fundId": "cn-510300",
+  "date": "2026-10-02",
+  "holdings": [
+    {
+      "name": "贵州茅台",
+      "symbol": "600519",
+      "weight": 0.052,
+      "sector": "Consumer Staples",
+      "country": "China"
+    },
+    {
+      "name": "宁德时代",
+      "symbol": "300750",
+      "weight": 0.031,
+      "sector": "Industrials",
+      "country": "China"
+    },
+    {
+      "name": "中国平安",
+      "symbol": "601318",
+      "weight": 0.028,
+      "sector": "Financials",
+      "country": "China"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "Other",
+      "weight": 0.889
+    },
+    {
+      "name": "Consumer Staples",
+      "weight": 0.052
+    },
+    {
+      "name": "Industrials",
+      "weight": 0.031
+    },
+    {
+      "name": "Financials",
+      "weight": 0.028
+    }
+  ],
+  "countries": [
+    {
+      "name": "Other",
+      "weight": 0.889
+    },
+    {
+      "name": "China",
+      "weight": 0.111
+    }
+  ],
+  "quality": {
+    "status": "complete",
+    "source": "deterministic-mock-v1",
+    "isSimulated": true,
+    "collectedAt": "2026-10-02T13:00:00+08:00",
+    "warnings": [
+      "Illustrative top holdings; weights outside the top holdings are grouped as Other."
+    ],
+    "missingFields": []
+  }
+}

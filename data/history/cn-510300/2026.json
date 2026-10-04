@@ -1,0 +1,3548 @@
+[
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-01",
+    "nav": 4.6547,
+    "price": 4.6613,
+    "benchmarkPrice": 125.5508,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-02",
+    "nav": 4.6704,
+    "price": 4.6766,
+    "benchmarkPrice": 125.974,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-05",
+    "nav": 4.7221,
+    "price": 4.7266,
+    "benchmarkPrice": 127.3735,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-06",
+    "nav": 4.7405,
+    "price": 4.7442,
+    "benchmarkPrice": 127.8709,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-07",
+    "nav": 4.7592,
+    "price": 4.762,
+    "benchmarkPrice": 128.3774,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-08",
+    "nav": 4.7781,
+    "price": 4.7799,
+    "benchmarkPrice": 128.8889,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-09",
+    "nav": 4.797,
+    "price": 4.7978,
+    "benchmarkPrice": 129.4014,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-12",
+    "nav": 4.8524,
+    "price": 4.8501,
+    "benchmarkPrice": 130.9046,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-13",
+    "nav": 4.8699,
+    "price": 4.8667,
+    "benchmarkPrice": 131.381,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-14",
+    "nav": 4.8867,
+    "price": 4.8826,
+    "benchmarkPrice": 131.8388,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-15",
+    "nav": 4.9027,
+    "price": 4.8977,
+    "benchmarkPrice": 132.2743,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-16",
+    "nav": 4.9178,
+    "price": 4.912,
+    "benchmarkPrice": 132.6842,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-19",
+    "nav": 4.9559,
+    "price": 4.9487,
+    "benchmarkPrice": 133.7295,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-20",
+    "nav": 4.966,
+    "price": 4.9586,
+    "benchmarkPrice": 134.0075,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-21",
+    "nav": 4.9747,
+    "price": 4.9672,
+    "benchmarkPrice": 134.2465,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-22",
+    "nav": 4.9818,
+    "price": 4.9744,
+    "benchmarkPrice": 134.4449,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-23",
+    "nav": 4.9873,
+    "price": 4.9802,
+    "benchmarkPrice": 134.601,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-26",
+    "nav": 4.9942,
+    "price": 4.9887,
+    "benchmarkPrice": 134.8075,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-27",
+    "nav": 4.9932,
+    "price": 4.9885,
+    "benchmarkPrice": 134.7878,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-28",
+    "nav": 4.9906,
+    "price": 4.9867,
+    "benchmarkPrice": 134.7242,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-29",
+    "nav": 4.9863,
+    "price": 4.9835,
+    "benchmarkPrice": 134.6173,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-01-30",
+    "nav": 4.9805,
+    "price": 4.9787,
+    "benchmarkPrice": 134.4683,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-01-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-02",
+    "nav": 4.9543,
+    "price": 4.9556,
+    "benchmarkPrice": 133.7847,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-03",
+    "nav": 4.9429,
+    "price": 4.9452,
+    "benchmarkPrice": 133.4849,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-04",
+    "nav": 4.9303,
+    "price": 4.9336,
+    "benchmarkPrice": 133.1535,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-05",
+    "nav": 4.9166,
+    "price": 4.9208,
+    "benchmarkPrice": 132.7933,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-06",
+    "nav": 4.902,
+    "price": 4.907,
+    "benchmarkPrice": 132.4075,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-09",
+    "nav": 4.8538,
+    "price": 4.8606,
+    "benchmarkPrice": 131.132,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-10",
+    "nav": 4.8368,
+    "price": 4.8438,
+    "benchmarkPrice": 130.6798,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-11",
+    "nav": 4.8195,
+    "price": 4.8266,
+    "benchmarkPrice": 130.2206,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-12",
+    "nav": 4.802,
+    "price": 4.8092,
+    "benchmarkPrice": 129.7585,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-13",
+    "nav": 4.7846,
+    "price": 4.7917,
+    "benchmarkPrice": 129.2975,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-16",
+    "nav": 4.7342,
+    "price": 4.74,
+    "benchmarkPrice": 127.961,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-17",
+    "nav": 4.7184,
+    "price": 4.7236,
+    "benchmarkPrice": 127.5441,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-18",
+    "nav": 4.7035,
+    "price": 4.7079,
+    "benchmarkPrice": 127.1477,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-19",
+    "nav": 4.6894,
+    "price": 4.693,
+    "benchmarkPrice": 126.7754,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-20",
+    "nav": 4.6763,
+    "price": 4.679,
+    "benchmarkPrice": 126.4304,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-23",
+    "nav": 4.6442,
+    "price": 4.644,
+    "benchmarkPrice": 125.5889,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-24",
+    "nav": 4.6362,
+    "price": 4.635,
+    "benchmarkPrice": 125.3815,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-25",
+    "nav": 4.6298,
+    "price": 4.6276,
+    "benchmarkPrice": 125.214,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-26",
+    "nav": 4.6248,
+    "price": 4.6217,
+    "benchmarkPrice": 125.0882,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-02-27",
+    "nav": 4.6214,
+    "price": 4.6175,
+    "benchmarkPrice": 125.0052,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-02-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-02",
+    "nav": 4.6212,
+    "price": 4.6152,
+    "benchmarkPrice": 125.0211,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-03",
+    "nav": 4.6244,
+    "price": 4.618,
+    "benchmarkPrice": 125.1153,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-04",
+    "nav": 4.6292,
+    "price": 4.6225,
+    "benchmarkPrice": 125.2532,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-05",
+    "nav": 4.6356,
+    "price": 4.6287,
+    "benchmarkPrice": 125.4341,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-06",
+    "nav": 4.6436,
+    "price": 4.6366,
+    "benchmarkPrice": 125.6566,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-09",
+    "nav": 4.6761,
+    "price": 4.6698,
+    "benchmarkPrice": 126.5559,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-10",
+    "nav": 4.6895,
+    "price": 4.6838,
+    "benchmarkPrice": 126.9255,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-11",
+    "nav": 4.7041,
+    "price": 4.6989,
+    "benchmarkPrice": 127.3254,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-12",
+    "nav": 4.7197,
+    "price": 4.7152,
+    "benchmarkPrice": 127.7526,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-13",
+    "nav": 4.7361,
+    "price": 4.7325,
+    "benchmarkPrice": 128.2039,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-16",
+    "nav": 4.7895,
+    "price": 4.7888,
+    "benchmarkPrice": 129.6653,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-17",
+    "nav": 4.8082,
+    "price": 4.8085,
+    "benchmarkPrice": 130.1756,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-18",
+    "nav": 4.8271,
+    "price": 4.8284,
+    "benchmarkPrice": 130.6909,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-19",
+    "nav": 4.846,
+    "price": 4.8483,
+    "benchmarkPrice": 131.2071,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-20",
+    "nav": 4.8648,
+    "price": 4.8681,
+    "benchmarkPrice": 131.7202,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-23",
+    "nav": 4.9191,
+    "price": 4.9248,
+    "benchmarkPrice": 133.2002,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-24",
+    "nav": 4.936,
+    "price": 4.9424,
+    "benchmarkPrice": 133.6608,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-25",
+    "nav": 4.9521,
+    "price": 4.959,
+    "benchmarkPrice": 134.0989,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-26",
+    "nav": 4.9672,
+    "price": 4.9744,
+    "benchmarkPrice": 134.5111,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-27",
+    "nav": 4.9813,
+    "price": 4.9887,
+    "benchmarkPrice": 134.8941,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-30",
+    "nav": 5.0161,
+    "price": 5.0232,
+    "benchmarkPrice": 135.8396,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-03-31",
+    "nav": 5.0249,
+    "price": 5.0316,
+    "benchmarkPrice": 136.0788,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-03-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-01",
+    "nav": 5.0322,
+    "price": 5.0384,
+    "benchmarkPrice": 136.2767,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-02",
+    "nav": 5.0379,
+    "price": 5.0434,
+    "benchmarkPrice": 136.4319,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-03",
+    "nav": 5.042,
+    "price": 5.0468,
+    "benchmarkPrice": 136.5433,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-06",
+    "nav": 5.0445,
+    "price": 5.0464,
+    "benchmarkPrice": 136.6085,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-07",
+    "nav": 5.0421,
+    "price": 5.0429,
+    "benchmarkPrice": 136.5406,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-08",
+    "nav": 5.038,
+    "price": 5.0377,
+    "benchmarkPrice": 136.4287,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-09",
+    "nav": 5.0324,
+    "price": 5.031,
+    "benchmarkPrice": 136.2739,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-10",
+    "nav": 5.0253,
+    "price": 5.0229,
+    "benchmarkPrice": 136.0777,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-13",
+    "nav": 4.9954,
+    "price": 4.9903,
+    "benchmarkPrice": 135.2598,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-14",
+    "nav": 4.9829,
+    "price": 4.9771,
+    "benchmarkPrice": 134.9187,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-15",
+    "nav": 4.9694,
+    "price": 4.963,
+    "benchmarkPrice": 134.5481,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-16",
+    "nav": 4.9549,
+    "price": 4.948,
+    "benchmarkPrice": 134.1512,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-17",
+    "nav": 4.9396,
+    "price": 4.9324,
+    "benchmarkPrice": 133.7314,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-20",
+    "nav": 4.8899,
+    "price": 4.8827,
+    "benchmarkPrice": 132.3715,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-21",
+    "nav": 4.8726,
+    "price": 4.8657,
+    "benchmarkPrice": 131.8976,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-22",
+    "nav": 4.8552,
+    "price": 4.8487,
+    "benchmarkPrice": 131.4201,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-23",
+    "nav": 4.8378,
+    "price": 4.8318,
+    "benchmarkPrice": 130.9431,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-24",
+    "nav": 4.8205,
+    "price": 4.8153,
+    "benchmarkPrice": 130.4705,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-27",
+    "nav": 4.7714,
+    "price": 4.7687,
+    "benchmarkPrice": 129.12,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-28",
+    "nav": 4.7563,
+    "price": 4.7546,
+    "benchmarkPrice": 128.7049,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-29",
+    "nav": 4.7421,
+    "price": 4.7414,
+    "benchmarkPrice": 128.3135,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-04-30",
+    "nav": 4.7289,
+    "price": 4.7292,
+    "benchmarkPrice": 127.949,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-04-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-01",
+    "nav": 4.7168,
+    "price": 4.7181,
+    "benchmarkPrice": 127.6145,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-04",
+    "nav": 4.6882,
+    "price": 4.6923,
+    "benchmarkPrice": 126.819,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-05",
+    "nav": 4.6816,
+    "price": 4.6864,
+    "benchmarkPrice": 126.6307,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-06",
+    "nav": 4.6764,
+    "price": 4.6819,
+    "benchmarkPrice": 126.4838,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-07",
+    "nav": 4.6729,
+    "price": 4.6789,
+    "benchmarkPrice": 126.3798,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-08",
+    "nav": 4.671,
+    "price": 4.6775,
+    "benchmarkPrice": 126.3196,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-11",
+    "nav": 4.6751,
+    "price": 4.6821,
+    "benchmarkPrice": 126.4054,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-12",
+    "nav": 4.6797,
+    "price": 4.6866,
+    "benchmarkPrice": 126.5225,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-13",
+    "nav": 4.686,
+    "price": 4.6926,
+    "benchmarkPrice": 126.6826,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-14",
+    "nav": 4.6938,
+    "price": 4.7,
+    "benchmarkPrice": 126.8845,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-15",
+    "nav": 4.703,
+    "price": 4.7088,
+    "benchmarkPrice": 127.1267,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-18",
+    "nav": 4.7391,
+    "price": 4.7427,
+    "benchmarkPrice": 128.0743,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-19",
+    "nav": 4.7535,
+    "price": 4.7562,
+    "benchmarkPrice": 128.4554,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-20",
+    "nav": 4.769,
+    "price": 4.7707,
+    "benchmarkPrice": 128.8643,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-21",
+    "nav": 4.7853,
+    "price": 4.7861,
+    "benchmarkPrice": 129.2977,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-22",
+    "nav": 4.8025,
+    "price": 4.8022,
+    "benchmarkPrice": 129.7521,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-25",
+    "nav": 4.8572,
+    "price": 4.8539,
+    "benchmarkPrice": 131.2041,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-26",
+    "nav": 4.8761,
+    "price": 4.8718,
+    "benchmarkPrice": 131.7047,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-27",
+    "nav": 4.895,
+    "price": 4.8899,
+    "benchmarkPrice": 132.207,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-28",
+    "nav": 4.9138,
+    "price": 4.908,
+    "benchmarkPrice": 132.7068,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-05-29",
+    "nav": 4.9324,
+    "price": 4.926,
+    "benchmarkPrice": 133.2002,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-05-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-01",
+    "nav": 4.9852,
+    "price": 4.9778,
+    "benchmarkPrice": 134.6028,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-02",
+    "nav": 5.0014,
+    "price": 4.9939,
+    "benchmarkPrice": 135.0318,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-03",
+    "nav": 5.0167,
+    "price": 5.0093,
+    "benchmarkPrice": 135.4358,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-04",
+    "nav": 5.0309,
+    "price": 5.0237,
+    "benchmarkPrice": 135.8115,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-05",
+    "nav": 5.0439,
+    "price": 5.0372,
+    "benchmarkPrice": 136.156,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-08",
+    "nav": 5.0751,
+    "price": 5.0703,
+    "benchmarkPrice": 136.9758,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-09",
+    "nav": 5.0826,
+    "price": 5.0787,
+    "benchmarkPrice": 137.1707,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-10",
+    "nav": 5.0885,
+    "price": 5.0856,
+    "benchmarkPrice": 137.3238,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-11",
+    "nav": 5.0928,
+    "price": 5.0909,
+    "benchmarkPrice": 137.4338,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-12",
+    "nav": 5.0955,
+    "price": 5.0947,
+    "benchmarkPrice": 137.5001,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-15",
+    "nav": 5.0936,
+    "price": 5.0961,
+    "benchmarkPrice": 137.4334,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-16",
+    "nav": 5.0897,
+    "price": 5.0932,
+    "benchmarkPrice": 137.3239,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-17",
+    "nav": 5.0843,
+    "price": 5.0887,
+    "benchmarkPrice": 137.172,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-18",
+    "nav": 5.0773,
+    "price": 5.0825,
+    "benchmarkPrice": 136.9793,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-19",
+    "nav": 5.0689,
+    "price": 5.0748,
+    "benchmarkPrice": 136.7475,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-22",
+    "nav": 5.0356,
+    "price": 5.0429,
+    "benchmarkPrice": 135.8392,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-23",
+    "nav": 5.0222,
+    "price": 5.0297,
+    "benchmarkPrice": 135.4743,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-24",
+    "nav": 5.0078,
+    "price": 5.0153,
+    "benchmarkPrice": 135.0834,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-25",
+    "nav": 4.9925,
+    "price": 4.9999,
+    "benchmarkPrice": 134.6699,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-26",
+    "nav": 4.9766,
+    "price": 4.9836,
+    "benchmarkPrice": 134.2373,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-29",
+    "nav": 4.9257,
+    "price": 4.9311,
+    "benchmarkPrice": 132.863,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-06-30",
+    "nav": 4.9083,
+    "price": 4.9129,
+    "benchmarkPrice": 132.3925,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-06-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-01",
+    "nav": 4.8909,
+    "price": 4.8946,
+    "benchmarkPrice": 131.9224,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-02",
+    "nav": 4.8737,
+    "price": 4.8764,
+    "benchmarkPrice": 131.457,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-03",
+    "nav": 4.8567,
+    "price": 4.8584,
+    "benchmarkPrice": 131.0001,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-06",
+    "nav": 4.8091,
+    "price": 4.8078,
+    "benchmarkPrice": 129.7194,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-07",
+    "nav": 4.7948,
+    "price": 4.7925,
+    "benchmarkPrice": 129.3349,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-08",
+    "nav": 4.7815,
+    "price": 4.7782,
+    "benchmarkPrice": 128.9773,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-09",
+    "nav": 4.7693,
+    "price": 4.7651,
+    "benchmarkPrice": 128.6498,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-10",
+    "nav": 4.7583,
+    "price": 4.7534,
+    "benchmarkPrice": 128.3552,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-13",
+    "nav": 4.7334,
+    "price": 4.7268,
+    "benchmarkPrice": 127.6937,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-14",
+    "nav": 4.7281,
+    "price": 4.7212,
+    "benchmarkPrice": 127.554,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-15",
+    "nav": 4.7244,
+    "price": 4.7173,
+    "benchmarkPrice": 127.4572,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-16",
+    "nav": 4.7223,
+    "price": 4.7152,
+    "benchmarkPrice": 127.4043,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-17",
+    "nav": 4.7218,
+    "price": 4.7148,
+    "benchmarkPrice": 127.3959,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-20",
+    "nav": 4.7303,
+    "price": 4.7245,
+    "benchmarkPrice": 127.6391,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-21",
+    "nav": 4.7363,
+    "price": 4.7312,
+    "benchmarkPrice": 127.8079,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-22",
+    "nav": 4.7439,
+    "price": 4.7395,
+    "benchmarkPrice": 128.0191,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-23",
+    "nav": 4.753,
+    "price": 4.7495,
+    "benchmarkPrice": 128.2709,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-24",
+    "nav": 4.7636,
+    "price": 4.7609,
+    "benchmarkPrice": 128.5615,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-27",
+    "nav": 4.8029,
+    "price": 4.8033,
+    "benchmarkPrice": 129.6432,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-28",
+    "nav": 4.8183,
+    "price": 4.8196,
+    "benchmarkPrice": 130.0644,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-29",
+    "nav": 4.8346,
+    "price": 4.8369,
+    "benchmarkPrice": 130.5108,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-30",
+    "nav": 4.8516,
+    "price": 4.8549,
+    "benchmarkPrice": 130.9788,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-07-31",
+    "nav": 4.8693,
+    "price": 4.8736,
+    "benchmarkPrice": 131.4648,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-07-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-03",
+    "nav": 4.925,
+    "price": 4.9314,
+    "benchmarkPrice": 132.9925,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-04",
+    "nav": 4.9439,
+    "price": 4.9508,
+    "benchmarkPrice": 133.5116,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-05",
+    "nav": 4.9628,
+    "price": 4.97,
+    "benchmarkPrice": 134.029,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-06",
+    "nav": 4.9814,
+    "price": 4.9888,
+    "benchmarkPrice": 134.5405,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-07",
+    "nav": 4.9996,
+    "price": 5.0071,
+    "benchmarkPrice": 135.0422,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-10",
+    "nav": 5.0507,
+    "price": 5.0575,
+    "benchmarkPrice": 136.4497,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-11",
+    "nav": 5.0661,
+    "price": 5.0723,
+    "benchmarkPrice": 136.8742,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-12",
+    "nav": 5.0804,
+    "price": 5.086,
+    "benchmarkPrice": 137.2707,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-13",
+    "nav": 5.0936,
+    "price": 5.0984,
+    "benchmarkPrice": 137.6361,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-14",
+    "nav": 5.1055,
+    "price": 5.1094,
+    "benchmarkPrice": 137.9678,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-17",
+    "nav": 5.1329,
+    "price": 5.1337,
+    "benchmarkPrice": 138.7362,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-18",
+    "nav": 5.139,
+    "price": 5.1387,
+    "benchmarkPrice": 138.9106,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-19",
+    "nav": 5.1435,
+    "price": 5.1421,
+    "benchmarkPrice": 139.0417,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-20",
+    "nav": 5.1464,
+    "price": 5.1439,
+    "benchmarkPrice": 139.1287,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-21",
+    "nav": 5.1476,
+    "price": 5.1441,
+    "benchmarkPrice": 139.1712,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-24",
+    "nav": 5.1414,
+    "price": 5.1353,
+    "benchmarkPrice": 139.0317,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-25",
+    "nav": 5.1361,
+    "price": 5.1295,
+    "benchmarkPrice": 138.8982,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-26",
+    "nav": 5.1293,
+    "price": 5.1222,
+    "benchmarkPrice": 138.7232,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-27",
+    "nav": 5.121,
+    "price": 5.1136,
+    "benchmarkPrice": 138.5083,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-28",
+    "nav": 5.1114,
+    "price": 5.1037,
+    "benchmarkPrice": 138.2555,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-08-31",
+    "nav": 5.0749,
+    "price": 5.0677,
+    "benchmarkPrice": 137.2943,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-08-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-01",
+    "nav": 5.0606,
+    "price": 5.0539,
+    "benchmarkPrice": 136.9158,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-02",
+    "nav": 5.0455,
+    "price": 5.0393,
+    "benchmarkPrice": 136.5138,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-03",
+    "nav": 5.0296,
+    "price": 5.0241,
+    "benchmarkPrice": 136.0916,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-04",
+    "nav": 5.0131,
+    "price": 5.0084,
+    "benchmarkPrice": 135.653,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-07",
+    "nav": 4.9615,
+    "price": 4.9597,
+    "benchmarkPrice": 134.2777,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-08",
+    "nav": 4.9441,
+    "price": 4.9433,
+    "benchmarkPrice": 133.8128,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-09",
+    "nav": 4.9268,
+    "price": 4.9271,
+    "benchmarkPrice": 133.3514,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-10",
+    "nav": 4.9098,
+    "price": 4.9112,
+    "benchmarkPrice": 132.8976,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-11",
+    "nav": 4.8932,
+    "price": 4.8956,
+    "benchmarkPrice": 132.4552,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-14",
+    "nav": 4.8476,
+    "price": 4.8526,
+    "benchmarkPrice": 131.235,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-15",
+    "nav": 4.8341,
+    "price": 4.8398,
+    "benchmarkPrice": 130.8758,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-16",
+    "nav": 4.8218,
+    "price": 4.828,
+    "benchmarkPrice": 130.5459,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-17",
+    "nav": 4.8106,
+    "price": 4.8173,
+    "benchmarkPrice": 130.2481,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-18",
+    "nav": 4.8007,
+    "price": 4.8077,
+    "benchmarkPrice": 129.9851,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-21",
+    "nav": 4.7798,
+    "price": 4.7868,
+    "benchmarkPrice": 129.4272,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-22",
+    "nav": 4.7759,
+    "price": 4.7826,
+    "benchmarkPrice": 129.324,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-23",
+    "nav": 4.7736,
+    "price": 4.7799,
+    "benchmarkPrice": 129.2642,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-24",
+    "nav": 4.7729,
+    "price": 4.7787,
+    "benchmarkPrice": 129.2485,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-25",
+    "nav": 4.7739,
+    "price": 4.7791,
+    "benchmarkPrice": 129.2772,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-28",
+    "nav": 4.7867,
+    "price": 4.7893,
+    "benchmarkPrice": 129.6275,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-29",
+    "nav": 4.7941,
+    "price": 4.7958,
+    "benchmarkPrice": 129.8296,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-09-30",
+    "nav": 4.8031,
+    "price": 4.8037,
+    "benchmarkPrice": 130.0722,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-09-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-10-01",
+    "nav": 4.8135,
+    "price": 4.8131,
+    "benchmarkPrice": 130.3534,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-10-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "cn-510300",
+    "date": "2026-10-02",
+    "nav": 4.8252,
+    "price": 4.8238,
+    "benchmarkPrice": 130.6712,
+    "currency": "CNY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2026-10-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  }
+]

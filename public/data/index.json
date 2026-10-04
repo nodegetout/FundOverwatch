@@ -1,0 +1,481 @@
+{
+  "generatedAt": "2026-10-02T13:00:00+08:00",
+  "asOf": "2026-10-02",
+  "mode": "final",
+  "dataStatus": "complete",
+  "isSimulated": true,
+  "summaries": [
+    {
+      "fund": {
+        "id": "us-spy",
+        "symbol": "SPY",
+        "name": "SPDR S&P 500 ETF Trust",
+        "market": "US",
+        "exchange": "NYSE Arca",
+        "currency": "USD",
+        "assetClass": "Equity",
+        "benchmark": "S&P 500",
+        "timezone": "America/New_York",
+        "inceptionDate": "1993-01-22",
+        "providerRef": "mock:us-spy"
+      },
+      "latestQuote": {
+        "fundId": "us-spy",
+        "date": "2026-10-02",
+        "nav": 734.2777,
+        "price": 734.0677,
+        "benchmarkPrice": 167.2147,
+        "currency": "USD",
+        "quality": {
+          "status": "complete",
+          "source": "deterministic-mock-v1",
+          "isSimulated": true,
+          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "warnings": [
+            "Deterministic simulated data; not a live market quote."
+          ],
+          "missingFields": []
+        }
+      },
+      "analytics": {
+        "fundId": "us-spy",
+        "asOf": "2026-10-02",
+        "nav": 734.2777,
+        "price": 734.0677,
+        "returns": {
+          "day": -0.0006891069775281089,
+          "week": -0.003151055808750969,
+          "month": 0.018812144064516145,
+          "year": 0.08962658348664365
+        },
+        "annualizedVolatility": 0.019574177839513575,
+        "maxDrawdown": -0.017858724045606622,
+        "movingAverages": {
+          "day20": 733.134655,
+          "day60": 723.4501899999999
+        },
+        "benchmarkReturn": 0.0915609908309103,
+        "excessReturn": -0.001934407344266642,
+        "observations": 309
+      },
+      "holdings": {
+        "fundId": "us-spy",
+        "date": "2026-10-02",
+        "holdings": [
+          {
+            "name": "Apple",
+            "symbol": "AAPL",
+            "weight": 0.071,
+            "sector": "Technology",
+            "country": "United States"
+          },
+          {
+            "name": "Microsoft",
+            "symbol": "MSFT",
+            "weight": 0.067,
+            "sector": "Technology",
+            "country": "United States"
+          },
+          {
+            "name": "NVIDIA",
+            "symbol": "NVDA",
+            "weight": 0.061,
+            "sector": "Technology",
+            "country": "United States"
+          }
+        ],
+        "sectors": [
+          {
+            "name": "Other",
+            "weight": 0.801
+          },
+          {
+            "name": "Technology",
+            "weight": 0.199
+          }
+        ],
+        "countries": [
+          {
+            "name": "Other",
+            "weight": 0.801
+          },
+          {
+            "name": "United States",
+            "weight": 0.199
+          }
+        ],
+        "quality": {
+          "status": "complete",
+          "source": "deterministic-mock-v1",
+          "isSimulated": true,
+          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "warnings": [
+            "Illustrative top holdings; weights outside the top holdings are grouped as Other."
+          ],
+          "missingFields": []
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "hk-2800",
+        "symbol": "2800",
+        "name": "Tracker Fund of Hong Kong",
+        "market": "HK",
+        "exchange": "HKEX",
+        "currency": "HKD",
+        "assetClass": "Equity",
+        "benchmark": "Hang Seng Index",
+        "timezone": "Asia/Hong_Kong",
+        "inceptionDate": "1999-11-11",
+        "providerRef": "mock:hk-2800"
+      },
+      "latestQuote": {
+        "fundId": "hk-2800",
+        "date": "2026-10-02",
+        "nav": 22.7292,
+        "price": 22.7227,
+        "benchmarkPrice": 119.8663,
+        "currency": "HKD",
+        "quality": {
+          "status": "complete",
+          "source": "deterministic-mock-v1",
+          "isSimulated": true,
+          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "warnings": [
+            "Deterministic simulated data; not a live market quote."
+          ],
+          "missingFields": []
+        }
+      },
+      "analytics": {
+        "fundId": "hk-2800",
+        "asOf": "2026-10-02",
+        "nav": 22.7292,
+        "price": 22.7227,
+        "returns": {
+          "day": -0.003224221580789721,
+          "week": -0.022187509413339135,
+          "month": -0.026715039577836386,
+          "year": -0.00945958316804485
+        },
+        "annualizedVolatility": 0.05888831794647269,
+        "maxDrawdown": -0.06793898786819352,
+        "movingAverages": {
+          "day20": 23.390899999999995,
+          "day60": 22.88417833333333
+        },
+        "benchmarkReturn": -0.007703018623009927,
+        "excessReturn": -0.001756564545034922,
+        "observations": 309
+      },
+      "holdings": {
+        "fundId": "hk-2800",
+        "date": "2026-10-02",
+        "holdings": [
+          {
+            "name": "Tencent",
+            "symbol": "0700",
+            "weight": 0.082,
+            "sector": "Communication",
+            "country": "China"
+          },
+          {
+            "name": "AIA",
+            "symbol": "1299",
+            "weight": 0.073,
+            "sector": "Financials",
+            "country": "Hong Kong"
+          },
+          {
+            "name": "HSBC",
+            "symbol": "0005",
+            "weight": 0.069,
+            "sector": "Financials",
+            "country": "United Kingdom"
+          }
+        ],
+        "sectors": [
+          {
+            "name": "Other",
+            "weight": 0.776
+          },
+          {
+            "name": "Financials",
+            "weight": 0.142
+          },
+          {
+            "name": "Communication",
+            "weight": 0.082
+          }
+        ],
+        "countries": [
+          {
+            "name": "Other",
+            "weight": 0.776
+          },
+          {
+            "name": "China",
+            "weight": 0.082
+          },
+          {
+            "name": "Hong Kong",
+            "weight": 0.073
+          },
+          {
+            "name": "United Kingdom",
+            "weight": 0.069
+          }
+        ],
+        "quality": {
+          "status": "complete",
+          "source": "deterministic-mock-v1",
+          "isSimulated": true,
+          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "warnings": [
+            "Illustrative top holdings; weights outside the top holdings are grouped as Other."
+          ],
+          "missingFields": []
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "cn-510300",
+        "symbol": "510300",
+        "name": "华泰柏瑞沪深300ETF",
+        "market": "CN",
+        "exchange": "SSE",
+        "currency": "CNY",
+        "assetClass": "Equity",
+        "benchmark": "沪深300指数",
+        "timezone": "Asia/Shanghai",
+        "inceptionDate": "2012-05-04",
+        "providerRef": "mock:cn-510300"
+      },
+      "latestQuote": {
+        "fundId": "cn-510300",
+        "date": "2026-10-02",
+        "nav": 4.8252,
+        "price": 4.8238,
+        "benchmarkPrice": 130.6712,
+        "currency": "CNY",
+        "quality": {
+          "status": "complete",
+          "source": "deterministic-mock-v1",
+          "isSimulated": true,
+          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "warnings": [
+            "Deterministic simulated data; not a live market quote."
+          ],
+          "missingFields": []
+        }
+      },
+      "analytics": {
+        "fundId": "cn-510300",
+        "asOf": "2026-10-02",
+        "nav": 4.8252,
+        "price": 4.8238,
+        "returns": {
+          "day": 0.0022230994577299157,
+          "week": 0.009353225502709783,
+          "month": -0.04276387593514963,
+          "year": 0.04422556553739576
+        },
+        "annualizedVolatility": 0.0672015193157461,
+        "maxDrawdown": -0.07646310175552007,
+        "movingAverages": {
+          "day20": 4.835755000000001,
+          "day60": 4.916270000000001
+        },
+        "benchmarkReturn": 0.04608009760229148,
+        "excessReturn": -0.0018545320648957198,
+        "observations": 309
+      },
+      "holdings": {
+        "fundId": "cn-510300",
+        "date": "2026-10-02",
+        "holdings": [
+          {
+            "name": "贵州茅台",
+            "symbol": "600519",
+            "weight": 0.052,
+            "sector": "Consumer Staples",
+            "country": "China"
+          },
+          {
+            "name": "宁德时代",
+            "symbol": "300750",
+            "weight": 0.031,
+            "sector": "Industrials",
+            "country": "China"
+          },
+          {
+            "name": "中国平安",
+            "symbol": "601318",
+            "weight": 0.028,
+            "sector": "Financials",
+            "country": "China"
+          }
+        ],
+        "sectors": [
+          {
+            "name": "Other",
+            "weight": 0.889
+          },
+          {
+            "name": "Consumer Staples",
+            "weight": 0.052
+          },
+          {
+            "name": "Industrials",
+            "weight": 0.031
+          },
+          {
+            "name": "Financials",
+            "weight": 0.028
+          }
+        ],
+        "countries": [
+          {
+            "name": "Other",
+            "weight": 0.889
+          },
+          {
+            "name": "China",
+            "weight": 0.111
+          }
+        ],
+        "quality": {
+          "status": "complete",
+          "source": "deterministic-mock-v1",
+          "isSimulated": true,
+          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "warnings": [
+            "Illustrative top holdings; weights outside the top holdings are grouped as Other."
+          ],
+          "missingFields": []
+        }
+      }
+    },
+    {
+      "fund": {
+        "id": "jp-1321",
+        "symbol": "1321",
+        "name": "NEXT FUNDS Nikkei 225 ETF",
+        "market": "JP",
+        "exchange": "TSE",
+        "currency": "JPY",
+        "assetClass": "Equity",
+        "benchmark": "Nikkei 225",
+        "timezone": "Asia/Tokyo",
+        "inceptionDate": "2001-07-09",
+        "providerRef": "mock:jp-1321"
+      },
+      "latestQuote": {
+        "fundId": "jp-1321",
+        "date": "2026-10-02",
+        "nav": 49870.2211,
+        "price": 49855.9626,
+        "benchmarkPrice": 151.4238,
+        "currency": "JPY",
+        "quality": {
+          "status": "complete",
+          "source": "deterministic-mock-v1",
+          "isSimulated": true,
+          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "warnings": [
+            "Deterministic simulated data; not a live market quote."
+          ],
+          "missingFields": []
+        }
+      },
+      "analytics": {
+        "fundId": "jp-1321",
+        "asOf": "2026-10-02",
+        "nav": 49870.2211,
+        "price": 49855.9626,
+        "returns": {
+          "day": -0.0016119665354322743,
+          "week": -0.011145661778657723,
+          "month": -0.009124945332001366,
+          "year": 0.050438924662152385
+        },
+        "annualizedVolatility": 0.031230616107576194,
+        "maxDrawdown": -0.03282784795854521,
+        "movingAverages": {
+          "day20": 50539.820455,
+          "day60": 49748.66787666666
+        },
+        "benchmarkReturn": 0.05230320193193072,
+        "excessReturn": -0.001864277269778336,
+        "observations": 309
+      },
+      "holdings": {
+        "fundId": "jp-1321",
+        "date": "2026-10-02",
+        "holdings": [
+          {
+            "name": "Fast Retailing",
+            "symbol": "9983",
+            "weight": 0.105,
+            "sector": "Consumer Discretionary",
+            "country": "Japan"
+          },
+          {
+            "name": "Tokyo Electron",
+            "symbol": "8035",
+            "weight": 0.073,
+            "sector": "Technology",
+            "country": "Japan"
+          },
+          {
+            "name": "SoftBank Group",
+            "symbol": "9984",
+            "weight": 0.046,
+            "sector": "Communication",
+            "country": "Japan"
+          }
+        ],
+        "sectors": [
+          {
+            "name": "Other",
+            "weight": 0.776
+          },
+          {
+            "name": "Consumer Discretionary",
+            "weight": 0.105
+          },
+          {
+            "name": "Technology",
+            "weight": 0.073
+          },
+          {
+            "name": "Communication",
+            "weight": 0.046
+          }
+        ],
+        "countries": [
+          {
+            "name": "Other",
+            "weight": 0.776
+          },
+          {
+            "name": "Japan",
+            "weight": 0.224
+          }
+        ],
+        "quality": {
+          "status": "complete",
+          "source": "deterministic-mock-v1",
+          "isSimulated": true,
+          "collectedAt": "2026-10-02T13:00:00+08:00",
+          "warnings": [
+            "Illustrative top holdings; weights outside the top holdings are grouped as Other."
+          ],
+          "missingFields": []
+        }
+      }
+    }
+  ]
+}
