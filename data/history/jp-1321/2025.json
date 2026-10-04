@@ -1,0 +1,2018 @@
+[
+  {
+    "fundId": "jp-1321",
+    "date": "2025-07-29",
+    "nav": 46662.3749,
+    "price": 46592.402,
+    "benchmarkPrice": 141.2313,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-07-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-07-30",
+    "nav": 46633.7171,
+    "price": 46564.7412,
+    "benchmarkPrice": 141.1525,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-07-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-07-31",
+    "nav": 46598.6702,
+    "price": 46532.1036,
+    "benchmarkPrice": 141.0545,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-07-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-01",
+    "nav": 46557.6053,
+    "price": 46494.8078,
+    "benchmarkPrice": 140.9384,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-04",
+    "nav": 46402.7396,
+    "price": 46358.4669,
+    "benchmarkPrice": 140.4953,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-05",
+    "nav": 46342.2547,
+    "price": 46306.1268,
+    "benchmarkPrice": 140.321,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-06",
+    "nav": 46278.2784,
+    "price": 46251.0114,
+    "benchmarkPrice": 140.1362,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-07",
+    "nav": 46211.4208,
+    "price": 46193.5461,
+    "benchmarkPrice": 139.9429,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-08",
+    "nav": 46142.3158,
+    "price": 46134.1704,
+    "benchmarkPrice": 139.7427,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-11",
+    "nav": 45928.1018,
+    "price": 45949.1581,
+    "benchmarkPrice": 139.1219,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-12",
+    "nav": 45856.6363,
+    "price": 45886.7701,
+    "benchmarkPrice": 138.9149,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-13",
+    "nav": 45786.2622,
+    "price": 45824.8331,
+    "benchmarkPrice": 138.7111,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-14",
+    "nav": 45717.6427,
+    "price": 45763.8417,
+    "benchmarkPrice": 138.5127,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-15",
+    "nav": 45651.4261,
+    "price": 45704.2931,
+    "benchmarkPrice": 138.3216,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-18",
+    "nav": 45473.3502,
+    "price": 45539.2645,
+    "benchmarkPrice": 137.8106,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-19",
+    "nav": 45422.7567,
+    "price": 45490.4224,
+    "benchmarkPrice": 137.6667,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-20",
+    "nav": 45377.4103,
+    "price": 45445.4543,
+    "benchmarkPrice": 137.5387,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-21",
+    "nav": 45337.7674,
+    "price": 45404.8121,
+    "benchmarkPrice": 137.428,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-22",
+    "nav": 45304.237,
+    "price": 45368.9283,
+    "benchmarkPrice": 137.3357,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-25",
+    "nav": 45243.6385,
+    "price": 45293.7634,
+    "benchmarkPrice": 137.1795,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-26",
+    "nav": 45237.5987,
+    "price": 45280.6935,
+    "benchmarkPrice": 137.1702,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-27",
+    "nav": 45238.9076,
+    "price": 45274.102,
+    "benchmarkPrice": 137.1831,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-28",
+    "nav": 45247.6361,
+    "price": 45274.2169,
+    "benchmarkPrice": 137.2184,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-08-29",
+    "nav": 45263.7939,
+    "price": 45281.2191,
+    "benchmarkPrice": 137.2761,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-01",
+    "nav": 45356.0224,
+    "price": 45344.578,
+    "benchmarkPrice": 137.581,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-02",
+    "nav": 45400.7764,
+    "price": 45379.8799,
+    "benchmarkPrice": 137.7249,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-03",
+    "nav": 45452.1038,
+    "price": 45422.1583,
+    "benchmarkPrice": 137.8886,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-04",
+    "nav": 45509.6623,
+    "price": 45471.2531,
+    "benchmarkPrice": 138.0709,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-05",
+    "nav": 45573.0585,
+    "price": 45526.9418,
+    "benchmarkPrice": 138.2709,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-08",
+    "nav": 45793.6358,
+    "price": 45730.4153,
+    "benchmarkPrice": 138.9617,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-09",
+    "nav": 45875.539,
+    "price": 45809.0195,
+    "benchmarkPrice": 139.217,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-10",
+    "nav": 45960.667,
+    "price": 45892.1899,
+    "benchmarkPrice": 139.4819,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-11",
+    "nav": 46048.3985,
+    "price": 45979.3507,
+    "benchmarkPrice": 139.7545,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-12",
+    "nav": 46138.0906,
+    "price": 46069.877,
+    "benchmarkPrice": 140.0327,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-15",
+    "nav": 46412.2927,
+    "price": 46354.7644,
+    "benchmarkPrice": 140.8817,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-16",
+    "nav": 46503.1577,
+    "price": 46451.6969,
+    "benchmarkPrice": 141.1625,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-17",
+    "nav": 46592.6364,
+    "price": 46548.3191,
+    "benchmarkPrice": 141.4389,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-18",
+    "nav": 46680.0716,
+    "price": 46643.8318,
+    "benchmarkPrice": 141.7087,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-19",
+    "nav": 46764.8229,
+    "price": 46737.4324,
+    "benchmarkPrice": 141.9702,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-22",
+    "nav": 46996.9332,
+    "price": 46998.8665,
+    "benchmarkPrice": 142.6855,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-23",
+    "nav": 47065.0641,
+    "price": 47077.0278,
+    "benchmarkPrice": 142.8952,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-24",
+    "nav": 47127.7404,
+    "price": 47149.5169,
+    "benchmarkPrice": 143.0881,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-25",
+    "nav": 47184.5262,
+    "price": 47215.6934,
+    "benchmarkPrice": 143.2628,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-26",
+    "nav": 47235.0343,
+    "price": 47274.9737,
+    "benchmarkPrice": 143.4181,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-29",
+    "nav": 47345.8139,
+    "price": 47406.604,
+    "benchmarkPrice": 143.7583,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-09-30",
+    "nav": 47368.4148,
+    "price": 47433.8444,
+    "benchmarkPrice": 143.8275,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-01",
+    "nav": 47383.628,
+    "price": 47452.3572,
+    "benchmarkPrice": 143.8739,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-02",
+    "nav": 47391.4097,
+    "price": 47462.0289,
+    "benchmarkPrice": 143.8975,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-03",
+    "nav": 47391.7775,
+    "price": 47462.8371,
+    "benchmarkPrice": 143.8981,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-06",
+    "nav": 47349.4858,
+    "price": 47413.2331,
+    "benchmarkPrice": 143.7664,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-07",
+    "nav": 47321.5845,
+    "price": 47380.1893,
+    "benchmarkPrice": 143.6799,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-08",
+    "nav": 47287.2546,
+    "price": 47339.5225,
+    "benchmarkPrice": 143.5735,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-09",
+    "nav": 47246.8616,
+    "price": 47291.7318,
+    "benchmarkPrice": 143.4484,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-10",
+    "nav": 47200.8206,
+    "price": 47237.3881,
+    "benchmarkPrice": 143.3059,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-13",
+    "nav": 47033.6407,
+    "price": 47041.6776,
+    "benchmarkPrice": 142.7881,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-14",
+    "nav": 46970.0355,
+    "price": 46968.0143,
+    "benchmarkPrice": 142.591,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-15",
+    "nav": 46903.4775,
+    "price": 46891.4672,
+    "benchmarkPrice": 142.3846,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-16",
+    "nav": 46834.5981,
+    "price": 46812.8726,
+    "benchmarkPrice": 142.1709,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-17",
+    "nav": 46764.048,
+    "price": 46733.0789,
+    "benchmarkPrice": 141.9518,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-20",
+    "nav": 46549.0535,
+    "price": 46494.9791,
+    "benchmarkPrice": 141.2828,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-21",
+    "nav": 46478.52,
+    "price": 46418.798,
+    "benchmarkPrice": 141.0627,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-22",
+    "nav": 46409.6653,
+    "price": 46345.5257,
+    "benchmarkPrice": 140.8475,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-23",
+    "nav": 46343.1398,
+    "price": 46275.8974,
+    "benchmarkPrice": 140.6392,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-24",
+    "nav": 46279.5749,
+    "price": 46210.6024,
+    "benchmarkPrice": 140.4395,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-27",
+    "nav": 46112.5578,
+    "price": 46046.7931,
+    "benchmarkPrice": 139.9112,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-28",
+    "nav": 46066.5837,
+    "price": 46004.6022,
+    "benchmarkPrice": 139.7642,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-29",
+    "nav": 46026.2629,
+    "price": 45969.3116,
+    "benchmarkPrice": 139.6341,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-30",
+    "nav": 45992.0101,
+    "price": 45941.2329,
+    "benchmarkPrice": 139.5222,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-10-31",
+    "nav": 45964.19,
+    "price": 45920.6053,
+    "benchmarkPrice": 139.4297,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-03",
+    "nav": 45922.1603,
+    "price": 45904.7343,
+    "benchmarkPrice": 139.2768,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-04",
+    "nav": 45922.619,
+    "price": 45914.8585,
+    "benchmarkPrice": 139.2695,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-05",
+    "nav": 45930.4923,
+    "price": 45932.5559,
+    "benchmarkPrice": 139.2845,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-06",
+    "nav": 45945.7969,
+    "price": 45957.6478,
+    "benchmarkPrice": 139.3219,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-07",
+    "nav": 45968.4882,
+    "price": 45989.8949,
+    "benchmarkPrice": 139.3816,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-10",
+    "nav": 46079.5264,
+    "price": 46126.3488,
+    "benchmarkPrice": 139.6903,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-11",
+    "nav": 46130.1139,
+    "price": 46183.757,
+    "benchmarkPrice": 139.8342,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-12",
+    "nav": 46186.9747,
+    "price": 46246.3673,
+    "benchmarkPrice": 139.997,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-13",
+    "nav": 46249.721,
+    "price": 46313.6736,
+    "benchmarkPrice": 140.1776,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-14",
+    "nav": 46317.9162,
+    "price": 46385.1442,
+    "benchmarkPrice": 140.3746,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-17",
+    "nav": 46550.1802,
+    "price": 46618.9578,
+    "benchmarkPrice": 141.0493,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-18",
+    "nav": 46634.9684,
+    "price": 46701.4507,
+    "benchmarkPrice": 141.2965,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-19",
+    "nav": 46722.4328,
+    "price": 46785.2575,
+    "benchmarkPrice": 141.5518,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-20",
+    "nav": 46811.9326,
+    "price": 46869.8058,
+    "benchmarkPrice": 141.8133,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-21",
+    "nav": 46902.8105,
+    "price": 46954.533,
+    "benchmarkPrice": 142.0789,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-24",
+    "nav": 47177.0016,
+    "price": 47204.3862,
+    "benchmarkPrice": 142.8807,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-25",
+    "nav": 47266.6735,
+    "price": 47284.5229,
+    "benchmarkPrice": 143.1428,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-26",
+    "nav": 47354.3768,
+    "price": 47362.29,
+    "benchmarkPrice": 143.3991,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-27",
+    "nav": 47439.4688,
+    "price": 47437.2475,
+    "benchmarkPrice": 143.6475,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-11-28",
+    "nav": 47521.3286,
+    "price": 47508.9825,
+    "benchmarkPrice": 143.8863,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-01",
+    "nav": 47741.7342,
+    "price": 47701.1423,
+    "benchmarkPrice": 144.527,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-02",
+    "nav": 47805.0611,
+    "price": 47756.4187,
+    "benchmarkPrice": 144.7101,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-03",
+    "nav": 47862.5452,
+    "price": 47806.8302,
+    "benchmarkPrice": 144.8758,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-04",
+    "nav": 47913.7935,
+    "price": 47852.1337,
+    "benchmarkPrice": 145.0227,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-05",
+    "nav": 47958.4646,
+    "price": 47892.1141,
+    "benchmarkPrice": 145.1499,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-08",
+    "nav": 48050.4283,
+    "price": 47978.3892,
+    "benchmarkPrice": 145.4055,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-09",
+    "nav": 48066.4947,
+    "price": 47995.4926,
+    "benchmarkPrice": 145.447,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-10",
+    "nav": 48075.1316,
+    "price": 48006.6248,
+    "benchmarkPrice": 145.4662,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-11",
+    "nav": 48076.3494,
+    "price": 48011.7447,
+    "benchmarkPrice": 145.4633,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-12",
+    "nav": 48070.2198,
+    "price": 48010.8427,
+    "benchmarkPrice": 145.4384,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-15",
+    "nav": 48009.3667,
+    "price": 47972.407,
+    "benchmarkPrice": 145.2369,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-16",
+    "nav": 47975.7588,
+    "price": 47947.9945,
+    "benchmarkPrice": 145.1301,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-17",
+    "nav": 47936.043,
+    "price": 47918.0288,
+    "benchmarkPrice": 145.005,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-18",
+    "nav": 47890.6291,
+    "price": 47882.7165,
+    "benchmarkPrice": 144.863,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-19",
+    "nav": 47839.9739,
+    "price": 47842.3047,
+    "benchmarkPrice": 144.7055,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-22",
+    "nav": 47661.7534,
+    "price": 47693.5601,
+    "benchmarkPrice": 144.1555,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-23",
+    "nav": 47595.5034,
+    "price": 47636.0454,
+    "benchmarkPrice": 143.9522,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-24",
+    "nav": 47526.8583,
+    "price": 47575.2838,
+    "benchmarkPrice": 143.7419,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-25",
+    "nav": 47456.4668,
+    "price": 47511.7657,
+    "benchmarkPrice": 143.5267,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-26",
+    "nav": 47384.992,
+    "price": 47446.0174,
+    "benchmarkPrice": 143.3086,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-29",
+    "nav": 47170.7999,
+    "price": 47241.1305,
+    "benchmarkPrice": 142.6569,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-30",
+    "nav": 47101.7187,
+    "price": 47172.3325,
+    "benchmarkPrice": 142.4473,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "jp-1321",
+    "date": "2025-12-31",
+    "nav": 47034.8928,
+    "price": 47104.3555,
+    "benchmarkPrice": 142.2449,
+    "currency": "JPY",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  }
+]
