@@ -1,0 +1,2018 @@
+[
+  {
+    "fundId": "us-spy",
+    "date": "2025-07-29",
+    "nav": 663.8267,
+    "price": 662.8313,
+    "benchmarkPrice": 150.6885,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-07-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-07-30",
+    "nav": 664.3482,
+    "price": 663.3656,
+    "benchmarkPrice": 150.8153,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-07-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-07-31",
+    "nav": 664.8107,
+    "price": 663.861,
+    "benchmarkPrice": 150.929,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-07-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-01",
+    "nav": 665.2116,
+    "price": 664.3144,
+    "benchmarkPrice": 151.0288,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-04",
+    "nav": 666.0285,
+    "price": 665.393,
+    "benchmarkPrice": 151.2419,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-05",
+    "nav": 666.1692,
+    "price": 665.6499,
+    "benchmarkPrice": 151.2834,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-06",
+    "nav": 666.2442,
+    "price": 665.8516,
+    "benchmarkPrice": 151.3101,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-07",
+    "nav": 666.254,
+    "price": 665.9963,
+    "benchmarkPrice": 151.3221,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-08",
+    "nav": 666.2,
+    "price": 666.0824,
+    "benchmarkPrice": 151.3198,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-11",
+    "nav": 665.6763,
+    "price": 665.9815,
+    "benchmarkPrice": 151.2312,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-12",
+    "nav": 665.3904,
+    "price": 665.8277,
+    "benchmarkPrice": 151.1765,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-13",
+    "nav": 665.0549,
+    "price": 665.6151,
+    "benchmarkPrice": 151.1106,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-14",
+    "nav": 664.6737,
+    "price": 665.3454,
+    "benchmarkPrice": 151.0343,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-15",
+    "nav": 664.2515,
+    "price": 665.0207,
+    "benchmarkPrice": 150.9488,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-18",
+    "nav": 662.7885,
+    "price": 663.7492,
+    "benchmarkPrice": 150.6475,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-19",
+    "nav": 662.2534,
+    "price": 663.2399,
+    "benchmarkPrice": 150.5362,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-20",
+    "nav": 661.7041,
+    "price": 662.6964,
+    "benchmarkPrice": 150.4217,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-21",
+    "nav": 661.1466,
+    "price": 662.1243,
+    "benchmarkPrice": 150.3052,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-22",
+    "nav": 660.5869,
+    "price": 661.5301,
+    "benchmarkPrice": 150.1882,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-25",
+    "nav": 658.9537,
+    "price": 659.6838,
+    "benchmarkPrice": 149.847,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-26",
+    "nav": 658.4443,
+    "price": 659.0716,
+    "benchmarkPrice": 149.741,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-27",
+    "nav": 657.9619,
+    "price": 658.4737,
+    "benchmarkPrice": 149.641,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-28",
+    "nav": 657.5117,
+    "price": 657.898,
+    "benchmarkPrice": 149.5482,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-08-29",
+    "nav": 657.099,
+    "price": 657.352,
+    "benchmarkPrice": 149.4638,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-08-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-01",
+    "nav": 656.1314,
+    "price": 655.9659,
+    "benchmarkPrice": 149.2711,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-02",
+    "nav": 655.9126,
+    "price": 655.6107,
+    "benchmarkPrice": 149.2301,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-03",
+    "nav": 655.7513,
+    "price": 655.3192,
+    "benchmarkPrice": 149.202,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-04",
+    "nav": 655.6502,
+    "price": 655.0968,
+    "benchmarkPrice": 149.1874,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-05",
+    "nav": 655.6115,
+    "price": 654.9481,
+    "benchmarkPrice": 149.1868,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-08",
+    "nav": 655.8847,
+    "price": 654.9792,
+    "benchmarkPrice": 149.2722,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-09",
+    "nav": 656.1075,
+    "price": 655.1561,
+    "benchmarkPrice": 149.3301,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-10",
+    "nav": 656.3959,
+    "price": 655.4179,
+    "benchmarkPrice": 149.4028,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-11",
+    "nav": 656.7489,
+    "price": 655.7641,
+    "benchmarkPrice": 149.4899,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-12",
+    "nav": 657.1649,
+    "price": 656.1933,
+    "benchmarkPrice": 149.5911,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-15",
+    "nav": 658.7682,
+    "price": 657.9517,
+    "benchmarkPrice": 149.9738,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-16",
+    "nav": 659.4109,
+    "price": 658.6812,
+    "benchmarkPrice": 150.1254,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-17",
+    "nav": 660.1016,
+    "price": 659.4737,
+    "benchmarkPrice": 150.2877,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-18",
+    "nav": 660.8359,
+    "price": 660.3229,
+    "benchmarkPrice": 150.4596,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-19",
+    "nav": 661.6092,
+    "price": 661.2217,
+    "benchmarkPrice": 150.6401,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-22",
+    "nav": 664.1114,
+    "price": 664.1387,
+    "benchmarkPrice": 151.2211,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-23",
+    "nav": 664.9878,
+    "price": 665.1569,
+    "benchmarkPrice": 151.4238,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-24",
+    "nav": 665.8759,
+    "price": 666.1835,
+    "benchmarkPrice": 151.6287,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-25",
+    "nav": 666.7695,
+    "price": 667.2099,
+    "benchmarkPrice": 151.8346,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-26",
+    "nav": 667.6628,
+    "price": 668.2273,
+    "benchmarkPrice": 152.0401,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-29",
+    "nav": 670.2806,
+    "price": 671.1412,
+    "benchmarkPrice": 152.6403,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-09-30",
+    "nav": 671.1132,
+    "price": 672.0402,
+    "benchmarkPrice": 152.8305,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-09-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-01",
+    "nav": 671.9164,
+    "price": 672.891,
+    "benchmarkPrice": 153.0137,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-02",
+    "nav": 672.685,
+    "price": 673.6874,
+    "benchmarkPrice": 153.1886,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-03",
+    "nav": 673.414,
+    "price": 674.4237,
+    "benchmarkPrice": 153.3542,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-06",
+    "nav": 675.3191,
+    "price": 676.2283,
+    "benchmarkPrice": 153.7844,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-07",
+    "nav": 675.8472,
+    "price": 676.6842,
+    "benchmarkPrice": 153.9028,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-08",
+    "nav": 676.3166,
+    "price": 677.0642,
+    "benchmarkPrice": 154.0074,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-09",
+    "nav": 676.7247,
+    "price": 677.3674,
+    "benchmarkPrice": 154.0977,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-10",
+    "nav": 677.0695,
+    "price": 677.5941,
+    "benchmarkPrice": 154.1732,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-13",
+    "nav": 677.7124,
+    "price": 677.8282,
+    "benchmarkPrice": 154.3086,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-14",
+    "nav": 677.7949,
+    "price": 677.7657,
+    "benchmarkPrice": 154.323,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-15",
+    "nav": 677.8122,
+    "price": 677.6386,
+    "benchmarkPrice": 154.3222,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-16",
+    "nav": 677.7655,
+    "price": 677.4511,
+    "benchmarkPrice": 154.3066,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-17",
+    "nav": 677.6566,
+    "price": 677.2078,
+    "benchmarkPrice": 154.2765,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-20",
+    "nav": 676.982,
+    "price": 676.1955,
+    "benchmarkPrice": 154.105,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-21",
+    "nav": 676.6519,
+    "price": 675.7825,
+    "benchmarkPrice": 154.0234,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-22",
+    "nav": 676.2758,
+    "price": 675.3411,
+    "benchmarkPrice": 153.9309,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-23",
+    "nav": 675.858,
+    "price": 674.8774,
+    "benchmarkPrice": 153.8287,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-24",
+    "nav": 675.4035,
+    "price": 674.3969,
+    "benchmarkPrice": 153.7179,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-27",
+    "nav": 673.8718,
+    "price": 672.9107,
+    "benchmarkPrice": 153.3458,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-28",
+    "nav": 673.3239,
+    "price": 672.418,
+    "benchmarkPrice": 153.2128,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-29",
+    "nav": 672.767,
+    "price": 671.9346,
+    "benchmarkPrice": 153.0776,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-30",
+    "nav": 672.2072,
+    "price": 671.4651,
+    "benchmarkPrice": 152.9415,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-10-31",
+    "nav": 671.6504,
+    "price": 671.0136,
+    "benchmarkPrice": 152.8059,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-10-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-03",
+    "nav": 670.0577,
+    "price": 669.8034,
+    "benchmarkPrice": 152.4158,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-04",
+    "nav": 669.5719,
+    "price": 669.4587,
+    "benchmarkPrice": 152.2957,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-05",
+    "nav": 669.1178,
+    "price": 669.1478,
+    "benchmarkPrice": 152.1827,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-06",
+    "nav": 668.7005,
+    "price": 668.873,
+    "benchmarkPrice": 152.078,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-06T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-07",
+    "nav": 668.3249,
+    "price": 668.6361,
+    "benchmarkPrice": 151.9826,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-07T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-10",
+    "nav": 667.4909,
+    "price": 668.1692,
+    "benchmarkPrice": 151.7626,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-11",
+    "nav": 667.3228,
+    "price": 668.0989,
+    "benchmarkPrice": 151.7141,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-12",
+    "nav": 667.2147,
+    "price": 668.0727,
+    "benchmarkPrice": 151.6792,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-13",
+    "nav": 667.1688,
+    "price": 668.0913,
+    "benchmarkPrice": 151.6584,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-13T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-14",
+    "nav": 667.1868,
+    "price": 668.1552,
+    "benchmarkPrice": 151.652,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-14T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-17",
+    "nav": 667.6346,
+    "price": 668.621,
+    "benchmarkPrice": 151.7224,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-18",
+    "nav": 667.9155,
+    "price": 668.8676,
+    "benchmarkPrice": 151.7758,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-19",
+    "nav": 668.2611,
+    "price": 669.1596,
+    "benchmarkPrice": 151.8439,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-20",
+    "nav": 668.6699,
+    "price": 669.4966,
+    "benchmarkPrice": 151.9264,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-20T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-21",
+    "nav": 669.1401,
+    "price": 669.878,
+    "benchmarkPrice": 152.0229,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-21T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-24",
+    "nav": 670.8905,
+    "price": 671.2799,
+    "benchmarkPrice": 152.3899,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-25",
+    "nav": 671.5759,
+    "price": 671.8295,
+    "benchmarkPrice": 152.5355,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-26",
+    "nav": 672.3054,
+    "price": 672.4178,
+    "benchmarkPrice": 152.6913,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-27",
+    "nav": 673.0745,
+    "price": 673.0429,
+    "benchmarkPrice": 152.8561,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-27T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-11-28",
+    "nav": 673.878,
+    "price": 673.703,
+    "benchmarkPrice": 153.0289,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-11-28T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-01",
+    "nav": 676.4423,
+    "price": 675.8672,
+    "benchmarkPrice": 153.5829,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-01T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-02",
+    "nav": 677.3293,
+    "price": 676.6401,
+    "benchmarkPrice": 153.7752,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-02T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-03",
+    "nav": 678.2226,
+    "price": 677.4332,
+    "benchmarkPrice": 153.9691,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-03T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-04",
+    "nav": 679.1163,
+    "price": 678.2423,
+    "benchmarkPrice": 154.1632,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-04T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-05",
+    "nav": 680.0042,
+    "price": 679.0634,
+    "benchmarkPrice": 154.3563,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-05T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-08",
+    "nav": 682.5748,
+    "price": 681.5515,
+    "benchmarkPrice": 154.9156,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-08T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-09",
+    "nav": 683.3817,
+    "price": 682.3722,
+    "benchmarkPrice": 155.0911,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-09T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-10",
+    "nav": 684.1545,
+    "price": 683.1796,
+    "benchmarkPrice": 155.2591,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-10T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-11",
+    "nav": 684.8883,
+    "price": 683.968,
+    "benchmarkPrice": 155.4186,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-11T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-12",
+    "nav": 685.5784,
+    "price": 684.7316,
+    "benchmarkPrice": 155.5684,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-12T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-15",
+    "nav": 687.3455,
+    "price": 686.8163,
+    "benchmarkPrice": 155.9507,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-15T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-16",
+    "nav": 687.8217,
+    "price": 687.4237,
+    "benchmarkPrice": 156.0532,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-16T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-17",
+    "nav": 688.237,
+    "price": 687.9784,
+    "benchmarkPrice": 156.1421,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-17T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-18",
+    "nav": 688.5892,
+    "price": 688.4754,
+    "benchmarkPrice": 156.2171,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-18T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-19",
+    "nav": 688.8768,
+    "price": 688.9103,
+    "benchmarkPrice": 156.2777,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-19T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-22",
+    "nav": 689.3448,
+    "price": 689.8048,
+    "benchmarkPrice": 156.372,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-22T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-23",
+    "nav": 689.3695,
+    "price": 689.9567,
+    "benchmarkPrice": 156.3744,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-23T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-24",
+    "nav": 689.3301,
+    "price": 690.0325,
+    "benchmarkPrice": 156.3626,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-24T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-25",
+    "nav": 689.2282,
+    "price": 690.0314,
+    "benchmarkPrice": 156.337,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-25T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-26",
+    "nav": 689.0662,
+    "price": 689.9536,
+    "benchmarkPrice": 156.298,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-26T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-29",
+    "nav": 688.2483,
+    "price": 689.2745,
+    "benchmarkPrice": 156.1083,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-29T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-30",
+    "nav": 687.8773,
+    "price": 688.9085,
+    "benchmarkPrice": 156.0234,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-30T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  },
+  {
+    "fundId": "us-spy",
+    "date": "2025-12-31",
+    "nav": 687.4641,
+    "price": 688.4793,
+    "benchmarkPrice": 155.9294,
+    "currency": "USD",
+    "quality": {
+      "status": "complete",
+      "source": "deterministic-mock-v1",
+      "isSimulated": true,
+      "collectedAt": "2025-12-31T13:00:00+08:00",
+      "warnings": [
+        "Deterministic simulated data; not a live market quote."
+      ],
+      "missingFields": []
+    }
+  }
+]

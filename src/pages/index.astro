@@ -1,0 +1,344 @@
+---
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import ExposureBars from "../components/ExposureBars.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteIndexSchema } from "../lib/domain";
+
+const indexPath = path.join(process.cwd(), "public", "data", "index.json");
+const index = siteIndexSchema.parse(JSON.parse(await readFile(indexPath, "utf8")));
+const series = Object.fromEntries(
+  await Promise.all(
+    index.summaries.map(async ({ fund }) => [
+      fund.id,
+      JSON.parse(
+        await readFile(
+          path.join(process.cwd(), "public", "data", "series", `${fund.id}.json`),
+          "utf8"
+        )
+      ) as Array<{
+        date: string;
+        nav: number | null;
+        price: number | null;
+        benchmarkPrice: number | null;
+      }>
+    ])
+  )
+);
+const initial = index.summaries[0];
+const markets = [...new Set(index.summaries.map(({ fund }) => fund.market))];
+
+const percent = (value: number | null | undefined) =>
+  value === null || value === undefined ? "—" : `${value >= 0 ? "+" : ""}${(value * 100).toFixed(2)}%`;
+const number = (value: number | null | undefined, currency?: string) =>
+  value === null || value === undefined
+    ? "—"
+    : new Intl.NumberFormat("zh-CN", {
+        maximumFractionDigits: 2,
+        ...(currency ? { style: "currency", currency } : {})
+      }).format(value);
+---
+
+<BaseLayout
+  title="Fund Overwatch | 全球基金跟踪"
+  description="多市场基金跟踪、风险分析和持仓暴露仪表板"
+>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href={import.meta.env.BASE_URL}>
+      <span class="brand-mark">FO</span>
+      <span><strong>Fund Overwatch</strong><small>GLOBAL FUND INTELLIGENCE</small></span>
+    </a>
+    <div class="header-badges">
+      <span class="badge warning">模拟数据</span>
+      <span class:list={["badge", index.dataStatus === "complete" ? "success" : "warning"]}>
+        <span class="status-dot"></span>{index.dataStatus === "complete" ? "数据完整" : "部分数据"}
+      </span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">MULTI-MARKET OVERVIEW</p>
+        <h1>看清基金的<br /><span>收益与风险。</span></h1>
+        <p class="hero-copy">统一跟踪多市场基金净值、基准表现与持仓暴露，数据边界和质量状态清晰可见。</p>
+      </div>
+      <div class="update-card">
+        <span>最近更新时间</span>
+        <strong>{new Date(index.generatedAt).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" })}</strong>
+        <small>北京时间 · {index.mode === "final" ? "最终数据" : "盘中数据"}</small>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="基金筛选">
+      <label>
+        <span>市场</span>
+        <select id="market-filter">
+          <option value="all">全部市场</option>
+          {markets.map((market) => <option value={market}>{market}</option>)}
+        </select>
+      </label>
+      <label class="fund-select">
+        <span>基金</span>
+        <select id="fund-filter">
+          {
+            index.summaries.map(({ fund }) => (
+              <option value={fund.id} data-market={fund.market}>
+                {fund.symbol} · {fund.name}
+              </option>
+            ))
+          }
+        </select>
+      </label>
+      <div class="universe-stat">
+        <strong>{index.summaries.length}</strong>
+        <span>只基金 · {markets.length} 个市场</span>
+      </div>
+    </section>
+
+    {
+      initial ? (
+        <div id="dashboard">
+          <section class="fund-heading">
+            <div>
+              <div class="fund-title-line">
+                <span id="fund-symbol">{initial.fund.symbol}</span>
+                <h2 id="fund-name">{initial.fund.name}</h2>
+              </div>
+              <p id="fund-meta">
+                {initial.fund.exchange} · {initial.fund.assetClass} · 对标 {initial.fund.benchmark}
+              </p>
+            </div>
+            <div class="price-block">
+              <small>最新价格 / 净值</small>
+              <strong id="fund-price">
+                {number(
+                  initial.latestQuote?.price ?? initial.latestQuote?.nav,
+                  initial.fund.currency
+                )}
+              </strong>
+              <span id="fund-day-return" class:list={{ positive: (initial.analytics?.returns.day ?? 0) >= 0 }}>
+                {percent(initial.analytics?.returns.day)}
+              </span>
+            </div>
+          </section>
+
+          <section class="metric-grid">
+            {[
+              ["近一周", "week"],
+              ["近一月", "month"],
+              ["近一年", "year"],
+              ["年化波动率", "volatility"],
+              ["最大回撤", "drawdown"],
+              ["超额收益", "excess"]
+            ].map(([label, key]) => (
+              <article class="metric-card">
+                <span>{label}</span>
+                <strong data-metric={key}>
+                  {key === "volatility"
+                    ? percent(initial.analytics?.annualizedVolatility)
+                    : key === "drawdown"
+                      ? percent(initial.analytics?.maxDrawdown)
+                      : key === "excess"
+                        ? percent(initial.analytics?.excessReturn)
+                        : percent(
+                            initial.analytics?.returns[
+                              key as "week" | "month" | "year"
+                            ]
+                          )}
+                </strong>
+              </article>
+            ))}
+          </section>
+
+          <section class="chart-card">
+            <div class="card-heading">
+              <div><p class="eyebrow">PERFORMANCE</p><h3>价格与净值走势</h3></div>
+              <div class="legend"><span class="fund-line">基金价格</span><span class="benchmark-line">基准（归一化）</span></div>
+            </div>
+            <div class="chart-wrap"><canvas id="performance-chart"></canvas></div>
+          </section>
+
+          <section class="detail-grid">
+            <article class="chart-card compact">
+              <div class="card-heading"><div><p class="eyebrow">SIGNALS</p><h3>移动均线</h3></div></div>
+              <dl class="signal-list">
+                <div><dt>20 日均线</dt><dd data-metric="ma20">{number(initial.analytics?.movingAverages.day20)}</dd></div>
+                <div><dt>60 日均线</dt><dd data-metric="ma60">{number(initial.analytics?.movingAverages.day60)}</dd></div>
+                <div><dt>基准年收益</dt><dd data-metric="benchmark">{percent(initial.analytics?.benchmarkReturn)}</dd></div>
+                <div><dt>有效观测数</dt><dd data-metric="observations">{initial.analytics?.observations ?? 0}</dd></div>
+              </dl>
+            </article>
+            <article class="chart-card compact">
+              <div class="card-heading"><div><p class="eyebrow">TOP HOLDINGS</p><h3>主要持仓</h3></div></div>
+              <div id="holdings-list" class="holdings-list">
+                {initial.holdings?.holdings.map((holding, position) => (
+                  <div><span class="rank">{String(position + 1).padStart(2, "0")}</span><span><strong>{holding.name}</strong><small>{holding.symbol} · {holding.sector}</small></span><b>{(holding.weight * 100).toFixed(1)}%</b></div>
+                ))}
+              </div>
+            </article>
+          </section>
+
+          <section class="exposure-grid" id="exposure-grid">
+            <ExposureBars title="行业暴露" items={initial.holdings?.sectors ?? []} />
+            <ExposureBars title="国家 / 地域暴露" items={initial.holdings?.countries ?? []} />
+          </section>
+        </div>
+      ) : (
+        <section class="empty-state page-empty">
+          <h2>暂无基金数据</h2>
+          <p>请先运行数据生成任务，再重新构建站点。</p>
+        </section>
+      )
+    }
+
+    <aside class="notice">
+      <strong>数据说明</strong>
+      <p>当前全部行情和持仓均为确定性模拟数据，仅用于验证产品与数据流程。工作日判断暂采用周一至周五规则，尚未接入各市场真实交易日历。</p>
+    </aside>
+  </main>
+
+  <footer>
+    <span>Fund Overwatch · Data clarity over noise.</span>
+    <strong>非投资建议</strong>
+    <span>投资有风险，决策需谨慎。</span>
+  </footer>
+
+  <script id="dashboard-data" type="application/json" set:html={JSON.stringify({ index, series })}></script>
+  <script>
+    import Chart from "chart.js/auto";
+    import type { SiteIndex } from "../lib/domain";
+
+    type DashboardData = {
+      index: SiteIndex;
+      series: Record<string, Array<{ date: string; price: number | null; nav: number | null; benchmarkPrice: number | null }>>;
+    };
+    const source = document.querySelector<HTMLScriptElement>("#dashboard-data");
+    const data = source ? (JSON.parse(source.textContent ?? "{}") as DashboardData) : null;
+    const canvas = document.querySelector<HTMLCanvasElement>("#performance-chart");
+    const marketSelect = document.querySelector<HTMLSelectElement>("#market-filter");
+    const fundSelect = document.querySelector<HTMLSelectElement>("#fund-filter");
+    let chart: Chart | null = null;
+
+    const formatPercent = (value: number | null | undefined) =>
+      value == null ? "—" : `${value >= 0 ? "+" : ""}${(value * 100).toFixed(2)}%`;
+    const formatNumber = (value: number | null | undefined, currency?: string) =>
+      value == null
+        ? "—"
+        : new Intl.NumberFormat("zh-CN", {
+            maximumFractionDigits: 2,
+            ...(currency ? { style: "currency", currency } : {})
+          }).format(value);
+
+    function setText(selector: string, value: string) {
+      const element = document.querySelector(selector);
+      if (element) element.textContent = value;
+    }
+
+    function renderExposure(title: string, items: Array<{ name: string; weight: number }>) {
+      const rows = items.length
+        ? items.slice(0, 6).map((item) => `<div class="exposure-row"><div class="exposure-label"><span>${item.name}</span><strong>${(item.weight * 100).toFixed(1)}%</strong></div><div class="bar-track"><span style="width:${Math.min(item.weight * 100, 100)}%"></span></div></div>`).join("")
+        : `<p class="empty-state">暂无暴露数据</p>`;
+      return `<section class="exposure-card"><h3>${title}</h3><div class="exposure-list">${rows}</div></section>`;
+    }
+
+    function renderFund(fundId: string) {
+      if (!data) return;
+      const summary = data.index.summaries.find(({ fund }) => fund.id === fundId);
+      if (!summary) return;
+      const { fund, analytics, latestQuote, holdings } = summary;
+      setText("#fund-symbol", fund.symbol);
+      setText("#fund-name", fund.name);
+      setText("#fund-meta", `${fund.exchange} · ${fund.assetClass} · 对标 ${fund.benchmark}`);
+      setText("#fund-price", formatNumber(latestQuote?.price ?? latestQuote?.nav, fund.currency));
+      setText("#fund-day-return", formatPercent(analytics?.returns.day));
+      const values: Record<string, string> = {
+        week: formatPercent(analytics?.returns.week),
+        month: formatPercent(analytics?.returns.month),
+        year: formatPercent(analytics?.returns.year),
+        volatility: formatPercent(analytics?.annualizedVolatility),
+        drawdown: formatPercent(analytics?.maxDrawdown),
+        excess: formatPercent(analytics?.excessReturn),
+        ma20: formatNumber(analytics?.movingAverages.day20),
+        ma60: formatNumber(analytics?.movingAverages.day60),
+        benchmark: formatPercent(analytics?.benchmarkReturn),
+        observations: String(analytics?.observations ?? 0)
+      };
+      Object.entries(values).forEach(([key, value]) => setText(`[data-metric="${key}"]`, value));
+
+      const holdingsList = document.querySelector("#holdings-list");
+      if (holdingsList) {
+        holdingsList.innerHTML = holdings?.holdings.length
+          ? holdings.holdings.map((holding, index) => `<div><span class="rank">${String(index + 1).padStart(2, "0")}</span><span><strong>${holding.name}</strong><small>${holding.symbol} · ${holding.sector}</small></span><b>${(holding.weight * 100).toFixed(1)}%</b></div>`).join("")
+          : `<p class="empty-state">暂无持仓数据</p>`;
+      }
+      const exposureGrid = document.querySelector("#exposure-grid");
+      if (exposureGrid) {
+        exposureGrid.innerHTML = renderExposure("行业暴露", holdings?.sectors ?? []) + renderExposure("国家 / 地域暴露", holdings?.countries ?? []);
+      }
+      renderChart(fundId);
+    }
+
+    function renderChart(fundId: string) {
+      if (!data || !canvas) return;
+      const points = data.series[fundId] ?? [];
+      const benchmarkBase = points.find((point) => point.benchmarkPrice)?.benchmarkPrice ?? 1;
+      const priceBase = points.find((point) => point.price ?? point.nav)?.price ?? points.find((point) => point.nav)?.nav ?? 1;
+      chart?.destroy();
+      chart = new Chart(canvas, {
+        type: "line",
+        data: {
+          labels: points.map((point) => point.date),
+          datasets: [
+            {
+              label: "基金价格",
+              data: points.map((point) => point.price ?? point.nav),
+              borderColor: "#65e6bb",
+              backgroundColor: "rgba(101, 230, 187, .12)",
+              fill: true,
+              pointRadius: 0,
+              borderWidth: 2,
+              tension: 0.25
+            },
+            {
+              label: "基准（基金价格归一化）",
+              data: points.map((point) => point.benchmarkPrice == null ? null : point.benchmarkPrice / benchmarkBase * priceBase),
+              borderColor: "#8aa4ff",
+              pointRadius: 0,
+              borderWidth: 1.5,
+              borderDash: [5, 5],
+              tension: 0.25
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { intersect: false, mode: "index" },
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: "#748d89", maxTicksLimit: 8 } },
+            y: { grid: { color: "rgba(255,255,255,.06)" }, ticks: { color: "#748d89" } }
+          }
+        }
+      });
+    }
+
+    marketSelect?.addEventListener("change", () => {
+      if (!data || !fundSelect) return;
+      const market = marketSelect.value;
+      for (const option of fundSelect.options) {
+        option.hidden = market !== "all" && option.dataset.market !== market;
+      }
+      const firstVisible = [...fundSelect.options].find((option) => !option.hidden);
+      if (firstVisible) {
+        fundSelect.value = firstVisible.value;
+        renderFund(firstVisible.value);
+      }
+    });
+    fundSelect?.addEventListener("change", () => renderFund(fundSelect.value));
+    if (fundSelect?.value) renderFund(fundSelect.value);
+  </script>
+</BaseLayout>
