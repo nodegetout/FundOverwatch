@@ -1,0 +1,185 @@
+{
+  "fundId": "cn-001595",
+  "date": "2026-06-30",
+  "previousDate": "2026-03-31",
+  "contentHash": "854e1242131fbcbd5747c427c2fb7223ec70a8c9aa5337b2f1d56a247697f473",
+  "holdings": [
+    {
+      "name": "招商银行",
+      "symbol": "600036",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600036",
+      "weight": 0.0039000000000000003,
+      "previousWeight": 0.0027,
+      "weightChange": 0.0012,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "兴业银行",
+      "symbol": "601166",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601166",
+      "weight": 0.0026,
+      "previousWeight": 0.0019,
+      "weightChange": 0.0007,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "工商银行",
+      "symbol": "601398",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601398",
+      "weight": 0.0021,
+      "previousWeight": 0.0015,
+      "weightChange": 0.0006,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "农业银行",
+      "symbol": "601288",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601288",
+      "weight": 0.0016,
+      "previousWeight": 0.0011,
+      "weightChange": 0.0005,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "交通银行",
+      "symbol": "601328",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601328",
+      "weight": 0.0016,
+      "previousWeight": 0.0011,
+      "weightChange": 0.0005,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "江苏银行",
+      "symbol": "600919",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600919",
+      "weight": 0.0015,
+      "previousWeight": 0.001,
+      "weightChange": 0.0005,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "25国债19",
+      "symbol": "019792",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0011,
+      "previousWeight": 0,
+      "weightChange": 0.0011,
+      "changeStatus": "new",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "浦发银行",
+      "symbol": "600000",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600000",
+      "weight": 0.0011,
+      "previousWeight": 0.0008,
+      "weightChange": 0.0003,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "平安银行",
+      "symbol": "000001",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.000001",
+      "weight": 0.0009,
+      "previousWeight": 0.0006,
+      "weightChange": 0.0003,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "宁波银行",
+      "symbol": "002142",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002142",
+      "weight": 0.0009,
+      "previousWeight": 0.0006,
+      "weightChange": 0.0003,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "上海银行",
+      "symbol": "601229",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601229",
+      "weight": 0.0008,
+      "previousWeight": 0.0006,
+      "weightChange": 0.0002,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "银行ETF天弘",
+      "symbol": "515290",
+      "assetType": "target-etf",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": null,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "银行",
+      "weight": 0.017
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}

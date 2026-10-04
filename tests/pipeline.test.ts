@@ -50,7 +50,7 @@ describe("pipeline calendar rules", () => {
   it("routes real CN funds and simulated markets to different providers", async () => {
     const funds = parseFunds(JSON.parse(await readFile("data/funds.json", "utf8")));
     expect(providerForFund(funds.find(({ id }) => id === "cn-025852")!).name).toBe(
-      "eastmoney-f10-nav-v1"
+      "eastmoney-fund-v2"
     );
     expect(providerForFund(funds.find(({ id }) => id === "us-spy")!).name).toBe(
       "deterministic-mock-v1"

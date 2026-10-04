@@ -8,6 +8,8 @@
 - `Quote`：日期、净值、价格、基准价格、币种及质量信息
 - `HoldingsSnapshot`：持仓、行业及国家/地域权重
 - `DataQuality`：完整度、来源、`real/simulated` 模式、采集时间、警告及缺失字段
+- `HoldingsSnapshot`：按报告期持久化的股票、债券、基金和目标 ETF，含与上一披露期的权重变化
+- `HoldingQuoteBatch`：每日采集的持仓标的行情状态、日涨跌幅与行情时间，不改变历史持仓快照
 - `FundAnalytics` 和前端 `SiteIndex`
 
 `FundDataProvider` 是唯一的数据采集边界。流水线按 `providerRef` 路由：
@@ -23,10 +25,18 @@
 
 - 元数据：`FundMNDetailInformation`，以返回的 `FCODE` 校验请求基金代码
 - 历史净值：`f10/lsjz`，`FSRQ` 为净值日期，`DWJZ` 为单位净值
+- 最新/历史持仓：`FundMNInverstPosition`，`Expansion` 为报告期末，股票、债券、基金分别来自 `fundStocks`、源字段 `fundboods`、`fundfofs`，ETF 联接目标来自 `ETFCODE/ETFSHORTNAME`
+- 标的行情：`push2/api/qt/stock/get`，使用持仓源直接给出的 `NEWTEXCH.GPDM` 作为 `secid`，`f86` 为行情时间，`f170/10000` 为比例形式的日涨跌幅
 
 每次保留最近最多 260 个源观测，足够页面的一年期窗口，同时控制仓库体积。请求使用明确 User-Agent、12 秒 timeout 和最多 2 次重试。空列表、错误码、Schema 异常、无效净值、分页缺失或代码不匹配都会失败，不生成 success-shaped fallback。
 
-公开源仅提供日终净值语义。即使 11:00 执行 `intraday` 任务，CN Quote 的 `valuation` 仍为 `final`，日期仍为最近公布的 `FSRQ`；落后于任务日期时质量为 `stale`。源未提供本项目可规范化的交易价格、基准序列和持仓快照，因此这些字段显式为空并列入 `missingFields`。
+公开源仅提供日终基金净值语义。即使 11:00 执行 `intraday` 任务，CN Quote 的 `valuation` 仍为 `final`，日期仍为最近公布的 `FSRQ`；落后于任务日期时质量为 `stale`。交易价格和基准序列仍为空。
+
+持仓不是每日披露。流水线每日校验最新报告期，只有 `Expansion` 或规范化内容 hash 变化才更新报告期快照；当前与上一报告期均按 `<fund-id>/<report-date>.json` 保存。权重为占净值比例，变化定义为当前权重减上一披露期权重，多资产比较键为 `assetType + code`。源未给可靠地域时保持 `null`，行业暴露只汇总股票的有效 `INDEXNAME`，不做代码推断。
+
+每日持仓标的行情与报告快照分开保存。只有源提供可靠 `NEWTEXCH` 的股票才请求行情；债券、场外基金及没有市场标识的目标 ETF 明确为 `unavailable`。单项行情失败允许降级并记录原因和质量状态，但不会复用旧值冒充最新。最新持仓本身为空、异常或请求失败会使整个运行在写盘前失败。
+
+定期报告有法定披露窗口：Q1/Q3 通常在季度结束后 15 个工作日内，半年报在上半年结束后 2 个月内，年报在年末后 3 个月内。页面必须同时展示报告日期和“非实时”说明；新基金成立不足两个月时可能没有上一报告期。
 
 该公开接口没有 SLA，字段、访问策略和更新时点可能变化；使用应保持低频并遵守来源站点适用条款。数据可能延迟或不完整，仅供信息展示，不构成投资建议。
 
@@ -41,6 +51,7 @@ data/
   history/<fund-id>/<year>.json
   history/<fund-id>/years.json
   holdings/<fund-id>/<date>.json
+  holding-quotes/<fund-id>/<collection-date>.json
   summaries/{weekly,monthly,yearly}/<fund-id>.json
 public/data/
   index.json

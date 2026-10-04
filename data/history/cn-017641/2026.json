@@ -9,7 +9,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -33,7 +33,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -57,7 +57,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -81,7 +81,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -105,7 +105,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -129,7 +129,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -153,7 +153,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -177,7 +177,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -201,7 +201,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -225,7 +225,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -249,7 +249,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -273,7 +273,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -297,7 +297,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -321,7 +321,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -345,7 +345,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -369,7 +369,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -393,7 +393,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -417,7 +417,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -441,7 +441,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -465,7 +465,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -489,7 +489,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -513,7 +513,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -537,7 +537,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -561,7 +561,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -585,7 +585,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -609,7 +609,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -633,7 +633,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -657,7 +657,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -681,7 +681,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -705,7 +705,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -729,7 +729,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -753,7 +753,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -777,7 +777,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -801,7 +801,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -825,7 +825,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -849,7 +849,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -873,7 +873,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -897,7 +897,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -921,7 +921,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -945,7 +945,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -969,7 +969,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -993,7 +993,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1017,7 +1017,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1041,7 +1041,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1065,7 +1065,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1089,7 +1089,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1113,7 +1113,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1137,7 +1137,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1161,7 +1161,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1185,7 +1185,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1209,7 +1209,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1233,7 +1233,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1257,7 +1257,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1281,7 +1281,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1305,7 +1305,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1329,7 +1329,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1353,7 +1353,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1377,7 +1377,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1401,7 +1401,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1425,7 +1425,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1449,7 +1449,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1473,7 +1473,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1497,7 +1497,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1521,7 +1521,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1545,7 +1545,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1569,7 +1569,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1593,7 +1593,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1617,7 +1617,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1641,7 +1641,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1665,7 +1665,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1689,7 +1689,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1713,7 +1713,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1737,7 +1737,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1761,7 +1761,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1785,7 +1785,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1809,7 +1809,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1833,7 +1833,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1857,7 +1857,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1881,7 +1881,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1905,7 +1905,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1929,7 +1929,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1953,7 +1953,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -1977,7 +1977,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2001,7 +2001,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2025,7 +2025,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2049,7 +2049,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2073,7 +2073,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2097,7 +2097,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2121,7 +2121,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2145,7 +2145,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2169,7 +2169,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2193,7 +2193,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2217,7 +2217,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2241,7 +2241,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2265,7 +2265,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2289,7 +2289,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2313,7 +2313,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2337,7 +2337,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2361,7 +2361,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2385,7 +2385,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2409,7 +2409,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2433,7 +2433,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2457,7 +2457,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2481,7 +2481,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2505,7 +2505,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2529,7 +2529,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2553,7 +2553,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2577,7 +2577,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2601,7 +2601,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2625,7 +2625,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2649,7 +2649,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2673,7 +2673,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2697,7 +2697,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2721,7 +2721,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2745,7 +2745,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2769,7 +2769,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2793,7 +2793,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2817,7 +2817,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2841,7 +2841,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2865,7 +2865,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2889,7 +2889,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2913,7 +2913,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2937,7 +2937,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2961,7 +2961,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -2985,7 +2985,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3009,7 +3009,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3033,7 +3033,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3057,7 +3057,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3081,7 +3081,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3105,7 +3105,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3129,7 +3129,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3153,7 +3153,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3177,7 +3177,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3201,7 +3201,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3225,7 +3225,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3249,7 +3249,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3273,7 +3273,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3297,7 +3297,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3321,7 +3321,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3345,7 +3345,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3369,7 +3369,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3393,7 +3393,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3417,7 +3417,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3441,7 +3441,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3465,7 +3465,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3489,7 +3489,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3513,7 +3513,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3537,7 +3537,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3561,7 +3561,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3585,7 +3585,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3609,7 +3609,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3633,7 +3633,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3657,7 +3657,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3681,7 +3681,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3705,7 +3705,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3729,7 +3729,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3753,7 +3753,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3777,7 +3777,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3801,7 +3801,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3825,7 +3825,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3849,7 +3849,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3873,7 +3873,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3897,7 +3897,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3921,7 +3921,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3945,7 +3945,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3969,7 +3969,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -3993,7 +3993,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4017,7 +4017,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4041,7 +4041,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4065,7 +4065,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4089,7 +4089,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4113,7 +4113,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4137,7 +4137,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4161,7 +4161,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4185,7 +4185,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4209,7 +4209,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4233,7 +4233,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4257,7 +4257,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4281,7 +4281,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",
@@ -4305,7 +4305,7 @@
     "valuation": "final",
     "quality": {
       "status": "stale",
-      "source": "eastmoney-f10-nav-v1",
+      "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
       "collectedAt": "2026-10-05T13:00:00+08:00",

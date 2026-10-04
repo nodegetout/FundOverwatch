@@ -2,11 +2,13 @@ import { mkdir, readFile, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  holdingQuoteBatchSchema,
   holdingsSnapshotSchema,
   parseFunds,
   quoteSchema,
   siteIndexSchema,
   type Fund,
+  type HoldingsSnapshot,
   type Quote
 } from "../src/lib/domain";
 import { calculateAnalytics } from "../src/lib/analytics";
@@ -164,6 +166,7 @@ async function saveQuotes(fund: Fund, quotes: Quote[]): Promise<void> {
     const year = quote.date.slice(0, 4);
     byYear.set(year, [...(byYear.get(year) ?? []), quote]);
   }
+
   const years = [...byYear.keys()].sort();
   const historyDir = path.join(root, "data", "history", fund.id);
   const previousYears = await readJson<string[]>(path.join(historyDir, "years.json"), []);
@@ -178,6 +181,20 @@ async function saveQuotes(fund: Fund, quotes: Quote[]): Promise<void> {
     }
   }
   await writeJsonIfChanged(path.join(historyDir, "years.json"), years);
+}
+
+async function saveHoldingsSnapshot(
+  snapshot: HoldingsSnapshot,
+  preserveExisting = false
+): Promise<void> {
+  const file = path.join(root, "data", "holdings", snapshot.fundId, `${snapshot.date}.json`);
+  const existing = await readJson<unknown | null>(file, null);
+  if (existing) {
+    if (preserveExisting) return;
+    const parsed = holdingsSnapshotSchema.parse(existing);
+    if (parsed.contentHash === snapshot.contentHash) return;
+  }
+  await writeJsonIfChanged(file, snapshot);
 }
 
 export function mergeQuotes(quotes: Quote[], incoming: Quote[]): Quote[] {
@@ -233,10 +250,10 @@ export async function runPipeline(date: string, mode: RunMode): Promise<{ skippe
     return { skipped: true };
   }
 
-  const runKey = `${date}:${mode}:mixed-v1`;
+  const runKey = `${date}:${mode}:mixed-v2`;
   const runsFile = path.join(root, "data", "runs.json");
   const runs = await readJson<RunRecord[]>(runsFile, []);
-  if (mode === "intraday" && runs.some((run) => run.runKey === `${date}:final:mixed-v1`)) {
+  if (mode === "intraday" && runs.some((run) => run.runKey === `${date}:final:mixed-v2`)) {
     console.log(`Skipping ${runKey}: final data already exists for this date.`);
     return { skipped: true };
   }
@@ -257,19 +274,36 @@ export async function runPipeline(date: string, mode: RunMode): Promise<{ skippe
     const incomingQuotes = collected.quotes.map((quote) => quoteSchema.parse(quote));
     if (!incomingQuotes.length) throw new Error(`${provider.name} returned no quotes for ${fund.id}`);
     const holdings = holdingsSnapshotSchema.parse(collected.holdings);
+    if (!holdings.holdings.length && fund.providerRef.startsWith("eastmoney:")) {
+      throw new Error(`${provider.name} returned empty real holdings for ${fund.id}`);
+    }
+    const historicalHoldings = collected.historicalHoldings.map((snapshot) =>
+      holdingsSnapshotSchema.parse(snapshot)
+    );
+    const holdingQuotes = holdingQuoteBatchSchema.parse(collected.holdingQuotes);
     const mergedQuotes = mergeQuotes(existingQuotes, incomingQuotes);
     const quotes = retainQuotesForFund(fund, mergedQuotes);
     const latestQuote = quotes.at(-1);
     if (!latestQuote) throw new Error(`No normalized quotes available for ${fund.id}`);
     const analytics = calculateAnalytics(fund.id, quotes);
-    staged.push({ fund, quotes, latestQuote, analytics, holdings });
+    staged.push({
+      fund,
+      quotes,
+      latestQuote,
+      analytics,
+      holdings,
+      historicalHoldings,
+      holdingQuotes
+    });
   }
 
-  for (const { fund, quotes, holdings } of staged) {
+  for (const { fund, quotes, holdings, historicalHoldings, holdingQuotes } of staged) {
     await saveQuotes(fund, quotes);
+    for (const snapshot of historicalHoldings) await saveHoldingsSnapshot(snapshot, true);
+    await saveHoldingsSnapshot(holdings);
     await writeJsonIfChanged(
-      path.join(root, "data", "holdings", fund.id, `${holdings.date}.json`),
-      holdings
+      path.join(root, "data", "holding-quotes", fund.id, `${date}.json`),
+      holdingQuotes
     );
     if (mode === "final") {
       const latestDate = quotes.at(-1)?.date;
@@ -286,12 +320,15 @@ export async function runPipeline(date: string, mode: RunMode): Promise<{ skippe
     );
   }
 
-  const summaries = staged.map(({ fund, latestQuote, analytics, holdings }) => ({
+  const summaries = staged.map(
+    ({ fund, latestQuote, analytics, holdings, holdingQuotes }) => ({
     fund,
     latestQuote,
     analytics,
-    holdings
-  }));
+    holdings,
+    holdingQuotes
+    })
+  );
   const dataStatus = summaries.every(
     ({ latestQuote, holdings }) =>
       latestQuote.quality.status === "complete" && holdings.quality.status === "complete"

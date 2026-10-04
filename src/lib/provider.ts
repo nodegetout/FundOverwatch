@@ -1,4 +1,4 @@
-import type { Fund, HoldingsSnapshot, Quote } from "./domain";
+import type { Fund, HoldingQuoteBatch, HoldingsSnapshot, Quote } from "./domain";
 
 export interface CollectionContext {
   date: string;
@@ -12,5 +12,7 @@ export interface FundDataProvider {
   collectFund(fund: Fund, context: CollectionContext): Promise<{
     quotes: Quote[];
     holdings: HoldingsSnapshot;
+    historicalHoldings: HoldingsSnapshot[];
+    holdingQuotes: HoldingQuoteBatch;
   }>;
 }
