@@ -1,4 +1,5 @@
-import type { Fund, HoldingsSnapshot, Quote } from "./domain";
+import { createHash } from "node:crypto";
+import type { Fund, HoldingQuoteBatch, HoldingsSnapshot, Quote } from "./domain";
 import type { CollectionContext, FundDataProvider } from "./provider";
 
 const profiles: Record<string, { base: number; drift: number; amplitude: number }> = {
@@ -42,7 +43,9 @@ function groupAllocations(
 ): Array<{ name: string; weight: number }> {
   const grouped = new Map<string, number>();
   for (const holding of holdings) {
-    grouped.set(holding[field], (grouped.get(holding[field]) ?? 0) + holding.weight);
+    const name = holding[field];
+    if (!name || holding.weight === null) continue;
+    grouped.set(name, (grouped.get(name) ?? 0) + holding.weight);
   }
   const allocated = [...grouped.values()].reduce((sum, value) => sum + value, 0);
   grouped.set("Other", Math.max(0, 1 - allocated));
@@ -88,11 +91,25 @@ export class DeterministicMockProvider implements FundDataProvider {
 
   private collectHoldings(fund: Fund, context: CollectionContext): HoldingsSnapshot {
     const holdings = (holdingsByMarket[fund.market] ?? []).map(
-      ([name, symbol, sector, country, weight]) => ({ name, symbol, sector, country, weight })
+      ([name, symbol, sector, country, weight]) => ({
+        name,
+        symbol,
+        assetType: "stock" as const,
+        source: this.name,
+        quoteRef: null,
+        weight,
+        previousWeight: null,
+        weightChange: null,
+        changeStatus: "unavailable" as const,
+        sector,
+        country
+      })
     );
     return {
       fundId: fund.id,
       date: context.date,
+      previousDate: null,
+      contentHash: createHash("sha256").update(JSON.stringify(holdings)).digest("hex"),
       holdings,
       sectors: groupAllocations(holdings, "sector"),
       countries: groupAllocations(holdings, "country"),
@@ -111,7 +128,12 @@ export class DeterministicMockProvider implements FundDataProvider {
   async collectFund(
     fund: Fund,
     context: CollectionContext
-  ): Promise<{ quotes: Quote[]; holdings: HoldingsSnapshot }> {
+  ): Promise<{
+    quotes: Quote[];
+    holdings: HoldingsSnapshot;
+    historicalHoldings: HoldingsSnapshot[];
+    holdingQuotes: HoldingQuoteBatch;
+  }> {
     const quotes: Quote[] = [];
     const start = new Date(`${context.date}T00:00:00Z`);
     start.setUTCDate(start.getUTCDate() - 430);
@@ -133,6 +155,23 @@ export class DeterministicMockProvider implements FundDataProvider {
         })
       );
     }
-    return { quotes, holdings: this.collectHoldings(fund, context) };
+    const holdings = this.collectHoldings(fund, context);
+    return {
+      quotes,
+      holdings,
+      historicalHoldings: [],
+      holdingQuotes: {
+        fundId: fund.id,
+        collectedAt: context.collectedAt,
+        quotes: holdings.holdings.map((holding) => ({
+          assetKey: `${holding.assetType}:${holding.symbol}`,
+          status: "unavailable",
+          dayChange: null,
+          asOf: null,
+          source: this.name,
+          warnings: ["模拟持仓未接入真实标的行情。"]
+        }))
+      }
+    };
   }
 }

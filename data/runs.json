@@ -10,5 +10,11 @@
     "date": "2026-10-05",
     "mode": "final",
     "completedAt": "2026-10-05T13:00:00+08:00"
+  },
+  {
+    "runKey": "2026-10-05:final:mixed-v2",
+    "date": "2026-10-05",
+    "mode": "final",
+    "completedAt": "2026-10-05T13:00:00+08:00"
   }
 ]

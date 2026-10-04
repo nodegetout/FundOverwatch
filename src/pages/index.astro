@@ -38,6 +38,23 @@ const number = (value: number | null | undefined, currency?: string) =>
         maximumFractionDigits: 2,
         ...(currency ? { style: "currency", currency } : {})
       }).format(value);
+const assetTypeLabels = {
+  stock: "股票",
+  bond: "债券",
+  fund: "基金",
+  "target-etf": "目标 ETF"
+};
+const holdingChangeLabels = {
+  new: "新增",
+  exited: "退出",
+  increased: "增加",
+  decreased: "减少",
+  unchanged: "不变",
+  unavailable: "无法比较"
+};
+const initialHoldingQuotes = new Map(
+  initial?.holdingQuotes?.quotes.map((quote) => [quote.assetKey, quote]) ?? []
+);
 ---
 
 <BaseLayout
@@ -177,12 +194,35 @@ const number = (value: number | null | undefined, currency?: string) =>
                 <div><dt>有效观测数</dt><dd data-metric="observations">{initial.analytics?.observations ?? 0}</dd></div>
               </dl>
             </article>
-            <article class="chart-card compact">
-              <div class="card-heading"><div><p class="eyebrow">TOP HOLDINGS</p><h3>主要持仓</h3></div></div>
-              <div id="holdings-list" class="holdings-list">
-                {initial.holdings?.holdings.map((holding, position) => (
-                  <div><span class="rank">{String(position + 1).padStart(2, "0")}</span><span><strong>{holding.name}</strong><small>{holding.symbol} · {holding.sector}</small></span><b>{(holding.weight * 100).toFixed(1)}%</b></div>
-                ))}
+            <article class="chart-card compact holdings-card">
+              <div class="card-heading holdings-heading">
+                <div><p class="eyebrow">DISCLOSED HOLDINGS</p><h3>主要持仓</h3></div>
+                <div class="holdings-as-of"><strong id="holdings-as-of">定期报告持仓，截至 {initial.holdings?.date ?? "—"}；非实时</strong><span id="holdings-previous">{initial.holdings?.previousDate ? `比较上期 ${initial.holdings.previousDate}` : "暂无上一披露期数据"}</span></div>
+              </div>
+              <div class="holdings-table-wrap">
+                <table class="holdings-table">
+                  <thead><tr>
+                    <th><button type="button" data-holding-sort="assetType">类型</button></th>
+                    <th><button type="button" data-holding-sort="name">标的</button></th>
+                    <th><button type="button" data-holding-sort="dayChange">最新日涨跌</button></th>
+                    <th><button type="button" data-holding-sort="weight">当前权重</button></th>
+                    <th><button type="button" data-holding-sort="weightChange">较上期</button></th>
+                  </tr></thead>
+                  <tbody id="holdings-list">
+                    {initial.holdings?.holdings.map((holding) => {
+                      const quote = initialHoldingQuotes.get(`${holding.assetType}:${holding.symbol}`);
+                      return (
+                        <tr>
+                          <td><span class={`asset-type ${holding.assetType}`}>{assetTypeLabels[holding.assetType]}</span></td>
+                          <td><strong>{holding.name}</strong><small>{holding.symbol}{holding.sector ? ` · ${holding.sector}` : ""}</small></td>
+                          <td><span class:list={{ positive: (quote?.dayChange ?? 0) >= 0, negative: (quote?.dayChange ?? 0) < 0 }}>{quote?.dayChange == null ? "未提供" : percent(quote.dayChange)}</span><small>{quote?.asOf ? quote.asOf.slice(0, 10) : quote?.status === "unavailable" ? "行情不可用" : ""}</small></td>
+                          <td>{holding.weight == null ? "未披露" : `${(holding.weight * 100).toFixed(2)}%`}</td>
+                          <td><span class={`change-status ${holding.changeStatus}`}>{holdingChangeLabels[holding.changeStatus]}</span><small>{holding.weightChange == null ? "—" : `${holding.weightChange >= 0 ? "+" : ""}${(holding.weightChange * 100).toFixed(2)} 个百分点`}</small></td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
               </div>
             </article>
           </section>
@@ -202,7 +242,7 @@ const number = (value: number | null | undefined, currency?: string) =>
 
     <aside class="notice">
       <strong>数据说明</strong>
-      <p>中国大陆基金使用天天基金/东方财富 F10 公布的日终单位净值，不是盘中估值；其他市场继续使用明确标注的确定性模拟数据。真实源未提供本项目可规范化的持仓与基准价格时保持为空，不以模拟值补齐。</p>
+      <p>中国大陆基金使用天天基金/东方财富公布的日终单位净值与定期报告持仓；仓位截至报告期末、并非实时。持仓标的行情按日刷新，债券、场外基金或缺少可靠市场标识的资产明确显示未提供，不以推断或模拟值补齐。</p>
     </aside>
   </main>
 
@@ -215,7 +255,7 @@ const number = (value: number | null | undefined, currency?: string) =>
   <script id="dashboard-data" type="application/json" set:html={JSON.stringify({ index, series, marketLabels })}></script>
   <script>
     import Chart from "chart.js/auto";
-    import type { SiteIndex } from "../lib/domain";
+    import type { Holding, HoldingQuoteBatch, HoldingsSnapshot, SiteIndex } from "../lib/domain";
     import { adjacentTabIndex, type MarketFilter } from "../lib/market-tabs";
 
     type DashboardData = {
@@ -229,6 +269,23 @@ const number = (value: number | null | undefined, currency?: string) =>
     const marketTabs = [...document.querySelectorAll<HTMLButtonElement>('[role="tab"][data-market]')];
     const fundSelect = document.querySelector<HTMLSelectElement>("#fund-filter");
     let chart: Chart | null = null;
+    let currentFundId = fundSelect?.value ?? "";
+    let holdingSort: "assetType" | "name" | "dayChange" | "weight" | "weightChange" = "weight";
+    let holdingSortDirection: "asc" | "desc" = "desc";
+    const clientAssetTypeLabels: Record<Holding["assetType"], string> = {
+      stock: "股票",
+      bond: "债券",
+      fund: "基金",
+      "target-etf": "目标 ETF"
+    };
+    const clientChangeLabels: Record<Holding["changeStatus"], string> = {
+      new: "新增",
+      exited: "退出",
+      increased: "增加",
+      decreased: "减少",
+      unchanged: "不变",
+      unavailable: "无法比较"
+    };
 
     const formatPercent = (value: number | null | undefined) =>
       value == null ? "—" : `${value >= 0 ? "+" : ""}${(value * 100).toFixed(2)}%`;
@@ -245,6 +302,74 @@ const number = (value: number | null | undefined, currency?: string) =>
       if (element) element.textContent = value;
     }
 
+    const escapeHtml = (value: string) =>
+      value.replace(/[&<>"']/g, (character) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      })[character] ?? character);
+
+    function renderHoldings(
+      holdings: HoldingsSnapshot | null | undefined,
+      holdingQuotes: HoldingQuoteBatch | null | undefined
+    ) {
+      const holdingsList = document.querySelector("#holdings-list");
+      if (!holdingsList) return;
+      setText("#holdings-as-of", `定期报告持仓，截至 ${holdings?.date ?? "—"}；非实时`);
+      setText(
+        "#holdings-previous",
+        holdings?.previousDate ? `比较上期 ${holdings.previousDate}` : "暂无上一披露期数据"
+      );
+      const quoteByKey = new Map(
+        holdingQuotes?.quotes.map((quote) => [quote.assetKey, quote]) ?? []
+      );
+      const rows = [...(holdings?.holdings ?? [])];
+      const valueFor = (holding: Holding) => {
+        if (holdingSort === "assetType") return clientAssetTypeLabels[holding.assetType];
+        if (holdingSort === "name") return holding.name;
+        if (holdingSort === "dayChange") {
+          return quoteByKey.get(`${holding.assetType}:${holding.symbol}`)?.dayChange ?? -Infinity;
+        }
+        return holding[holdingSort] ?? -Infinity;
+      };
+      rows.sort((left, right) => {
+        const leftValue = valueFor(left);
+        const rightValue = valueFor(right);
+        const compared =
+          typeof leftValue === "string" && typeof rightValue === "string"
+            ? leftValue.localeCompare(rightValue, "zh-CN")
+            : Number(leftValue) - Number(rightValue);
+        return holdingSortDirection === "asc" ? compared : -compared;
+      });
+      holdingsList.innerHTML = rows.length
+        ? rows.map((holding) => {
+            const quote = quoteByKey.get(`${holding.assetType}:${holding.symbol}`);
+            const quoteStatus = quote?.status === "stale"
+              ? `${quote.asOf?.slice(0, 10) ?? "—"} · 陈旧`
+              : quote?.status === "available"
+                ? quote.asOf?.slice(0, 10) ?? "—"
+                : "行情不可用";
+            const sector = holding.sector ? ` · ${escapeHtml(holding.sector)}` : "";
+            const dayChange = quote?.dayChange == null ? "未提供" : formatPercent(quote.dayChange);
+            const dayClass = quote?.dayChange == null ? "" : quote.dayChange >= 0 ? "positive" : "negative";
+            const weight = holding.weight == null ? "未披露" : `${(holding.weight * 100).toFixed(2)}%`;
+            const weightChange = holding.weightChange == null
+              ? "—"
+              : `${holding.weightChange >= 0 ? "+" : ""}${(holding.weightChange * 100).toFixed(2)} 个百分点`;
+            return `<tr><td><span class="asset-type ${holding.assetType}">${clientAssetTypeLabels[holding.assetType]}</span></td><td><strong>${escapeHtml(holding.name)}</strong><small>${escapeHtml(holding.symbol)}${sector}</small></td><td><span class="${dayClass}">${dayChange}</span><small>${quoteStatus}</small></td><td>${weight}</td><td><span class="change-status ${holding.changeStatus}">${clientChangeLabels[holding.changeStatus]}</span><small>${weightChange}</small></td></tr>`;
+          }).join("")
+        : `<tr><td colspan="5" class="empty-state">暂无持仓数据</td></tr>`;
+      for (const button of document.querySelectorAll<HTMLButtonElement>("[data-holding-sort]")) {
+        const active = button.dataset.holdingSort === holdingSort;
+        button.closest("th")?.setAttribute(
+          "aria-sort",
+          active ? (holdingSortDirection === "asc" ? "ascending" : "descending") : "none"
+        );
+      }
+    }
+
     function renderExposure(title: string, items: Array<{ name: string; weight: number }>) {
       const rows = items.length
         ? items.slice(0, 6).map((item) => `<div class="exposure-row"><div class="exposure-label"><span>${item.name}</span><strong>${(item.weight * 100).toFixed(1)}%</strong></div><div class="bar-track"><span style="width:${Math.min(item.weight * 100, 100)}%"></span></div></div>`).join("")
@@ -257,6 +382,7 @@ const number = (value: number | null | undefined, currency?: string) =>
       const summary = data.index.summaries.find(({ fund }) => fund.id === fundId);
       if (!summary) return;
       const { fund, analytics, latestQuote, holdings } = summary;
+      currentFundId = fundId;
       setText("#fund-symbol", fund.symbol);
       setText("#fund-name", fund.name);
       setText("#fund-meta", `${data.marketLabels[fund.market]} · ${fund.exchange} · ${fund.assetClass} · 对标 ${fund.benchmark}`);
@@ -281,12 +407,7 @@ const number = (value: number | null | undefined, currency?: string) =>
       };
       Object.entries(values).forEach(([key, value]) => setText(`[data-metric="${key}"]`, value));
 
-      const holdingsList = document.querySelector("#holdings-list");
-      if (holdingsList) {
-        holdingsList.innerHTML = holdings?.holdings.length
-          ? holdings.holdings.map((holding, index) => `<div><span class="rank">${String(index + 1).padStart(2, "0")}</span><span><strong>${holding.name}</strong><small>${holding.symbol} · ${holding.sector}</small></span><b>${(holding.weight * 100).toFixed(1)}%</b></div>`).join("")
-          : `<p class="empty-state">暂无持仓数据</p>`;
-      }
+      renderHoldings(holdings, summary.holdingQuotes);
       const exposureGrid = document.querySelector("#exposure-grid");
       if (exposureGrid) {
         exposureGrid.innerHTML = renderExposure("行业暴露", holdings?.sectors ?? []) + renderExposure("国家 / 地域暴露", holdings?.countries ?? []);
@@ -371,6 +492,20 @@ const number = (value: number | null | undefined, currency?: string) =>
         );
         const market = marketTabs[next]?.dataset.market ?? "all";
         selectMarket(market as MarketFilter, true);
+      });
+    }
+    for (const button of document.querySelectorAll<HTMLButtonElement>("[data-holding-sort]")) {
+      button.addEventListener("click", () => {
+        const nextSort = button.dataset.holdingSort as typeof holdingSort;
+        if (holdingSort === nextSort) {
+          holdingSortDirection = holdingSortDirection === "asc" ? "desc" : "asc";
+        } else {
+          holdingSort = nextSort;
+          holdingSortDirection = nextSort === "name" || nextSort === "assetType" ? "asc" : "desc";
+        }
+        if (!data) return;
+        const summary = data.index.summaries.find(({ fund }) => fund.id === currentFundId);
+        renderHoldings(summary?.holdings, summary?.holdingQuotes);
       });
     }
     fundSelect?.addEventListener("change", () => renderFund(fundSelect.value));

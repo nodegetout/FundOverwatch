@@ -1,0 +1,180 @@
+{
+  "fundId": "cn-005051",
+  "date": "2026-03-31",
+  "previousDate": null,
+  "contentHash": "f75622262f3a33e90eb14fdd2b4a1885b46f6d8fcf04fae29e69594e97736d9d",
+  "holdings": [
+    {
+      "name": "电讯盈科",
+      "symbol": "00008",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00008",
+      "weight": 0.026699999999999998,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "万洲国际",
+      "symbol": "00288",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00288",
+      "weight": 0.0292,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "食品饮料",
+      "country": null
+    },
+    {
+      "name": "中国石油股份",
+      "symbol": "00857",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00857",
+      "weight": 0.027999999999999997,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "石油石化",
+      "country": null
+    },
+    {
+      "name": "中国海洋石油",
+      "symbol": "00883",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00883",
+      "weight": 0.0294,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "石油石化",
+      "country": null
+    },
+    {
+      "name": "建设银行",
+      "symbol": "00939",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00939",
+      "weight": 0.022799999999999997,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "中国移动",
+      "symbol": "00941",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00941",
+      "weight": 0.0229,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "中国神华",
+      "symbol": "01088",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01088",
+      "weight": 0.0256,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "煤炭",
+      "country": null
+    },
+    {
+      "name": "交通银行",
+      "symbol": "03328",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03328",
+      "weight": 0.025099999999999997,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "远东宏信",
+      "symbol": "03360",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03360",
+      "weight": 0.023799999999999998,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "非银金融",
+      "country": null
+    },
+    {
+      "name": "中国银行",
+      "symbol": "03988",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03988",
+      "weight": 0.0241,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "银行",
+      "weight": 0.072
+    },
+    {
+      "name": "石油石化",
+      "weight": 0.05739999999999999
+    },
+    {
+      "name": "通信",
+      "weight": 0.0496
+    },
+    {
+      "name": "食品饮料",
+      "weight": 0.0292
+    },
+    {
+      "name": "煤炭",
+      "weight": 0.0256
+    },
+    {
+      "name": "非银金融",
+      "weight": 0.023799999999999998
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。",
+      "该快照作为当前披露期的比较基准保存。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}

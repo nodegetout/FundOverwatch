@@ -1,25 +1,45 @@
 {
   "fundId": "jp-1321",
   "date": "2026-10-05",
+  "previousDate": null,
+  "contentHash": "ec319a58cd09efa2db4e93355ddef8f88194e4081d9b94a94b0dc21eb433c720",
   "holdings": [
     {
       "name": "Fast Retailing",
       "symbol": "9983",
+      "assetType": "stock",
+      "source": "deterministic-mock-v1",
+      "quoteRef": null,
       "weight": 0.105,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
       "sector": "Consumer Discretionary",
       "country": "Japan"
     },
     {
       "name": "Tokyo Electron",
       "symbol": "8035",
+      "assetType": "stock",
+      "source": "deterministic-mock-v1",
+      "quoteRef": null,
       "weight": 0.073,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
       "sector": "Technology",
       "country": "Japan"
     },
     {
       "name": "SoftBank Group",
       "symbol": "9984",
+      "assetType": "stock",
+      "source": "deterministic-mock-v1",
+      "quoteRef": null,
       "weight": 0.046,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
       "sector": "Communication",
       "country": "Japan"
     }

@@ -1,0 +1,261 @@
+{
+  "fundId": "cn-025852",
+  "date": "2026-06-30",
+  "previousDate": "2026-03-31",
+  "contentHash": "13103f003dc4fef293cf74c2f405e7d89ed12b2be3d4c6c77faf01cab409340a",
+  "holdings": [
+    {
+      "name": "华虹宏力",
+      "symbol": "01347",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01347",
+      "weight": 0.0506,
+      "previousWeight": 0,
+      "weightChange": 0.0506,
+      "changeStatus": "new",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "建滔集团",
+      "symbol": "00148",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00148",
+      "weight": 0.042300000000000004,
+      "previousWeight": 0,
+      "weightChange": 0.042300000000000004,
+      "changeStatus": "new",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "汇丰控股",
+      "symbol": "00005",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00005",
+      "weight": 0.0377,
+      "previousWeight": 0.0438,
+      "weightChange": -0.0061,
+      "changeStatus": "decreased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "阿里巴巴-W",
+      "symbol": "09988",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.09988",
+      "weight": 0.035,
+      "previousWeight": 0.042,
+      "weightChange": -0.007,
+      "changeStatus": "decreased",
+      "sector": "商贸零售",
+      "country": null
+    },
+    {
+      "name": "中际旭创",
+      "symbol": "300308",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300308",
+      "weight": 0.028999999999999998,
+      "previousWeight": 0,
+      "weightChange": 0.028999999999999998,
+      "changeStatus": "new",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "TCL电子",
+      "symbol": "01070",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01070",
+      "weight": 0.0276,
+      "previousWeight": 0.0195,
+      "weightChange": 0.0081,
+      "changeStatus": "increased",
+      "sector": "家用电器",
+      "country": null
+    },
+    {
+      "name": "威胜控股",
+      "symbol": "03393",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03393",
+      "weight": 0.0239,
+      "previousWeight": 0,
+      "weightChange": 0.0239,
+      "changeStatus": "new",
+      "sector": "电力设备",
+      "country": null
+    },
+    {
+      "name": "津上机床中国",
+      "symbol": "01651",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01651",
+      "weight": 0.0227,
+      "previousWeight": 0,
+      "weightChange": 0.0227,
+      "changeStatus": "new",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "华勤技术",
+      "symbol": "03296",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03296",
+      "weight": 0.0208,
+      "previousWeight": 0,
+      "weightChange": 0.0208,
+      "changeStatus": "new",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "中集安瑞科",
+      "symbol": "03899",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03899",
+      "weight": 0.0202,
+      "previousWeight": 0.015700000000000002,
+      "weightChange": 0.0045,
+      "changeStatus": "increased",
+      "sector": "机械设备",
+      "country": null
+    },
+    {
+      "name": "腾讯控股",
+      "symbol": "00700",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00700",
+      "weight": 0,
+      "previousWeight": 0.0335,
+      "weightChange": -0.0335,
+      "changeStatus": "exited",
+      "sector": "传媒",
+      "country": null
+    },
+    {
+      "name": "建设银行",
+      "symbol": "00939",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00939",
+      "weight": 0,
+      "previousWeight": 0.0155,
+      "weightChange": -0.0155,
+      "changeStatus": "exited",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "友邦保险",
+      "symbol": "01299",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01299",
+      "weight": 0,
+      "previousWeight": 0.024,
+      "weightChange": -0.024,
+      "changeStatus": "exited",
+      "sector": "非银金融",
+      "country": null
+    },
+    {
+      "name": "古茗",
+      "symbol": "01364",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01364",
+      "weight": 0,
+      "previousWeight": 0.013000000000000001,
+      "weightChange": -0.013000000000000001,
+      "changeStatus": "exited",
+      "sector": "社会服务",
+      "country": null
+    },
+    {
+      "name": "创新实业",
+      "symbol": "02788",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.02788",
+      "weight": 0,
+      "previousWeight": 0.0172,
+      "weightChange": -0.0172,
+      "changeStatus": "exited",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "灵宝黄金",
+      "symbol": "03330",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03330",
+      "weight": 0,
+      "previousWeight": 0.023399999999999997,
+      "weightChange": -0.023399999999999997,
+      "changeStatus": "exited",
+      "sector": null,
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "电子",
+      "weight": 0.11370000000000001
+    },
+    {
+      "name": "银行",
+      "weight": 0.0377
+    },
+    {
+      "name": "商贸零售",
+      "weight": 0.035
+    },
+    {
+      "name": "通信",
+      "weight": 0.028999999999999998
+    },
+    {
+      "name": "家用电器",
+      "weight": 0.0276
+    },
+    {
+      "name": "电力设备",
+      "weight": 0.0239
+    },
+    {
+      "name": "机械设备",
+      "weight": 0.0202
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}

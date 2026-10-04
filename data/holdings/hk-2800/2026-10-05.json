@@ -1,25 +1,45 @@
 {
   "fundId": "hk-2800",
   "date": "2026-10-05",
+  "previousDate": null,
+  "contentHash": "cf2d81b9f39dc4715577981d3240c6c157db3eb3156da8df191b13b0a1315909",
   "holdings": [
     {
       "name": "Tencent",
       "symbol": "0700",
+      "assetType": "stock",
+      "source": "deterministic-mock-v1",
+      "quoteRef": null,
       "weight": 0.082,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
       "sector": "Communication",
       "country": "China"
     },
     {
       "name": "AIA",
       "symbol": "1299",
+      "assetType": "stock",
+      "source": "deterministic-mock-v1",
+      "quoteRef": null,
       "weight": 0.073,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
       "sector": "Financials",
       "country": "Hong Kong"
     },
     {
       "name": "HSBC",
       "symbol": "0005",
+      "assetType": "stock",
+      "source": "deterministic-mock-v1",
+      "quoteRef": null,
       "weight": 0.069,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
       "sector": "Financials",
       "country": "United Kingdom"
     }

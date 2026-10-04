@@ -1,0 +1,167 @@
+{
+  "fundId": "cn-017641",
+  "date": "2026-06-30",
+  "previousDate": "2026-03-31",
+  "contentHash": "1d07555bcf4198053024a93bb7d34374a78ba2b2a64fcf21ff2819823d9f52f5",
+  "holdings": [
+    {
+      "name": "英伟达",
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.NVDA",
+      "weight": 0.0737,
+      "previousWeight": 0.0745,
+      "weightChange": -0.0008,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "苹果",
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.AAPL",
+      "weight": 0.0639,
+      "previousWeight": 0.066,
+      "weightChange": -0.0021,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "微软",
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.MSFT",
+      "weight": 0.0415,
+      "previousWeight": 0.0484,
+      "weightChange": -0.0069,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "亚马逊",
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.AMZN",
+      "weight": 0.0347,
+      "previousWeight": 0.0356,
+      "weightChange": -0.0009,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "谷歌-A",
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.GOOGL",
+      "weight": 0.0311,
+      "previousWeight": 0.0294,
+      "weightChange": 0.0017,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "博通",
+      "symbol": "AVGO",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.AVGO",
+      "weight": 0.027200000000000002,
+      "previousWeight": 0.025699999999999997,
+      "weightChange": 0.0015,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "谷歌-C",
+      "symbol": "GOOG",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.GOOG",
+      "weight": 0.0246,
+      "previousWeight": 0.0235,
+      "weightChange": 0.0011,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "美光科技",
+      "symbol": "MU",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.MU",
+      "weight": 0.0199,
+      "previousWeight": 0,
+      "weightChange": 0.0199,
+      "changeStatus": "new",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "Meta Platforms Inc-A",
+      "symbol": "META",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.META",
+      "weight": 0.0183,
+      "previousWeight": 0.0219,
+      "weightChange": -0.0036,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "特斯拉",
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.TSLA",
+      "weight": 0.0177,
+      "previousWeight": 0.0184,
+      "weightChange": -0.0007,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "伯克希尔哈撒韦-B",
+      "symbol": "BRK_B",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "106.BRK_B",
+      "weight": 0,
+      "previousWeight": 0.0155,
+      "weightChange": -0.0155,
+      "changeStatus": "exited",
+      "sector": null,
+      "country": null
+    }
+  ],
+  "sectors": [],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}

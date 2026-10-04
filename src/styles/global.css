@@ -123,11 +123,29 @@ h2 { margin: 0; font-size: clamp(25px, 3vw, 40px); letter-spacing: -.035em; }
 .signal-list > div { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid var(--line); }
 .signal-list dt { color: var(--muted); }
 .signal-list dd { margin: 0; font-weight: 700; }
-.holdings-list > div { display: grid; grid-template-columns: 34px 1fr auto; align-items: center; gap: 10px; padding: 11px 0; border-bottom: 1px solid var(--line); }
-.holdings-list .rank { color: var(--muted); font-size: 10px; }
-.holdings-list strong, .holdings-list small { display: block; }
-.holdings-list small { color: var(--muted); margin-top: 4px; }
-.holdings-list b { color: var(--accent); }
+.holdings-card { grid-column: 1 / -1; }
+.holdings-heading { align-items: start; }
+.holdings-as-of { display: grid; gap: 5px; text-align: right; }
+.holdings-as-of strong { color: var(--warning); font-size: 12px; }
+.holdings-as-of span { color: var(--muted); font-size: 11px; }
+.holdings-table-wrap { overflow-x: auto; }
+.holdings-table { width: 100%; min-width: 820px; border-collapse: collapse; font-size: 12px; }
+.holdings-table th, .holdings-table td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: right; vertical-align: middle; }
+.holdings-table th:first-child, .holdings-table th:nth-child(2),
+.holdings-table td:first-child, .holdings-table td:nth-child(2) { text-align: left; }
+.holdings-table th button { border: 0; padding: 0; color: var(--muted); background: none; font: inherit; cursor: pointer; }
+.holdings-table th[aria-sort="ascending"] button::after { content: " ↑"; color: var(--accent); }
+.holdings-table th[aria-sort="descending"] button::after { content: " ↓"; color: var(--accent); }
+.holdings-table strong, .holdings-table small { display: block; }
+.holdings-table small { margin-top: 4px; color: var(--muted); }
+.holdings-table .positive { color: var(--accent); }
+.holdings-table .negative { color: #f48282; }
+.asset-type, .change-status { display: inline-block; padding: 4px 6px; border: 1px solid var(--line); white-space: nowrap; }
+.asset-type.stock { color: var(--accent); }
+.asset-type.bond { color: var(--blue); }
+.asset-type.fund, .asset-type.target-etf { color: var(--warning); }
+.change-status.new, .change-status.increased { color: var(--accent); }
+.change-status.exited, .change-status.decreased { color: #f48282; }
 .exposure-grid { margin-top: 22px; }
 .exposure-card { padding: 26px; }
 .exposure-list { margin-top: 23px; }
@@ -152,6 +170,7 @@ footer strong { color: var(--warning); letter-spacing: .15em; }
   .hero { grid-template-columns: 1fr; }
   .update-card { width: 100%; }
   .detail-grid, .exposure-grid { grid-template-columns: 1fr; }
+  .holdings-card { grid-column: 1; }
 }
 
 @media (max-width: 640px) {
@@ -165,6 +184,8 @@ footer strong { color: var(--warning); letter-spacing: .15em; }
   .price-block { text-align: left; }
   .metric-grid { grid-template-columns: repeat(2, 1fr); }
   .chart-card, .exposure-card { padding: 19px; }
+  .holdings-heading { align-items: flex-start; gap: 12px; }
+  .holdings-as-of { text-align: left; }
   .chart-wrap { height: 300px; }
   .legend { display: none; }
   .notice { grid-template-columns: 1fr; gap: 8px; }
