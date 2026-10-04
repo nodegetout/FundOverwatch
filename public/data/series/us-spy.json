@@ -1,0 +1,1562 @@
+[
+  {
+    "date": "2025-10-06",
+    "nav": 675.3191,
+    "price": 676.2283,
+    "benchmarkPrice": 153.7844
+  },
+  {
+    "date": "2025-10-07",
+    "nav": 675.8472,
+    "price": 676.6842,
+    "benchmarkPrice": 153.9028
+  },
+  {
+    "date": "2025-10-08",
+    "nav": 676.3166,
+    "price": 677.0642,
+    "benchmarkPrice": 154.0074
+  },
+  {
+    "date": "2025-10-09",
+    "nav": 676.7247,
+    "price": 677.3674,
+    "benchmarkPrice": 154.0977
+  },
+  {
+    "date": "2025-10-10",
+    "nav": 677.0695,
+    "price": 677.5941,
+    "benchmarkPrice": 154.1732
+  },
+  {
+    "date": "2025-10-13",
+    "nav": 677.7124,
+    "price": 677.8282,
+    "benchmarkPrice": 154.3086
+  },
+  {
+    "date": "2025-10-14",
+    "nav": 677.7949,
+    "price": 677.7657,
+    "benchmarkPrice": 154.323
+  },
+  {
+    "date": "2025-10-15",
+    "nav": 677.8122,
+    "price": 677.6386,
+    "benchmarkPrice": 154.3222
+  },
+  {
+    "date": "2025-10-16",
+    "nav": 677.7655,
+    "price": 677.4511,
+    "benchmarkPrice": 154.3066
+  },
+  {
+    "date": "2025-10-17",
+    "nav": 677.6566,
+    "price": 677.2078,
+    "benchmarkPrice": 154.2765
+  },
+  {
+    "date": "2025-10-20",
+    "nav": 676.982,
+    "price": 676.1955,
+    "benchmarkPrice": 154.105
+  },
+  {
+    "date": "2025-10-21",
+    "nav": 676.6519,
+    "price": 675.7825,
+    "benchmarkPrice": 154.0234
+  },
+  {
+    "date": "2025-10-22",
+    "nav": 676.2758,
+    "price": 675.3411,
+    "benchmarkPrice": 153.9309
+  },
+  {
+    "date": "2025-10-23",
+    "nav": 675.858,
+    "price": 674.8774,
+    "benchmarkPrice": 153.8287
+  },
+  {
+    "date": "2025-10-24",
+    "nav": 675.4035,
+    "price": 674.3969,
+    "benchmarkPrice": 153.7179
+  },
+  {
+    "date": "2025-10-27",
+    "nav": 673.8718,
+    "price": 672.9107,
+    "benchmarkPrice": 153.3458
+  },
+  {
+    "date": "2025-10-28",
+    "nav": 673.3239,
+    "price": 672.418,
+    "benchmarkPrice": 153.2128
+  },
+  {
+    "date": "2025-10-29",
+    "nav": 672.767,
+    "price": 671.9346,
+    "benchmarkPrice": 153.0776
+  },
+  {
+    "date": "2025-10-30",
+    "nav": 672.2072,
+    "price": 671.4651,
+    "benchmarkPrice": 152.9415
+  },
+  {
+    "date": "2025-10-31",
+    "nav": 671.6504,
+    "price": 671.0136,
+    "benchmarkPrice": 152.8059
+  },
+  {
+    "date": "2025-11-03",
+    "nav": 670.0577,
+    "price": 669.8034,
+    "benchmarkPrice": 152.4158
+  },
+  {
+    "date": "2025-11-04",
+    "nav": 669.5719,
+    "price": 669.4587,
+    "benchmarkPrice": 152.2957
+  },
+  {
+    "date": "2025-11-05",
+    "nav": 669.1178,
+    "price": 669.1478,
+    "benchmarkPrice": 152.1827
+  },
+  {
+    "date": "2025-11-06",
+    "nav": 668.7005,
+    "price": 668.873,
+    "benchmarkPrice": 152.078
+  },
+  {
+    "date": "2025-11-07",
+    "nav": 668.3249,
+    "price": 668.6361,
+    "benchmarkPrice": 151.9826
+  },
+  {
+    "date": "2025-11-10",
+    "nav": 667.4909,
+    "price": 668.1692,
+    "benchmarkPrice": 151.7626
+  },
+  {
+    "date": "2025-11-11",
+    "nav": 667.3228,
+    "price": 668.0989,
+    "benchmarkPrice": 151.7141
+  },
+  {
+    "date": "2025-11-12",
+    "nav": 667.2147,
+    "price": 668.0727,
+    "benchmarkPrice": 151.6792
+  },
+  {
+    "date": "2025-11-13",
+    "nav": 667.1688,
+    "price": 668.0913,
+    "benchmarkPrice": 151.6584
+  },
+  {
+    "date": "2025-11-14",
+    "nav": 667.1868,
+    "price": 668.1552,
+    "benchmarkPrice": 151.652
+  },
+  {
+    "date": "2025-11-17",
+    "nav": 667.6346,
+    "price": 668.621,
+    "benchmarkPrice": 151.7224
+  },
+  {
+    "date": "2025-11-18",
+    "nav": 667.9155,
+    "price": 668.8676,
+    "benchmarkPrice": 151.7758
+  },
+  {
+    "date": "2025-11-19",
+    "nav": 668.2611,
+    "price": 669.1596,
+    "benchmarkPrice": 151.8439
+  },
+  {
+    "date": "2025-11-20",
+    "nav": 668.6699,
+    "price": 669.4966,
+    "benchmarkPrice": 151.9264
+  },
+  {
+    "date": "2025-11-21",
+    "nav": 669.1401,
+    "price": 669.878,
+    "benchmarkPrice": 152.0229
+  },
+  {
+    "date": "2025-11-24",
+    "nav": 670.8905,
+    "price": 671.2799,
+    "benchmarkPrice": 152.3899
+  },
+  {
+    "date": "2025-11-25",
+    "nav": 671.5759,
+    "price": 671.8295,
+    "benchmarkPrice": 152.5355
+  },
+  {
+    "date": "2025-11-26",
+    "nav": 672.3054,
+    "price": 672.4178,
+    "benchmarkPrice": 152.6913
+  },
+  {
+    "date": "2025-11-27",
+    "nav": 673.0745,
+    "price": 673.0429,
+    "benchmarkPrice": 152.8561
+  },
+  {
+    "date": "2025-11-28",
+    "nav": 673.878,
+    "price": 673.703,
+    "benchmarkPrice": 153.0289
+  },
+  {
+    "date": "2025-12-01",
+    "nav": 676.4423,
+    "price": 675.8672,
+    "benchmarkPrice": 153.5829
+  },
+  {
+    "date": "2025-12-02",
+    "nav": 677.3293,
+    "price": 676.6401,
+    "benchmarkPrice": 153.7752
+  },
+  {
+    "date": "2025-12-03",
+    "nav": 678.2226,
+    "price": 677.4332,
+    "benchmarkPrice": 153.9691
+  },
+  {
+    "date": "2025-12-04",
+    "nav": 679.1163,
+    "price": 678.2423,
+    "benchmarkPrice": 154.1632
+  },
+  {
+    "date": "2025-12-05",
+    "nav": 680.0042,
+    "price": 679.0634,
+    "benchmarkPrice": 154.3563
+  },
+  {
+    "date": "2025-12-08",
+    "nav": 682.5748,
+    "price": 681.5515,
+    "benchmarkPrice": 154.9156
+  },
+  {
+    "date": "2025-12-09",
+    "nav": 683.3817,
+    "price": 682.3722,
+    "benchmarkPrice": 155.0911
+  },
+  {
+    "date": "2025-12-10",
+    "nav": 684.1545,
+    "price": 683.1796,
+    "benchmarkPrice": 155.2591
+  },
+  {
+    "date": "2025-12-11",
+    "nav": 684.8883,
+    "price": 683.968,
+    "benchmarkPrice": 155.4186
+  },
+  {
+    "date": "2025-12-12",
+    "nav": 685.5784,
+    "price": 684.7316,
+    "benchmarkPrice": 155.5684
+  },
+  {
+    "date": "2025-12-15",
+    "nav": 687.3455,
+    "price": 686.8163,
+    "benchmarkPrice": 155.9507
+  },
+  {
+    "date": "2025-12-16",
+    "nav": 687.8217,
+    "price": 687.4237,
+    "benchmarkPrice": 156.0532
+  },
+  {
+    "date": "2025-12-17",
+    "nav": 688.237,
+    "price": 687.9784,
+    "benchmarkPrice": 156.1421
+  },
+  {
+    "date": "2025-12-18",
+    "nav": 688.5892,
+    "price": 688.4754,
+    "benchmarkPrice": 156.2171
+  },
+  {
+    "date": "2025-12-19",
+    "nav": 688.8768,
+    "price": 688.9103,
+    "benchmarkPrice": 156.2777
+  },
+  {
+    "date": "2025-12-22",
+    "nav": 689.3448,
+    "price": 689.8048,
+    "benchmarkPrice": 156.372
+  },
+  {
+    "date": "2025-12-23",
+    "nav": 689.3695,
+    "price": 689.9567,
+    "benchmarkPrice": 156.3744
+  },
+  {
+    "date": "2025-12-24",
+    "nav": 689.3301,
+    "price": 690.0325,
+    "benchmarkPrice": 156.3626
+  },
+  {
+    "date": "2025-12-25",
+    "nav": 689.2282,
+    "price": 690.0314,
+    "benchmarkPrice": 156.337
+  },
+  {
+    "date": "2025-12-26",
+    "nav": 689.0662,
+    "price": 689.9536,
+    "benchmarkPrice": 156.298
+  },
+  {
+    "date": "2025-12-29",
+    "nav": 688.2483,
+    "price": 689.2745,
+    "benchmarkPrice": 156.1083
+  },
+  {
+    "date": "2025-12-30",
+    "nav": 687.8773,
+    "price": 688.9085,
+    "benchmarkPrice": 156.0234
+  },
+  {
+    "date": "2025-12-31",
+    "nav": 687.4641,
+    "price": 688.4793,
+    "benchmarkPrice": 155.9294
+  },
+  {
+    "date": "2026-01-01",
+    "nav": 687.0135,
+    "price": 687.9921,
+    "benchmarkPrice": 155.8272
+  },
+  {
+    "date": "2026-01-02",
+    "nav": 686.5307,
+    "price": 687.4527,
+    "benchmarkPrice": 155.7182
+  },
+  {
+    "date": "2026-01-05",
+    "nav": 684.9435,
+    "price": 685.59,
+    "benchmarkPrice": 155.3617
+  },
+  {
+    "date": "2026-01-06",
+    "nav": 684.3874,
+    "price": 684.9132,
+    "benchmarkPrice": 155.2374
+  },
+  {
+    "date": "2026-01-07",
+    "nav": 683.8276,
+    "price": 684.2222,
+    "benchmarkPrice": 155.1127
+  },
+  {
+    "date": "2026-01-08",
+    "nav": 683.2702,
+    "price": 683.5257,
+    "benchmarkPrice": 154.9889
+  },
+  {
+    "date": "2026-01-09",
+    "nav": 682.7211,
+    "price": 682.8326,
+    "benchmarkPrice": 154.8673
+  },
+  {
+    "date": "2026-01-12",
+    "nav": 681.1823,
+    "price": 680.8614,
+    "benchmarkPrice": 154.5292
+  },
+  {
+    "date": "2026-01-13",
+    "nav": 680.7242,
+    "price": 680.2688,
+    "benchmarkPrice": 154.4297
+  },
+  {
+    "date": "2026-01-14",
+    "nav": 680.3025,
+    "price": 679.7219,
+    "benchmarkPrice": 154.3387
+  },
+  {
+    "date": "2026-01-15",
+    "nav": 679.9218,
+    "price": 679.2281,
+    "benchmarkPrice": 154.2573
+  },
+  {
+    "date": "2026-01-16",
+    "nav": 679.5869,
+    "price": 678.7942,
+    "benchmarkPrice": 154.1866
+  },
+  {
+    "date": "2026-01-19",
+    "nav": 678.8952,
+    "price": 677.9089,
+    "benchmarkPrice": 154.0475
+  },
+  {
+    "date": "2026-01-20",
+    "nav": 678.78,
+    "price": 677.7679,
+    "benchmarkPrice": 154.0279
+  },
+  {
+    "date": "2026-01-21",
+    "nav": 678.7269,
+    "price": 677.7094,
+    "benchmarkPrice": 154.0226
+  },
+  {
+    "date": "2026-01-22",
+    "nav": 678.7375,
+    "price": 677.7353,
+    "benchmarkPrice": 154.0321
+  },
+  {
+    "date": "2026-01-23",
+    "nav": 678.8132,
+    "price": 677.8467,
+    "benchmarkPrice": 154.0567
+  },
+  {
+    "date": "2026-01-26",
+    "nav": 679.4359,
+    "price": 678.6892,
+    "benchmarkPrice": 154.2216
+  },
+  {
+    "date": "2026-01-27",
+    "nav": 679.7741,
+    "price": 679.1335,
+    "benchmarkPrice": 154.3068
+  },
+  {
+    "date": "2026-01-28",
+    "nav": 680.1758,
+    "price": 679.6544,
+    "benchmarkPrice": 154.4065
+  },
+  {
+    "date": "2026-01-29",
+    "nav": 680.639,
+    "price": 680.2475,
+    "benchmarkPrice": 154.5205
+  },
+  {
+    "date": "2026-01-30",
+    "nav": 681.1612,
+    "price": 680.9077,
+    "benchmarkPrice": 154.6481
+  },
+  {
+    "date": "2026-02-02",
+    "nav": 683.0507,
+    "price": 683.232,
+    "benchmarkPrice": 155.1053
+  },
+  {
+    "date": "2026-02-03",
+    "nav": 683.7754,
+    "price": 684.0988,
+    "benchmarkPrice": 155.2796
+  },
+  {
+    "date": "2026-02-04",
+    "nav": 684.5402,
+    "price": 684.9993,
+    "benchmarkPrice": 155.4632
+  },
+  {
+    "date": "2026-02-05",
+    "nav": 685.34,
+    "price": 685.926,
+    "benchmarkPrice": 155.6549
+  },
+  {
+    "date": "2026-02-06",
+    "nav": 686.1698,
+    "price": 686.8709,
+    "benchmarkPrice": 155.8535
+  },
+  {
+    "date": "2026-02-09",
+    "nav": 688.7829,
+    "price": 689.7373,
+    "benchmarkPrice": 156.4784
+  },
+  {
+    "date": "2026-02-10",
+    "nav": 689.6758,
+    "price": 690.6781,
+    "benchmarkPrice": 156.6919
+  },
+  {
+    "date": "2026-02-11",
+    "nav": 690.5697,
+    "price": 691.5996,
+    "benchmarkPrice": 156.9057
+  },
+  {
+    "date": "2026-02-12",
+    "nav": 691.4586,
+    "price": 692.4951,
+    "benchmarkPrice": 157.1184
+  },
+  {
+    "date": "2026-02-13",
+    "nav": 692.3365,
+    "price": 693.3585,
+    "benchmarkPrice": 157.3287
+  },
+  {
+    "date": "2026-02-16",
+    "nav": 694.8465,
+    "price": 695.7026,
+    "benchmarkPrice": 157.9317
+  },
+  {
+    "date": "2026-02-17",
+    "nav": 695.6235,
+    "price": 696.387,
+    "benchmarkPrice": 158.1192
+  },
+  {
+    "date": "2026-02-18",
+    "nav": 696.3621,
+    "price": 697.0173,
+    "benchmarkPrice": 158.298
+  },
+  {
+    "date": "2026-02-19",
+    "nav": 697.0574,
+    "price": 697.5907,
+    "benchmarkPrice": 158.4669
+  },
+  {
+    "date": "2026-02-20",
+    "nav": 697.7053,
+    "price": 698.1054,
+    "benchmarkPrice": 158.625
+  },
+  {
+    "date": "2026-02-23",
+    "nav": 699.326,
+    "price": 699.288,
+    "benchmarkPrice": 159.0255
+  },
+  {
+    "date": "2026-02-24",
+    "nav": 699.7484,
+    "price": 699.5614,
+    "benchmarkPrice": 159.132
+  },
+  {
+    "date": "2026-02-25",
+    "nav": 700.108,
+    "price": 699.7756,
+    "benchmarkPrice": 159.2241
+  },
+  {
+    "date": "2026-02-26",
+    "nav": 700.4031,
+    "price": 699.9321,
+    "benchmarkPrice": 159.3015
+  },
+  {
+    "date": "2026-02-27",
+    "nav": 700.6326,
+    "price": 700.0326,
+    "benchmarkPrice": 159.3638
+  },
+  {
+    "date": "2026-03-02",
+    "nav": 700.926,
+    "price": 700.0213,
+    "benchmarkPrice": 159.4599
+  },
+  {
+    "date": "2026-03-03",
+    "nav": 700.8939,
+    "price": 699.9221,
+    "benchmarkPrice": 159.4621
+  },
+  {
+    "date": "2026-03-04",
+    "nav": 700.7991,
+    "price": 699.7803,
+    "benchmarkPrice": 159.4497
+  },
+  {
+    "date": "2026-03-05",
+    "nav": 700.6439,
+    "price": 699.5988,
+    "benchmarkPrice": 159.4234
+  },
+  {
+    "date": "2026-03-06",
+    "nav": 700.4308,
+    "price": 699.3808,
+    "benchmarkPrice": 159.3837
+  },
+  {
+    "date": "2026-03-09",
+    "nav": 699.4782,
+    "price": 698.5406,
+    "benchmarkPrice": 159.1919
+  },
+  {
+    "date": "2026-03-10",
+    "nav": 699.0696,
+    "price": 698.2091,
+    "benchmarkPrice": 159.1067
+  },
+  {
+    "date": "2026-03-11",
+    "nav": 698.6231,
+    "price": 697.8572,
+    "benchmarkPrice": 159.0126
+  },
+  {
+    "date": "2026-03-12",
+    "nav": 698.1437,
+    "price": 697.4879,
+    "benchmarkPrice": 158.9107
+  },
+  {
+    "date": "2026-03-13",
+    "nav": 697.6369,
+    "price": 697.1043,
+    "benchmarkPrice": 158.8023
+  },
+  {
+    "date": "2026-03-16",
+    "nav": 696.0077,
+    "price": 695.898,
+    "benchmarkPrice": 158.4504
+  },
+  {
+    "date": "2026-03-17",
+    "nav": 695.448,
+    "price": 695.4872,
+    "benchmarkPrice": 158.3287
+  },
+  {
+    "date": "2026-03-18",
+    "nav": 694.89,
+    "price": 695.077,
+    "benchmarkPrice": 158.207
+  },
+  {
+    "date": "2026-03-19",
+    "nav": 694.3397,
+    "price": 694.6705,
+    "benchmarkPrice": 158.0868
+  },
+  {
+    "date": "2026-03-20",
+    "nav": 693.8029,
+    "price": 694.2706,
+    "benchmarkPrice": 157.9692
+  },
+  {
+    "date": "2026-03-23",
+    "nav": 692.3312,
+    "price": 693.1413,
+    "benchmarkPrice": 157.6462
+  },
+  {
+    "date": "2026-03-24",
+    "nav": 691.905,
+    "price": 692.7988,
+    "benchmarkPrice": 157.5524
+  },
+  {
+    "date": "2026-03-25",
+    "nav": 691.5194,
+    "price": 692.4787,
+    "benchmarkPrice": 157.4675
+  },
+  {
+    "date": "2026-03-26",
+    "nav": 691.179,
+    "price": 692.1841,
+    "benchmarkPrice": 157.3926
+  },
+  {
+    "date": "2026-03-27",
+    "nav": 690.8879,
+    "price": 691.9185,
+    "benchmarkPrice": 157.3285
+  },
+  {
+    "date": "2026-03-30",
+    "nav": 690.3462,
+    "price": 691.3279,
+    "benchmarkPrice": 157.2095
+  },
+  {
+    "date": "2026-03-31",
+    "nav": 690.2858,
+    "price": 691.2105,
+    "benchmarkPrice": 157.1965
+  },
+  {
+    "date": "2026-04-01",
+    "nav": 690.289,
+    "price": 691.1379,
+    "benchmarkPrice": 157.1976
+  },
+  {
+    "date": "2026-04-02",
+    "nav": 690.3572,
+    "price": 691.1132,
+    "benchmarkPrice": 157.2131
+  },
+  {
+    "date": "2026-04-03",
+    "nav": 690.4912,
+    "price": 691.1388,
+    "benchmarkPrice": 157.2432
+  },
+  {
+    "date": "2026-04-06",
+    "nav": 691.288,
+    "price": 691.5414,
+    "benchmarkPrice": 157.4213
+  },
+  {
+    "date": "2026-04-07",
+    "nav": 691.6824,
+    "price": 691.7902,
+    "benchmarkPrice": 157.5092
+  },
+  {
+    "date": "2026-04-08",
+    "nav": 692.1387,
+    "price": 692.0984,
+    "benchmarkPrice": 157.6108
+  },
+  {
+    "date": "2026-04-09",
+    "nav": 692.6543,
+    "price": 692.4665,
+    "benchmarkPrice": 157.7256
+  },
+  {
+    "date": "2026-04-10",
+    "nav": 693.2263,
+    "price": 692.8948,
+    "benchmarkPrice": 157.8529
+  },
+  {
+    "date": "2026-04-13",
+    "nav": 695.246,
+    "price": 694.5327,
+    "benchmarkPrice": 158.3017
+  },
+  {
+    "date": "2026-04-14",
+    "nav": 696.0063,
+    "price": 695.1912,
+    "benchmarkPrice": 158.4704
+  },
+  {
+    "date": "2026-04-15",
+    "nav": 696.8024,
+    "price": 695.9017,
+    "benchmarkPrice": 158.6469
+  },
+  {
+    "date": "2026-04-16",
+    "nav": 697.6291,
+    "price": 696.6608,
+    "benchmarkPrice": 158.8301
+  },
+  {
+    "date": "2026-04-17",
+    "nav": 698.4807,
+    "price": 697.4646,
+    "benchmarkPrice": 159.0185
+  },
+  {
+    "date": "2026-04-20",
+    "nav": 701.1289,
+    "price": 700.0947,
+    "benchmarkPrice": 159.6031
+  },
+  {
+    "date": "2026-04-21",
+    "nav": 702.023,
+    "price": 701.0252,
+    "benchmarkPrice": 159.7999
+  },
+  {
+    "date": "2026-04-22",
+    "nav": 702.9128,
+    "price": 701.9718,
+    "benchmarkPrice": 159.9955
+  },
+  {
+    "date": "2026-04-23",
+    "nav": 703.7923,
+    "price": 702.9275,
+    "benchmarkPrice": 160.1883
+  },
+  {
+    "date": "2026-04-24",
+    "nav": 704.6556,
+    "price": 703.8849,
+    "benchmarkPrice": 160.3772
+  },
+  {
+    "date": "2026-04-27",
+    "nav": 707.092,
+    "price": 706.6903,
+    "benchmarkPrice": 160.9072
+  },
+  {
+    "date": "2026-04-28",
+    "nav": 707.8353,
+    "price": 707.5771,
+    "benchmarkPrice": 161.0677
+  },
+  {
+    "date": "2026-04-29",
+    "nav": 708.5358,
+    "price": 708.4268,
+    "benchmarkPrice": 161.2182
+  },
+  {
+    "date": "2026-04-30",
+    "nav": 709.1893,
+    "price": 709.232,
+    "benchmarkPrice": 161.3577
+  },
+  {
+    "date": "2026-05-01",
+    "nav": 709.7918,
+    "price": 709.9855,
+    "benchmarkPrice": 161.4854
+  },
+  {
+    "date": "2026-05-04",
+    "nav": 711.259,
+    "price": 711.8715,
+    "benchmarkPrice": 161.7899
+  },
+  {
+    "date": "2026-05-05",
+    "nav": 711.6259,
+    "price": 712.3569,
+    "benchmarkPrice": 161.8632
+  },
+  {
+    "date": "2026-05-06",
+    "nav": 711.9285,
+    "price": 712.7631,
+    "benchmarkPrice": 161.9217
+  },
+  {
+    "date": "2026-05-07",
+    "nav": 712.1656,
+    "price": 713.0869,
+    "benchmarkPrice": 161.9652
+  },
+  {
+    "date": "2026-05-08",
+    "nav": 712.3368,
+    "price": 713.3259,
+    "benchmarkPrice": 161.9936
+  },
+  {
+    "date": "2026-05-11",
+    "nav": 712.4568,
+    "price": 713.5246,
+    "benchmarkPrice": 161.9885
+  },
+  {
+    "date": "2026-05-12",
+    "nav": 712.3692,
+    "price": 713.4198,
+    "benchmarkPrice": 161.9576
+  },
+  {
+    "date": "2026-05-13",
+    "nav": 712.2207,
+    "price": 713.2327,
+    "benchmarkPrice": 161.9128
+  },
+  {
+    "date": "2026-05-14",
+    "nav": 712.0142,
+    "price": 712.9667,
+    "benchmarkPrice": 161.8548
+  },
+  {
+    "date": "2026-05-15",
+    "nav": 711.7525,
+    "price": 712.6263,
+    "benchmarkPrice": 161.7842
+  },
+  {
+    "date": "2026-05-18",
+    "nav": 710.6747,
+    "price": 711.2137,
+    "benchmarkPrice": 161.5058
+  },
+  {
+    "date": "2026-05-19",
+    "nav": 710.2323,
+    "price": 710.6346,
+    "benchmarkPrice": 161.3942
+  },
+  {
+    "date": "2026-05-20",
+    "nav": 709.7564,
+    "price": 710.014,
+    "benchmarkPrice": 161.2749
+  },
+  {
+    "date": "2026-05-21",
+    "nav": 709.2524,
+    "price": 709.3603,
+    "benchmarkPrice": 161.1494
+  },
+  {
+    "date": "2026-05-22",
+    "nav": 708.7259,
+    "price": 708.6819,
+    "benchmarkPrice": 161.0188
+  },
+  {
+    "date": "2026-05-25",
+    "nav": 707.0685,
+    "price": 706.5882,
+    "benchmarkPrice": 160.6098
+  },
+  {
+    "date": "2026-05-26",
+    "nav": 706.51,
+    "price": 705.9005,
+    "benchmarkPrice": 160.4724
+  },
+  {
+    "date": "2026-05-27",
+    "nav": 705.9584,
+    "price": 705.2323,
+    "benchmarkPrice": 160.3366
+  },
+  {
+    "date": "2026-05-28",
+    "nav": 705.4198,
+    "price": 704.5919,
+    "benchmarkPrice": 160.2039
+  },
+  {
+    "date": "2026-05-29",
+    "nav": 704.8998,
+    "price": 703.9873,
+    "benchmarkPrice": 160.0757
+  },
+  {
+    "date": "2026-06-01",
+    "nav": 703.5081,
+    "price": 702.4582,
+    "benchmarkPrice": 159.7301
+  },
+  {
+    "date": "2026-06-02",
+    "nav": 703.1176,
+    "price": 702.0639,
+    "benchmarkPrice": 159.6319
+  },
+  {
+    "date": "2026-06-03",
+    "nav": 702.7717,
+    "price": 701.7355,
+    "benchmarkPrice": 159.5441
+  },
+  {
+    "date": "2026-06-04",
+    "nav": 702.4747,
+    "price": 701.4771,
+    "benchmarkPrice": 159.4676
+  },
+  {
+    "date": "2026-06-05",
+    "nav": 702.2305,
+    "price": 701.2916,
+    "benchmarkPrice": 159.4033
+  },
+  {
+    "date": "2026-06-08",
+    "nav": 701.8456,
+    "price": 701.1904,
+    "benchmarkPrice": 159.2909
+  },
+  {
+    "date": "2026-06-09",
+    "nav": 701.8414,
+    "price": 701.3103,
+    "benchmarkPrice": 159.2821
+  },
+  {
+    "date": "2026-06-10",
+    "nav": 701.9021,
+    "price": 701.5057,
+    "benchmarkPrice": 159.2883
+  },
+  {
+    "date": "2026-06-11",
+    "nav": 702.0285,
+    "price": 701.775,
+    "benchmarkPrice": 159.3096
+  },
+  {
+    "date": "2026-06-12",
+    "nav": 702.2209,
+    "price": 702.1155,
+    "benchmarkPrice": 159.3463
+  },
+  {
+    "date": "2026-06-15",
+    "nav": 703.1899,
+    "price": 703.53,
+    "benchmarkPrice": 159.5469
+  },
+  {
+    "date": "2026-06-16",
+    "nav": 703.6391,
+    "price": 704.1182,
+    "benchmarkPrice": 159.643
+  },
+  {
+    "date": "2026-06-17",
+    "nav": 704.148,
+    "price": 704.7566,
+    "benchmarkPrice": 159.753
+  },
+  {
+    "date": "2026-06-18",
+    "nav": 704.7138,
+    "price": 705.4396,
+    "benchmarkPrice": 159.8762
+  },
+  {
+    "date": "2026-06-19",
+    "nav": 705.3331,
+    "price": 706.1617,
+    "benchmarkPrice": 160.0119
+  },
+  {
+    "date": "2026-06-22",
+    "nav": 707.473,
+    "price": 708.5032,
+    "benchmarkPrice": 160.485
+  },
+  {
+    "date": "2026-06-23",
+    "nav": 708.2652,
+    "price": 709.3224,
+    "benchmarkPrice": 160.6613
+  },
+  {
+    "date": "2026-06-24",
+    "nav": 709.0886,
+    "price": 710.1513,
+    "benchmarkPrice": 160.8451
+  },
+  {
+    "date": "2026-06-25",
+    "nav": 709.9377,
+    "price": 710.9842,
+    "benchmarkPrice": 161.035
+  },
+  {
+    "date": "2026-06-26",
+    "nav": 710.8069,
+    "price": 711.8159,
+    "benchmarkPrice": 161.2298
+  },
+  {
+    "date": "2026-06-29",
+    "nav": 713.4763,
+    "price": 714.2539,
+    "benchmarkPrice": 161.8307
+  },
+  {
+    "date": "2026-06-30",
+    "nav": 714.3669,
+    "price": 715.0326,
+    "benchmarkPrice": 162.0319
+  },
+  {
+    "date": "2026-07-01",
+    "nav": 715.2478,
+    "price": 715.788,
+    "benchmarkPrice": 162.2313
+  },
+  {
+    "date": "2026-07-02",
+    "nav": 716.1133,
+    "price": 716.5164,
+    "benchmarkPrice": 162.4276
+  },
+  {
+    "date": "2026-07-03",
+    "nav": 716.9575,
+    "price": 717.2151,
+    "benchmarkPrice": 162.6194
+  },
+  {
+    "date": "2026-07-06",
+    "nav": 719.3079,
+    "price": 719.1076,
+    "benchmarkPrice": 163.1559
+  },
+  {
+    "date": "2026-07-07",
+    "nav": 720.0136,
+    "price": 719.664,
+    "benchmarkPrice": 163.3179
+  },
+  {
+    "date": "2026-07-08",
+    "nav": 720.6727,
+    "price": 720.1808,
+    "benchmarkPrice": 163.4697
+  },
+  {
+    "date": "2026-07-09",
+    "nav": 721.2812,
+    "price": 720.6568,
+    "benchmarkPrice": 163.6105
+  },
+  {
+    "date": "2026-07-10",
+    "nav": 721.8355,
+    "price": 721.091,
+    "benchmarkPrice": 163.7392
+  },
+  {
+    "date": "2026-07-13",
+    "nav": 723.143,
+    "price": 722.1373,
+    "benchmarkPrice": 164.0473
+  },
+  {
+    "date": "2026-07-14",
+    "nav": 723.453,
+    "price": 722.3992,
+    "benchmarkPrice": 164.1221
+  },
+  {
+    "date": "2026-07-15",
+    "nav": 723.6977,
+    "price": 722.6174,
+    "benchmarkPrice": 164.1825
+  },
+  {
+    "date": "2026-07-16",
+    "nav": 723.8765,
+    "price": 722.7918,
+    "benchmarkPrice": 164.2284
+  },
+  {
+    "date": "2026-07-17",
+    "nav": 723.9893,
+    "price": 722.9223,
+    "benchmarkPrice": 164.2595
+  },
+  {
+    "date": "2026-07-20",
+    "nav": 723.9384,
+    "price": 723.0521,
+    "benchmarkPrice": 164.2668
+  },
+  {
+    "date": "2026-07-21",
+    "nav": 723.7969,
+    "price": 723.009,
+    "benchmarkPrice": 164.2415
+  },
+  {
+    "date": "2026-07-22",
+    "nav": 723.5968,
+    "price": 722.9235,
+    "benchmarkPrice": 164.2034
+  },
+  {
+    "date": "2026-07-23",
+    "nav": 723.3413,
+    "price": 722.7963,
+    "benchmarkPrice": 164.1529
+  },
+  {
+    "date": "2026-07-24",
+    "nav": 723.0339,
+    "price": 722.6282,
+    "benchmarkPrice": 164.0909
+  },
+  {
+    "date": "2026-07-27",
+    "nav": 721.841,
+    "price": 721.8899,
+    "benchmarkPrice": 163.8451
+  },
+  {
+    "date": "2026-07-28",
+    "nav": 721.3687,
+    "price": 721.571,
+    "benchmarkPrice": 163.7467
+  },
+  {
+    "date": "2026-07-29",
+    "nav": 720.8677,
+    "price": 721.219,
+    "benchmarkPrice": 163.642
+  },
+  {
+    "date": "2026-07-30",
+    "nav": 720.3434,
+    "price": 720.8363,
+    "benchmarkPrice": 163.5323
+  },
+  {
+    "date": "2026-07-31",
+    "nav": 719.8016,
+    "price": 720.4259,
+    "benchmarkPrice": 163.4188
+  },
+  {
+    "date": "2026-08-03",
+    "nav": 718.13,
+    "price": 719.0618,
+    "benchmarkPrice": 163.0688
+  },
+  {
+    "date": "2026-08-04",
+    "nav": 717.5774,
+    "price": 718.5758,
+    "benchmarkPrice": 162.9535
+  },
+  {
+    "date": "2026-08-05",
+    "nav": 717.0369,
+    "price": 718.0817,
+    "benchmarkPrice": 162.8412
+  },
+  {
+    "date": "2026-08-06",
+    "nav": 716.5146,
+    "price": 717.5843,
+    "benchmarkPrice": 162.733
+  },
+  {
+    "date": "2026-08-07",
+    "nav": 716.0159,
+    "price": 717.0888,
+    "benchmarkPrice": 162.6304
+  },
+  {
+    "date": "2026-08-10",
+    "nav": 714.7164,
+    "price": 715.6701,
+    "benchmarkPrice": 162.3677
+  },
+  {
+    "date": "2026-08-11",
+    "nav": 714.3651,
+    "price": 715.239,
+    "benchmarkPrice": 162.2989
+  },
+  {
+    "date": "2026-08-12",
+    "nav": 714.0623,
+    "price": 714.8387,
+    "benchmarkPrice": 162.2411
+  },
+  {
+    "date": "2026-08-13",
+    "nav": 713.8118,
+    "price": 714.4749,
+    "benchmarkPrice": 162.1953
+  },
+  {
+    "date": "2026-08-14",
+    "nav": 713.617,
+    "price": 714.1536,
+    "benchmarkPrice": 162.1622
+  },
+  {
+    "date": "2026-08-17",
+    "nav": 713.3946,
+    "price": 713.4977,
+    "benchmarkPrice": 162.1452
+  },
+  {
+    "date": "2026-08-18",
+    "nav": 713.4478,
+    "price": 713.3982,
+    "benchmarkPrice": 162.1684
+  },
+  {
+    "date": "2026-08-19",
+    "nav": 713.5666,
+    "price": 713.3652,
+    "benchmarkPrice": 162.2066
+  },
+  {
+    "date": "2026-08-20",
+    "nav": 713.7515,
+    "price": 713.4024,
+    "benchmarkPrice": 162.2597
+  },
+  {
+    "date": "2026-08-21",
+    "nav": 714.0022,
+    "price": 713.5124,
+    "benchmarkPrice": 162.3278
+  },
+  {
+    "date": "2026-08-24",
+    "nav": 715.1404,
+    "price": 714.2978,
+    "benchmarkPrice": 162.6193
+  },
+  {
+    "date": "2026-08-25",
+    "nav": 715.6426,
+    "price": 714.7134,
+    "benchmarkPrice": 162.7443
+  },
+  {
+    "date": "2026-08-26",
+    "nav": 716.202,
+    "price": 715.2049,
+    "benchmarkPrice": 162.8821
+  },
+  {
+    "date": "2026-08-27",
+    "nav": 716.8153,
+    "price": 715.7705,
+    "benchmarkPrice": 163.0321
+  },
+  {
+    "date": "2026-08-28",
+    "nav": 717.4789,
+    "price": 716.4076,
+    "benchmarkPrice": 163.1934
+  },
+  {
+    "date": "2026-08-31",
+    "nav": 719.7284,
+    "price": 718.7081,
+    "benchmarkPrice": 163.7354
+  },
+  {
+    "date": "2026-09-01",
+    "nav": 720.5485,
+    "price": 719.5876,
+    "benchmarkPrice": 163.9317
+  },
+  {
+    "date": "2026-09-02",
+    "nav": 721.3949,
+    "price": 720.5133,
+    "benchmarkPrice": 164.1338
+  },
+  {
+    "date": "2026-09-03",
+    "nav": 722.2621,
+    "price": 721.4778,
+    "benchmarkPrice": 164.3404
+  },
+  {
+    "date": "2026-09-04",
+    "nav": 723.1442,
+    "price": 722.4735,
+    "benchmarkPrice": 164.5503
+  },
+  {
+    "date": "2026-09-07",
+    "nav": 725.8208,
+    "price": 725.5641,
+    "benchmarkPrice": 165.1854
+  },
+  {
+    "date": "2026-09-08",
+    "nav": 726.7032,
+    "price": 726.5996,
+    "benchmarkPrice": 165.3943
+  },
+  {
+    "date": "2026-09-09",
+    "nav": 727.5708,
+    "price": 727.6228,
+    "benchmarkPrice": 165.5997
+  },
+  {
+    "date": "2026-09-10",
+    "nav": 728.4177,
+    "price": 728.6246,
+    "benchmarkPrice": 165.8001
+  },
+  {
+    "date": "2026-09-11",
+    "nav": 729.2385,
+    "price": 729.5964,
+    "benchmarkPrice": 165.9942
+  },
+  {
+    "date": "2026-09-14",
+    "nav": 731.4907,
+    "price": 732.2482,
+    "benchmarkPrice": 166.527
+  },
+  {
+    "date": "2026-09-15",
+    "nav": 732.1554,
+    "price": 733.019,
+    "benchmarkPrice": 166.6844
+  },
+  {
+    "date": "2026-09-16",
+    "nav": 732.77,
+    "price": 733.7221,
+    "benchmarkPrice": 166.8301
+  },
+  {
+    "date": "2026-09-17",
+    "nav": 733.3306,
+    "price": 734.352,
+    "benchmarkPrice": 166.9631
+  },
+  {
+    "date": "2026-09-18",
+    "nav": 733.8341,
+    "price": 734.904,
+    "benchmarkPrice": 167.0828
+  },
+  {
+    "date": "2026-09-21",
+    "nav": 734.9767,
+    "price": 736.0591,
+    "benchmarkPrice": 167.3559
+  },
+  {
+    "date": "2026-09-22",
+    "nav": 735.229,
+    "price": 736.2709,
+    "benchmarkPrice": 167.4169
+  },
+  {
+    "date": "2026-09-23",
+    "nav": 735.4153,
+    "price": 736.3954,
+    "benchmarkPrice": 167.4625
+  },
+  {
+    "date": "2026-09-24",
+    "nav": 735.5357,
+    "price": 736.4338,
+    "benchmarkPrice": 167.4928
+  },
+  {
+    "date": "2026-09-25",
+    "nav": 735.5903,
+    "price": 736.3881,
+    "benchmarkPrice": 167.5076
+  },
+  {
+    "date": "2026-09-28",
+    "nav": 735.3722,
+    "price": 735.781,
+    "benchmarkPrice": 167.4629
+  },
+  {
+    "date": "2026-09-29",
+    "nav": 735.1788,
+    "price": 735.4375,
+    "benchmarkPrice": 167.4197
+  },
+  {
+    "date": "2026-09-30",
+    "nav": 734.9295,
+    "price": 735.0329,
+    "benchmarkPrice": 167.3634
+  },
+  {
+    "date": "2026-10-01",
+    "nav": 734.6278,
+    "price": 734.5739,
+    "benchmarkPrice": 167.2948
+  },
+  {
+    "date": "2026-10-02",
+    "nav": 734.2777,
+    "price": 734.0677,
+    "benchmarkPrice": 167.2147
+  }
+]

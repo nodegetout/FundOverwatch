@@ -1,0 +1,36 @@
+---
+interface Allocation {
+  name: string;
+  weight: number;
+}
+
+interface Props {
+  title: string;
+  items: Allocation[];
+}
+
+const { title, items } = Astro.props;
+---
+
+<section class="exposure-card">
+  <h3>{title}</h3>
+  {
+    items.length ? (
+      <div class="exposure-list">
+        {items.slice(0, 6).map((item) => (
+          <div class="exposure-row">
+            <div class="exposure-label">
+              <span>{item.name}</span>
+              <strong>{(item.weight * 100).toFixed(1)}%</strong>
+            </div>
+            <div class="bar-track" aria-label={`${item.name} ${(item.weight * 100).toFixed(1)}%`}>
+              <span style={`width: ${Math.min(item.weight * 100, 100)}%`} />
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p class="empty-state">暂无暴露数据</p>
+    )
+  }
+</section>

@@ -1,0 +1,121 @@
+name: Refresh fund data
+
+on:
+  schedule:
+    - cron: "0 3 * * 1-5"
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Data collection mode
+        required: true
+        type: choice
+        options:
+          - intraday
+          - final
+        default: final
+      date:
+        description: Optional Asia/Shanghai date (YYYY-MM-DD)
+        required: false
+        type: string
+
+concurrency:
+  group: fund-data-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Resolve run parameters
+        id: params
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ inputs.mode }}
+          INPUT_DATE: ${{ inputs.date }}
+        run: |
+          set -euo pipefail
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            mode="$INPUT_MODE"
+          elif [[ "$SCHEDULE" == "0 3 * * 1-5" ]]; then
+            mode="intraday"
+          else
+            mode="final"
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "date=$INPUT_DATE" >> "$GITHUB_OUTPUT"
+      - name: Generate and validate data
+        env:
+          RUN_MODE: ${{ steps.params.outputs.mode }}
+          RUN_DATE: ${{ steps.params.outputs.date }}
+        run: |
+          set -euo pipefail
+          args=("--mode=$RUN_MODE")
+          if [[ -n "$RUN_DATE" ]]; then
+            args+=("--date=$RUN_DATE")
+          fi
+          npm run data:generate -- "${args[@]}"
+          npm run data:verify
+          npm test
+          npm run build
+      - name: Commit changed data
+        id: commit
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data public/data; then
+            echo "No data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/data
+          git commit -m "chore(data): refresh simulated fund data [skip ci]"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          BASE_PATH: ${{ vars.BASE_PATH }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

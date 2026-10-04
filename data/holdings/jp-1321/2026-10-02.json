@@ -1,0 +1,65 @@
+{
+  "fundId": "jp-1321",
+  "date": "2026-10-02",
+  "holdings": [
+    {
+      "name": "Fast Retailing",
+      "symbol": "9983",
+      "weight": 0.105,
+      "sector": "Consumer Discretionary",
+      "country": "Japan"
+    },
+    {
+      "name": "Tokyo Electron",
+      "symbol": "8035",
+      "weight": 0.073,
+      "sector": "Technology",
+      "country": "Japan"
+    },
+    {
+      "name": "SoftBank Group",
+      "symbol": "9984",
+      "weight": 0.046,
+      "sector": "Communication",
+      "country": "Japan"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "Other",
+      "weight": 0.776
+    },
+    {
+      "name": "Consumer Discretionary",
+      "weight": 0.105
+    },
+    {
+      "name": "Technology",
+      "weight": 0.073
+    },
+    {
+      "name": "Communication",
+      "weight": 0.046
+    }
+  ],
+  "countries": [
+    {
+      "name": "Other",
+      "weight": 0.776
+    },
+    {
+      "name": "Japan",
+      "weight": 0.224
+    }
+  ],
+  "quality": {
+    "status": "complete",
+    "source": "deterministic-mock-v1",
+    "isSimulated": true,
+    "collectedAt": "2026-10-02T13:00:00+08:00",
+    "warnings": [
+      "Illustrative top holdings; weights outside the top holdings are grouped as Other."
+    ],
+    "missingFields": []
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "us-spy",
+    "symbol": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
+    "market": "US",
+    "exchange": "NYSE Arca",
+    "currency": "USD",
+    "assetClass": "Equity",
+    "benchmark": "S&P 500",
+    "timezone": "America/New_York",
+    "inceptionDate": "1993-01-22",
+    "providerRef": "mock:us-spy"
+  },
+  {
+    "id": "hk-2800",
+    "symbol": "2800",
+    "name": "Tracker Fund of Hong Kong",
+    "market": "HK",
+    "exchange": "HKEX",
+    "currency": "HKD",
+    "assetClass": "Equity",
+    "benchmark": "Hang Seng Index",
+    "timezone": "Asia/Hong_Kong",
+    "inceptionDate": "1999-11-11",
+    "providerRef": "mock:hk-2800"
+  },
+  {
+    "id": "cn-510300",
+    "symbol": "510300",
+    "name": "华泰柏瑞沪深300ETF",
+    "market": "CN",
+    "exchange": "SSE",
+    "currency": "CNY",
+    "assetClass": "Equity",
+    "benchmark": "沪深300指数",
+    "timezone": "Asia/Shanghai",
+    "inceptionDate": "2012-05-04",
+    "providerRef": "mock:cn-510300"
+  },
+  {
+    "id": "jp-1321",
+    "symbol": "1321",
+    "name": "NEXT FUNDS Nikkei 225 ETF",
+    "market": "JP",
+    "exchange": "TSE",
+    "currency": "JPY",
+    "assetClass": "Equity",
+    "benchmark": "Nikkei 225",
+    "timezone": "Asia/Tokyo",
+    "inceptionDate": "2001-07-09",
+    "providerRef": "mock:jp-1321"
+  }
+]
