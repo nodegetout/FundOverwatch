@@ -12,6 +12,8 @@
     "test": "vitest run",
     "data:generate": "tsx scripts/generate-data.ts",
     "data:verify": "tsx scripts/verify-data.ts",
+    "calendar:verify": "tsx scripts/trading-calendar.ts verify",
+    "calendar:refresh": "tsx scripts/trading-calendar.ts refresh",
     "backtest": "tsx scripts/backtest.ts"
   },
   "dependencies": {

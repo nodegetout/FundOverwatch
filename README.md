@@ -19,6 +19,7 @@ Fund Overwatch 是面向 **8 只中国大陆真实公募基金**的可审计静�
 npm ci
 npm run data:generate -- --phase=morning --date=2026-10-05
 npm run data:generate -- --phase=evening --date=2026-10-05
+npm run calendar:verify
 npm run dev
 ```
 
@@ -42,12 +43,25 @@ GitHub cron 使用 UTC，且可能延迟：
 | 北京时间 | UTC cron | phase | 作用 |
 |---|---|---|---|
 | 工作日 10:30 | `30 2 * * 1-5` | `morning` | 抓取真实源并生成上午预测 |
-| 工作日 22:30 | `30 14 * * 1-5` | `evening` | 获取最新 NAV、评估/补评、月末/年末 gate |
-| 周六 10:30 | `30 2 * * 6` | `weekly` | 复盘上一完整交易周 |
+| 工作日 22:30 | `30 14 * * 1-5` | `evening` | 获取最新 NAV、评估/补评；周五依次生成周报，再执行月末、年末 gate |
 
-脚本内部使用上海日期、工作日校验、明确维护的 2026 中国内地交易所休市日和 `date + phase + pipeline version` 幂等键。普通周一至周五不等同于必然开市：休市日上午不创建预测；日历覆盖范围外再以源交易日期防误判并明确使用 weekday fallback。月末/年末若落在周末，最后一个工作日晚先生成 `provisional`；后续晚间在最终 NAV 可用后可补全。`12-31` 生成年度 provisional/final，年度已评估样本进入后续有界校准。
+脚本以版本化的 SSE/SZSE 官方公告判定中国证券交易所交易日，不使用法定“调休工作日”API：周末永远休市，调休上班周末也不会生成预测。当前官方覆盖为 2025–2026；覆盖外返回 `calendar-unavailable` 并 fail closed，不存在 weekday fallback。周五无论开市或因春节、国庆等休市，晚间都会处理该日历周：没有样本为 `no-data`，存在未披露 NAV 为 `provisional`，后续每个晚间幂等重算至 `final`。周期报告只汇总，只有 evening online update 消费新增 evaluation key，因此周/月/年同日不会重复训练。
 
-手动运行支持 `phase` 与 `date`。工作流使用最小权限、并发锁、无变化不提交、原子 JSON 写入和 `[skip ci]` 数据提交；数据任务自身部署 Pages，普通 Pages workflow 排除机器人提交，避免循环。
+`github.event.schedule` 只标识 cron 表达式，不携带计划日期。脚本根据实际 UTC 时间反推最近一次匹配的计划时刻，再转换为上海业务日期；跨日的 evening 安全回填原目标日并记录计划/实际时间，跨日 morning 为防前视偏差明确跳过。手动运行保留 `phase` 与 `date`；只有 `workflow_dispatch` 可显式勾选 calendar override 进行覆盖外回放，默认禁用且周末仍不可覆盖。工作流使用最小权限、并发锁、原子 JSON 写入和 `[skip ci]` 数据提交。
+
+### 交易日历维护
+
+版本化文件为 `data/calendars/cn-exchange.json`，包含 coverage、closure reason、source、公告发布时间和 as-of。2025/2026 分别引用上交所与深交所《关于部分节假日休市安排的通知》，两所归一化结果必须完全一致。
+
+```bash
+npm run calendar:verify
+npm run calendar:refresh -- \
+  --year=2027 \
+  --sse-url=https://www.sse.com.cn/...official.json \
+  --szse-url=https://www.szse.cn/...official.json
+```
+
+只在两所发布下一年度正式公告后人工执行 refresh。命令严格校验标题、年份、公告号、日期范围及两所一致性；网络、JSON、公告格式或语义异常均非零退出，并在原子写入前保留现有文件。加 `--check` 可做受控真实源 smoke 而不写盘。`calendar:verify` 会在下一年度尚未覆盖时提前告警，但绝不生成推测日期。
 
 ## 数据源与时效
 
