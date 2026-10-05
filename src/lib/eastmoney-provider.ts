@@ -294,7 +294,7 @@ function buildHoldingsSnapshot(
       status: "complete",
       source: HOLDINGS_SOURCE,
       dataMode: "real",
-      isSimulated: false,
+      isSimulated: false as const,
       collectedAt,
       warnings: [
         "定期报告持仓，非实时仓位；权重为占基金净值比例。",
@@ -517,7 +517,7 @@ export class EastmoneyNavProvider implements FundDataProvider {
       status: stale ? ("stale" as const) : ("partial" as const),
       source: this.name,
       dataMode: "real" as const,
-      isSimulated: false,
+      isSimulated: false as const,
       collectedAt: context.collectedAt,
       warnings,
       missingFields: ["price", "benchmarkPrice"]

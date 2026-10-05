@@ -1,26 +1,25 @@
-name: Refresh fund data
+name: China fund prediction loop
 
 on:
   schedule:
-    - cron: "0 3 * * 1-5"
-    - cron: "0 13 * * 1-5"
+    - cron: "30 2 * * 1-5"
+    - cron: "30 14 * * 1-5"
+    - cron: "30 2 * * 6"
   workflow_dispatch:
     inputs:
-      mode:
-        description: Data collection mode
+      phase:
+        description: Pipeline phase
         required: true
         type: choice
-        options:
-          - intraday
-          - final
-        default: final
+        options: [morning, evening, weekly, monthly, yearly, all]
+        default: all
       date:
         description: Optional Asia/Shanghai date (YYYY-MM-DD)
         required: false
         type: string
 
 concurrency:
-  group: fund-data-refresh
+  group: china-fund-prediction-loop
   cancel-in-progress: false
 
 permissions:
@@ -29,7 +28,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     permissions:
       contents: write
     outputs:
@@ -43,41 +42,43 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - name: Resolve run parameters
+      - name: Resolve Asia/Shanghai phase
         id: params
         env:
           EVENT_NAME: ${{ github.event_name }}
           SCHEDULE: ${{ github.event.schedule }}
-          INPUT_MODE: ${{ inputs.mode }}
+          INPUT_PHASE: ${{ inputs.phase }}
           INPUT_DATE: ${{ inputs.date }}
         run: |
           set -euo pipefail
           if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
-            mode="$INPUT_MODE"
-          elif [[ "$SCHEDULE" == "0 3 * * 1-5" ]]; then
-            mode="intraday"
+            phase="$INPUT_PHASE"
+          elif [[ "$SCHEDULE" == "30 2 * * 6" ]]; then
+            phase="weekly"
+          elif [[ "$SCHEDULE" == "30 2 * * 1-5" ]]; then
+            phase="morning"
           else
-            mode="final"
+            phase="evening"
           fi
-          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "phase=$phase" >> "$GITHUB_OUTPUT"
           echo "date=$INPUT_DATE" >> "$GITHUB_OUTPUT"
-      - name: Generate and validate data
+      - name: Generate, verify, and build
         env:
-          RUN_MODE: ${{ steps.params.outputs.mode }}
+          RUN_PHASE: ${{ steps.params.outputs.phase }}
           RUN_DATE: ${{ steps.params.outputs.date }}
         run: |
           set -euo pipefail
-          args=("--mode=$RUN_MODE")
+          args=("--phase=$RUN_PHASE")
           if [[ -n "$RUN_DATE" ]]; then
             args+=("--date=$RUN_DATE")
           fi
           npm run data:generate -- "${args[@]}"
           npm run lint
           npm run typecheck
-          npm run data:verify
           npm test
+          npm run data:verify
           npm run build
-      - name: Commit changed data
+      - name: Commit changed data atomically
         id: commit
         run: |
           set -euo pipefail
@@ -89,7 +90,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data public/data
-          git commit -m "chore(data): refresh fund data [skip ci]"
+          git commit -m "chore(data): refresh China fund prediction loop [skip ci]"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
@@ -100,6 +101,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     permissions:
+      contents: read
       pages: write
       id-token: write
     steps:
@@ -119,6 +121,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-      - name: Deploy to GitHub Pages
+      - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

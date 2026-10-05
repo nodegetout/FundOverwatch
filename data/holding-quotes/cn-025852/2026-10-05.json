@@ -1,105 +1,105 @@
 {
   "fundId": "cn-025852",
-  "collectedAt": "2026-10-05T13:00:00+08:00",
+  "collectedAt": "2026-10-05T22:30:00+08:00",
   "quotes": [
     {
       "assetKey": "stock:00005",
-      "status": "stale",
-      "dayChange": -0.0538,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:00148",
-      "status": "stale",
-      "dayChange": 0.0188,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:01070",
-      "status": "stale",
-      "dayChange": -0.0028,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:01347",
-      "status": "stale",
-      "dayChange": 0.0009,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:01651",
-      "status": "stale",
-      "dayChange": 0.016,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:03296",
-      "status": "stale",
-      "dayChange": 0.0038,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:03393",
-      "status": "stale",
-      "dayChange": -0.0031,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:03899",
-      "status": "stale",
-      "dayChange": -0.0148,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:09988",
-      "status": "stale",
-      "dayChange": -0.0206,
-      "asOf": "2026-10-02T08:08:07.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-02T08:08:07.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:300308",
-      "status": "stale",
-      "dayChange": -0.0056,
-      "asOf": "2026-09-30T07:34:15.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-09-30T07:34:15.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     }
   ]

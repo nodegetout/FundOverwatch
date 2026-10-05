@@ -1,0 +1,30 @@
+{
+  "reportKey": "monthly:2026-09",
+  "period": "monthly",
+  "periodKey": "2026-09",
+  "startDate": "2026-09-01",
+  "endDate": "2026-09-30",
+  "status": "provisional",
+  "generatedAt": "2026-10-05T22:30:00+08:00",
+  "modelVersion": "cn-baseline-v1",
+  "metrics": {
+    "sampleCount": 0,
+    "directionAccuracy": null,
+    "mae": null,
+    "rmse": null,
+    "meanError": null
+  },
+  "missingRate": 1,
+  "byFund": {},
+  "byConfidence": {},
+  "byCoverage": {},
+  "bestCase": null,
+  "worstCase": null,
+  "modelChange": {
+    "previousBias": 0,
+    "newBias": 0,
+    "previousScale": 1,
+    "newScale": 1,
+    "applied": false
+  }
+}
