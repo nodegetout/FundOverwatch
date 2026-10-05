@@ -10,9 +10,11 @@ function quote(date: string, price: number | null, benchmarkPrice = price): Quot
     price,
     benchmarkPrice,
     currency: "USD",
+    valuation: "final",
     quality: {
       status: "complete",
       source: "test",
+      dataMode: "simulated",
       isSimulated: true,
       collectedAt: `${date}T13:00:00+08:00`,
       warnings: [],

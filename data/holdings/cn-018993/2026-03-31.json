@@ -1,0 +1,172 @@
+{
+  "fundId": "cn-018993",
+  "date": "2026-03-31",
+  "previousDate": null,
+  "contentHash": "cf7b9ce131cf53b87958b65c91842a2b52c7f4b8f2927d74165abff33b951cfd",
+  "holdings": [
+    {
+      "name": "潍柴动力",
+      "symbol": "000338",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.000338",
+      "weight": 0.0388,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "汽车",
+      "country": null
+    },
+    {
+      "name": "东山精密",
+      "symbol": "002384",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002384",
+      "weight": 0.046900000000000004,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "沪电股份",
+      "symbol": "002463",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002463",
+      "weight": 0.050199999999999995,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "长飞光纤光缆",
+      "symbol": "06869",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.06869",
+      "weight": 0.0495,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "阳光电源",
+      "symbol": "300274",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300274",
+      "weight": 0.0449,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电力设备",
+      "country": null
+    },
+    {
+      "name": "中际旭创",
+      "symbol": "300308",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300308",
+      "weight": 0.092,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "天孚通信",
+      "symbol": "300394",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300394",
+      "weight": 0.0398,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "新易盛",
+      "symbol": "300502",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300502",
+      "weight": 0.0942,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "亨通光电",
+      "symbol": "600487",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600487",
+      "weight": 0.044800000000000006,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "新泉股份",
+      "symbol": "603179",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.603179",
+      "weight": 0.0526,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "汽车",
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "通信",
+      "weight": 0.32030000000000003
+    },
+    {
+      "name": "电子",
+      "weight": 0.09709999999999999
+    },
+    {
+      "name": "汽车",
+      "weight": 0.09140000000000001
+    },
+    {
+      "name": "电力设备",
+      "weight": 0.0449
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。",
+      "该快照作为当前披露期的比较基准保存。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}

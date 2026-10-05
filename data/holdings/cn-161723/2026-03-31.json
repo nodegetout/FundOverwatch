@@ -1,0 +1,173 @@
+{
+  "fundId": "cn-161723",
+  "date": "2026-03-31",
+  "previousDate": null,
+  "contentHash": "93f082350372f0270e09fce3b557c50cdbaa621a390478073166fab5b08cde15",
+  "holdings": [
+    {
+      "name": "25国债08",
+      "symbol": "019773",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0023,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "平安银行",
+      "symbol": "000001",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.000001",
+      "weight": 0.0326,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "宁波银行",
+      "symbol": "002142",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002142",
+      "weight": 0.0305,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "浦发银行",
+      "symbol": "600000",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600000",
+      "weight": 0.0412,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "招商银行",
+      "symbol": "600036",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600036",
+      "weight": 0.1355,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "江苏银行",
+      "symbol": "600919",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600919",
+      "weight": 0.0487,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "兴业银行",
+      "symbol": "601166",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601166",
+      "weight": 0.0967,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "上海银行",
+      "symbol": "601229",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601229",
+      "weight": 0.029900000000000003,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "农业银行",
+      "symbol": "601288",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601288",
+      "weight": 0.0584,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "交通银行",
+      "symbol": "601328",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601328",
+      "weight": 0.0567,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "工商银行",
+      "symbol": "601398",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601398",
+      "weight": 0.075,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "银行",
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "银行",
+      "weight": 0.6052
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。",
+      "该快照作为当前披露期的比较基准保存。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}

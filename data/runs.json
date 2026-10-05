@@ -1,8 +1,20 @@
 [
   {
-    "runKey": "2026-10-02:final:mock-v1",
-    "date": "2026-10-02",
+    "runKey": "2026-10-05:intraday:mixed-v1",
+    "date": "2026-10-05",
+    "mode": "intraday",
+    "completedAt": "2026-10-05T03:00:00+08:00"
+  },
+  {
+    "runKey": "2026-10-05:final:mixed-v1",
+    "date": "2026-10-05",
     "mode": "final",
-    "completedAt": "2026-10-02T13:00:00+08:00"
+    "completedAt": "2026-10-05T13:00:00+08:00"
+  },
+  {
+    "runKey": "2026-10-05:final:mixed-v2",
+    "date": "2026-10-05",
+    "mode": "final",
+    "completedAt": "2026-10-05T13:00:00+08:00"
   }
 ]

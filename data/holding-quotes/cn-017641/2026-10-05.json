@@ -1,0 +1,106 @@
+{
+  "fundId": "cn-017641",
+  "collectedAt": "2026-10-05T13:00:00+08:00",
+  "quotes": [
+    {
+      "assetKey": "stock:AAPL",
+      "status": "stale",
+      "dayChange": 0.0102,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:AMZN",
+      "status": "stale",
+      "dayChange": 0.0133,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:AVGO",
+      "status": "stale",
+      "dayChange": 0.0335,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:GOOG",
+      "status": "stale",
+      "dayChange": 0.0162,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:GOOGL",
+      "status": "stale",
+      "dayChange": 0.0156,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:META",
+      "status": "stale",
+      "dayChange": 0.003,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:MSFT",
+      "status": "stale",
+      "dayChange": 0.0092,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:MU",
+      "status": "stale",
+      "dayChange": -0.0205,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:NVDA",
+      "status": "stale",
+      "dayChange": 0.0134,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:TSLA",
+      "status": "stale",
+      "dayChange": 0.0465,
+      "asOf": "2026-10-02T20:00:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-10-02T20:00:00.000Z。"
+      ]
+    }
+  ]
+}

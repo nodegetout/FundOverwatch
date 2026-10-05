@@ -1,0 +1,371 @@
+{
+  "fundId": "cn-018736",
+  "date": "2026-03-31",
+  "previousDate": null,
+  "contentHash": "e5b54a351c9d6a82501692e86ecc83826615a61bc548230f92206747e31a6230",
+  "holdings": [
+    {
+      "name": "25国债08",
+      "symbol": "019773",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0241,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "26湘高速MTN001",
+      "symbol": "102680964",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0217,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "24浙商银行小微债03",
+      "symbol": "212480011",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.023399999999999997,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "23国开05",
+      "symbol": "230205",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.059800000000000006,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "23广州银行绿色债02",
+      "symbol": "2320056",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0331,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "创业板ETF易方达",
+      "symbol": "159915",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0049,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "沪深300ETF嘉实",
+      "symbol": "159919",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0027,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "创业板ETF广发",
+      "symbol": "159952",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0008,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "沪深300ETF华泰柏瑞",
+      "symbol": "510300",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.013300000000000001,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "券商ETF华宝",
+      "symbol": "512000",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0009,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "中证1000ETF南方",
+      "symbol": "512100",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0001,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "通信ETF国泰",
+      "symbol": "515880",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.001,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "中证2000ETF华泰柏瑞",
+      "symbol": "563300",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0001,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "科创50ETF华夏",
+      "symbol": "588000",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0007000000000000001,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "科创50ETF工银",
+      "symbol": "588050",
+      "assetType": "fund",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0002,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "东山精密",
+      "symbol": "002384",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002384",
+      "weight": 0.0012,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "沪电股份",
+      "symbol": "002463",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002463",
+      "weight": 0.0009,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "腾讯控股",
+      "symbol": "00700",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00700",
+      "weight": 0.0021,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "传媒",
+      "country": null
+    },
+    {
+      "name": "中芯国际",
+      "symbol": "00981",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00981",
+      "weight": 0.0011,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "中际旭创",
+      "symbol": "300308",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300308",
+      "weight": 0.0042,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "新易盛",
+      "symbol": "300502",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300502",
+      "weight": 0.0037,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "工业富联",
+      "symbol": "601138",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601138",
+      "weight": 0.001,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "紫金矿业",
+      "symbol": "601899",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601899",
+      "weight": 0.013600000000000001,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "有色金属",
+      "country": null
+    },
+    {
+      "name": "寒武纪",
+      "symbol": "688256",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.688256",
+      "weight": 0.0016,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "厦钨新能",
+      "symbol": "688778",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.688778",
+      "weight": 0.0012,
+      "previousWeight": null,
+      "weightChange": null,
+      "changeStatus": "unavailable",
+      "sector": "电力设备",
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "有色金属",
+      "weight": 0.013600000000000001
+    },
+    {
+      "name": "通信",
+      "weight": 0.0079
+    },
+    {
+      "name": "电子",
+      "weight": 0.0058
+    },
+    {
+      "name": "传媒",
+      "weight": 0.0021
+    },
+    {
+      "name": "电力设备",
+      "weight": 0.0012
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-05T13:00:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。",
+      "该快照作为当前披露期的比较基准保存。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}
