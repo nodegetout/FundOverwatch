@@ -6,6 +6,10 @@ import {
   metricSet,
   type PredictionEvaluation
 } from "../src/lib/prediction-contract";
+import {
+  evaluationDisplayState,
+  predictionAvailability
+} from "../src/lib/prediction-status";
 
 const fund: Fund = {
   id: "cn-017641",
@@ -98,6 +102,22 @@ function holdingQuotes(asOf: string): HoldingQuoteBatch {
 }
 
 describe("baseline prediction model", () => {
+  it("derives non-trading, not-run, source-error, and evaluation display states", () => {
+    expect(predictionAvailability("2026-10-05", null)).toEqual({
+      status: "non-trading",
+      date: "2026-10-05",
+      reason: "2026-10-05 为休市/非交易日，未生成上午预测。"
+    });
+    expect(predictionAvailability("2026-09-30", null).status).toBe("not-run");
+    expect(predictionAvailability("2026-09-30", null, "HTTP 503").status).toBe(
+      "source-error"
+    );
+    expect(evaluationDisplayState(null, null)).toEqual({
+      status: "unavailable",
+      reason: "暂无预测可评估。"
+    });
+  });
+
   it("strictly excludes quotes newer than the feature timestamp", () => {
     const model = new BaselinePredictionModel();
     const result = model.predict({

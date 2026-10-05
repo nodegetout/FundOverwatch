@@ -109,6 +109,12 @@ export const analyticsSchema = z.object({
   observations: z.number().int().nonnegative()
 });
 
+export const predictionAvailabilitySchema = z.object({
+  status: z.enum(["available", "non-trading", "not-run", "source-error"]),
+  date: z.string().regex(isoDate),
+  reason: z.string().min(1)
+});
+
 export const fundSummarySchema = z.object({
   fund: fundSchema,
   latestQuote: quoteSchema.nullable(),
@@ -116,6 +122,7 @@ export const fundSummarySchema = z.object({
   holdings: holdingsSnapshotSchema.nullable(),
   holdingQuotes: holdingQuoteBatchSchema.nullable().default(null),
   prediction: z.unknown().nullable().default(null),
+  predictionAvailability: predictionAvailabilitySchema,
   evaluation: z.unknown().nullable().default(null),
   rollingMetrics: z.unknown().nullable().default(null)
 });
@@ -138,6 +145,7 @@ export type Holding = z.infer<typeof holdingSchema>;
 export type HoldingQuote = z.infer<typeof holdingQuoteSchema>;
 export type HoldingQuoteBatch = z.infer<typeof holdingQuoteBatchSchema>;
 export type FundAnalytics = z.infer<typeof analyticsSchema>;
+export type PredictionAvailability = z.infer<typeof predictionAvailabilitySchema>;
 export type SiteIndex = z.infer<typeof siteIndexSchema>;
 
 export function parseFunds(input: unknown): Fund[] {

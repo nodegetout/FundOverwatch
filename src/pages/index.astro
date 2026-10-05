@@ -11,6 +11,7 @@ import {
   periodReportSchema,
   predictionSchema
 } from "../lib/prediction-contract";
+import { evaluationDisplayState } from "../lib/prediction-status";
 
 const indexPath = path.join(process.cwd(), "public", "data", "index.json");
 const index = siteIndexSchema.parse(JSON.parse(await readFile(indexPath, "utf8")));
@@ -36,6 +37,7 @@ const initial = index.summaries[0];
 const initialPrediction = predictionSchema.nullable().parse(initial?.prediction ?? null);
 const initialEvaluation = evaluationSchema.nullable().parse(initial?.evaluation ?? null);
 const initialMetrics = metricSetSchema.nullable().parse(initial?.rollingMetrics ?? null);
+const initialEvaluationDisplay = evaluationDisplayState(initialPrediction, initialEvaluation);
 const reports = index.reports.map((report) => periodReportSchema.parse(report));
 
 const percent = (value: number | null | undefined) =>
@@ -158,19 +160,19 @@ const initialHoldingQuotes = new Map(
                 <div><dt>目标交易日</dt><dd id="prediction-target">{initialPrediction?.targetTradeDate ?? "—"}</dd></div>
                 <div><dt>模型</dt><dd id="prediction-model">{initialPrediction ? `${initialPrediction.modelVersion} · ${initialPrediction.modelStatus}` : "—"}</dd></div>
               </dl>
-              <p id="prediction-explanation" class="card-note">{initialPrediction?.contributions.map(({ note }) => note).join("；") ?? "尚无上午特征快照。"}</p>
+              <p id="prediction-explanation" class="card-note">{initialPrediction?.contributions.map(({ note }) => note).join("；") ?? initial.predictionAvailability.reason}</p>
             </article>
             <article class="prediction-card">
               <p class="eyebrow">EVENING EVALUATION</p>
               <h3>实际净值与误差</h3>
               <strong id="evaluation-actual">{percent(initialEvaluation?.actualReturn)}</strong>
               <dl>
-                <div><dt>状态</dt><dd id="evaluation-status">{initialEvaluation?.status ?? "pending"}</dd></div>
+                <div><dt>状态</dt><dd id="evaluation-status">{initialEvaluationDisplay.status}</dd></div>
                 <div><dt>预测误差</dt><dd id="evaluation-error">{percent(initialEvaluation?.error)}</dd></div>
-                <div><dt>实际净值区间</dt><dd id="evaluation-dates">{initialEvaluation?.actualStartDate && initialEvaluation.actualEndDate ? `${initialEvaluation.actualStartDate} → ${initialEvaluation.actualEndDate}` : "等待目标净值披露"}</dd></div>
+                <div><dt>实际净值区间</dt><dd id="evaluation-dates">{initialEvaluation?.actualStartDate && initialEvaluation.actualEndDate ? `${initialEvaluation.actualStartDate} → ${initialEvaluation.actualEndDate}` : initialPrediction ? "等待目标净值披露" : "—"}</dd></div>
                 <div><dt>是否命中方向</dt><dd id="evaluation-direction">{initialEvaluation?.directionCorrect == null ? "—" : initialEvaluation.directionCorrect ? "是" : "否"}</dd></div>
               </dl>
-              <p id="evaluation-reason" class="card-note">{initialEvaluation?.reason ?? "实际基金 NAV 日涨跌，与持仓标的行情和模型预测严格区分。"}</p>
+              <p id="evaluation-reason" class="card-note">{initialEvaluationDisplay.reason}</p>
             </article>
             <article class="prediction-card">
               <p class="eyebrow">ROLLING METRICS</p>
@@ -316,6 +318,7 @@ const initialHoldingQuotes = new Map(
     import Chart from "chart.js/auto";
     import type { Holding, HoldingQuoteBatch, HoldingsSnapshot, SiteIndex } from "../lib/domain";
     import type { FundPrediction, MetricSet, PredictionEvaluation } from "../lib/prediction-contract";
+    import { evaluationDisplayState } from "../lib/prediction-status";
 
     type DashboardSummary = SiteIndex["summaries"][number] & {
       prediction: FundPrediction | null;
@@ -467,6 +470,7 @@ const initialHoldingQuotes = new Map(
       Object.entries(values).forEach(([key, value]) => setText(`[data-metric="${key}"]`, value));
       const prediction = summary.prediction;
       const evaluation = summary.evaluation;
+      const evaluationDisplay = evaluationDisplayState(prediction, evaluation);
       const rolling = summary.rollingMetrics;
       setText("#prediction-return", formatPercent(prediction?.predictedReturn));
       setText("#prediction-direction", prediction?.direction ?? "unavailable");
@@ -474,13 +478,13 @@ const initialHoldingQuotes = new Map(
       setText("#prediction-coverage", formatPercent(prediction?.featureCoverage));
       setText("#prediction-target", prediction?.targetTradeDate ?? "—");
       setText("#prediction-model", prediction ? `${prediction.modelVersion} · ${prediction.modelStatus}` : "—");
-      setText("#prediction-explanation", prediction?.contributions.map(({ note }) => note).join("；") ?? "尚无上午特征快照。");
+      setText("#prediction-explanation", prediction?.contributions.map(({ note }) => note).join("；") ?? summary.predictionAvailability.reason);
       setText("#evaluation-actual", formatPercent(evaluation?.actualReturn));
-      setText("#evaluation-status", evaluation?.status ?? "pending");
+      setText("#evaluation-status", evaluationDisplay.status);
       setText("#evaluation-error", formatPercent(evaluation?.error));
-      setText("#evaluation-dates", evaluation?.actualStartDate && evaluation.actualEndDate ? `${evaluation.actualStartDate} → ${evaluation.actualEndDate}` : "等待目标净值披露");
+      setText("#evaluation-dates", evaluation?.actualStartDate && evaluation.actualEndDate ? `${evaluation.actualStartDate} → ${evaluation.actualEndDate}` : prediction ? "等待目标净值披露" : "—");
       setText("#evaluation-direction", evaluation?.directionCorrect == null ? "—" : evaluation.directionCorrect ? "是" : "否");
-      setText("#evaluation-reason", evaluation?.reason ?? "实际基金 NAV 日涨跌，与持仓标的行情和模型预测严格区分。");
+      setText("#evaluation-reason", evaluationDisplay.reason);
       setText("#metric-accuracy", formatPercent(rolling?.directionAccuracy));
       setText("#metric-samples", String(rolling?.sampleCount ?? 0));
       setText("#metric-mae", formatPercent(rolling?.mae));

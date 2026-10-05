@@ -126,6 +126,7 @@ h2 { margin: 0; font-size: clamp(25px, 3vw, 40px); letter-spacing: -.035em; }
 .chart-wrap { height: 380px; }
 
 .detail-grid, .exposure-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.detail-grid, .detail-grid > *, .holdings-card { min-width: 0; }
 .chart-card.compact { min-height: 290px; }
 .signal-list { margin: 0; }
 .signal-list > div { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid var(--line); }
@@ -136,7 +137,7 @@ h2 { margin: 0; font-size: clamp(25px, 3vw, 40px); letter-spacing: -.035em; }
 .holdings-as-of { display: grid; gap: 5px; text-align: right; }
 .holdings-as-of strong { color: var(--warning); font-size: 12px; }
 .holdings-as-of span { color: var(--muted); font-size: 11px; }
-.holdings-table-wrap { overflow-x: auto; }
+.holdings-table-wrap { width: 100%; max-width: 100%; overflow-x: auto; }
 .holdings-table { width: 100%; min-width: 820px; border-collapse: collapse; font-size: 12px; }
 .holdings-table th, .holdings-table td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: right; vertical-align: middle; }
 .holdings-table th:first-child, .holdings-table th:nth-child(2),

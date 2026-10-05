@@ -28,6 +28,7 @@ import {
   type PredictionEvaluation
 } from "../src/lib/prediction-contract";
 import type { CollectionContext, FundDataProvider } from "../src/lib/provider";
+import { predictionAvailability } from "../src/lib/prediction-status";
 import {
   isMainlandTradingDay,
   tradingCalendarCoverage
@@ -612,6 +613,7 @@ export async function runPipeline(
       holdings,
       holdingQuotes,
       prediction,
+      predictionAvailability: predictionAvailability(date, prediction),
       evaluation,
       rollingMetrics: metricSet(fundEvaluations.slice(-60))
     };
