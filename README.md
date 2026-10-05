@@ -59,7 +59,13 @@ GitHub Actions 的 cron 可能延迟，因此日期、工作日和边界均由�
 
 ## 部署和访问控制
 
-管理员设置步骤、套餐前提、Cloudflare DNS/代理/HTTPS、默认 `github.io` 旁路风险、Secrets 限制和回滚流程见 [私有部署指南](docs/private-pages-cloudflare.md)。仓库不会生成占位 `CNAME`，以免误绑定域名。
+当前仓库和生成的基金数据均公开，站点由 GitHub Actions 部署到
+[`https://nodegetout.github.io/FundOverwatch/`](https://nodegetout.github.io/FundOverwatch/)。
+Pages 使用项目站点路径 `/FundOverwatch`，仓库不包含 `CNAME`，也不配置自定义域名。
+
+部署设置、公开范围、验证和回滚说明见 [GitHub Pages 部署指南](docs/github-pages-deployment.md)。
+Cloudflare Access 仅作为未来迁移到自定义域名时的可选方案；它不能保护或隐藏公开的
+`github.io` 地址、仓库代码或静态数据。
 
 ## 数据来源与声明
 
