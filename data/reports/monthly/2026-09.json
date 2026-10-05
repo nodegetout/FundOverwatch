@@ -4,7 +4,9 @@
   "periodKey": "2026-09",
   "startDate": "2026-09-01",
   "endDate": "2026-09-30",
-  "status": "provisional",
+  "lastTradingDate": "2026-09-30",
+  "status": "no-data",
+  "statusReason": "报告期内没有预测/评估交易样本，已跳过模型与指标更新。",
   "generatedAt": "2026-10-07T22:30:00+08:00",
   "modelVersion": "cn-baseline-v1",
   "metrics": {
@@ -15,6 +17,10 @@
     "meanError": null
   },
   "missingRate": 1,
+  "missingNavCount": 0,
+  "tradingDateCount": 22,
+  "calendarSource": "SSE/SZSE",
+  "calendarAsOf": "2025-12-22",
   "byFund": {},
   "byConfidence": {},
   "byCoverage": {},
