@@ -4,7 +4,14 @@ import path from "node:path";
 import ExposureBars from "../components/ExposureBars.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { siteIndexSchema } from "../lib/domain";
-import { marketLabel, marketLabels } from "../lib/markets";
+import { marketLabel } from "../lib/markets";
+import {
+  evaluationSchema,
+  metricSetSchema,
+  periodReportSchema,
+  predictionSchema
+} from "../lib/prediction-contract";
+import { evaluationDisplayState } from "../lib/prediction-status";
 
 const indexPath = path.join(process.cwd(), "public", "data", "index.json");
 const index = siteIndexSchema.parse(JSON.parse(await readFile(indexPath, "utf8")));
@@ -27,7 +34,11 @@ const series = Object.fromEntries(
   )
 );
 const initial = index.summaries[0];
-const markets = [...new Set(index.summaries.map(({ fund }) => fund.market))];
+const initialPrediction = predictionSchema.nullable().parse(initial?.prediction ?? null);
+const initialEvaluation = evaluationSchema.nullable().parse(initial?.evaluation ?? null);
+const initialMetrics = metricSetSchema.nullable().parse(initial?.rollingMetrics ?? null);
+const initialEvaluationDisplay = evaluationDisplayState(initialPrediction, initialEvaluation);
+const reports = index.reports.map((report) => periodReportSchema.parse(report));
 
 const percent = (value: number | null | undefined) =>
   value === null || value === undefined ? "—" : `${value >= 0 ? "+" : ""}${(value * 100).toFixed(2)}%`;
@@ -58,18 +69,18 @@ const initialHoldingQuotes = new Map(
 ---
 
 <BaseLayout
-  title="Fund Overwatch | 全球基金跟踪"
-  description="多市场基金跟踪、风险分析和持仓暴露仪表板"
+  title="Fund Overwatch | 中国大陆基金分析"
+  description="中国大陆真实基金预测、评估、周期复盘与持仓分析"
 >
   <div class="ambient ambient-one"></div>
   <div class="ambient ambient-two"></div>
   <header class="site-header">
     <a class="brand" href={import.meta.env.BASE_URL}>
       <span class="brand-mark">FO</span>
-      <span><strong>Fund Overwatch</strong><small>GLOBAL FUND INTELLIGENCE</small></span>
+      <span><strong>Fund Overwatch</strong><small>CHINA FUND ANALYTICS</small></span>
     </a>
     <div class="header-badges">
-      <span class="badge warning">{index.dataMode === "mixed" ? "真实 + 模拟数据" : index.dataMode === "real" ? "真实数据" : "模拟数据"}</span>
+      <span class="badge success">仅真实公开数据</span>
       <span class:list={["badge", index.dataStatus === "complete" ? "success" : "warning"]}>
         <span class="status-dot"></span>{index.dataStatus === "complete" ? "数据完整" : "部分数据"}
       </span>
@@ -79,35 +90,24 @@ const initialHoldingQuotes = new Map(
   <main>
     <section class="hero">
       <div>
-        <p class="eyebrow">MULTI-MARKET OVERVIEW</p>
-        <h1>看清基金的<br /><span>收益与风险。</span></h1>
-        <p class="hero-copy">统一跟踪多市场基金净值、基准表现与持仓暴露，数据边界和质量状态清晰可见。</p>
+        <p class="eyebrow">AUDITABLE PREDICTION LOOP</p>
+        <h1>中国基金的<br /><span>预测与复盘。</span></h1>
+        <p class="hero-copy">只跟踪 8 只中国大陆真实基金，以可解释基线完成上午预测、晚间评估、周期复盘与有界校准。</p>
       </div>
       <div class="update-card">
         <span>最近更新时间</span>
         <strong>{new Date(index.generatedAt).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" })}</strong>
-        <small>北京时间 · {index.mode === "final" ? "最终数据" : "盘中数据"}</small>
+        <small>北京时间 · {index.phase} 阶段 · 净值以来源实际披露为准</small>
       </div>
     </section>
 
     <section class="controls" aria-label="基金筛选">
-      <div class="market-tabs-wrap">
-        <span class="control-label">市场</span>
-        <div class="market-tabs" role="tablist" aria-label="按市场筛选基金">
-          <button id="market-tab-all" type="button" role="tab" aria-selected="true" aria-controls="dashboard" data-market="all">全部</button>
-          {markets.map((market) => (
-            <button id={`market-tab-${market}`} type="button" role="tab" aria-selected="false" aria-controls="dashboard" tabindex="-1" data-market={market}>
-              {marketLabel(market)}
-            </button>
-          ))}
-        </div>
-      </div>
       <label class="fund-select">
         <span>基金</span>
         <select id="fund-filter">
           {
             index.summaries.map(({ fund }) => (
-              <option value={fund.id} data-market={fund.market}>
+              <option value={fund.id}>
                 {fund.symbol} · {fund.name}
               </option>
             ))
@@ -116,7 +116,7 @@ const initialHoldingQuotes = new Map(
       </label>
       <div class="universe-stat">
         <strong>{index.summaries.length}</strong>
-        <span>只基金 · {markets.length} 个市场</span>
+        <span>只中国大陆真实基金</span>
       </div>
     </section>
 
@@ -132,7 +132,7 @@ const initialHoldingQuotes = new Map(
               <p id="fund-meta">
                 {marketLabel(initial.fund.market)} · {initial.fund.exchange} · {initial.fund.assetClass} · 对标 {initial.fund.benchmark}
               </p>
-              <p class="data-line"><span id="fund-data-badge" class:list={["data-badge", initial.latestQuote?.quality.dataMode]}>{initial.latestQuote?.quality.dataMode === "real" ? "真实日终净值" : "确定性模拟"}</span><span id="fund-as-of">数据截至 {initial.latestQuote?.date ?? "—"}</span></p>
+              <p class="data-line"><span id="fund-data-badge" class="data-badge real">真实披露净值</span><span id="fund-as-of">净值截至 {initial.latestQuote?.date ?? "—"}</span></p>
             </div>
             <div class="price-block">
               <small>最新价格 / 净值</small>
@@ -146,6 +146,46 @@ const initialHoldingQuotes = new Map(
                 {percent(initial.analytics?.returns.day)}
               </span>
             </div>
+          </section>
+
+          <section class="prediction-grid" aria-label="预测闭环">
+            <article class="prediction-card">
+              <p class="eyebrow">MORNING PREDICTION</p>
+              <h3>最近上午预测</h3>
+              <strong id="prediction-return">{percent(initialPrediction?.predictedReturn)}</strong>
+              <dl>
+                <div><dt>方向</dt><dd id="prediction-direction">{initialPrediction?.direction ?? "unavailable"}</dd></div>
+                <div><dt>置信度</dt><dd id="prediction-confidence">{percent(initialPrediction?.confidence)}</dd></div>
+                <div><dt>特征覆盖率</dt><dd id="prediction-coverage">{percent(initialPrediction?.featureCoverage)}</dd></div>
+                <div><dt>目标交易日</dt><dd id="prediction-target">{initialPrediction?.targetTradeDate ?? "—"}</dd></div>
+                <div><dt>模型</dt><dd id="prediction-model">{initialPrediction ? `${initialPrediction.modelVersion} · ${initialPrediction.modelStatus}` : "—"}</dd></div>
+              </dl>
+              <p id="prediction-explanation" class="card-note">{initialPrediction?.contributions.map(({ note }) => note).join("；") ?? initial.predictionAvailability.reason}</p>
+            </article>
+            <article class="prediction-card">
+              <p class="eyebrow">EVENING EVALUATION</p>
+              <h3>实际净值与误差</h3>
+              <strong id="evaluation-actual">{percent(initialEvaluation?.actualReturn)}</strong>
+              <dl>
+                <div><dt>状态</dt><dd id="evaluation-status">{initialEvaluationDisplay.status}</dd></div>
+                <div><dt>预测误差</dt><dd id="evaluation-error">{percent(initialEvaluation?.error)}</dd></div>
+                <div><dt>实际净值区间</dt><dd id="evaluation-dates">{initialEvaluation?.actualStartDate && initialEvaluation.actualEndDate ? `${initialEvaluation.actualStartDate} → ${initialEvaluation.actualEndDate}` : initialPrediction ? "等待目标净值披露" : "—"}</dd></div>
+                <div><dt>是否命中方向</dt><dd id="evaluation-direction">{initialEvaluation?.directionCorrect == null ? "—" : initialEvaluation.directionCorrect ? "是" : "否"}</dd></div>
+              </dl>
+              <p id="evaluation-reason" class="card-note">{initialEvaluationDisplay.reason}</p>
+            </article>
+            <article class="prediction-card">
+              <p class="eyebrow">ROLLING METRICS</p>
+              <h3>滚动评估</h3>
+              <strong id="metric-accuracy">{percent(initialMetrics?.directionAccuracy)}</strong>
+              <dl>
+                <div><dt>样本数</dt><dd id="metric-samples">{initialMetrics?.sampleCount ?? 0}</dd></div>
+                <div><dt>MAE</dt><dd id="metric-mae">{percent(initialMetrics?.mae)}</dd></div>
+                <div><dt>RMSE</dt><dd id="metric-rmse">{percent(initialMetrics?.rmse)}</dd></div>
+                <div><dt>平均误差</dt><dd id="metric-bias">{percent(initialMetrics?.meanError)}</dd></div>
+              </dl>
+              <p class="card-note">样本不足时明确处于 cold-start；模型稳健性需要长期真实样本验证。</p>
+            </article>
           </section>
 
           <section class="metric-grid">
@@ -174,6 +214,27 @@ const initialHoldingQuotes = new Map(
                 </strong>
               </article>
             ))}
+          </section>
+
+          <section class="chart-card compact">
+            <div class="card-heading">
+              <div><p class="eyebrow">PERIOD REVIEWS</p><h3>周 / 月 / 年复盘</h3></div>
+              <span class="report-count">{reports.length} 份报告</span>
+            </div>
+            <div class="report-grid">
+              {reports.length ? reports.slice(-6).reverse().map((report) => (
+                <article class="report-card">
+                  <strong>{report.periodKey} · {report.period}</strong>
+                  <span>{report.status === "final" ? "已完成" : "暂定，等待最终 NAV"}</span>
+                  <dl>
+                    <div><dt>样本</dt><dd>{report.metrics.sampleCount}</dd></div>
+                    <div><dt>方向准确率</dt><dd>{percent(report.metrics.directionAccuracy)}</dd></div>
+                    <div><dt>MAE / RMSE</dt><dd>{percent(report.metrics.mae)} / {percent(report.metrics.rmse)}</dd></div>
+                    <div><dt>缺失率</dt><dd>{percent(report.missingRate)}</dd></div>
+                  </dl>
+                </article>
+              )) : <p class="empty-state">尚无完整周期报告；到达周/月/年 gate 后生成。</p>}
+            </div>
           </section>
 
           <section class="chart-card">
@@ -242,7 +303,7 @@ const initialHoldingQuotes = new Map(
 
     <aside class="notice">
       <strong>数据说明</strong>
-      <p>中国大陆基金使用天天基金/东方财富公布的日终单位净值与定期报告持仓；仓位截至报告期末、并非实时。持仓标的行情按日刷新，债券、场外基金或缺少可靠市场标识的资产明确显示未提供，不以推断或模拟值补齐。</p>
+      <p>基金实际 NAV 日涨跌、持仓标的行情与模型预测是三类不同数据。定期报告前十大持仓不等于完整组合；QDII、债券和场外资产缺少可靠上午行情时明确标记不可用并降低置信度，绝不以模拟值补齐。</p>
     </aside>
   </main>
 
@@ -252,21 +313,25 @@ const initialHoldingQuotes = new Map(
     <span>投资有风险，决策需谨慎。</span>
   </footer>
 
-  <script id="dashboard-data" type="application/json" set:html={JSON.stringify({ index, series, marketLabels })}></script>
+  <script id="dashboard-data" type="application/json" set:html={JSON.stringify({ index, series })}></script>
   <script>
     import Chart from "chart.js/auto";
     import type { Holding, HoldingQuoteBatch, HoldingsSnapshot, SiteIndex } from "../lib/domain";
-    import { adjacentTabIndex, type MarketFilter } from "../lib/market-tabs";
+    import type { FundPrediction, MetricSet, PredictionEvaluation } from "../lib/prediction-contract";
+    import { evaluationDisplayState } from "../lib/prediction-status";
 
+    type DashboardSummary = SiteIndex["summaries"][number] & {
+      prediction: FundPrediction | null;
+      evaluation: PredictionEvaluation | null;
+      rollingMetrics: MetricSet | null;
+    };
     type DashboardData = {
-      index: SiteIndex;
+      index: Omit<SiteIndex, "summaries"> & { summaries: DashboardSummary[] };
       series: Record<string, Array<{ date: string; price: number | null; nav: number | null; benchmarkPrice: number | null }>>;
-      marketLabels: Record<string, string>;
     };
     const source = document.querySelector<HTMLScriptElement>("#dashboard-data");
     const data = source ? (JSON.parse(source.textContent ?? "{}") as DashboardData) : null;
     const canvas = document.querySelector<HTMLCanvasElement>("#performance-chart");
-    const marketTabs = [...document.querySelectorAll<HTMLButtonElement>('[role="tab"][data-market]')];
     const fundSelect = document.querySelector<HTMLSelectElement>("#fund-filter");
     let chart: Chart | null = null;
     let currentFundId = fundSelect?.value ?? "";
@@ -385,12 +450,9 @@ const initialHoldingQuotes = new Map(
       currentFundId = fundId;
       setText("#fund-symbol", fund.symbol);
       setText("#fund-name", fund.name);
-      setText("#fund-meta", `${data.marketLabels[fund.market]} · ${fund.exchange} · ${fund.assetClass} · 对标 ${fund.benchmark}`);
-      setText("#fund-data-badge", latestQuote?.quality.dataMode === "real" ? "真实日终净值" : "确定性模拟");
-      setText("#fund-as-of", `数据截至 ${latestQuote?.date ?? "—"}`);
-      const dataBadge = document.querySelector("#fund-data-badge");
-      dataBadge?.classList.toggle("real", latestQuote?.quality.dataMode === "real");
-      dataBadge?.classList.toggle("simulated", latestQuote?.quality.dataMode === "simulated");
+      setText("#fund-meta", `中国大陆-CN · ${fund.exchange} · ${fund.assetClass} · 对标 ${fund.benchmark}`);
+      setText("#fund-data-badge", "真实披露净值");
+      setText("#fund-as-of", `净值截至 ${latestQuote?.date ?? "—"}`);
       setText("#fund-price", formatNumber(latestQuote?.price ?? latestQuote?.nav, fund.currency));
       setText("#fund-day-return", formatPercent(analytics?.returns.day));
       const values: Record<string, string> = {
@@ -406,6 +468,28 @@ const initialHoldingQuotes = new Map(
         observations: String(analytics?.observations ?? 0)
       };
       Object.entries(values).forEach(([key, value]) => setText(`[data-metric="${key}"]`, value));
+      const prediction = summary.prediction;
+      const evaluation = summary.evaluation;
+      const evaluationDisplay = evaluationDisplayState(prediction, evaluation);
+      const rolling = summary.rollingMetrics;
+      setText("#prediction-return", formatPercent(prediction?.predictedReturn));
+      setText("#prediction-direction", prediction?.direction ?? "unavailable");
+      setText("#prediction-confidence", formatPercent(prediction?.confidence));
+      setText("#prediction-coverage", formatPercent(prediction?.featureCoverage));
+      setText("#prediction-target", prediction?.targetTradeDate ?? "—");
+      setText("#prediction-model", prediction ? `${prediction.modelVersion} · ${prediction.modelStatus}` : "—");
+      setText("#prediction-explanation", prediction?.contributions.map(({ note }) => note).join("；") ?? summary.predictionAvailability.reason);
+      setText("#evaluation-actual", formatPercent(evaluation?.actualReturn));
+      setText("#evaluation-status", evaluationDisplay.status);
+      setText("#evaluation-error", formatPercent(evaluation?.error));
+      setText("#evaluation-dates", evaluation?.actualStartDate && evaluation.actualEndDate ? `${evaluation.actualStartDate} → ${evaluation.actualEndDate}` : prediction ? "等待目标净值披露" : "—");
+      setText("#evaluation-direction", evaluation?.directionCorrect == null ? "—" : evaluation.directionCorrect ? "是" : "否");
+      setText("#evaluation-reason", evaluationDisplay.reason);
+      setText("#metric-accuracy", formatPercent(rolling?.directionAccuracy));
+      setText("#metric-samples", String(rolling?.sampleCount ?? 0));
+      setText("#metric-mae", formatPercent(rolling?.mae));
+      setText("#metric-rmse", formatPercent(rolling?.rmse));
+      setText("#metric-bias", formatPercent(rolling?.meanError));
 
       renderHoldings(holdings, summary.holdingQuotes);
       const exposureGrid = document.querySelector("#exposure-grid");
@@ -460,40 +544,6 @@ const initialHoldingQuotes = new Map(
       });
     }
 
-    function selectMarket(market: MarketFilter, focus = false) {
-      if (!data || !fundSelect) return;
-      const activeTab = marketTabs.find((tab) => tab.dataset.market === market);
-      for (const tab of marketTabs) {
-        const selected = tab === activeTab;
-        tab.setAttribute("aria-selected", String(selected));
-        tab.tabIndex = selected ? 0 : -1;
-      }
-      if (focus) activeTab?.focus();
-      for (const option of fundSelect.options) {
-        option.hidden = market !== "all" && option.dataset.market !== market;
-        option.disabled = option.hidden;
-      }
-      const firstVisible = [...fundSelect.options].find((option) => !option.hidden);
-      if (firstVisible) {
-        fundSelect.value = firstVisible.value;
-        renderFund(firstVisible.value);
-      }
-    }
-
-    for (const [index, tab] of marketTabs.entries()) {
-      tab.addEventListener("click", () => selectMarket((tab.dataset.market ?? "all") as MarketFilter));
-      tab.addEventListener("keydown", (event) => {
-        if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
-        event.preventDefault();
-        const next = adjacentTabIndex(
-          index,
-          marketTabs.length,
-          event.key as "ArrowLeft" | "ArrowRight" | "Home" | "End"
-        );
-        const market = marketTabs[next]?.dataset.market ?? "all";
-        selectMarket(market as MarketFilter, true);
-      });
-    }
     for (const button of document.querySelectorAll<HTMLButtonElement>("[data-holding-sort]")) {
       button.addEventListener("click", () => {
         const nextSort = button.dataset.holdingSort as typeof holdingSort;

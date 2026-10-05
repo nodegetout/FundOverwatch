@@ -1,20 +1,8 @@
 [
   {
-    "runKey": "2026-10-05:intraday:mixed-v1",
+    "runKey": "2026-10-05:evening:cn-loop-v1",
     "date": "2026-10-05",
-    "mode": "intraday",
-    "completedAt": "2026-10-05T03:00:00+08:00"
-  },
-  {
-    "runKey": "2026-10-05:final:mixed-v1",
-    "date": "2026-10-05",
-    "mode": "final",
-    "completedAt": "2026-10-05T13:00:00+08:00"
-  },
-  {
-    "runKey": "2026-10-05:final:mixed-v2",
-    "date": "2026-10-05",
-    "mode": "final",
-    "completedAt": "2026-10-05T13:00:00+08:00"
+    "phase": "evening",
+    "completedAt": "2026-10-05T22:30:00+08:00"
   }
 ]

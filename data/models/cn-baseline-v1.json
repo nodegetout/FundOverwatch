@@ -1,0 +1,12 @@
+{
+  "modelVersion": "cn-baseline-v1",
+  "updatedAt": "2026-10-05T22:30:00+08:00",
+  "trainingCutoff": null,
+  "sampleCount": 0,
+  "bias": 0,
+  "scale": 1,
+  "directionAccuracy": null,
+  "mae": null,
+  "rmse": null,
+  "appliedEvaluationKeys": []
+}

@@ -11,7 +11,8 @@
     "typecheck": "astro check",
     "test": "vitest run",
     "data:generate": "tsx scripts/generate-data.ts",
-    "data:verify": "tsx scripts/verify-data.ts"
+    "data:verify": "tsx scripts/verify-data.ts",
+    "backtest": "tsx scripts/backtest.ts"
   },
   "dependencies": {
     "@astrojs/check": "0.9.4",

@@ -1,13 +1,15 @@
 import { readFile } from "node:fs/promises";
 import { siteIndexSchema } from "../src/lib/domain";
+import {
+  evaluationSchema,
+  metricSetSchema,
+  predictionSchema
+} from "../src/lib/prediction-contract";
 
-const raw = JSON.parse(await readFile("public/data/index.json", "utf8")) as unknown;
-const index = siteIndexSchema.parse(raw);
-if (!index.summaries.length) throw new Error("Generated index contains no funds.");
-if (index.summaries.some(({ analytics }) => !analytics || analytics.observations < 2)) {
-  throw new Error("Generated analytics do not contain enough observations.");
-}
-const expectedCnSymbols = [
+const index = siteIndexSchema.parse(
+  JSON.parse(await readFile("public/data/index.json", "utf8")) as unknown
+);
+const expectedSymbols = [
   "025852",
   "002983",
   "005051",
@@ -17,53 +19,34 @@ const expectedCnSymbols = [
   "018993",
   "017641"
 ];
-const cn = index.summaries.filter(({ fund }) => fund.market === "CN");
-if (cn.map(({ fund }) => fund.symbol).join(",") !== expectedCnSymbols.join(",")) {
-  throw new Error("Generated index does not contain the exact CN fund registry.");
-}
-if (cn.some(({ latestQuote }) => latestQuote?.quality.dataMode !== "real")) {
-  throw new Error("Generated CN summaries must use real data.");
+if (index.summaries.map(({ fund }) => fund.symbol).join(",") !== expectedSymbols.join(",")) {
+  throw new Error("Generated index must contain exactly the eight configured China funds.");
 }
 if (
-  cn.some(
-    ({ holdings, holdingQuotes }) =>
-      !holdings?.holdings.length ||
-      holdings.quality.dataMode !== "real" ||
-      !holdingQuotes ||
-      holdingQuotes.fundId !== holdings.fundId
+  index.dataMode !== "real" ||
+  index.summaries.some(
+    ({ fund, latestQuote }) =>
+      fund.market !== "CN" ||
+      !fund.providerRef.startsWith("eastmoney:") ||
+      latestQuote?.quality.dataMode !== "real" ||
+      latestQuote.quality.isSimulated
   )
 ) {
-  throw new Error("Generated CN summaries must contain real disclosed holdings and quote status.");
+  throw new Error("Generated production output must contain only real China fund data.");
 }
-if (
-  cn.some(
-    ({ holdings, holdingQuotes }) =>
-      holdings?.contentHash === "legacy" ||
-      !holdings?.previousDate ||
-      holdings.holdings.some(({ country }) => country !== null) ||
-      holdingQuotes?.quotes.some(
-        ({ asOf, dayChange, status }) =>
-          (status === "unavailable" && (asOf !== null || dayChange !== null)) ||
-          (status !== "unavailable" && (asOf === null || dayChange === null))
-      )
-  )
-) {
-  throw new Error("Generated CN holding disclosure or quote quality semantics are invalid.");
+for (const summary of index.summaries) {
+  if (!summary.analytics || summary.analytics.observations < 2) {
+    throw new Error(`Insufficient analytics observations for ${summary.fund.id}.`);
+  }
+  if (!summary.holdings?.holdings.length || !summary.holdingQuotes) {
+    throw new Error(`Missing disclosed holdings or quote status for ${summary.fund.id}.`);
+  }
+  if (summary.prediction !== null) predictionSchema.parse(summary.prediction);
+  if (summary.evaluation !== null) evaluationSchema.parse(summary.evaluation);
+  if (summary.rollingMetrics !== null) metricSetSchema.parse(summary.rollingMetrics);
 }
-const bondFund = cn.find(({ fund }) => fund.symbol === "018736");
-if (
-  !bondFund ||
-  !["stock", "bond", "fund"].every((assetType) =>
-    bondFund.holdings?.holdings.some((holding) => holding.assetType === assetType)
-  )
-) {
-  throw new Error("Bond fund multi-asset holdings are incomplete.");
+const serialized = JSON.stringify(index);
+if (/deterministic-mock|simulated|us-spy|hk-2800|jp-1321/.test(serialized)) {
+  throw new Error("Legacy market or simulated production data remains in the public index.");
 }
-const feeder = cn.find(({ fund }) => fund.symbol === "001595");
-if (!feeder?.holdings?.holdings.some(({ assetType }) => assetType === "target-etf")) {
-  throw new Error("ETF feeder target holding is missing.");
-}
-if (index.summaries.some(({ fund }) => fund.id === "cn-510300")) {
-  throw new Error("Legacy simulated CN fund is still present.");
-}
-console.log(`Validated index for ${index.summaries.length} funds as of ${index.asOf}.`);
+console.log(`Validated China-only prediction index for ${index.summaries.length} funds as of ${index.asOf}.`);

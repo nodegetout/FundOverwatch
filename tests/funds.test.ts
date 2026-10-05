@@ -16,10 +16,11 @@ const expectedCnFunds = [
 describe("fund registry", () => {
   it("contains exactly the requested eight CN funds and no legacy CN fund", async () => {
     const funds = parseFunds(JSON.parse(await readFile("data/funds.json", "utf8")));
-    const cnFunds = funds
-      .filter(({ market }) => market === "CN")
-      .map(({ name, symbol }) => [name, symbol]);
+    const cnFunds = funds.map(({ name, symbol }) => [name, symbol]);
     expect(cnFunds).toEqual(expectedCnFunds);
+    expect(funds).toHaveLength(8);
+    expect(funds.every(({ market, providerRef }) => market === "CN" && providerRef.startsWith("eastmoney:"))).toBe(true);
+    expect(JSON.stringify(funds)).not.toMatch(/mock|simulated|US|HK|JP|EU/);
     expect(funds.some(({ id, symbol }) => id === "cn-510300" || symbol === "510300")).toBe(false);
   });
 });

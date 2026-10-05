@@ -1,4 +1,4 @@
-import { mkdir, readFile, unlink, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rename, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -8,37 +8,48 @@ import {
   quoteSchema,
   siteIndexSchema,
   type Fund,
+  type HoldingQuoteBatch,
   type HoldingsSnapshot,
   type Quote
 } from "../src/lib/domain";
 import { calculateAnalytics } from "../src/lib/analytics";
 import { EastmoneyNavProvider } from "../src/lib/eastmoney-provider";
-import { DeterministicMockProvider } from "../src/lib/mock-provider";
+import {
+  BaselinePredictionModel,
+  evaluationSchema,
+  initialModelArtifact,
+  metricSet,
+  modelArtifactSchema,
+  periodReportSchema,
+  predictionSchema,
+  type FundPrediction,
+  type ModelArtifact,
+  type PeriodReport,
+  type PredictionEvaluation
+} from "../src/lib/prediction-contract";
 import type { CollectionContext, FundDataProvider } from "../src/lib/provider";
+import { predictionAvailability } from "../src/lib/prediction-status";
+import {
+  isMainlandTradingDay,
+  tradingCalendarCoverage
+} from "../src/lib/trading-calendar";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const mockProvider = new DeterministicMockProvider();
 const eastmoneyProvider = new EastmoneyNavProvider();
+const model = new BaselinePredictionModel();
 
+export type RunPhase = "morning" | "evening" | "weekly" | "monthly" | "yearly" | "all";
 export type RunMode = "intraday" | "final";
 
 interface RunRecord {
   runKey: string;
   date: string;
-  mode: RunMode;
+  phase: RunPhase;
   completedAt: string;
 }
 
-interface PeriodSummary {
-  period: "week" | "month" | "year";
-  periodKey: string;
-  fundId: string;
-  startDate: string;
-  endDate: string;
-  startPrice: number | null;
-  endPrice: number | null;
-  return: number | null;
-  observations: number;
+interface PipelineOptions {
+  provider?: FundDataProvider;
 }
 
 async function readJson<T>(file: string, fallback?: T): Promise<T> {
@@ -60,7 +71,9 @@ async function writeJsonIfChanged(file: string, value: unknown): Promise<boolean
   }
   if (previous === content) return false;
   await mkdir(path.dirname(file), { recursive: true });
-  await writeFile(file, content, "utf8");
+  const temporary = `${file}.tmp-${process.pid}`;
+  await writeFile(temporary, content, "utf8");
+  await rename(temporary, file);
   return true;
 }
 
@@ -79,74 +92,113 @@ export function isWorkday(date: string): boolean {
   return day !== 0 && day !== 6;
 }
 
-function previousWorkday(date: string): string {
+export function previousWorkday(date: string): string {
   let candidate = addDays(date, -1);
   while (!isWorkday(candidate)) candidate = addDays(candidate, -1);
   return candidate;
 }
 
-function nextWorkday(date: string): string {
+export function nextWorkday(date: string): string {
   let candidate = addDays(date, 1);
   while (!isWorkday(candidate)) candidate = addDays(candidate, 1);
   return candidate;
 }
 
-export function getBoundaryPeriods(date: string): Array<"week" | "month" | "year"> {
-  if (!isWorkday(date)) return [];
-  const periods: Array<"week" | "month" | "year"> = [];
-  if (weekday(date) === 5) periods.push("week");
-  const next = nextWorkday(date);
-  if (next.slice(0, 7) !== date.slice(0, 7)) periods.push("month");
-  if (next.slice(0, 4) !== date.slice(0, 4)) periods.push("year");
-  return periods;
+function lastCalendarDate(year: number, month: number): string {
+  return new Date(Date.UTC(year, month, 0)).toISOString().slice(0, 10);
 }
 
-function scheduledTimestamp(date: string, mode: RunMode): string {
-  return `${date}T${mode === "intraday" ? "03:00:00" : "13:00:00"}+08:00`;
+export interface PeriodGate {
+  period: "weekly" | "monthly" | "yearly";
+  periodKey: string;
+  startDate: string;
+  endDate: string;
+  status: "provisional" | "final";
 }
 
-function periodKey(period: PeriodSummary["period"], date: string): string {
-  if (period === "month") return date.slice(0, 7);
-  if (period === "year") return date.slice(0, 4);
+function isoWeek(date: string): { key: string; start: string; end: string } {
   const value = new Date(`${date}T00:00:00Z`);
   const day = value.getUTCDay() || 7;
+  const start = addDays(date, 1 - day);
+  const end = addDays(start, 4);
   value.setUTCDate(value.getUTCDate() + 4 - day);
   const yearStart = new Date(Date.UTC(value.getUTCFullYear(), 0, 1));
   const week = Math.ceil(((value.getTime() - yearStart.getTime()) / 86_400_000 + 1) / 7);
-  return `${value.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
+  return { key: `${value.getUTCFullYear()}-W${String(week).padStart(2, "0")}`, start, end };
 }
 
-function periodQuotes(period: PeriodSummary["period"], date: string, quotes: Quote[]): Quote[] {
-  const key = periodKey(period, date);
-  return quotes.filter((quote) => periodKey(period, quote.date) === key);
+export function periodCloseGates(date: string): PeriodGate[] {
+  const [year, month] = date.split("-").map(Number) as [number, number, number];
+  const gates: PeriodGate[] = [];
+  const week = isoWeek(isWorkday(date) ? date : previousWorkday(date));
+  if (weekday(date) === 6) {
+    gates.push({
+      period: "weekly",
+      periodKey: week.key,
+      startDate: week.start,
+      endDate: week.end,
+      status: "final"
+    });
+  }
+  if (!isWorkday(date)) return gates;
+  const monthEnd = lastCalendarDate(year, month);
+  const lastMonthWorkday = isWorkday(monthEnd) ? monthEnd : previousWorkday(addDays(monthEnd, 1));
+  if (date === lastMonthWorkday) {
+    gates.push({
+      period: "monthly",
+      periodKey: date.slice(0, 7),
+      startDate: `${date.slice(0, 7)}-01`,
+      endDate: monthEnd,
+      status: date === monthEnd ? "final" : "provisional"
+    });
+  }
+  const yearEnd = `${year}-12-31`;
+  const lastYearWorkday = isWorkday(yearEnd) ? yearEnd : previousWorkday(addDays(yearEnd, 1));
+  if (date === lastYearWorkday) {
+    gates.push({
+      period: "yearly",
+      periodKey: String(year),
+      startDate: `${year}-01-01`,
+      endDate: yearEnd,
+      status: date === yearEnd ? "final" : "provisional"
+    });
+  }
+  return gates;
 }
 
-function buildPeriodSummary(
-  period: PeriodSummary["period"],
-  date: string,
-  fundId: string,
-  quotes: Quote[]
-): PeriodSummary | null {
-  const selected = periodQuotes(period, date, quotes);
-  const first = selected.at(0);
-  const last = selected.at(-1);
-  if (!first || !last) return null;
-  const startPrice = first.price ?? first.nav;
-  const endPrice = last.price ?? last.nav;
-  return {
-    period,
-    periodKey: periodKey(period, date),
-    fundId,
-    startDate: first.date,
-    endDate: last.date,
-    startPrice,
-    endPrice,
-    return:
-      startPrice === null || endPrice === null || startPrice === 0
-        ? null
-        : endPrice / startPrice - 1,
-    observations: selected.length
-  };
+export function catchUpPeriodGates(date: string): PeriodGate[] {
+  if (!isWorkday(date) || Number(date.slice(8, 10)) > 7) return [];
+  const previousDate = addDays(`${date.slice(0, 7)}-01`, -1);
+  const [year, month] = previousDate.split("-").map(Number) as [number, number, number];
+  const gates: PeriodGate[] = [
+    {
+      period: "monthly",
+      periodKey: previousDate.slice(0, 7),
+      startDate: `${previousDate.slice(0, 7)}-01`,
+      endDate: lastCalendarDate(year, month),
+      status: "final"
+    }
+  ];
+  if (date.slice(5, 7) === "01") {
+    gates.push({
+      period: "yearly",
+      periodKey: String(year),
+      startDate: `${year}-01-01`,
+      endDate: `${year}-12-31`,
+      status: "final"
+    });
+  }
+  return gates;
+}
+
+export function getBoundaryPeriods(date: string): Array<"week" | "month" | "year"> {
+  return periodCloseGates(date).map(({ period }) =>
+    period === "weekly" ? "week" : period === "monthly" ? "month" : "year"
+  );
+}
+
+function scheduledTimestamp(date: string, phase: RunPhase): string {
+  return `${date}T${phase === "morning" ? "10:30:00" : "22:30:00"}+08:00`;
 }
 
 async function loadAllQuotes(fundId: string): Promise<Quote[]> {
@@ -157,7 +209,7 @@ async function loadAllQuotes(fundId: string): Promise<Quote[]> {
     const partition = await readJson<unknown[]>(path.join(historyDir, `${year}.json`), []);
     quotes.push(...partition.map((quote) => quoteSchema.parse(quote)));
   }
-  return quotes.sort((a, b) => a.date.localeCompare(b.date));
+  return quotes.sort((left, right) => left.date.localeCompare(right.date));
 }
 
 async function saveQuotes(fund: Fund, quotes: Quote[]): Promise<void> {
@@ -166,12 +218,10 @@ async function saveQuotes(fund: Fund, quotes: Quote[]): Promise<void> {
     const year = quote.date.slice(0, 4);
     byYear.set(year, [...(byYear.get(year) ?? []), quote]);
   }
-
-  const years = [...byYear.keys()].sort();
   const historyDir = path.join(root, "data", "history", fund.id);
   const previousYears = await readJson<string[]>(path.join(historyDir, "years.json"), []);
-  for (const year of years) {
-    await writeJsonIfChanged(path.join(historyDir, `${year}.json`), byYear.get(year));
+  for (const [year, values] of byYear) {
+    await writeJsonIfChanged(path.join(historyDir, `${year}.json`), values);
   }
   for (const year of previousYears.filter((year) => !byYear.has(year))) {
     try {
@@ -180,54 +230,193 @@ async function saveQuotes(fund: Fund, quotes: Quote[]): Promise<void> {
       if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
     }
   }
-  await writeJsonIfChanged(path.join(historyDir, "years.json"), years);
+  await writeJsonIfChanged(path.join(historyDir, "years.json"), [...byYear.keys()].sort());
 }
 
-async function saveHoldingsSnapshot(
-  snapshot: HoldingsSnapshot,
-  preserveExisting = false
-): Promise<void> {
+async function saveHoldings(snapshot: HoldingsSnapshot, preserveExisting = false): Promise<void> {
   const file = path.join(root, "data", "holdings", snapshot.fundId, `${snapshot.date}.json`);
   const existing = await readJson<unknown | null>(file, null);
   if (existing) {
     if (preserveExisting) return;
-    const parsed = holdingsSnapshotSchema.parse(existing);
-    if (parsed.contentHash === snapshot.contentHash) return;
+    if (holdingsSnapshotSchema.parse(existing).contentHash === snapshot.contentHash) return;
   }
   await writeJsonIfChanged(file, snapshot);
 }
 
-export function mergeQuotes(quotes: Quote[], incoming: Quote[]): Quote[] {
-  const byDate = new Map(quotes.map((quote) => [quote.date, quote]));
-  for (const quote of incoming) {
-    const existing = byDate.get(quote.date);
-    if (existing?.valuation === "final" && quote.valuation === "intraday") continue;
-    byDate.set(quote.date, quote);
-  }
-  return [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
+export function mergeQuotes(existing: Quote[], incoming: Quote[]): Quote[] {
+  const byDate = new Map(existing.map((quote) => [quote.date, quote]));
+  for (const quote of incoming) byDate.set(quote.date, quote);
+  return [...byDate.values()].sort((left, right) => left.date.localeCompare(right.date)).slice(-260);
 }
 
 export function providerForFund(fund: Fund): FundDataProvider {
   if (fund.providerRef.startsWith("eastmoney:")) return eastmoneyProvider;
-  if (fund.providerRef.startsWith("mock:")) return mockProvider;
-  throw new Error(`No provider configured for ${fund.id}: ${fund.providerRef}`);
+  throw new Error(`No real provider configured for ${fund.id}: ${fund.providerRef}`);
 }
 
-export function retainQuotesForFund(fund: Fund, quotes: Quote[]): Quote[] {
-  return fund.providerRef.startsWith("eastmoney:") ? quotes.slice(-260) : quotes;
+export function retainQuotesForFund(_fund: Fund, quotes: Quote[]): Quote[] {
+  return quotes.slice(-260);
 }
 
-async function updatePeriodSummaries(fund: Fund, date: string, quotes: Quote[]): Promise<void> {
-  for (const period of getBoundaryPeriods(date)) {
-    const summary = buildPeriodSummary(period, date, fund.id, quotes);
-    if (!summary) continue;
-    const file = path.join(root, "data", "summaries", `${period}ly`, `${fund.id}.json`);
-    const existing = await readJson<PeriodSummary[]>(file, []);
-    const updated = existing.filter((entry) => entry.periodKey !== summary.periodKey);
-    updated.push(summary);
-    updated.sort((a, b) => a.periodKey.localeCompare(b.periodKey));
-    await writeJsonIfChanged(file, updated);
+export function evaluatePrediction(
+  prediction: FundPrediction,
+  quotes: Quote[],
+  evaluatedAt: string,
+  previous?: PredictionEvaluation
+): PredictionEvaluation {
+  const sorted = quotes.filter(({ nav }) => nav !== null).sort((a, b) => a.date.localeCompare(b.date));
+  const actual = sorted.find(({ date }) => date === prediction.targetTradeDate);
+  const prior = sorted.filter(({ date }) => date < prediction.targetTradeDate).at(-1);
+  if (!actual?.nav || !prior?.nav) {
+    return evaluationSchema.parse({
+      evaluationKey: prediction.predictionKey,
+      predictionKey: prediction.predictionKey,
+      fundId: prediction.fundId,
+      targetTradeDate: prediction.targetTradeDate,
+      status: "pending",
+      evaluatedAt,
+      actualStartDate: prior?.date ?? null,
+      actualEndDate: null,
+      actualReturn: null,
+      error: null,
+      absoluteError: null,
+      squaredError: null,
+      directionCorrect: null,
+      confidence: prediction.confidence,
+      confidenceBin: prediction.confidence < 0.34 ? "low" : prediction.confidence < 0.67 ? "medium" : "high",
+      trainingApplied: previous?.trainingApplied ?? false,
+      reason: `目标净值 ${prediction.targetTradeDate} 尚未披露，将在后续晚间运行补评。`
+    });
   }
+  const actualReturn = actual.nav / prior.nav - 1;
+  const error = actualReturn - prediction.predictedReturn;
+  const actualDirection = actualReturn > 0.0005 ? "up" : actualReturn < -0.0005 ? "down" : "flat";
+  return evaluationSchema.parse({
+    evaluationKey: prediction.predictionKey,
+    predictionKey: prediction.predictionKey,
+    fundId: prediction.fundId,
+    targetTradeDate: prediction.targetTradeDate,
+    status: "evaluated",
+    evaluatedAt,
+    actualStartDate: prior.date,
+    actualEndDate: actual.date,
+    actualReturn,
+    error,
+    absoluteError: Math.abs(error),
+    squaredError: error ** 2,
+    directionCorrect: actualDirection === prediction.direction,
+    confidence: prediction.confidence,
+    confidenceBin: prediction.confidence < 0.34 ? "low" : prediction.confidence < 0.67 ? "medium" : "high",
+    trainingApplied: previous?.trainingApplied ?? false,
+    reason: null
+  });
+}
+
+function groupMetrics(
+  evaluations: PredictionEvaluation[],
+  key: (evaluation: PredictionEvaluation) => string
+): Record<string, ReturnType<typeof metricSet>> {
+  const groups = new Map<string, PredictionEvaluation[]>();
+  for (const evaluation of evaluations) {
+    const value = key(evaluation);
+    groups.set(value, [...(groups.get(value) ?? []), evaluation]);
+  }
+  return Object.fromEntries([...groups].map(([group, values]) => [group, metricSet(values)]));
+}
+
+async function allPredictions(): Promise<FundPrediction[]> {
+  const years = await readJson<string[]>(path.join(root, "data", "predictions", "years.json"), []);
+  const result: FundPrediction[] = [];
+  for (const year of years) {
+    const values = await readJson<unknown[]>(path.join(root, "data", "predictions", year, "predictions.json"), []);
+    result.push(...values.map((value) => predictionSchema.parse(value)));
+  }
+  return result;
+}
+
+async function allEvaluations(): Promise<PredictionEvaluation[]> {
+  const years = await readJson<string[]>(path.join(root, "data", "evaluations", "years.json"), []);
+  const result: PredictionEvaluation[] = [];
+  for (const year of years) {
+    const values = await readJson<unknown[]>(path.join(root, "data", "evaluations", year, "evaluations.json"), []);
+    result.push(...values.map((value) => evaluationSchema.parse(value)));
+  }
+  return result;
+}
+
+async function saveYearPartition<T>(
+  base: "predictions" | "evaluations",
+  date: string,
+  fileName: string,
+  values: T[]
+): Promise<void> {
+  const year = date.slice(0, 4);
+  await writeJsonIfChanged(path.join(root, "data", base, year, fileName), values);
+  const yearsFile = path.join(root, "data", base, "years.json");
+  const years = await readJson<string[]>(yearsFile, []);
+  await writeJsonIfChanged(yearsFile, [...new Set([...years, year])].sort());
+}
+
+async function loadArtifact(at: string): Promise<ModelArtifact> {
+  const file = path.join(root, "data", "models", "cn-baseline-v1.json");
+  const raw = await readJson<unknown | null>(file, null);
+  return raw ? modelArtifactSchema.parse(raw) : initialModelArtifact(at);
+}
+
+async function createReports(
+  gates: PeriodGate[],
+  evaluations: PredictionEvaluation[],
+  predictions: FundPrediction[],
+  artifact: ModelArtifact,
+  generatedAt: string
+): Promise<PeriodReport[]> {
+  const reports: PeriodReport[] = [];
+  const predictionByKey = new Map(predictions.map((prediction) => [prediction.predictionKey, prediction]));
+  for (const gate of gates) {
+    const selected = evaluations.filter(
+      ({ targetTradeDate }) => targetTradeDate >= gate.startDate && targetTradeDate <= gate.endDate
+    );
+    const evaluated = selected.filter(({ status }) => status === "evaluated");
+    const sorted = [...evaluated].sort(
+      (left, right) => (left.absoluteError ?? Infinity) - (right.absoluteError ?? Infinity)
+    );
+    const report = periodReportSchema.parse({
+      reportKey: `${gate.period}:${gate.periodKey}`,
+      period: gate.period,
+      periodKey: gate.periodKey,
+      startDate: gate.startDate,
+      endDate: gate.endDate,
+      status:
+        gate.status === "final" &&
+        selected.length > 0 &&
+        selected.every(({ status }) => status !== "pending")
+          ? "final"
+          : "provisional",
+      generatedAt,
+      modelVersion: model.version,
+      metrics: metricSet(evaluated),
+      missingRate: selected.length ? selected.filter(({ status }) => status !== "evaluated").length / selected.length : 1,
+      byFund: groupMetrics(evaluated, ({ fundId }) => fundId),
+      byConfidence: groupMetrics(evaluated, ({ confidenceBin }) => confidenceBin),
+      byCoverage: groupMetrics(evaluated, (evaluation) => {
+        const coverage = predictionByKey.get(evaluation.predictionKey)?.featureCoverage ?? 0;
+        return coverage < 0.3 ? "low" : coverage < 0.7 ? "medium" : "high";
+      }),
+      bestCase: sorted.at(0)?.evaluationKey ?? null,
+      worstCase: sorted.at(-1)?.evaluationKey ?? null,
+      modelChange: {
+        previousBias: artifact.bias,
+        newBias: artifact.bias,
+        previousScale: artifact.scale,
+        newScale: artifact.scale,
+        applied: false
+      }
+    });
+    const file = path.join(root, "data", "reports", gate.period, `${gate.periodKey}.json`);
+    await writeJsonIfChanged(file, report);
+    reports.push(report);
+  }
+  return reports;
 }
 
 export function shanghaiDate(now = new Date()): string {
@@ -241,74 +430,165 @@ export function shanghaiDate(now = new Date()): string {
   return `${values.year}-${values.month}-${values.day}`;
 }
 
-export async function runPipeline(date: string, mode: RunMode): Promise<{ skipped: boolean }> {
+export async function runPipeline(
+  date: string,
+  phase: RunPhase,
+  options: PipelineOptions = {}
+): Promise<{ skipped: boolean }> {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || Number.isNaN(Date.parse(`${date}T00:00:00Z`))) {
     throw new Error(`Invalid ISO date: ${date}`);
   }
-  if (!isWorkday(date)) {
-    console.log(`Skipping ${date}: weekend calendar rule. Real exchange calendars are not yet enabled.`);
+  const collectionPhase = phase === "morning" || phase === "evening" || phase === "all";
+  if (collectionPhase && !isWorkday(date)) {
+    console.log(`Skipping ${date}: weekend. Exchange holidays are additionally inferred from source trade dates.`);
     return { skipped: true };
   }
-
-  const runKey = `${date}:${mode}:mixed-v2`;
+  if (phase === "morning" && !isMainlandTradingDay(date)) {
+    console.log(
+      `Skipping ${date}: mainland exchange calendar says closed (${tradingCalendarCoverage(date)}).`
+    );
+    return { skipped: true };
+  }
+  const runKey = `${date}:${phase}:cn-loop-v1`;
   const runsFile = path.join(root, "data", "runs.json");
   const runs = await readJson<RunRecord[]>(runsFile, []);
-  if (mode === "intraday" && runs.some((run) => run.runKey === `${date}:final:mixed-v2`)) {
-    console.log(`Skipping ${runKey}: final data already exists for this date.`);
-    return { skipped: true };
-  }
   if (runs.some((run) => run.runKey === runKey)) {
     console.log(`Run ${runKey} already completed; no files changed.`);
     return { skipped: true };
   }
 
+  const collectedAt = scheduledTimestamp(date, phase);
   const funds = parseFunds(await readJson<unknown>(path.join(root, "data", "funds.json")));
-  const collectedAt = scheduledTimestamp(date, mode);
-  const context: CollectionContext = { date, mode, collectedAt, runKey };
-  const staged = [];
+  const artifact = await loadArtifact(collectedAt);
+  const shouldCollect = ["morning", "evening", "all"].includes(phase);
+  const previousPublicIndex = shouldCollect
+    ? null
+    : await readJson<{
+        summaries: Array<{
+          fund: Fund;
+          holdings: HoldingsSnapshot;
+          holdingQuotes: HoldingQuoteBatch;
+        }>;
+      }>(path.join(root, "public", "data", "index.json"));
+  const staged: Array<{
+    fund: Fund;
+    quotes: Quote[];
+    holdings: HoldingsSnapshot;
+    historicalHoldings: HoldingsSnapshot[];
+    holdingQuotes: HoldingQuoteBatch;
+  }> = [];
 
   for (const fund of funds) {
-    const provider = providerForFund(fund);
     const existingQuotes = await loadAllQuotes(fund.id);
-    const collected = await provider.collectFund(fund, context);
-    const incomingQuotes = collected.quotes.map((quote) => quoteSchema.parse(quote));
-    if (!incomingQuotes.length) throw new Error(`${provider.name} returned no quotes for ${fund.id}`);
-    const holdings = holdingsSnapshotSchema.parse(collected.holdings);
-    if (!holdings.holdings.length && fund.providerRef.startsWith("eastmoney:")) {
-      throw new Error(`${provider.name} returned empty real holdings for ${fund.id}`);
+    let quotes = existingQuotes;
+    let holdings: HoldingsSnapshot;
+    let historicalHoldings: HoldingsSnapshot[] = [];
+    let holdingQuotes: HoldingQuoteBatch;
+    if (shouldCollect) {
+      const provider = options.provider ?? providerForFund(fund);
+      const context: CollectionContext = {
+        date,
+        mode: phase === "morning" ? "intraday" : "final",
+        collectedAt,
+        runKey
+      };
+      const collected = await provider.collectFund(fund, context);
+      quotes = mergeQuotes(existingQuotes, collected.quotes.map((value) => quoteSchema.parse(value)));
+      holdings = holdingsSnapshotSchema.parse(collected.holdings);
+      historicalHoldings = collected.historicalHoldings.map((snapshot) =>
+        holdingsSnapshotSchema.parse(snapshot)
+      );
+      holdingQuotes = holdingQuoteBatchSchema.parse(collected.holdingQuotes);
+      if (!holdings.holdings.length) throw new Error(`${provider.name} returned empty holdings for ${fund.id}`);
+    } else {
+      const publicSummary = previousPublicIndex?.summaries.find(
+        (summary) => summary.fund.id === fund.id
+      );
+      if (!publicSummary) throw new Error(`No persisted public summary available for ${fund.id}`);
+      holdings = holdingsSnapshotSchema.parse(publicSummary.holdings);
+      holdingQuotes = holdingQuoteBatchSchema.parse(publicSummary.holdingQuotes);
     }
-    const historicalHoldings = collected.historicalHoldings.map((snapshot) =>
-      holdingsSnapshotSchema.parse(snapshot)
-    );
-    const holdingQuotes = holdingQuoteBatchSchema.parse(collected.holdingQuotes);
-    const mergedQuotes = mergeQuotes(existingQuotes, incomingQuotes);
-    const quotes = retainQuotesForFund(fund, mergedQuotes);
-    const latestQuote = quotes.at(-1);
-    if (!latestQuote) throw new Error(`No normalized quotes available for ${fund.id}`);
-    const analytics = calculateAnalytics(fund.id, quotes);
-    staged.push({
-      fund,
-      quotes,
-      latestQuote,
-      analytics,
-      holdings,
-      historicalHoldings,
-      holdingQuotes
-    });
+    staged.push({ fund, quotes, holdings, historicalHoldings, holdingQuotes });
   }
 
-  for (const { fund, quotes, holdings, historicalHoldings, holdingQuotes } of staged) {
-    await saveQuotes(fund, quotes);
-    for (const snapshot of historicalHoldings) await saveHoldingsSnapshot(snapshot, true);
-    await saveHoldingsSnapshot(holdings);
-    await writeJsonIfChanged(
-      path.join(root, "data", "holding-quotes", fund.id, `${date}.json`),
-      holdingQuotes
+  let predictions = await allPredictions();
+  if ((phase === "morning" || phase === "all") && isMainlandTradingDay(date)) {
+    const created = staged.map(({ fund, quotes, holdings, holdingQuotes }) =>
+      model.predict({
+        fund,
+        predictionDate: date,
+        targetTradeDate: date,
+        featureTimestamp: collectedAt,
+        quotes,
+        holdings,
+        holdingQuotes,
+        artifact
+      })
     );
-    if (mode === "final") {
-      const latestDate = quotes.at(-1)?.date;
-      if (latestDate) await updatePeriodSummaries(fund, latestDate, quotes);
+    const keys = new Set(created.map(({ predictionKey }) => predictionKey));
+    predictions = [...predictions.filter(({ predictionKey }) => !keys.has(predictionKey)), ...created].sort(
+      (left, right) => left.predictionKey.localeCompare(right.predictionKey)
+    );
+    await saveYearPartition("predictions", date, "predictions.json", predictions.filter(({ predictionDate }) => predictionDate.startsWith(date.slice(0, 4))));
+  }
+
+  if (shouldCollect) {
+    for (const { fund, quotes, holdings, historicalHoldings, holdingQuotes } of staged) {
+      await saveQuotes(fund, quotes);
+      for (const historical of historicalHoldings) await saveHoldings(historical, true);
+      await saveHoldings(holdings);
+      await writeJsonIfChanged(
+        path.join(root, "data", "holding-quotes", fund.id, `${date}.json`),
+        holdingQuotes
+      );
     }
+  }
+
+  let evaluations = await allEvaluations();
+  if (phase === "evening" || phase === "all") {
+    const existingByKey = new Map(evaluations.map((evaluation) => [evaluation.evaluationKey, evaluation]));
+    const updated = predictions.map((prediction) => {
+      const fundQuotes = staged.find(({ fund }) => fund.id === prediction.fundId)?.quotes ?? [];
+      return evaluatePrediction(prediction, fundQuotes, collectedAt, existingByKey.get(prediction.predictionKey));
+    });
+    const keys = new Set(updated.map(({ evaluationKey }) => evaluationKey));
+    evaluations = [...evaluations.filter(({ evaluationKey }) => !keys.has(evaluationKey)), ...updated].sort(
+      (left, right) => left.evaluationKey.localeCompare(right.evaluationKey)
+    );
+    const years = new Set(evaluations.map(({ targetTradeDate }) => targetTradeDate.slice(0, 4)));
+    for (const year of years) {
+      await saveYearPartition("evaluations", `${year}-01-01`, "evaluations.json", evaluations.filter(({ targetTradeDate }) => targetTradeDate.startsWith(year)));
+    }
+    const calibrated = model.calibrate(artifact, evaluations, collectedAt);
+    const applied = new Set(calibrated.appliedEvaluationKeys);
+    evaluations = evaluations.map((evaluation) =>
+      applied.has(evaluation.evaluationKey) && evaluation.status === "evaluated"
+        ? { ...evaluation, trainingApplied: true }
+        : evaluation
+    );
+    for (const year of years) {
+      await saveYearPartition("evaluations", `${year}-01-01`, "evaluations.json", evaluations.filter(({ targetTradeDate }) => targetTradeDate.startsWith(year)));
+    }
+    await writeJsonIfChanged(path.join(root, "data", "models", "cn-baseline-v1.json"), calibrated);
+  }
+
+  const requestedGates =
+    phase === "weekly"
+      ? periodCloseGates(date).filter(({ period }) => period === "weekly")
+      : phase === "monthly"
+        ? periodCloseGates(date).filter(({ period }) => period === "monthly")
+        : phase === "yearly"
+          ? periodCloseGates(date).filter(({ period }) => period === "yearly")
+          : phase === "evening" || phase === "all"
+            ? [...periodCloseGates(date), ...catchUpPeriodGates(date)].filter(
+                ({ period }, index, values) =>
+                  period !== "weekly" &&
+                  values.findIndex((value) => value.period === period && value.periodKey === values[index]?.periodKey) === index
+              )
+            : [];
+  const reports = await createReports(requestedGates, evaluations, predictions, artifact, collectedAt);
+
+  for (const { fund, quotes } of staged) {
     await writeJsonIfChanged(
       path.join(root, "public", "data", "series", `${fund.id}.json`),
       quotes.slice(-260).map(({ date: quoteDate, nav, price, benchmarkPrice }) => ({
@@ -319,41 +599,37 @@ export async function runPipeline(date: string, mode: RunMode): Promise<{ skippe
       }))
     );
   }
-
-  const summaries = staged.map(
-    ({ fund, latestQuote, analytics, holdings, holdingQuotes }) => ({
-    fund,
-    latestQuote,
-    analytics,
-    holdings,
-    holdingQuotes
-    })
-  );
-  const dataStatus = summaries.every(
-    ({ latestQuote, holdings }) =>
-      latestQuote.quality.status === "complete" && holdings.quality.status === "complete"
-  )
-    ? "complete"
-    : "partial";
+  const summaries = staged.map(({ fund, quotes, holdings, holdingQuotes }) => {
+    const fundPredictions = predictions.filter(({ fundId }) => fundId === fund.id);
+    const prediction = fundPredictions.at(-1) ?? null;
+    const evaluation = prediction
+      ? evaluations.find(({ predictionKey }) => predictionKey === prediction.predictionKey) ?? null
+      : null;
+    const fundEvaluations = evaluations.filter(({ fundId }) => fundId === fund.id);
+    return {
+      fund,
+      latestQuote: quotes.at(-1) ?? null,
+      analytics: calculateAnalytics(fund.id, quotes),
+      holdings,
+      holdingQuotes,
+      prediction,
+      predictionAvailability: predictionAvailability(date, prediction),
+      evaluation,
+      rollingMetrics: metricSet(fundEvaluations.slice(-60))
+    };
+  });
   const index = siteIndexSchema.parse({
     generatedAt: collectedAt,
-    asOf: summaries
-      .map(({ latestQuote }) => latestQuote.date)
-      .sort()
-      .at(-1) ?? date,
-    mode,
-    dataStatus,
-    dataMode:
-      new Set(summaries.map(({ latestQuote }) => latestQuote.quality.dataMode)).size > 1
-        ? "mixed"
-        : summaries[0]?.latestQuote.quality.dataMode ?? "simulated",
-    summaries
+    asOf: summaries.map(({ latestQuote }) => latestQuote?.date ?? "").sort().at(-1) ?? date,
+    phase,
+    dataStatus: summaries.every(({ latestQuote }) => latestQuote?.quality.status === "complete") ? "complete" : "partial",
+    dataMode: "real",
+    summaries,
+    reports
   });
   await writeJsonIfChanged(path.join(root, "public", "data", "index.json"), index);
-  runs.push({ runKey, date, mode, completedAt: collectedAt });
+  runs.push({ runKey, date, phase, completedAt: collectedAt });
   await writeJsonIfChanged(runsFile, runs);
-  console.log(`Completed ${runKey} for ${funds.length} funds.`);
+  console.log(`Completed ${runKey} for ${funds.length} China funds.`);
   return { skipped: false };
 }
-
-export { previousWorkday };

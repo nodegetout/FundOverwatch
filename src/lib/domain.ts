@@ -7,7 +7,7 @@ export const fundSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   symbol: z.string().min(1),
   name: z.string().min(1),
-  market: z.enum(["US", "HK", "CN", "JP", "EU", "OTHER"]),
+  market: z.literal("CN"),
   exchange: z.string().min(1),
   currency: z.string().length(3),
   assetClass: z.enum(["Equity", "Bond", "Mixed", "Commodity", "Money Market", "Other"]),
@@ -20,8 +20,8 @@ export const fundSchema = z.object({
 export const qualitySchema = z.object({
   status: z.enum(["complete", "partial", "stale", "error"]),
   source: z.string().min(1),
-  dataMode: z.enum(["real", "simulated"]).default("simulated"),
-  isSimulated: z.boolean(),
+  dataMode: z.literal("real"),
+  isSimulated: z.literal(false),
   collectedAt: timestamp,
   warnings: z.array(z.string()),
   missingFields: z.array(z.string())
@@ -109,21 +109,32 @@ export const analyticsSchema = z.object({
   observations: z.number().int().nonnegative()
 });
 
+export const predictionAvailabilitySchema = z.object({
+  status: z.enum(["available", "non-trading", "not-run", "source-error"]),
+  date: z.string().regex(isoDate),
+  reason: z.string().min(1)
+});
+
 export const fundSummarySchema = z.object({
   fund: fundSchema,
   latestQuote: quoteSchema.nullable(),
   analytics: analyticsSchema.nullable(),
   holdings: holdingsSnapshotSchema.nullable(),
-  holdingQuotes: holdingQuoteBatchSchema.nullable().default(null)
+  holdingQuotes: holdingQuoteBatchSchema.nullable().default(null),
+  prediction: z.unknown().nullable().default(null),
+  predictionAvailability: predictionAvailabilitySchema,
+  evaluation: z.unknown().nullable().default(null),
+  rollingMetrics: z.unknown().nullable().default(null)
 });
 
 export const siteIndexSchema = z.object({
   generatedAt: timestamp,
   asOf: z.string().regex(isoDate),
-  mode: z.enum(["intraday", "final"]),
+  phase: z.enum(["morning", "evening", "weekly", "monthly", "yearly", "all"]),
   dataStatus: z.enum(["complete", "partial", "error"]),
-  dataMode: z.enum(["real", "simulated", "mixed"]),
-  summaries: z.array(fundSummarySchema)
+  dataMode: z.literal("real"),
+  summaries: z.array(fundSummarySchema),
+  reports: z.array(z.unknown()).default([])
 });
 
 export type Fund = z.infer<typeof fundSchema>;
@@ -134,6 +145,7 @@ export type Holding = z.infer<typeof holdingSchema>;
 export type HoldingQuote = z.infer<typeof holdingQuoteSchema>;
 export type HoldingQuoteBatch = z.infer<typeof holdingQuoteBatchSchema>;
 export type FundAnalytics = z.infer<typeof analyticsSchema>;
+export type PredictionAvailability = z.infer<typeof predictionAvailabilitySchema>;
 export type SiteIndex = z.infer<typeof siteIndexSchema>;
 
 export function parseFunds(input: unknown): Fund[] {

@@ -22,7 +22,7 @@
 
 - 手动运行 `Deploy Pages`，检查构建和 deployment environment
 - 匿名访问 `https://nodegetout.github.io/FundOverwatch/` 并确认首页与静态数据返回 200
-- 检查页面显示“模拟数据”“非投资建议”和最新北京时间
+- 检查页面显示“仅真实公开数据”“非投资建议”、最新北京时间与预测/评估状态
 - 确认仓库、Actions artifact、Pages 静态文件均不含秘密
 
 ## 可选的 Cloudflare Access 迁移

@@ -9,13 +9,13 @@ function quote(date: string, price: number | null, benchmarkPrice = price): Quot
     nav: price,
     price,
     benchmarkPrice,
-    currency: "USD",
+    currency: "CNY",
     valuation: "final",
     quality: {
       status: "complete",
       source: "test",
-      dataMode: "simulated",
-      isSimulated: true,
+      dataMode: "real",
+      isSimulated: false,
       collectedAt: `${date}T13:00:00+08:00`,
       warnings: [],
       missingFields: []

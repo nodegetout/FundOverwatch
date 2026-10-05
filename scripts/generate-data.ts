@@ -1,4 +1,4 @@
-import { runPipeline, shanghaiDate, type RunMode } from "./pipeline";
+import { runPipeline, shanghaiDate, type RunPhase } from "./pipeline";
 
 function argument(name: string): string | undefined {
   const prefix = `--${name}=`;
@@ -6,10 +6,10 @@ function argument(name: string): string | undefined {
 }
 
 const date = argument("date") ?? shanghaiDate();
-const mode = (argument("mode") ?? "final") as RunMode;
+const phase = (argument("phase") ?? argument("mode") ?? "evening") as RunPhase;
 
-if (mode !== "intraday" && mode !== "final") {
-  throw new Error(`Invalid mode: ${mode}. Expected intraday or final.`);
+if (!["morning", "evening", "weekly", "monthly", "yearly", "all"].includes(phase)) {
+  throw new Error(`Invalid phase: ${phase}.`);
 }
 
-await runPipeline(date, mode);
+await runPipeline(date, phase);
