@@ -66,8 +66,14 @@ if [[ ! -x "$ESBUILD" ]]; then
   echo "Missing esbuild; run npm ci in $REPO_ROOT first." >&2
   exit 1
 fi
-env -u GH_TOKEN -u GITHUB_TOKEN "$GH_PATH" auth status --hostname github.com >/dev/null
-env -u GH_TOKEN -u GITHUB_TOKEN "$GH_PATH" api repos/nodegetout/FundOverwatch/actions/permissions --jq '.enabled' | grep -qx true
+AUTH_READY=true
+if ! env -u GH_TOKEN -u GITHUB_TOKEN "$GH_PATH" auth status --hostname github.com >/dev/null 2>&1; then
+  AUTH_READY=false
+  echo "WARNING: persistent gh authentication is not valid. The LaunchAgent will be installed but cannot dispatch until 'gh auth login' succeeds." >&2
+elif ! env -u GH_TOKEN -u GITHUB_TOKEN "$GH_PATH" api repos/nodegetout/FundOverwatch/actions/permissions --jq '.enabled' | grep -qx true; then
+  AUTH_READY=false
+  echo "WARNING: GitHub Actions permission check failed. The LaunchAgent will be installed in degraded state." >&2
+fi
 
 /bin/mkdir -p "$INSTALL_DIR" "$HOME/Library/LaunchAgents" "$LOG_DIR" "$STATE_DIR"
 "$ESBUILD" "$REPO_ROOT/scripts/local-scheduler.ts" \
@@ -132,4 +138,5 @@ launchctl bootout "$DOMAIN/$LABEL" >/dev/null 2>&1 || true
 launchctl bootstrap "$DOMAIN" "$PLIST"
 launchctl kickstart -k "$DOMAIN/$LABEL"
 echo "Installed and started $LABEL from source commit $SOURCE_COMMIT."
+echo "GitHub authentication ready: $AUTH_READY"
 status
