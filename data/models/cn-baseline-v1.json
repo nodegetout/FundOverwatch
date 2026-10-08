@@ -1,12 +1,20 @@
 {
   "modelVersion": "cn-baseline-v1",
-  "updatedAt": "2026-10-05T22:30:00+08:00",
-  "trainingCutoff": null,
-  "sampleCount": 0,
+  "updatedAt": "2026-10-09T22:30:00+08:00",
+  "trainingCutoff": "2026-10-08",
+  "sampleCount": 7,
   "bias": 0,
   "scale": 1,
-  "directionAccuracy": null,
-  "mae": null,
-  "rmse": null,
-  "appliedEvaluationKeys": []
+  "directionAccuracy": 0.5714285714285714,
+  "mae": 0.016786297937983318,
+  "rmse": 0.021587474570364657,
+  "appliedEvaluationKeys": [
+    "cn-001595:2026-10-08:cn-baseline-v1",
+    "cn-002983:2026-10-08:cn-baseline-v1",
+    "cn-005051:2026-10-08:cn-baseline-v1",
+    "cn-018736:2026-10-08:cn-baseline-v1",
+    "cn-018993:2026-10-08:cn-baseline-v1",
+    "cn-025852:2026-10-08:cn-baseline-v1",
+    "cn-161723:2026-10-08:cn-baseline-v1"
+  ]
 }

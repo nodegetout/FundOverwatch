@@ -12,10 +12,10 @@
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-10-08T10:30:00+08:00",
+      "collectedAt": "2026-10-09T22:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-09-30。"
+        "最近已公布净值日期为 2026-10-08。"
       ],
       "missingFields": [
         "price",
@@ -36,10 +36,10 @@
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-10-08T10:30:00+08:00",
+      "collectedAt": "2026-10-09T22:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-09-30。"
+        "最近已公布净值日期为 2026-10-08。"
       ],
       "missingFields": [
         "price",
@@ -60,10 +60,10 @@
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-10-08T10:30:00+08:00",
+      "collectedAt": "2026-10-09T22:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-09-30。"
+        "最近已公布净值日期为 2026-10-08。"
       ],
       "missingFields": [
         "price",
@@ -84,10 +84,10 @@
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-10-08T10:30:00+08:00",
+      "collectedAt": "2026-10-09T22:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-09-30。"
+        "最近已公布净值日期为 2026-10-08。"
       ],
       "missingFields": [
         "price",
