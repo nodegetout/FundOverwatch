@@ -579,5 +579,10 @@ if (
   process.argv[1] &&
   realpathSync(fileURLToPath(import.meta.url)) === realpathSync(process.argv[1])
 ) {
-  await main();
+  try {
+    await main();
+  } catch (error) {
+    console.error(`${new Date().toISOString()} scheduler-error="${safeError(error)}"`);
+    process.exitCode = 1;
+  }
 }
