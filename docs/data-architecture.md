@@ -48,6 +48,8 @@ public/data/
 
 历史、预测和评估按年分区；public 只保存页面需要的最近汇总和最多 260 个 NAV 点，不复制完整行情。数组按稳定 key 排序，同一 key 替换而不追加重复记录。`runs.json` 使用 `<date>:<phase>:cn-loop-v2` 幂等替换同一业务运行记录，并保存计划/实际时刻、日历状态和跳过原因。流水线允许同一 evening 日期再次采集，以便补齐延迟 NAV；prediction/evaluation/report 仍按稳定 key 替换，模型以 `appliedEvaluationKeys` 保证每个样本只消费一次。
 
+本地 macOS watcher 只负责在 GitHub schedule 缺失时调用 `workflow_dispatch phase/date`，不直接读写上述生产数据。它使用同一业务日期和 phase，因此 schedule 与 dispatch 先后到达时仍由 pipeline 稳定 key、evaluation key 和 report key 保持幂等。watcher 自身状态不入库，保存在 `~/Library/Application Support/FundOverwatch/scheduler-state.json`。
+
 ## 周期关闭
 
 - 周报：每个日历周五 evening 在当晚评估之后生成；周五休市仍统计周一至周五范围内的实际样本。
