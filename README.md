@@ -63,6 +63,33 @@ npm run calendar:refresh -- \
 
 只在两所发布下一年度正式公告后人工执行 refresh。命令严格校验标题、年份、公告号、日期范围及两所一致性；网络、JSON、公告格式或语义异常均非零退出，并在原子写入前保留现有文件。加 `--check` 可做受控真实源 smoke 而不写盘。`calendar:verify` 会在下一年度尚未覆盖时提前告警，但绝不生成推测日期。
 
+## macOS 本地 Actions 调度看门狗
+
+GitHub scheduled workflows 可能延迟或丢弃。用户级 LaunchAgent 每 5 分钟运行独立 watcher：它不在本地采集或修改基金数据，只在预期 slot 经过 15 分钟 grace 后仍未观察到 GitHub schedule run 时，调用已有 `workflow_dispatch` 并明确传入 `phase` 与上海业务 `date`。
+
+- 交易日上午 10:30 期待 `morning`；休市日上午不 dispatch。
+- 周一至周五 22:30 期待 `evening`，包括交易所休市日。周五晚始终保留，以生成 weekly close；其他晚间用于 NAV 补评及未完成周期报告。
+- 每次扫描最近 3 个上海自然日，机器睡眠/关机后会 catch up；自动补偿最多 7 天，超限显式报警。
+- 本地 state 记录 slot、attempt、run ID/URL、退避时间与结果。失败采用有限指数退避，不把未确认 dispatch 写成 success。
+- mkdir 锁阻止并发，15 分钟后才清理 stale lock。日志和 state 不保存或打印 token。
+
+```bash
+# 安全预演，不 dispatch
+npm run scheduler:once -- --dry-run --date=2026-10-08
+
+# 可选受限回补
+npm run scheduler:once -- --backfill=2026-10-06..2026-10-08
+
+# 安装、查看状态、卸载用户级 LaunchAgent
+npm run scheduler:install
+npm run scheduler:status
+npm run scheduler:uninstall
+```
+
+安装器将 esbuild 生成的自包含 Node runner 放到 `~/.local/share/fundoverwatch-scheduler/`，而不是依赖 Copilot worktree；plist 位于 `~/Library/LaunchAgents/com.nodegetout.fundoverwatch.scheduler.plist`，日志位于 `~/Library/Logs/FundOverwatch/`，state/lock 位于 `~/Library/Application Support/FundOverwatch/`。plist 固化安装时解析出的 `node` 与 `gh` 绝对路径；鉴权继续使用用户现有 `gh auth`，不会复制 token。
+
+这不是绝对可用性保证：Mac 必须定期开机、联网且 `gh` 登录有效。7 天以上离线不会自动制造大量历史 dispatch；GitHub API/Actions 整体故障时 watcher 会持续有限重试并保留 pending/failed 状态。真正高可用需要第二个独立设备或云 scheduler 作为外部调度源。
+
 ## 数据源与时效
 
 - NAV：天天基金/东方财富 F10 历史净值接口，`FSRQ` 为净值日期，`DWJZ` 为单位净值。
