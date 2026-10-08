@@ -19,7 +19,7 @@ status() {
   fi
   if [[ -f "$CONFIG_FILE" && -f "$INSTALL_DIR/scheduler.mjs" ]]; then
     local node_path
-    node_path="$(/usr/bin/sed -n 's/.*<string>\\(.*\\/node\\)<\\/string>.*/\\1/p' "$PLIST" | head -1)"
+    node_path="$(/usr/libexec/PlistBuddy -c 'Print :ProgramArguments:0' "$PLIST")"
     FUNDOVERWATCH_SCHEDULER_CONFIG="$CONFIG_FILE" "$node_path" "$INSTALL_DIR/scheduler.mjs" --status
   else
     echo "runner not installed"
