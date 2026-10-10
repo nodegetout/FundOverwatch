@@ -5,15 +5,26 @@ import {
   catchUpPeriodGates,
   getBoundaryPeriods,
   isWorkday,
+  lastCalendarDate,
   mergeQuotes,
+  orderPeriodGates,
+  periodReportForGate,
   periodCloseGates,
   providerForFund,
+  resolveScheduledRun,
   retainQuotesForFund,
   shanghaiDate
 } from "../scripts/pipeline";
 import { parseFunds, type Quote } from "../src/lib/domain";
-import type { FundPrediction } from "../src/lib/prediction-contract";
-import { isMainlandTradingDay, tradingCalendarCoverage } from "../src/lib/trading-calendar";
+import {
+  initialModelArtifact,
+  type FundPrediction
+} from "../src/lib/prediction-contract";
+import {
+  isMainlandTradingDay,
+  tradingCalendarCoverage,
+  tradingDayDecision
+} from "../src/lib/trading-calendar";
 
 function quote(date: string, nav: number): Quote {
   return {
@@ -63,24 +74,115 @@ describe("pipeline calendar and evaluation rules", () => {
     expect(isMainlandTradingDay("2026-10-05")).toBe(false);
     expect(isMainlandTradingDay("2026-09-30")).toBe(true);
     expect(tradingCalendarCoverage("2026-10-05")).toBe("explicit");
-    expect(tradingCalendarCoverage("2027-10-05")).toBe("weekday-fallback");
+    expect(tradingCalendarCoverage("2027-10-05")).toBe("unavailable");
+    expect(tradingDayDecision("2027-10-05").status).toBe("calendar-unavailable");
+    expect(tradingDayDecision("2027-10-05", { calendarOverride: true }).status).toBe("trading");
+    expect(tradingDayDecision("2025-10-11")).toMatchObject({
+      status: "closed",
+      reason: "周末休市"
+    });
   });
 
-  it("handles weekly, leap-year, 30/31-day, weekend month-end, and year gates", () => {
-    expect(periodCloseGates("2026-10-10").map(({ period }) => period)).toEqual(["weekly"]);
-    expect(periodCloseGates("2024-02-29").map(({ period }) => period)).toContain("monthly");
+  it("handles Friday weekly, leap-year, month-end, and ordered overlapping gates", () => {
+    expect(periodCloseGates("2026-10-09").map(({ period }) => period)).toEqual(["weekly"]);
+    expect(periodCloseGates("2026-09-25")).toContainEqual(
+      expect.objectContaining({
+        period: "weekly",
+        startDate: "2026-09-21",
+        endDate: "2026-09-25"
+      })
+    );
+    expect(lastCalendarDate(2024, 2)).toBe("2024-02-29");
     expect(periodCloseGates("2026-04-30").map(({ period }) => period)).toContain("monthly");
-    expect(periodCloseGates("2026-07-31").map(({ period }) => period)).toContain("monthly");
-    expect(periodCloseGates("2026-10-30")).toContainEqual(
-      expect.objectContaining({ period: "monthly", endDate: "2026-10-31", status: "provisional" })
-    );
+    expect(periodCloseGates("2026-07-31").map(({ period }) => period)).toEqual([
+      "weekly",
+      "monthly"
+    ]);
     expect(getBoundaryPeriods("2026-12-31")).toEqual(["month", "year"]);
-    expect(catchUpPeriodGates("2027-01-04")).toEqual(
-      expect.arrayContaining([
-        expect.objectContaining({ period: "monthly", periodKey: "2026-12" }),
-        expect.objectContaining({ period: "yearly", periodKey: "2026" })
-      ])
+    expect(catchUpPeriodGates("2026-10-08")).toEqual(
+      expect.arrayContaining([expect.objectContaining({ periodKey: "2026-09" })])
     );
+    expect(
+      orderPeriodGates([
+        { period: "yearly", periodKey: "x", startDate: "2026-01-01", endDate: "2026-12-31", status: "final" },
+        { period: "monthly", periodKey: "x", startDate: "2026-12-01", endDate: "2026-12-31", status: "final" },
+        { period: "weekly", periodKey: "x", startDate: "2026-12-28", endDate: "2026-12-31", status: "final" }
+      ]).map(({ period }) => period)
+    ).toEqual(["weekly", "monthly", "yearly"]);
+  });
+
+  it("resolves delayed cron runs from UTC to the intended Shanghai business date", () => {
+    expect(resolveScheduledRun("30 14 * * 1-5", new Date("2026-10-05T14:35:00Z"))).toMatchObject({
+      phase: "evening",
+      date: "2026-10-05",
+      scheduledAt: "2026-10-05T22:30:00+08:00",
+      delayedAcrossShanghaiDate: false
+    });
+    expect(resolveScheduledRun("30 14 * * 1-5", new Date("2026-10-05T17:00:00Z"))).toMatchObject({
+      date: "2026-10-05",
+      delayedAcrossShanghaiDate: true
+    });
+    expect(resolveScheduledRun("30 2 * * 1-5", new Date("2026-10-05T03:00:00Z"))).toMatchObject({
+      phase: "morning",
+      date: "2026-10-05"
+    });
+  });
+
+  it("makes Friday reports provisional/final idempotently and marks empty holiday weeks no-data", () => {
+    const gate = periodCloseGates("2026-10-09").find(({ period }) => period === "weekly")!;
+    const pending = evaluatePrediction(
+      { ...prediction, predictionDate: "2026-10-09", targetTradeDate: "2026-10-09" },
+      [quote("2026-10-08", 1)],
+      "2026-10-09T22:30:00+08:00"
+    );
+    const artifact = initialModelArtifact("2026-10-09T22:30:00+08:00");
+    const provisional = periodReportForGate(gate, [pending], [prediction], artifact, pending.evaluatedAt);
+    expect(provisional).toMatchObject({
+      status: "provisional",
+      missingNavCount: 1,
+      lastTradingDate: "2026-10-09"
+    });
+    const evaluated = evaluatePrediction(
+      { ...prediction, predictionDate: "2026-10-09", targetTradeDate: "2026-10-09" },
+      [quote("2026-10-08", 1), quote("2026-10-09", 1.01)],
+      "2026-10-12T22:30:00+08:00",
+      pending
+    );
+    const final = periodReportForGate(gate, [evaluated], [prediction], artifact, evaluated.evaluatedAt);
+    expect(final).toMatchObject({ reportKey: provisional.reportKey, status: "final", missingNavCount: 0 });
+
+    const closedFridayGate = periodCloseGates("2026-09-25").find(({ period }) => period === "weekly")!;
+    const closedFridaySample = {
+      ...evaluated,
+      evaluationKey: "closed-friday-sample",
+      predictionKey: "closed-friday-prediction",
+      targetTradeDate: "2026-09-24",
+      actualStartDate: "2026-09-23",
+      actualEndDate: "2026-09-24"
+    };
+    expect(
+      periodReportForGate(
+        closedFridayGate,
+        [closedFridaySample],
+        [{ ...prediction, predictionKey: "closed-friday-prediction", targetTradeDate: "2026-09-24" }],
+        artifact,
+        evaluated.evaluatedAt
+      )
+    ).toMatchObject({
+      status: "final",
+      lastTradingDate: "2026-09-24",
+      tradingDateCount: 4,
+      metrics: { sampleCount: 1 }
+    });
+
+    const holidayGate = periodCloseGates("2026-02-20").find(({ period }) => period === "weekly")!;
+    expect(periodReportForGate(holidayGate, [], [], artifact, pending.evaluatedAt)).toMatchObject({
+      status: "no-data",
+      tradingDateCount: 0,
+      lastTradingDate: null,
+      metrics: { sampleCount: 0 },
+      modelChange: { applied: false }
+    });
   });
 
   it("contains only real Eastmoney providers and retains bounded history", async () => {

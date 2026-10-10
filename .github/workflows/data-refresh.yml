@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: "30 2 * * 1-5"
     - cron: "30 14 * * 1-5"
-    - cron: "30 2 * * 6"
   workflow_dispatch:
     inputs:
       phase:
@@ -17,6 +16,11 @@ on:
         description: Optional Asia/Shanghai date (YYYY-MM-DD)
         required: false
         type: string
+      calendar_override:
+        description: Explicitly override missing calendar coverage for a manual replay
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: china-fund-prediction-loop
@@ -49,12 +53,11 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
           INPUT_PHASE: ${{ inputs.phase }}
           INPUT_DATE: ${{ inputs.date }}
+          INPUT_CALENDAR_OVERRIDE: ${{ inputs.calendar_override }}
         run: |
           set -euo pipefail
           if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
             phase="$INPUT_PHASE"
-          elif [[ "$SCHEDULE" == "30 2 * * 6" ]]; then
-            phase="weekly"
           elif [[ "$SCHEDULE" == "30 2 * * 1-5" ]]; then
             phase="morning"
           else
@@ -62,17 +65,28 @@ jobs:
           fi
           echo "phase=$phase" >> "$GITHUB_OUTPUT"
           echo "date=$INPUT_DATE" >> "$GITHUB_OUTPUT"
+          echo "schedule=$SCHEDULE" >> "$GITHUB_OUTPUT"
+          echo "calendar_override=$INPUT_CALENDAR_OVERRIDE" >> "$GITHUB_OUTPUT"
       - name: Generate, verify, and build
         env:
           RUN_PHASE: ${{ steps.params.outputs.phase }}
           RUN_DATE: ${{ steps.params.outputs.date }}
+          RUN_SCHEDULE: ${{ steps.params.outputs.schedule }}
+          CALENDAR_OVERRIDE: ${{ steps.params.outputs.calendar_override }}
         run: |
           set -euo pipefail
-          args=("--phase=$RUN_PHASE")
+          args=("--phase=$RUN_PHASE" "--actual-time=$(date -u +%Y-%m-%dT%H:%M:%SZ)")
           if [[ -n "$RUN_DATE" ]]; then
             args+=("--date=$RUN_DATE")
           fi
+          if [[ -n "$RUN_SCHEDULE" ]]; then
+            args+=("--schedule=$RUN_SCHEDULE")
+          fi
+          if [[ "$CALENDAR_OVERRIDE" == "true" ]]; then
+            args+=("--calendar-override")
+          fi
           npm run data:generate -- "${args[@]}"
+          npm run calendar:verify
           npm run lint
           npm run typecheck
           npm test

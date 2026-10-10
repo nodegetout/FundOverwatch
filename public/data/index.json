@@ -4,6 +4,22 @@
   "phase": "weekly",
   "dataStatus": "partial",
   "dataMode": "real",
+  "calendar": {
+    "date": "2026-10-10",
+    "status": "closed",
+    "reason": "周末休市",
+    "source": "SSE/SZSE",
+    "asOf": "2025-12-22",
+    "coverage": {
+      "start": "2025-01-01",
+      "end": "2026-12-31"
+    }
+  },
+  "runTiming": {
+    "scheduledAt": "2026-10-10T10:30:00+08:00",
+    "actualRunAt": "2026-10-10T22:30:00+08:00",
+    "delayedAcrossShanghaiDate": false
+  },
   "summaries": [
     {
       "fund": {
@@ -4065,7 +4081,9 @@
       "periodKey": "2026-W41",
       "startDate": "2026-10-05",
       "endDate": "2026-10-09",
+      "lastTradingDate": "2026-10-09",
       "status": "provisional",
+      "statusReason": "仍有 1 个目标 NAV 未披露；后续晚间运行将幂等替换本报告。",
       "generatedAt": "2026-10-10T22:30:00+08:00",
       "modelVersion": "cn-baseline-v1",
       "metrics": {
@@ -4076,6 +4094,10 @@
         "meanError": -0.011660355478301373
       },
       "missingRate": 0.125,
+      "missingNavCount": 1,
+      "tradingDateCount": 2,
+      "calendarSource": "SSE/SZSE",
+      "calendarAsOf": "2025-12-22",
       "byFund": {
         "cn-001595": {
           "sampleCount": 1,

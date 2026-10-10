@@ -1,24 +1,39 @@
 import type { PredictionAvailability } from "./domain";
 import type { FundPrediction, PredictionEvaluation } from "./prediction-contract";
-import { isMainlandTradingDay } from "./trading-calendar";
+import { tradingDayDecision } from "./trading-calendar";
 
 export function predictionAvailability(
   date: string,
   prediction: FundPrediction | null,
   failure?: string
 ): PredictionAvailability {
-  if (prediction) {
+  if (prediction?.predictionDate === date) {
     return {
       status: "available",
       date,
       reason: `${date} 上午预测已生成。`
     };
   }
-  if (!isMainlandTradingDay(date)) {
+  const decision = tradingDayDecision(date);
+  if (decision.status === "calendar-unavailable") {
+    return {
+      status: "calendar-unavailable",
+      date,
+      reason: `${date} 交易日历不可用，已 fail closed，未生成预测。`
+    };
+  }
+  if (decision.status === "source-error") {
+    return {
+      status: "source-error",
+      date,
+      reason: `${date} 交易日历来源冲突，已 fail closed，未生成预测：${decision.reason}`
+    };
+  }
+  if (decision.status === "closed") {
     return {
       status: "non-trading",
       date,
-      reason: `${date} 为休市/非交易日，未生成上午预测。`
+      reason: `${date} ${decision.reason}，未生成上午预测。`
     };
   }
   if (failure) {
