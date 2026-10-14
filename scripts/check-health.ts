@@ -1,4 +1,5 @@
 import { appendFile, readFile } from "node:fs/promises";
+import { z } from "zod";
 import { siteIndexSchema } from "../src/lib/domain";
 import { businessHealth } from "../src/lib/business-health";
 import { shanghaiDate, type RunPhase } from "../src/lib/run-timing";
@@ -9,7 +10,8 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !["morning", "evening", "weekly", "mont
   throw new Error("Invalid health-check business date or phase.");
 }
 const index = siteIndexSchema.parse(JSON.parse(await readFile("public/data/index.json", "utf8")));
-const issues = businessHealth(index, date, phase);
+const runs = z.array(z.object({ runKey: z.string() })).parse(JSON.parse(await readFile("data/runs.json", "utf8")));
+const issues = businessHealth(index, date, phase, new Date(), runs.map(({ runKey }) => runKey));
 const lines = [
   `### Business health: ${date} / ${phase}`,
   `NAV as of: ${index.asOf}; generated: ${index.generatedAt}; funds: ${index.summaries.length}`,

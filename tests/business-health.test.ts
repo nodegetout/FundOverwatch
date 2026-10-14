@@ -1,8 +1,13 @@
 import { describe, expect, it } from "vitest";
-import { siteIndexSchema } from "../src/lib/domain";
-import { businessHealth } from "../src/lib/business-health";
+import { siteIndexSchema, type SiteIndex } from "../src/lib/domain";
+import { businessHealth as checkBusinessHealth } from "../src/lib/business-health";
 import { BaselinePredictionModel, initialModelArtifact, predictionSchema } from "../src/lib/prediction-contract";
 import { predictionAvailability } from "../src/lib/prediction-status";
+import type { RunPhase } from "../src/lib/run-timing";
+
+function businessHealth(value: SiteIndex, date: string, phase: RunPhase, now: Date) {
+  return checkBusinessHealth(value, date, phase, now, [`${value.businessDate}:${value.phase}:cn-loop-v2`]);
+}
 
 function index(date = "2026-10-13", navDate = "2026-10-12") {
   return siteIndexSchema.parse({
@@ -40,6 +45,16 @@ const now = new Date("2026-10-13T20:18:10Z");
 describe("business health, independent of workflow success", () => {
   it("accepts an overnight evening collection for the original date", () => {
     expect(businessHealth(index(), "2026-10-13", "evening", now)).toEqual([]);
+  });
+
+  it("recognizes completed morning replays after evening replaces the public index", () => {
+    const value = index();
+    expect(checkBusinessHealth(value, "2026-10-13", "morning", now, [
+      "2026-10-13:morning:cn-loop-v2", "2026-10-13:evening:cn-loop-v2"
+    ])).toEqual([]);
+    expect(checkBusinessHealth(value, "2026-10-13", "morning", now, [
+      "2026-10-13:morning:cn-loop-v1"
+    ])).toContain("No completed morning collection for business date 2026-10-13.");
   });
 
   it("detects missing predictions and does not call old predictions current", () => {

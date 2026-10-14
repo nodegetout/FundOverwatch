@@ -9,13 +9,19 @@ function addDays(date: string, days: number): string {
   return value.toISOString().slice(0, 10);
 }
 
-export function businessHealth(index: SiteIndex, date: string, phase: RunPhase, now = new Date()): string[] {
+export function businessHealth(
+  index: SiteIndex,
+  date: string,
+  phase: RunPhase,
+  now = new Date(),
+  completedRunKeys: readonly string[] = []
+): string[] {
   const issues: string[] = [];
   if (index.summaries.length !== 8) issues.push(`Expected 8 funds, found ${index.summaries.length}.`);
   if (Date.parse(index.generatedAt) > now.getTime()) issues.push("Index generation time is in the future.");
   if (["morning", "evening", "all"].includes(phase) &&
       (phase !== "morning" || isMainlandTradingDay(date)) &&
-      (index.businessDate !== date || index.phase !== phase)) {
+      !completedRunKeys.includes(`${date}:${phase}:cn-loop-v2`)) {
     issues.push(`No completed ${phase} collection for business date ${date}.`);
   }
   let expected = date;
