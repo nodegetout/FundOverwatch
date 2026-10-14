@@ -70,5 +70,11 @@
     "date": "2026-10-14",
     "phase": "morning",
     "completedAt": "2026-10-14T10:30:00+08:00"
+  },
+  {
+    "runKey": "2026-10-15:evening:cn-loop-v1",
+    "date": "2026-10-15",
+    "phase": "evening",
+    "completedAt": "2026-10-15T22:30:00+08:00"
   }
 ]
