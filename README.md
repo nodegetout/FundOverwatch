@@ -13,12 +13,12 @@ Fund Overwatch 是面向 **8 只中国大陆真实公募基金**的可审计静�
 
 ## 本地使用
 
-需要 Node.js 20.19 或更高版本。
+需要 Node.js 24 或更高版本（`.nvmrc` 固定主版本 24，与 Actions 一致）。
 
 ```bash
 npm ci
-npm run data:generate -- --phase=morning --date=2026-10-05
-npm run data:generate -- --phase=evening --date=2026-10-05
+npm run data:generate -- --phase=morning
+npm run data:generate -- --phase=evening
 npm run dev
 ```
 
@@ -48,6 +48,22 @@ GitHub cron 使用 UTC，且可能延迟：
 脚本内部使用上海日期、工作日校验、明确维护的 2026 中国内地交易所休市日和 `date + phase + pipeline version` 幂等键。普通周一至周五不等同于必然开市：休市日上午不创建预测；日历覆盖范围外再以源交易日期防误判并明确使用 weekday fallback。月末/年末若落在周末，最后一个工作日晚先生成 `provisional`；后续晚间在最终 NAV 可用后可补全。`12-31` 生成年度 provisional/final，年度已评估样本进入后续有界校准。
 
 手动运行支持 `phase` 与 `date`。工作流使用最小权限、并发锁、无变化不提交、原子 JSON 写入和 `[skip ci]` 数据提交；数据任务自身部署 Pages，普通 Pages workflow 排除机器人提交，避免循环。
+
+### 业务日期与实际时间
+
+定时任务根据原始 workflow run 的 `created_at` 和触发 cron，确定最近一次对应的计划执行时间与上海业务日期；重跑仍使用原始运行时间，不使用重跑或排队结束时的日期。跨午夜的晚间任务仍占用前一业务日的幂等键，不会提前占用次日晚间任务。GitHub 未提供原始 cron 触发时间；若延迟超过同一 cron 的下一次计划时间，无法仅凭 `created_at` 无歧义还原，请手动指定业务日期。
+
+公开索引新增 `businessDate`、`scheduledAt`、`startedAt`；`generatedAt`、采集 `collectedAt` 和运行 `completedAt` 使用真实时钟，不再写入固定的未来时间。`cn-loop-v2` 幂等键与旧版本隔离，避免已有错误日期记录阻止新任务；旧数据保留，不伪造修正历史预测。
+
+交易日上午预测（包括 `all`）必须在该业务日北京时间 **09:30–11:30** 内开始并完成采集。迟到、跨日或历史回填上午任务明确失败，不使用收盘后行情伪造上午预测。预测特征截止时间是实际采集完成时间；需要仅刷新 NAV 和补评时使用 `evening`，不要在下午选择 `all`。旧预测仍保留供历史展示，但不再标记为今日预测。
+
+### 恢复与业务监控
+
+东方财富网络错误、HTTP 408/429/5xx 使用有上限的指数退避、抖动和 `Retry-After`；永久 HTTP 错误及非 JSON 响应不反复重试。报错包含接口、基金和尝试次数，保留原始原因；请求失败不生成替代 NAV，失败行情缓存可在后续请求中恢复。
+
+数据任务的 Summary 分别列出采集/校验、业务健康、数据提交和 Pages 部署结果。刷新任务检出分支最新数据，重跑可读取已持久化的完成记录；业务健康以 `runs.json` 的 v2 记录确认阶段完成，不因晚间索引覆盖上午索引而误报。检查要求最近交易日的八只基金预测存在，并检查每只基金 NAV，而非仅看全站最大净值日期。普通基金允许最多 **1 个内地交易日**的披露延迟，QDII 允许 **3 个内地交易日**（这是告警阈值，不是境外交易日历或 SLA）；周末/内地休市日不增加此计数。
+
+健康检查失败不阻止已校验的真实数据提交和部署，但独立 `monitor` job 会令整体工作流失败并触发 GitHub 通知；采集失败或部署失败也单独汇总。可本地执行 `RUN_DATE=YYYY-MM-DD RUN_PHASE=evening npx tsx scripts/check-health.ts` 检查业务状态。采集失败后可重跑晚间任务；错过上午窗口应记录预测缺失，不能事后补造。
 
 ## 数据源与时效
 

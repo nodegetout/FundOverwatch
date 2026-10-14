@@ -33,12 +33,14 @@ import {
   isMainlandTradingDay,
   tradingCalendarCoverage
 } from "../src/lib/trading-calendar";
+import { assertMorningWindow, scheduledTimestamp, type RunPhase } from "../src/lib/run-timing";
+export { shanghaiDate } from "../src/lib/run-timing";
+export type { RunPhase } from "../src/lib/run-timing";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const eastmoneyProvider = new EastmoneyNavProvider();
 const model = new BaselinePredictionModel();
 
-export type RunPhase = "morning" | "evening" | "weekly" | "monthly" | "yearly" | "all";
 export type RunMode = "intraday" | "final";
 
 interface RunRecord {
@@ -46,10 +48,13 @@ interface RunRecord {
   date: string;
   phase: RunPhase;
   completedAt: string;
+  scheduledAt?: string;
+  startedAt?: string;
 }
 
 interface PipelineOptions {
   provider?: FundDataProvider;
+  now?: () => Date;
 }
 
 async function readJson<T>(file: string, fallback?: T): Promise<T> {
@@ -195,10 +200,6 @@ export function getBoundaryPeriods(date: string): Array<"week" | "month" | "year
   return periodCloseGates(date).map(({ period }) =>
     period === "weekly" ? "week" : period === "monthly" ? "month" : "year"
   );
-}
-
-function scheduledTimestamp(date: string, phase: RunPhase): string {
-  return `${date}T${phase === "morning" ? "10:30:00" : "22:30:00"}+08:00`;
 }
 
 async function loadAllQuotes(fundId: string): Promise<Quote[]> {
@@ -419,17 +420,6 @@ async function createReports(
   return reports;
 }
 
-export function shanghaiDate(now = new Date()): string {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Shanghai",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).formatToParts(now);
-  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
-  return `${values.year}-${values.month}-${values.day}`;
-}
-
 export async function runPipeline(
   date: string,
   phase: RunPhase,
@@ -449,15 +439,19 @@ export async function runPipeline(
     );
     return { skipped: true };
   }
-  const runKey = `${date}:${phase}:cn-loop-v1`;
+  const now = options.now ?? (() => new Date());
+  const startedAt = now().toISOString();
+  const createsPredictions = (phase === "morning" || phase === "all") && isMainlandTradingDay(date);
+  const runKey = `${date}:${phase}:cn-loop-v2`;
   const runsFile = path.join(root, "data", "runs.json");
   const runs = await readJson<RunRecord[]>(runsFile, []);
   if (runs.some((run) => run.runKey === runKey)) {
     console.log(`Run ${runKey} already completed; no files changed.`);
     return { skipped: true };
   }
+  if (createsPredictions) assertMorningWindow(date, now());
 
-  const collectedAt = scheduledTimestamp(date, phase);
+  let collectedAt = startedAt;
   const funds = parseFunds(await readJson<unknown>(path.join(root, "data", "funds.json")));
   const artifact = await loadArtifact(collectedAt);
   const shouldCollect = ["morning", "evening", "all"].includes(phase);
@@ -489,7 +483,7 @@ export async function runPipeline(
       const context: CollectionContext = {
         date,
         mode: phase === "morning" ? "intraday" : "final",
-        collectedAt,
+        collectedAt: now().toISOString(),
         runKey
       };
       const collected = await provider.collectFund(fund, context);
@@ -511,8 +505,10 @@ export async function runPipeline(
     staged.push({ fund, quotes, holdings, historicalHoldings, holdingQuotes });
   }
 
+  collectedAt = now().toISOString();
+  if (createsPredictions) assertMorningWindow(date, now());
   let predictions = await allPredictions();
-  if ((phase === "morning" || phase === "all") && isMainlandTradingDay(date)) {
+  if (createsPredictions) {
     const created = staged.map(({ fund, quotes, holdings, holdingQuotes }) =>
       model.predict({
         fund,
@@ -613,13 +609,16 @@ export async function runPipeline(
       holdings,
       holdingQuotes,
       prediction,
-      predictionAvailability: predictionAvailability(date, prediction),
+      predictionAvailability: predictionAvailability(date, prediction?.predictionDate === date ? prediction : null),
       evaluation,
       rollingMetrics: metricSet(fundEvaluations.slice(-60))
     };
   });
   const index = siteIndexSchema.parse({
-    generatedAt: collectedAt,
+    generatedAt: now().toISOString(),
+    businessDate: date,
+    scheduledAt: scheduledTimestamp(date, phase),
+    startedAt,
     asOf: summaries.map(({ latestQuote }) => latestQuote?.date ?? "").sort().at(-1) ?? date,
     phase,
     dataStatus: summaries.every(({ latestQuote }) => latestQuote?.quality.status === "complete") ? "complete" : "partial",
@@ -628,7 +627,7 @@ export async function runPipeline(
     reports
   });
   await writeJsonIfChanged(path.join(root, "public", "data", "index.json"), index);
-  runs.push({ runKey, date, phase, completedAt: collectedAt });
+  runs.push({ runKey, date, phase, scheduledAt: scheduledTimestamp(date, phase), startedAt, completedAt: now().toISOString() });
   await writeJsonIfChanged(runsFile, runs);
   console.log(`Completed ${runKey} for ${funds.length} China funds.`);
   return { skipped: false };

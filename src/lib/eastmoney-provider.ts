@@ -94,6 +94,22 @@ const USER_AGENT = "FundOverwatch/0.1 (+https://github.com/nodegetout/FundOverwa
 const PAGE_SIZE = 20;
 const MAX_NAV_OBSERVATIONS = 260;
 const HOLDINGS_SOURCE = "eastmoney-position-v1";
+const MAX_RETRIES = 5;
+const MAX_BACKOFF_MS = 8_000;
+const MAX_RETRY_AFTER_MS = 30_000;
+
+function retryDelay(attempt: number, retryAfter: string | null): number {
+  const backoff = Math.min(250 * 2 ** attempt, MAX_BACKOFF_MS);
+  const jitter = backoff * (0.5 + Math.random() * 0.5);
+  const value = retryAfter?.trim();
+  const milliseconds = value && /^\d+(?:\.\d+)?$/.test(value)
+    ? Number(value) * 1_000
+    : value ? Date.parse(value) - Date.now() : 0;
+  const serverDelay = Number.isNaN(milliseconds)
+    ? 0
+    : Math.min(MAX_RETRY_AFTER_MS, Math.max(0, milliseconds));
+  return Math.max(jitter, serverDelay);
+}
 
 type PositionPayload = z.infer<typeof positionSchema>;
 
@@ -320,6 +336,9 @@ export class EastmoneyNavProvider implements FundDataProvider {
   constructor(options: EastmoneyProviderOptions = {}) {
     this.request = options.fetch ?? fetch;
     this.retries = options.retries ?? 2;
+    if (!Number.isInteger(this.retries) || this.retries < 0 || this.retries > MAX_RETRIES) {
+      throw new RangeError(`Eastmoney retries must be an integer between 0 and ${MAX_RETRIES}`);
+    }
     this.timeoutMs = options.timeoutMs ?? 12_000;
     this.navEndpoint =
       options.navEndpoint ?? "https://api.fund.eastmoney.com/f10/lsjz";
@@ -343,7 +362,9 @@ export class EastmoneyNavProvider implements FundDataProvider {
       product: "EFund",
       version: "2.0.0"
     }).toString();
-    const payload = positionSchema.parse(await this.getJson(url));
+    const payload = positionSchema.parse(
+      await this.getJson(url, `holdings for fund ${code}${date ? ` on ${date}` : ""}`)
+    );
     if (!payload.Success || payload.ErrCode !== 0) {
       throw new Error(`Eastmoney holdings error for ${code}: ${payload.ErrMsg ?? payload.ErrCode}`);
     }
@@ -352,10 +373,12 @@ export class EastmoneyNavProvider implements FundDataProvider {
 
   private async collectAssetQuote(
     holding: Holding,
-    context: CollectionContext
+    context: CollectionContext,
+    fundCode: string
   ): Promise<HoldingQuote> {
     const assetKey = holdingKey(holding);
-    if (!holding.quoteRef) {
+    const quoteRef = holding.quoteRef;
+    if (!quoteRef) {
       return {
         assetKey,
         status: "unavailable",
@@ -366,15 +389,23 @@ export class EastmoneyNavProvider implements FundDataProvider {
       };
     }
     try {
-      let request = this.quoteCache.get(holding.quoteRef);
+      let request = this.quoteCache.get(quoteRef);
       if (!request) {
         const url = new URL(this.quoteEndpoint);
         url.search = new URLSearchParams({
-          secid: holding.quoteRef,
+          secid: quoteRef,
           fields: "f57,f58,f86,f170"
         }).toString();
-        request = this.getJson(url);
-        this.quoteCache.set(holding.quoteRef, request);
+        request = this.getJson(
+          url,
+          `quote ${quoteRef} for fund ${fundCode}`
+        ).catch((error: unknown) => {
+          if (this.quoteCache.get(quoteRef) === request) {
+            this.quoteCache.delete(quoteRef);
+          }
+          throw error;
+        });
+        this.quoteCache.set(quoteRef, request);
       }
       const payload = assetQuoteSchema.parse(await request);
       if (!payload.data || payload.data.f57 !== holding.symbol || payload.data.f86 <= 0) {
@@ -402,9 +433,10 @@ export class EastmoneyNavProvider implements FundDataProvider {
     }
   }
 
-  private async getJson(url: URL): Promise<unknown> {
-    let lastError: unknown;
+  private async getJson(url: URL, diagnostic: string): Promise<unknown> {
     for (let attempt = 0; attempt <= this.retries; attempt += 1) {
+      let retryable = true;
+      let retryAfter: string | null = null;
       try {
         const response = await this.request(url, {
           headers: {
@@ -414,18 +446,28 @@ export class EastmoneyNavProvider implements FundDataProvider {
           },
           signal: AbortSignal.timeout(this.timeoutMs)
         });
-        if (!response.ok) throw new Error(`HTTP ${response.status} ${response.statusText}`);
+        if (!response.ok) {
+          retryable = response.status === 408 || response.status === 429 ||
+            (response.status >= 500 && response.status <= 599);
+          retryAfter = response.headers.get("Retry-After");
+          // Release the failed response before waiting or opening another connection.
+          if (response.body) void response.body.cancel().catch(() => undefined);
+          throw new Error(`HTTP ${response.status} ${response.statusText}`.trim());
+        }
         return await response.json();
       } catch (error) {
-        lastError = error;
-        if (attempt < this.retries) {
-          await new Promise((resolve) => setTimeout(resolve, 250 * 2 ** attempt));
+        if (!retryable || error instanceof SyntaxError || attempt === this.retries) {
+          const detail = error instanceof Error ? error.message : String(error);
+          throw new Error(
+            `Eastmoney ${diagnostic} request failed at ${url.origin}${url.pathname} ` +
+            `after ${attempt + 1} attempt${attempt === 0 ? "" : "s"}: ${detail}`,
+            { cause: error }
+          );
         }
+        await new Promise((resolve) => setTimeout(resolve, retryDelay(attempt, retryAfter)));
       }
     }
-    throw new Error(`Eastmoney request failed after ${this.retries + 1} attempts`, {
-      cause: lastError
-    });
+    throw new Error("Unreachable Eastmoney retry state");
   }
 
   async collectFund(
@@ -450,7 +492,9 @@ export class EastmoneyNavProvider implements FundDataProvider {
       product: "EFund",
       version: "2.0.0"
     }).toString();
-    const metadata = metadataSchema.parse(await this.getJson(metadataUrl));
+    const metadata = metadataSchema.parse(
+      await this.getJson(metadataUrl, `metadata for fund ${code} (${fund.id})`)
+    );
     if (metadata.Datas.FCODE !== code) {
       throw new Error(
         `Eastmoney fund code mismatch: requested ${code}, received ${metadata.Datas.FCODE}`
@@ -466,7 +510,9 @@ export class EastmoneyNavProvider implements FundDataProvider {
         startDate: "",
         endDate: ""
       }).toString();
-      const payload = navSchema.parse(await this.getJson(navUrl));
+      const payload = navSchema.parse(
+        await this.getJson(navUrl, `NAV page ${pageIndex} for fund ${code} (${fund.id})`)
+      );
       if (payload.ErrCode !== 0) {
         throw new Error(`Eastmoney NAV error for ${code}: ${payload.ErrMsg ?? payload.ErrCode}`);
       }
@@ -585,7 +631,7 @@ export class EastmoneyNavProvider implements FundDataProvider {
       fundId: fund.id,
       collectedAt: context.collectedAt,
       quotes: await Promise.all(
-        currentPositions.map((holding) => this.collectAssetQuote(holding, context))
+        currentPositions.map((holding) => this.collectAssetQuote(holding, context, code))
       )
     };
     return { quotes, holdings, historicalHoldings, holdingQuotes };
