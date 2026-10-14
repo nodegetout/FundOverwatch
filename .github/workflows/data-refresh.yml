@@ -12,7 +12,7 @@ on:
         required: true
         type: choice
         options: [morning, evening, weekly, monthly, yearly, all]
-        default: all
+        default: evening
       date:
         description: Optional Asia/Shanghai date (YYYY-MM-DD)
         required: false
@@ -31,15 +31,17 @@ jobs:
     timeout-minutes: 30
     permissions:
       contents: write
+      actions: read
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+      health: ${{ steps.health.outcome }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7.1.0
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
       - run: npm ci
       - name: Resolve Asia/Shanghai phase
@@ -49,20 +51,10 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
           INPUT_PHASE: ${{ inputs.phase }}
           INPUT_DATE: ${{ inputs.date }}
-        run: |
-          set -euo pipefail
-          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
-            phase="$INPUT_PHASE"
-          elif [[ "$SCHEDULE" == "30 2 * * 6" ]]; then
-            phase="weekly"
-          elif [[ "$SCHEDULE" == "30 2 * * 1-5" ]]; then
-            phase="morning"
-          else
-            phase="evening"
-          fi
-          echo "phase=$phase" >> "$GITHUB_OUTPUT"
-          echo "date=$INPUT_DATE" >> "$GITHUB_OUTPUT"
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npx tsx scripts/resolve-run.ts
       - name: Generate, verify, and build
+        id: generate
         env:
           RUN_PHASE: ${{ steps.params.outputs.phase }}
           RUN_DATE: ${{ steps.params.outputs.date }}
@@ -78,6 +70,14 @@ jobs:
           npm test
           npm run data:verify
           npm run build
+      - name: Check business health
+        id: health
+        if: ${{ always() && steps.params.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          RUN_DATE: ${{ steps.params.outputs.date }}
+          RUN_PHASE: ${{ steps.params.outputs.phase }}
+        run: npx tsx scripts/check-health.ts
       - name: Commit changed data atomically
         id: commit
         run: |
@@ -93,6 +93,17 @@ jobs:
           git commit -m "chore(data): refresh China fund prediction loop [skip ci]"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Report collection status
+        if: always()
+        env:
+          GENERATION: ${{ steps.generate.outcome }}
+          HEALTH: ${{ steps.health.outcome }}
+          COMMIT: ${{ steps.commit.outcome }}
+          RUN_DATE: ${{ steps.params.outputs.date }}
+          RUN_PHASE: ${{ steps.params.outputs.phase }}
+        run: |
+          printf '### Collection\nBusiness date: %s; phase: %s\nGeneration/validation: %s\nBusiness health: %s\nData commit: %s\n' \
+            "$RUN_DATE" "$RUN_PHASE" "$GENERATION" "$HEALTH" "$COMMIT" >> "$GITHUB_STEP_SUMMARY"
 
   deploy:
     needs: refresh
@@ -105,22 +116,43 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
         with:
           ref: ${{ github.ref }}
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7.1.0
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
       - run: npm ci
       - run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL }}
           BASE_PATH: ${{ vars.BASE_PATH }}
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6.0.0
+      - uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: dist
       - name: Deploy GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5.0.1
+      - name: Report deployment status
+        if: always()
+        env:
+          DEPLOYMENT: ${{ steps.deployment.outcome }}
+        run: |
+          printf '### Deployment\nPages deployment: %s\n' "$DEPLOYMENT" >> "$GITHUB_STEP_SUMMARY"
+
+  monitor:
+    needs: [refresh, deploy]
+    if: always()
+    runs-on: ubuntu-latest
+    env:
+      COLLECTION: ${{ needs.refresh.result }}
+      DEPLOYMENT: ${{ needs.deploy.result }}
+      HEALTH: ${{ needs.refresh.outputs.health }}
+    steps:
+      - name: Enforce collection, deployment, and business health
+        run: |
+          printf '### Overall status\nCollection: %s\nDeployment: %s\nBusiness health: %s\n' \
+            "$COLLECTION" "$DEPLOYMENT" "$HEALTH" >> "$GITHUB_STEP_SUMMARY"
+          [[ "$COLLECTION" == "success" && "$DEPLOYMENT" == "success" && "$HEALTH" == "success" ]]

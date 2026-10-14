@@ -7,7 +7,7 @@ export function predictionAvailability(
   prediction: FundPrediction | null,
   failure?: string
 ): PredictionAvailability {
-  if (prediction) {
+  if (prediction?.predictionDate === date) {
     return {
       status: "available",
       date,
