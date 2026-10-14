@@ -1,6 +1,6 @@
 {
   "fundId": "cn-161723",
-  "collectedAt": "2026-10-14T22:30:00+08:00",
+  "collectedAt": "2026-10-14T10:30:00+08:00",
   "quotes": [
     {
       "assetKey": "bond:019792",
@@ -24,102 +24,102 @@
     },
     {
       "assetKey": "stock:000001",
-      "status": "stale",
-      "dayChange": -0.0136,
-      "asOf": "2026-10-13T07:34:42.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T07:34:42.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:002142",
-      "status": "stale",
-      "dayChange": -0.0172,
-      "asOf": "2026-10-13T07:34:18.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T07:34:18.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:600000",
-      "status": "stale",
-      "dayChange": -0.0083,
-      "asOf": "2026-10-13T08:11:48.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T08:11:48.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:600036",
-      "status": "stale",
-      "dayChange": 0.0009,
-      "asOf": "2026-10-13T08:11:58.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T08:11:58.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:600919",
-      "status": "stale",
-      "dayChange": -0.0127,
-      "asOf": "2026-10-13T08:11:40.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T08:11:40.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:601166",
-      "status": "stale",
-      "dayChange": -0.0157,
-      "asOf": "2026-10-13T08:11:50.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T08:11:50.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:601229",
-      "status": "stale",
-      "dayChange": -0.0102,
-      "asOf": "2026-10-13T08:11:58.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T08:11:58.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:601288",
-      "status": "stale",
-      "dayChange": 0.0083,
-      "asOf": "2026-10-13T08:11:32.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T08:11:32.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:601328",
-      "status": "stale",
-      "dayChange": 0.0114,
-      "asOf": "2026-10-13T08:11:32.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T08:11:32.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {
       "assetKey": "stock:601398",
-      "status": "stale",
-      "dayChange": 0.0059,
-      "asOf": "2026-10-13T08:11:38.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-13T08:11:38.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     }
   ]
