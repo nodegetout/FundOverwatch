@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T22:30:00+08:00",
+  "generatedAt": "2026-10-17T22:30:00+08:00",
   "asOf": "2026-10-15",
-  "phase": "evening",
+  "phase": "weekly",
   "dataStatus": "partial",
   "dataMode": "real",
   "summaries": [
@@ -474,8 +474,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-16",
-        "reason": "2026-10-16 上午预测已生成。"
+        "date": "2026-10-17",
+        "reason": "2026-10-17 上午预测已生成。"
       },
       "evaluation": {
         "evaluationKey": "cn-025852:2026-10-15:cn-baseline-v1",
@@ -979,8 +979,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-16",
-        "reason": "2026-10-16 上午预测已生成。"
+        "date": "2026-10-17",
+        "reason": "2026-10-17 上午预测已生成。"
       },
       "evaluation": {
         "evaluationKey": "cn-002983:2026-10-15:cn-baseline-v1",
@@ -1425,8 +1425,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-16",
-        "reason": "2026-10-16 上午预测已生成。"
+        "date": "2026-10-17",
+        "reason": "2026-10-17 上午预测已生成。"
       },
       "evaluation": {
         "evaluationKey": "cn-005051:2026-10-15:cn-baseline-v1",
@@ -2404,8 +2404,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-16",
-        "reason": "2026-10-16 上午预测已生成。"
+        "date": "2026-10-17",
+        "reason": "2026-10-17 上午预测已生成。"
       },
       "evaluation": {
         "evaluationKey": "cn-018736:2026-10-15:cn-baseline-v1",
@@ -2846,8 +2846,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-16",
-        "reason": "2026-10-16 上午预测已生成。"
+        "date": "2026-10-17",
+        "reason": "2026-10-17 上午预测已生成。"
       },
       "evaluation": {
         "evaluationKey": "cn-001595:2026-10-15:cn-baseline-v1",
@@ -3301,8 +3301,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-16",
-        "reason": "2026-10-16 上午预测已生成。"
+        "date": "2026-10-17",
+        "reason": "2026-10-17 上午预测已生成。"
       },
       "evaluation": {
         "evaluationKey": "cn-161723:2026-10-15:cn-baseline-v1",
@@ -3796,8 +3796,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-16",
-        "reason": "2026-10-16 上午预测已生成。"
+        "date": "2026-10-17",
+        "reason": "2026-10-17 上午预测已生成。"
       },
       "evaluation": {
         "evaluationKey": "cn-018993:2026-10-15:cn-baseline-v1",
@@ -4201,8 +4201,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-16",
-        "reason": "2026-10-16 上午预测已生成。"
+        "date": "2026-10-17",
+        "reason": "2026-10-17 上午预测已生成。"
       },
       "evaluation": {
         "evaluationKey": "cn-017641:2026-10-15:cn-baseline-v1",
@@ -4232,5 +4232,109 @@
       }
     }
   ],
-  "reports": []
+  "reports": [
+    {
+      "reportKey": "weekly:2026-W42",
+      "period": "weekly",
+      "periodKey": "2026-W42",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-16",
+      "status": "provisional",
+      "generatedAt": "2026-10-17T22:30:00+08:00",
+      "modelVersion": "cn-baseline-v1",
+      "metrics": {
+        "sampleCount": 23,
+        "directionAccuracy": 0.5652173913043478,
+        "mae": 0.010431252924454053,
+        "rmse": 0.01577663333722773,
+        "meanError": -0.006626111058180663
+      },
+      "missingRate": 0.041666666666666664,
+      "byFund": {
+        "cn-001595": {
+          "sampleCount": 3,
+          "directionAccuracy": 0.3333333333333333,
+          "mae": 0.008230847751875546,
+          "rmse": 0.012181518233139642,
+          "meanError": 0.0057186997766464015
+        },
+        "cn-002983": {
+          "sampleCount": 3,
+          "directionAccuracy": 0.6666666666666666,
+          "mae": 0.02297104688412785,
+          "rmse": 0.028288265909097172,
+          "meanError": -0.021552618833313174
+        },
+        "cn-005051": {
+          "sampleCount": 3,
+          "directionAccuracy": 0.6666666666666666,
+          "mae": 0.0017915827509044685,
+          "rmse": 0.0028456401415418993,
+          "meanError": -0.0017915827509044685
+        },
+        "cn-017641": {
+          "sampleCount": 2,
+          "directionAccuracy": 0,
+          "mae": 0.006368086148822209,
+          "rmse": 0.00828777620339648,
+          "meanError": -0.006368086148822209
+        },
+        "cn-018736": {
+          "sampleCount": 3,
+          "directionAccuracy": 0.3333333333333333,
+          "mae": 0.001333288194813415,
+          "rmse": 0.0013605795020555141,
+          "meanError": -0.001333288194813415
+        },
+        "cn-018993": {
+          "sampleCount": 3,
+          "directionAccuracy": 1,
+          "mae": 0.025738191812975587,
+          "rmse": 0.026028865162877952,
+          "meanError": -0.025738191812975587
+        },
+        "cn-025852": {
+          "sampleCount": 3,
+          "directionAccuracy": 1,
+          "mae": 0.007540195179512071,
+          "rmse": 0.009005184316210182,
+          "meanError": -0.007540195179512071
+        },
+        "cn-161723": {
+          "sampleCount": 3,
+          "directionAccuracy": 0.3333333333333333,
+          "mae": 0.008122395747390673,
+          "rmse": 0.012054004078876355,
+          "meanError": 0.005682382981368702
+        }
+      },
+      "byConfidence": {
+        "low": {
+          "sampleCount": 23,
+          "directionAccuracy": 0.5652173913043478,
+          "mae": 0.010431252924454053,
+          "rmse": 0.01577663333722773,
+          "meanError": -0.006626111058180663
+        }
+      },
+      "byCoverage": {
+        "low": {
+          "sampleCount": 23,
+          "directionAccuracy": 0.5652173913043478,
+          "mae": 0.010431252924454053,
+          "rmse": 0.01577663333722773,
+          "meanError": -0.006626111058180663
+        }
+      },
+      "bestCase": "cn-005051:2026-10-12:cn-baseline-v1",
+      "worstCase": "cn-002983:2026-10-15:cn-baseline-v1",
+      "modelChange": {
+        "previousBias": -0.002067153016611564,
+        "newBias": -0.002067153016611564,
+        "previousScale": 1.04060401,
+        "newScale": 1.04060401,
+        "applied": false
+      }
+    }
+  ]
 }
