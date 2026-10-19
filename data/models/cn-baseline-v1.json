@@ -1,13 +1,13 @@
 {
   "modelVersion": "cn-baseline-v1",
-  "updatedAt": "2026-10-16T22:30:00+08:00",
-  "trainingCutoff": "2026-10-15",
-  "sampleCount": 39,
-  "bias": -0.002067153016611564,
-  "scale": 1.04060401,
-  "directionAccuracy": 0.5,
-  "mae": 0.013235870797403442,
-  "rmse": 0.01945554800801779,
+  "updatedAt": "2026-10-20T22:30:00+08:00",
+  "trainingCutoff": "2026-10-19",
+  "sampleCount": 47,
+  "bias": -0.0013289455489334514,
+  "scale": 1.0510100501,
+  "directionAccuracy": 0,
+  "mae": 0.0073820746767811266,
+  "rmse": 0.009265180567893052,
   "appliedEvaluationKeys": [
     "cn-001595:2026-10-08:cn-baseline-v1",
     "cn-002983:2026-10-08:cn-baseline-v1",
@@ -47,6 +47,14 @@
     "cn-018736:2026-10-15:cn-baseline-v1",
     "cn-018993:2026-10-15:cn-baseline-v1",
     "cn-025852:2026-10-15:cn-baseline-v1",
-    "cn-161723:2026-10-15:cn-baseline-v1"
+    "cn-161723:2026-10-15:cn-baseline-v1",
+    "cn-001595:2026-10-19:cn-baseline-v1",
+    "cn-002983:2026-10-19:cn-baseline-v1",
+    "cn-005051:2026-10-19:cn-baseline-v1",
+    "cn-017641:2026-10-15:cn-baseline-v1",
+    "cn-018736:2026-10-19:cn-baseline-v1",
+    "cn-018993:2026-10-19:cn-baseline-v1",
+    "cn-025852:2026-10-19:cn-baseline-v1",
+    "cn-161723:2026-10-19:cn-baseline-v1"
   ]
 }
