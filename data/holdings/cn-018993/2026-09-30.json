@@ -1,0 +1,219 @@
+{
+  "fundId": "cn-018993",
+  "date": "2026-09-30",
+  "previousDate": "2026-06-30",
+  "contentHash": "259f2453a58a151419fe60dff9c915a566f6729f4609233ddac615abd4859ddd",
+  "holdings": [
+    {
+      "name": "沪电股份",
+      "symbol": "002463",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002463",
+      "weight": 0.0779,
+      "previousWeight": 0.060899999999999996,
+      "weightChange": 0.017,
+      "changeStatus": "increased",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "寒武纪",
+      "symbol": "688256",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.688256",
+      "weight": 0.0679,
+      "previousWeight": 0.06269999999999999,
+      "weightChange": 0.0052,
+      "changeStatus": "increased",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "新易盛",
+      "symbol": "300502",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300502",
+      "weight": 0.0668,
+      "previousWeight": 0.0833,
+      "weightChange": -0.0165,
+      "changeStatus": "decreased",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "深南电路",
+      "symbol": "002916",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002916",
+      "weight": 0.0644,
+      "previousWeight": 0.0472,
+      "weightChange": 0.0172,
+      "changeStatus": "increased",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "中际旭创",
+      "symbol": "300308",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300308",
+      "weight": 0.062,
+      "previousWeight": 0.087,
+      "weightChange": -0.025,
+      "changeStatus": "decreased",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "新泉股份",
+      "symbol": "603179",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.603179",
+      "weight": 0.045700000000000005,
+      "previousWeight": 0,
+      "weightChange": 0.045700000000000005,
+      "changeStatus": "new",
+      "sector": "汽车",
+      "country": null
+    },
+    {
+      "name": "源杰科技",
+      "symbol": "688498",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.688498",
+      "weight": 0.04190000000000001,
+      "previousWeight": 0,
+      "weightChange": 0.04190000000000001,
+      "changeStatus": "new",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "鹏鼎控股",
+      "symbol": "002938",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002938",
+      "weight": 0.0368,
+      "previousWeight": 0.041100000000000005,
+      "weightChange": -0.0043,
+      "changeStatus": "decreased",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "圣邦股份",
+      "symbol": "300661",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300661",
+      "weight": 0.0341,
+      "previousWeight": 0,
+      "weightChange": 0.0341,
+      "changeStatus": "new",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "斯菱智驱",
+      "symbol": "301550",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.301550",
+      "weight": 0.0335,
+      "previousWeight": 0,
+      "weightChange": 0.0335,
+      "changeStatus": "new",
+      "sector": "汽车",
+      "country": null
+    },
+    {
+      "name": "中芯国际",
+      "symbol": "00981",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00981",
+      "weight": 0,
+      "previousWeight": 0.050199999999999995,
+      "weightChange": -0.050199999999999995,
+      "changeStatus": "exited",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "建滔积层板",
+      "symbol": "01888",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01888",
+      "weight": 0,
+      "previousWeight": 0.0451,
+      "weightChange": -0.0451,
+      "changeStatus": "exited",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "三环集团",
+      "symbol": "300408",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300408",
+      "weight": 0,
+      "previousWeight": 0.0403,
+      "weightChange": -0.0403,
+      "changeStatus": "exited",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "联瑞新材",
+      "symbol": "688300",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.688300",
+      "weight": 0,
+      "previousWeight": 0.0329,
+      "weightChange": -0.0329,
+      "changeStatus": "exited",
+      "sector": "基础化工",
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "电子",
+      "weight": 0.32299999999999995
+    },
+    {
+      "name": "通信",
+      "weight": 0.1288
+    },
+    {
+      "name": "汽车",
+      "weight": 0.0792
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-21T22:30:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}
