@@ -1,105 +1,105 @@
 {
   "fundId": "cn-017641",
-  "collectedAt": "2026-10-21T22:30:00+08:00",
+  "collectedAt": "2026-10-21T10:30:00+08:00",
   "quotes": [
     {
       "assetKey": "stock:AAPL",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.01,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:AMZN",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": 0.0007,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:AVGO",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0007,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:GOOG",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0111,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:GOOGL",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0113,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:META",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0159,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:MSFT",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0031,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:MU",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0098,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:NVDA",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0029,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:TSLA",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": 0.0154,
+      "asOf": "2026-10-20T20:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-10-20T20:00:00.000Z。"
       ]
     }
   ]
