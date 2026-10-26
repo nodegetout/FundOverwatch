@@ -1,0 +1,90 @@
+{
+  "fundId": "cn-002983",
+  "collectedAt": "2026-10-26T10:30:00+08:00",
+  "quotes": [
+    {
+      "assetKey": "stock:002297",
+      "status": "available",
+      "dayChange": -0.0469,
+      "asOf": "2026-10-26T07:34:54.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:002414",
+      "status": "available",
+      "dayChange": -0.0056,
+      "asOf": "2026-10-26T07:34:09.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:300395",
+      "status": "available",
+      "dayChange": -0.0203,
+      "asOf": "2026-10-26T07:34:09.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:300855",
+      "status": "available",
+      "dayChange": -0.0442,
+      "asOf": "2026-10-26T07:34:33.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:600150",
+      "status": "available",
+      "dayChange": 0.002,
+      "asOf": "2026-10-26T07:59:42.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:600893",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:605123",
+      "status": "available",
+      "dayChange": -0.017,
+      "asOf": "2026-10-26T07:59:39.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:688002",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:688231",
+      "status": "available",
+      "dayChange": -0.0245,
+      "asOf": "2026-10-26T07:59:50.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:688239",
+      "status": "available",
+      "dayChange": -0.0077,
+      "asOf": "2026-10-26T07:59:54.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    }
+  ]
+}

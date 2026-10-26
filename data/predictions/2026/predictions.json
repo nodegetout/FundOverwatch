@@ -323,6 +323,46 @@
     ]
   },
   {
+    "predictionKey": "cn-001595:2026-10-26:cn-baseline-v1",
+    "fundId": "cn-001595",
+    "predictionDate": "2026-10-26",
+    "targetTradeDate": "2026-10-26",
+    "predictedReturn": -0.0014842388207453102,
+    "direction": "down",
+    "confidence": 0.19260572559139372,
+    "featureTimestamp": "2026-10-26T10:30:00+08:00",
+    "holdingsReportDate": "2026-06-30",
+    "featureCoverage": 0,
+    "modelVersion": "cn-baseline-v1",
+    "modelStatus": "calibrated",
+    "sampleCount": 55,
+    "dataQuality": "unavailable",
+    "contributions": [
+      {
+        "feature": "disclosed-holdings",
+        "value": 0,
+        "contribution": 0,
+        "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
+      },
+      {
+        "feature": "nav-momentum",
+        "value": -0.0025307386892120753,
+        "contribution": -0.0005061477378424151,
+        "note": "仅使用预测日前已经披露的最近净值"
+      },
+      {
+        "feature": "online-bias",
+        "value": -0.0008782286077639634,
+        "contribution": -0.0008782286077639634,
+        "note": "仅由历史已评估预测更新，参数有界"
+      }
+    ],
+    "warnings": [
+      "披露持仓仅覆盖基金净值的 1.8%，不代表完整组合。",
+      "可报价持仓覆盖率低，预测已显著降权。"
+    ]
+  },
+  {
     "predictionKey": "cn-002983:2026-10-08:cn-baseline-v1",
     "fundId": "cn-002983",
     "predictionDate": "2026-10-08",
@@ -631,6 +671,46 @@
         "feature": "nav-momentum",
         "value": -0.0010454551610363794,
         "contribution": -0.0002090910322072759,
+        "note": "仅使用预测日前已经披露的最近净值"
+      },
+      {
+        "feature": "online-bias",
+        "value": -0.0008782286077639634,
+        "contribution": -0.0008782286077639634,
+        "note": "仅由历史已评估预测更新，参数有界"
+      }
+    ],
+    "warnings": [
+      "披露持仓仅覆盖基金净值的 56.2%，不代表完整组合。",
+      "可报价持仓覆盖率低，预测已显著降权。"
+    ]
+  },
+  {
+    "predictionKey": "cn-002983:2026-10-26:cn-baseline-v1",
+    "fundId": "cn-002983",
+    "predictionDate": "2026-10-26",
+    "targetTradeDate": "2026-10-26",
+    "predictedReturn": -0.0013340984543111338,
+    "direction": "down",
+    "confidence": 0.1738828331324055,
+    "featureTimestamp": "2026-10-26T10:30:00+08:00",
+    "holdingsReportDate": "2026-06-30",
+    "featureCoverage": 0,
+    "modelVersion": "cn-baseline-v1",
+    "modelStatus": "calibrated",
+    "sampleCount": 55,
+    "dataQuality": "unavailable",
+    "contributions": [
+      {
+        "feature": "disclosed-holdings",
+        "value": 0,
+        "contribution": 0,
+        "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
+      },
+      {
+        "feature": "nav-momentum",
+        "value": -0.0018305455366445678,
+        "contribution": -0.0003661091073289136,
         "note": "仅使用预测日前已经披露的最近净值"
       },
       {
@@ -969,6 +1049,46 @@
     ]
   },
   {
+    "predictionKey": "cn-005051:2026-10-26:cn-baseline-v1",
+    "fundId": "cn-005051",
+    "predictionDate": "2026-10-26",
+    "targetTradeDate": "2026-10-26",
+    "predictedReturn": -0.002180933956709085,
+    "direction": "down",
+    "confidence": 0.19501958644309256,
+    "featureTimestamp": "2026-10-26T10:30:00+08:00",
+    "holdingsReportDate": "2026-06-30",
+    "featureCoverage": 0,
+    "modelVersion": "cn-baseline-v1",
+    "modelStatus": "calibrated",
+    "sampleCount": 55,
+    "dataQuality": "unavailable",
+    "contributions": [
+      {
+        "feature": "disclosed-holdings",
+        "value": 0,
+        "contribution": 0,
+        "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
+      },
+      {
+        "feature": "nav-momentum",
+        "value": -0.005779839348912352,
+        "contribution": -0.0011559678697824706,
+        "note": "仅使用预测日前已经披露的最近净值"
+      },
+      {
+        "feature": "online-bias",
+        "value": -0.0008782286077639634,
+        "contribution": -0.0008782286077639634,
+        "note": "仅由历史已评估预测更新，参数有界"
+      }
+    ],
+    "warnings": [
+      "披露持仓仅覆盖基金净值的 26.2%，不代表完整组合。",
+      "可报价持仓覆盖率低，预测已显著降权。"
+    ]
+  },
+  {
     "predictionKey": "cn-017641:2026-10-08:cn-baseline-v1",
     "fundId": "cn-017641",
     "predictionDate": "2026-10-08",
@@ -1283,6 +1403,47 @@
         "feature": "nav-momentum",
         "value": -0.0026586769897936737,
         "contribution": -0.0005317353979587347,
+        "note": "仅使用预测日前已经披露的最近净值"
+      },
+      {
+        "feature": "online-bias",
+        "value": -0.0008782286077639634,
+        "contribution": -0.0008782286077639634,
+        "note": "仅由历史已评估预测更新，参数有界"
+      }
+    ],
+    "warnings": [
+      "披露持仓仅覆盖基金净值的 35.3%，不代表完整组合。",
+      "可报价持仓覆盖率低，预测已显著降权。",
+      "QDII 净值与境外市场/汇率存在时差，上午行情覆盖有限。"
+    ]
+  },
+  {
+    "predictionKey": "cn-017641:2026-10-26:cn-baseline-v1",
+    "fundId": "cn-017641",
+    "predictionDate": "2026-10-26",
+    "targetTradeDate": "2026-10-26",
+    "predictedReturn": -0.0014245279032840748,
+    "direction": "down",
+    "confidence": 0.1949153294306231,
+    "featureTimestamp": "2026-10-26T10:30:00+08:00",
+    "holdingsReportDate": "2026-06-30",
+    "featureCoverage": 0,
+    "modelVersion": "cn-baseline-v1",
+    "modelStatus": "calibrated",
+    "sampleCount": 55,
+    "dataQuality": "unavailable",
+    "contributions": [
+      {
+        "feature": "disclosed-holdings",
+        "value": 0,
+        "contribution": 0,
+        "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
+      },
+      {
+        "feature": "nav-momentum",
+        "value": -0.0022522714353159666,
+        "contribution": -0.00045045428706319335,
         "note": "仅使用预测日前已经披露的最近净值"
       },
       {
@@ -1630,6 +1791,47 @@
     ]
   },
   {
+    "predictionKey": "cn-018736:2026-10-26:cn-baseline-v1",
+    "fundId": "cn-018736",
+    "predictionDate": "2026-10-26",
+    "targetTradeDate": "2026-10-26",
+    "predictedReturn": -0.001020478324835527,
+    "direction": "down",
+    "confidence": 0.2054739853204378,
+    "featureTimestamp": "2026-10-26T10:30:00+08:00",
+    "holdingsReportDate": "2026-06-30",
+    "featureCoverage": 0,
+    "modelVersion": "cn-baseline-v1",
+    "modelStatus": "calibrated",
+    "sampleCount": 55,
+    "dataQuality": "unavailable",
+    "contributions": [
+      {
+        "feature": "disclosed-holdings",
+        "value": 0,
+        "contribution": 0,
+        "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
+      },
+      {
+        "feature": "nav-momentum",
+        "value": -0.00036794975123712883,
+        "contribution": -0.00007358995024742577,
+        "note": "仅使用预测日前已经披露的最近净值"
+      },
+      {
+        "feature": "online-bias",
+        "value": -0.0008782286077639634,
+        "contribution": -0.0008782286077639634,
+        "note": "仅由历史已评估预测更新，参数有界"
+      }
+    ],
+    "warnings": [
+      "披露持仓仅覆盖基金净值的 18.9%，不代表完整组合。",
+      "可报价持仓覆盖率低，预测已显著降权。",
+      "债券与场外资产缺少可靠上午行情，预测可信度较低。"
+    ]
+  },
+  {
     "predictionKey": "cn-018993:2026-10-08:cn-baseline-v1",
     "fundId": "cn-018993",
     "predictionDate": "2026-10-08",
@@ -1938,6 +2140,46 @@
         "feature": "nav-momentum",
         "value": -0.0032603529168802716,
         "contribution": -0.0006520705833760543,
+        "note": "仅使用预测日前已经披露的最近净值"
+      },
+      {
+        "feature": "online-bias",
+        "value": -0.0008782286077639634,
+        "contribution": -0.0008782286077639634,
+        "note": "仅由历史已评估预测更新，参数有界"
+      }
+    ],
+    "warnings": [
+      "披露持仓仅覆盖基金净值的 53.1%，不代表完整组合。",
+      "可报价持仓覆盖率低，预测已显著降权。"
+    ]
+  },
+  {
+    "predictionKey": "cn-018993:2026-10-26:cn-baseline-v1",
+    "fundId": "cn-018993",
+    "predictionDate": "2026-10-26",
+    "targetTradeDate": "2026-10-26",
+    "predictedReturn": -0.0010094079095405363,
+    "direction": "down",
+    "confidence": 0.16602221985968998,
+    "featureTimestamp": "2026-10-26T10:30:00+08:00",
+    "holdingsReportDate": "2026-09-30",
+    "featureCoverage": 0,
+    "modelVersion": "cn-baseline-v1",
+    "modelStatus": "calibrated",
+    "sampleCount": 55,
+    "dataQuality": "unavailable",
+    "contributions": [
+      {
+        "feature": "disclosed-holdings",
+        "value": 0,
+        "contribution": 0,
+        "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
+      },
+      {
+        "feature": "nav-momentum",
+        "value": -0.00031632187014341007,
+        "contribution": -0.00006326437402868202,
         "note": "仅使用预测日前已经披露的最近净值"
       },
       {
@@ -2284,6 +2526,47 @@
     ]
   },
   {
+    "predictionKey": "cn-025852:2026-10-26:cn-baseline-v1",
+    "fundId": "cn-025852",
+    "predictionDate": "2026-10-26",
+    "targetTradeDate": "2026-10-26",
+    "predictedReturn": -0.0029261559012534882,
+    "direction": "down",
+    "confidence": 0.18750934667776578,
+    "featureTimestamp": "2026-10-26T10:30:00+08:00",
+    "holdingsReportDate": "2026-06-30",
+    "featureCoverage": 0,
+    "modelVersion": "cn-baseline-v1",
+    "modelStatus": "calibrated",
+    "sampleCount": 55,
+    "dataQuality": "unavailable",
+    "contributions": [
+      {
+        "feature": "disclosed-holdings",
+        "value": 0,
+        "contribution": 0,
+        "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
+      },
+      {
+        "feature": "nav-momentum",
+        "value": -0.009255249161114976,
+        "contribution": -0.0018510498322229952,
+        "note": "仅使用预测日前已经披露的最近净值"
+      },
+      {
+        "feature": "online-bias",
+        "value": -0.0008782286077639634,
+        "contribution": -0.0008782286077639634,
+        "note": "仅由历史已评估预测更新，参数有界"
+      }
+    ],
+    "warnings": [
+      "披露持仓仅覆盖基金净值的 31.0%，不代表完整组合。",
+      "可报价持仓覆盖率低，预测已显著降权。",
+      "QDII 净值与境外市场/汇率存在时差，上午行情覆盖有限。"
+    ]
+  },
+  {
     "predictionKey": "cn-161723:2026-10-08:cn-baseline-v1",
     "fundId": "cn-161723",
     "predictionDate": "2026-10-08",
@@ -2592,6 +2875,46 @@
         "feature": "nav-momentum",
         "value": -0.00010423031199995325,
         "contribution": -0.00002084606239999065,
+        "note": "仅使用预测日前已经披露的最近净值"
+      },
+      {
+        "feature": "online-bias",
+        "value": -0.0008782286077639634,
+        "contribution": -0.0008782286077639634,
+        "note": "仅由历史已评估预测更新，参数有界"
+      }
+    ],
+    "warnings": [
+      "披露持仓仅覆盖基金净值的 63.6%，不代表完整组合。",
+      "可报价持仓覆盖率低，预测已显著降权。"
+    ]
+  },
+  {
+    "predictionKey": "cn-161723:2026-10-26:cn-baseline-v1",
+    "fundId": "cn-161723",
+    "predictionDate": "2026-10-26",
+    "targetTradeDate": "2026-10-26",
+    "predictedReturn": -0.0014793759795100354,
+    "direction": "down",
+    "confidence": 0.1926903320493063,
+    "featureTimestamp": "2026-10-26T10:30:00+08:00",
+    "holdingsReportDate": "2026-06-30",
+    "featureCoverage": 0,
+    "modelVersion": "cn-baseline-v1",
+    "modelStatus": "calibrated",
+    "sampleCount": 55,
+    "dataQuality": "unavailable",
+    "contributions": [
+      {
+        "feature": "disclosed-holdings",
+        "value": 0,
+        "contribution": 0,
+        "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
+      },
+      {
+        "feature": "nav-momentum",
+        "value": -0.0025080603901254995,
+        "contribution": -0.0005016120780251,
         "note": "仅使用预测日前已经披露的最近净值"
       },
       {
