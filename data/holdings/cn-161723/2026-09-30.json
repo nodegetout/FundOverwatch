@@ -1,0 +1,198 @@
+{
+  "fundId": "cn-161723",
+  "date": "2026-09-30",
+  "previousDate": "2026-06-30",
+  "contentHash": "f8a8d591c6f7893ae5ccb6c6f7e032fe4c149ebe2e11804ae10414ab982144fa",
+  "holdings": [
+    {
+      "name": "招商银行",
+      "symbol": "600036",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600036",
+      "weight": 0.1427,
+      "previousWeight": 0.1407,
+      "weightChange": 0.002,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "兴业银行",
+      "symbol": "601166",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601166",
+      "weight": 0.08800000000000001,
+      "previousWeight": 0.0926,
+      "weightChange": -0.0046,
+      "changeStatus": "decreased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "工商银行",
+      "symbol": "601398",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601398",
+      "weight": 0.0771,
+      "previousWeight": 0.0755,
+      "weightChange": 0.0016,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "交通银行",
+      "symbol": "601328",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601328",
+      "weight": 0.059500000000000004,
+      "previousWeight": 0.056600000000000004,
+      "weightChange": 0.0029,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "农业银行",
+      "symbol": "601288",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601288",
+      "weight": 0.057699999999999994,
+      "previousWeight": 0.0576,
+      "weightChange": 0.0001,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "江苏银行",
+      "symbol": "600919",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600919",
+      "weight": 0.052300000000000006,
+      "previousWeight": 0.052199999999999996,
+      "weightChange": 0.0001,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "浦发银行",
+      "symbol": "600000",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600000",
+      "weight": 0.0364,
+      "previousWeight": 0.0379,
+      "weightChange": -0.0015,
+      "changeStatus": "decreased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "宁波银行",
+      "symbol": "002142",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002142",
+      "weight": 0.0337,
+      "previousWeight": 0.032400000000000005,
+      "weightChange": 0.0013,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "平安银行",
+      "symbol": "000001",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.000001",
+      "weight": 0.0323,
+      "previousWeight": 0.0322,
+      "weightChange": 0.0001,
+      "changeStatus": "increased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "上海银行",
+      "symbol": "601229",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.601229",
+      "weight": 0.0279,
+      "previousWeight": 0.0285,
+      "weightChange": -0.0006,
+      "changeStatus": "decreased",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "25国债19",
+      "symbol": "019792",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0232,
+      "previousWeight": 0.0225,
+      "weightChange": 0.0007,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "26国债01",
+      "symbol": "019827",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.0079,
+      "previousWeight": 0.0076,
+      "weightChange": 0.0003,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "国债2519",
+      "symbol": "102317",
+      "assetType": "bond",
+      "source": "eastmoney-position-v1",
+      "quoteRef": null,
+      "weight": 0.001,
+      "previousWeight": 0,
+      "weightChange": 0.001,
+      "changeStatus": "new",
+      "sector": null,
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "银行",
+      "weight": 0.6075999999999999
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-27T22:30:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}
