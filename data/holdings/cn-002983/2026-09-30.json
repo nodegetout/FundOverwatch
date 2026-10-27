@@ -1,0 +1,236 @@
+{
+  "fundId": "cn-002983",
+  "date": "2026-09-30",
+  "previousDate": "2026-06-30",
+  "contentHash": "a30c24ffaa55b2d37e1e8542003f688813acb24f7b374651bfa9905e6af6fad2",
+  "holdings": [
+    {
+      "name": "隆达股份",
+      "symbol": "688231",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.688231",
+      "weight": 0.058899999999999994,
+      "previousWeight": 0.063,
+      "weightChange": -0.0041,
+      "changeStatus": "decreased",
+      "sector": "有色金属",
+      "country": null
+    },
+    {
+      "name": "图南股份",
+      "symbol": "300855",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300855",
+      "weight": 0.0582,
+      "previousWeight": 0.051500000000000004,
+      "weightChange": 0.0067,
+      "changeStatus": "increased",
+      "sector": "有色金属",
+      "country": null
+    },
+    {
+      "name": "航宇科技",
+      "symbol": "688239",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.688239",
+      "weight": 0.0575,
+      "previousWeight": 0.0559,
+      "weightChange": 0.0016,
+      "changeStatus": "increased",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "睿创微纳",
+      "symbol": "688002",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.688002",
+      "weight": 0.0548,
+      "previousWeight": 0.0684,
+      "weightChange": -0.0136,
+      "changeStatus": "decreased",
+      "sector": "电子",
+      "country": null
+    },
+    {
+      "name": "四川九洲",
+      "symbol": "000801",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.000801",
+      "weight": 0.0506,
+      "previousWeight": 0,
+      "weightChange": 0.0506,
+      "changeStatus": "new",
+      "sector": "家用电器",
+      "country": null
+    },
+    {
+      "name": "派克新材",
+      "symbol": "605123",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.605123",
+      "weight": 0.0496,
+      "previousWeight": 0.051500000000000004,
+      "weightChange": -0.0019,
+      "changeStatus": "decreased",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "航天电器",
+      "symbol": "002025",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002025",
+      "weight": 0.0493,
+      "previousWeight": 0,
+      "weightChange": 0.0493,
+      "changeStatus": "new",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "国科天成",
+      "symbol": "301571",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.301571",
+      "weight": 0.0492,
+      "previousWeight": 0,
+      "weightChange": 0.0492,
+      "changeStatus": "new",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "航发控制",
+      "symbol": "000738",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.000738",
+      "weight": 0.047,
+      "previousWeight": 0,
+      "weightChange": 0.047,
+      "changeStatus": "new",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "松发股份",
+      "symbol": "603268",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.603268",
+      "weight": 0.0466,
+      "previousWeight": 0,
+      "weightChange": 0.0466,
+      "changeStatus": "new",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "博云新材",
+      "symbol": "002297",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002297",
+      "weight": 0,
+      "previousWeight": 0.057699999999999994,
+      "weightChange": -0.057699999999999994,
+      "changeStatus": "exited",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "高德红外",
+      "symbol": "002414",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.002414",
+      "weight": 0,
+      "previousWeight": 0.051,
+      "weightChange": -0.051,
+      "changeStatus": "exited",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "菲利华",
+      "symbol": "300395",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "0.300395",
+      "weight": 0,
+      "previousWeight": 0.0617,
+      "weightChange": -0.0617,
+      "changeStatus": "exited",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "中国船舶",
+      "symbol": "600150",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600150",
+      "weight": 0,
+      "previousWeight": 0.0506,
+      "weightChange": -0.0506,
+      "changeStatus": "exited",
+      "sector": "国防军工",
+      "country": null
+    },
+    {
+      "name": "航发动力",
+      "symbol": "600893",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "1.600893",
+      "weight": 0,
+      "previousWeight": 0.0508,
+      "weightChange": -0.0508,
+      "changeStatus": "exited",
+      "sector": "国防军工",
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "国防军工",
+      "weight": 0.2992
+    },
+    {
+      "name": "有色金属",
+      "weight": 0.1171
+    },
+    {
+      "name": "电子",
+      "weight": 0.0548
+    },
+    {
+      "name": "家用电器",
+      "weight": 0.0506
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-27T10:30:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
   "fundId": "cn-018736",
-  "collectedAt": "2026-10-27T22:30:00+08:00",
+  "collectedAt": "2026-10-27T10:30:00+08:00",
   "quotes": [
     {
-      "assetKey": "bond:232480007",
+      "assetKey": "bond:212680034",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "assetKey": "bond:245316",
+      "assetKey": "bond:244769",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "assetKey": "bond:245396",
+      "assetKey": "bond:245619",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -43,27 +43,7 @@
       ]
     },
     {
-      "assetKey": "bond:332580001",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
-      "source": "eastmoney-push2-v1",
-      "warnings": [
-        "源持仓未提供可靠行情市场标识。"
-      ]
-    },
-    {
-      "assetKey": "fund:159570",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
-      "source": "eastmoney-push2-v1",
-      "warnings": [
-        "源持仓未提供可靠行情市场标识。"
-      ]
-    },
-    {
-      "assetKey": "fund:159805",
+      "assetKey": "bond:246027",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -143,27 +123,7 @@
       ]
     },
     {
-      "assetKey": "fund:512100",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
-      "source": "eastmoney-push2-v1",
-      "warnings": [
-        "源持仓未提供可靠行情市场标识。"
-      ]
-    },
-    {
       "assetKey": "fund:512400",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
-      "source": "eastmoney-push2-v1",
-      "warnings": [
-        "源持仓未提供可靠行情市场标识。"
-      ]
-    },
-    {
-      "assetKey": "fund:512890",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -183,27 +143,7 @@
       ]
     },
     {
-      "assetKey": "fund:563300",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
-      "source": "eastmoney-push2-v1",
-      "warnings": [
-        "源持仓未提供可靠行情市场标识。"
-      ]
-    },
-    {
       "assetKey": "fund:588000",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
-      "source": "eastmoney-push2-v1",
-      "warnings": [
-        "源持仓未提供可靠行情市场标识。"
-      ]
-    },
-    {
-      "assetKey": "fund:588050",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -223,7 +163,17 @@
       ]
     },
     {
-      "assetKey": "stock:002463",
+      "assetKey": "stock:002436",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:002916",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -243,23 +193,13 @@
       ]
     },
     {
-      "assetKey": "stock:300223",
+      "assetKey": "stock:300308",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
         "Eastmoney request failed after 3 attempts"
-      ]
-    },
-    {
-      "assetKey": "stock:300308",
-      "status": "stale",
-      "dayChange": -0.0296,
-      "asOf": "2026-10-26T07:34:57.000Z",
-      "source": "eastmoney-push2-v1",
-      "warnings": [
-        "最新可用行情时间为 2026-10-26T07:34:57.000Z。"
       ]
     },
     {
@@ -293,7 +233,7 @@
       ]
     },
     {
-      "assetKey": "stock:603986",
+      "assetKey": "stock:688256",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -303,7 +243,7 @@
       ]
     },
     {
-      "assetKey": "stock:688256",
+      "assetKey": "stock:688825",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,

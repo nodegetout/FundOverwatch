@@ -1,6 +1,6 @@
 {
   "fundId": "cn-018993",
-  "collectedAt": "2026-10-27T22:30:00+08:00",
+  "collectedAt": "2026-10-27T10:30:00+08:00",
   "quotes": [
     {
       "assetKey": "stock:002463",
@@ -34,12 +34,12 @@
     },
     {
       "assetKey": "stock:300308",
-      "status": "stale",
-      "dayChange": -0.0296,
-      "asOf": "2026-10-26T07:34:57.000Z",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "最新可用行情时间为 2026-10-26T07:34:57.000Z。"
+        "Eastmoney request failed after 3 attempts"
       ]
     },
     {

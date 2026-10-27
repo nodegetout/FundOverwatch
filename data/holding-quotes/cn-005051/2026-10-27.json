@@ -1,9 +1,9 @@
 {
   "fundId": "cn-005051",
-  "collectedAt": "2026-10-27T22:30:00+08:00",
+  "collectedAt": "2026-10-27T10:30:00+08:00",
   "quotes": [
     {
-      "assetKey": "stock:00008",
+      "assetKey": "stock:00144",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "assetKey": "stock:00019",
+      "assetKey": "stock:00293",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "assetKey": "stock:00288",
+      "assetKey": "stock:00384",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "assetKey": "stock:00857",
+      "assetKey": "stock:00728",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -43,7 +43,17 @@
       ]
     },
     {
-      "assetKey": "stock:00939",
+      "assetKey": "stock:00836",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:00902",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -63,7 +73,7 @@
       ]
     },
     {
-      "assetKey": "stock:01088",
+      "assetKey": "stock:01997",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -73,7 +83,7 @@
       ]
     },
     {
-      "assetKey": "stock:03328",
+      "assetKey": "stock:02688",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,
@@ -83,17 +93,7 @@
       ]
     },
     {
-      "assetKey": "stock:03988",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
-      "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
-    },
-    {
-      "assetKey": "stock:03998",
+      "assetKey": "stock:03360",
       "status": "unavailable",
       "dayChange": null,
       "asOf": null,

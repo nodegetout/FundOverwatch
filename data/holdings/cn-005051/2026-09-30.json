@@ -1,0 +1,292 @@
+{
+  "fundId": "cn-005051",
+  "date": "2026-09-30",
+  "previousDate": "2026-06-30",
+  "contentHash": "b6290dd8e78061bbbdc03f70db44aa6367863f78546d68eb8224a592b8942a1d",
+  "holdings": [
+    {
+      "name": "新奥能源",
+      "symbol": "02688",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.02688",
+      "weight": 0.0277,
+      "previousWeight": 0,
+      "weightChange": 0.0277,
+      "changeStatus": "new",
+      "sector": "公用事业",
+      "country": null
+    },
+    {
+      "name": "华能国际电力股份",
+      "symbol": "00902",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00902",
+      "weight": 0.0273,
+      "previousWeight": 0,
+      "weightChange": 0.0273,
+      "changeStatus": "new",
+      "sector": "公用事业",
+      "country": null
+    },
+    {
+      "name": "远东宏信",
+      "symbol": "03360",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03360",
+      "weight": 0.027200000000000002,
+      "previousWeight": 0,
+      "weightChange": 0.027200000000000002,
+      "changeStatus": "new",
+      "sector": "非银金融",
+      "country": null
+    },
+    {
+      "name": "中国燃气",
+      "symbol": "00384",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00384",
+      "weight": 0.0252,
+      "previousWeight": 0,
+      "weightChange": 0.0252,
+      "changeStatus": "new",
+      "sector": "公用事业",
+      "country": null
+    },
+    {
+      "name": "九龙仓置业",
+      "symbol": "01997",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01997",
+      "weight": 0.025,
+      "previousWeight": 0,
+      "weightChange": 0.025,
+      "changeStatus": "new",
+      "sector": "房地产",
+      "country": null
+    },
+    {
+      "name": "中国电信",
+      "symbol": "00728",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00728",
+      "weight": 0.0239,
+      "previousWeight": 0,
+      "weightChange": 0.0239,
+      "changeStatus": "new",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "国泰航空",
+      "symbol": "00293",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00293",
+      "weight": 0.0232,
+      "previousWeight": 0,
+      "weightChange": 0.0232,
+      "changeStatus": "new",
+      "sector": "交通运输",
+      "country": null
+    },
+    {
+      "name": "招商局港口",
+      "symbol": "00144",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00144",
+      "weight": 0.022799999999999997,
+      "previousWeight": 0,
+      "weightChange": 0.022799999999999997,
+      "changeStatus": "new",
+      "sector": "交通运输",
+      "country": null
+    },
+    {
+      "name": "中国移动",
+      "symbol": "00941",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00941",
+      "weight": 0.0226,
+      "previousWeight": 0.025,
+      "weightChange": -0.0024,
+      "changeStatus": "decreased",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "华润电力",
+      "symbol": "00836",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00836",
+      "weight": 0.0225,
+      "previousWeight": 0,
+      "weightChange": 0.0225,
+      "changeStatus": "new",
+      "sector": "公用事业",
+      "country": null
+    },
+    {
+      "name": "电讯盈科",
+      "symbol": "00008",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00008",
+      "weight": 0,
+      "previousWeight": 0.029900000000000003,
+      "weightChange": -0.029900000000000003,
+      "changeStatus": "exited",
+      "sector": "通信",
+      "country": null
+    },
+    {
+      "name": "太古股份公司A",
+      "symbol": "00019",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00019",
+      "weight": 0,
+      "previousWeight": 0.025699999999999997,
+      "weightChange": -0.025699999999999997,
+      "changeStatus": "exited",
+      "sector": "综合",
+      "country": null
+    },
+    {
+      "name": "万洲国际",
+      "symbol": "00288",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00288",
+      "weight": 0,
+      "previousWeight": 0.026699999999999998,
+      "weightChange": -0.026699999999999998,
+      "changeStatus": "exited",
+      "sector": "食品饮料",
+      "country": null
+    },
+    {
+      "name": "中国石油股份",
+      "symbol": "00857",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00857",
+      "weight": 0,
+      "previousWeight": 0.025099999999999997,
+      "weightChange": -0.025099999999999997,
+      "changeStatus": "exited",
+      "sector": "石油石化",
+      "country": null
+    },
+    {
+      "name": "建设银行",
+      "symbol": "00939",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.00939",
+      "weight": 0,
+      "previousWeight": 0.024900000000000002,
+      "weightChange": -0.024900000000000002,
+      "changeStatus": "exited",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "中国神华",
+      "symbol": "01088",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.01088",
+      "weight": 0,
+      "previousWeight": 0.0253,
+      "weightChange": -0.0253,
+      "changeStatus": "exited",
+      "sector": "煤炭",
+      "country": null
+    },
+    {
+      "name": "交通银行",
+      "symbol": "03328",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03328",
+      "weight": 0,
+      "previousWeight": 0.0273,
+      "weightChange": -0.0273,
+      "changeStatus": "exited",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "中国银行",
+      "symbol": "03988",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03988",
+      "weight": 0,
+      "previousWeight": 0.027999999999999997,
+      "weightChange": -0.027999999999999997,
+      "changeStatus": "exited",
+      "sector": "银行",
+      "country": null
+    },
+    {
+      "name": "波司登",
+      "symbol": "03998",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "116.03998",
+      "weight": 0,
+      "previousWeight": 0.024300000000000002,
+      "weightChange": -0.024300000000000002,
+      "changeStatus": "exited",
+      "sector": "纺织服饰",
+      "country": null
+    }
+  ],
+  "sectors": [
+    {
+      "name": "公用事业",
+      "weight": 0.1027
+    },
+    {
+      "name": "通信",
+      "weight": 0.0465
+    },
+    {
+      "name": "交通运输",
+      "weight": 0.046
+    },
+    {
+      "name": "非银金融",
+      "weight": 0.027200000000000002
+    },
+    {
+      "name": "房地产",
+      "weight": 0.025
+    }
+  ],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-27T10:30:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}

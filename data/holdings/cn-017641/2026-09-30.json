@@ -1,0 +1,154 @@
+{
+  "fundId": "cn-017641",
+  "date": "2026-09-30",
+  "previousDate": "2026-06-30",
+  "contentHash": "8e9d8773a96559af2464d851e788ef5ea0e4124b454135a56870ba5cf0eb1f70",
+  "holdings": [
+    {
+      "name": "英伟达",
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.NVDA",
+      "weight": 0.0801,
+      "previousWeight": 0.0737,
+      "weightChange": 0.0064,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "苹果",
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.AAPL",
+      "weight": 0.0701,
+      "previousWeight": 0.0639,
+      "weightChange": 0.0062,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "微软",
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.MSFT",
+      "weight": 0.054299999999999994,
+      "previousWeight": 0.0415,
+      "weightChange": 0.0128,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "亚马逊",
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.AMZN",
+      "weight": 0.035,
+      "previousWeight": 0.0347,
+      "weightChange": 0.0003,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "谷歌-A",
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.GOOGL",
+      "weight": 0.028900000000000002,
+      "previousWeight": 0.0311,
+      "weightChange": -0.0022,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "博通",
+      "symbol": "AVGO",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.AVGO",
+      "weight": 0.024,
+      "previousWeight": 0.027200000000000002,
+      "weightChange": -0.0032,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "谷歌-C",
+      "symbol": "GOOG",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.GOOG",
+      "weight": 0.0231,
+      "previousWeight": 0.0246,
+      "weightChange": -0.0015,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "Meta Platforms Inc-A",
+      "symbol": "META",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.META",
+      "weight": 0.0229,
+      "previousWeight": 0.0183,
+      "weightChange": 0.0046,
+      "changeStatus": "increased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "美光科技",
+      "symbol": "MU",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.MU",
+      "weight": 0.0174,
+      "previousWeight": 0.0199,
+      "weightChange": -0.0025,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    },
+    {
+      "name": "特斯拉",
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "source": "eastmoney-position-v1",
+      "quoteRef": "105.TSLA",
+      "weight": 0.0143,
+      "previousWeight": 0.0177,
+      "weightChange": -0.0034,
+      "changeStatus": "decreased",
+      "sector": null,
+      "country": null
+    }
+  ],
+  "sectors": [],
+  "countries": [],
+  "quality": {
+    "status": "complete",
+    "source": "eastmoney-position-v1",
+    "dataMode": "real",
+    "isSimulated": false,
+    "collectedAt": "2026-10-27T10:30:00+08:00",
+    "warnings": [
+      "定期报告持仓，非实时仓位；权重为占基金净值比例。",
+      "地域未由源数据可靠披露，因此不做推断。"
+    ],
+    "missingFields": [
+      "countries"
+    ]
+  }
+}
