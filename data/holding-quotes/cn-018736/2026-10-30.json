@@ -1,0 +1,256 @@
+{
+  "fundId": "cn-018736",
+  "collectedAt": "2026-10-30T22:30:00+08:00",
+  "quotes": [
+    {
+      "assetKey": "bond:212680034",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "bond:240403",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "bond:244769",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "bond:245619",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "bond:246027",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:159870",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:159915",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:159919",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:159952",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:510300",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:510500",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:512000",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:512400",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:515880",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "fund:588000",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "stock:002384",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:002436",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:002916",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:00981",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:300308",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:300502",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:601138",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:601899",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:688256",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    },
+    {
+      "assetKey": "stock:688825",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "Eastmoney request failed after 3 attempts"
+      ]
+    }
+  ]
+}

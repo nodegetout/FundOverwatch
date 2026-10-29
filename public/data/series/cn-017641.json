@@ -1,17 +1,5 @@
 [
   {
-    "date": "2025-09-23",
-    "nav": 1.5482,
-    "price": null,
-    "benchmarkPrice": null
-  },
-  {
-    "date": "2025-09-24",
-    "nav": 1.5448,
-    "price": null,
-    "benchmarkPrice": null
-  },
-  {
     "date": "2025-09-25",
     "nav": 1.5391,
     "price": null,
@@ -1556,6 +1544,18 @@
   {
     "date": "2026-10-26",
     "nav": 1.6913,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-10-27",
+    "nav": 1.7013,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-10-28",
+    "nav": 1.7055,
     "price": null,
     "benchmarkPrice": null
   }

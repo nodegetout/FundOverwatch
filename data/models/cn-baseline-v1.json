@@ -1,13 +1,13 @@
 {
   "modelVersion": "cn-baseline-v1",
-  "updatedAt": "2026-10-28T22:30:00+08:00",
+  "updatedAt": "2026-10-30T22:30:00+08:00",
   "trainingCutoff": "2026-10-27",
-  "sampleCount": 79,
-  "bias": -0.0018785127947836605,
-  "scale": 1.0936852726843609,
-  "directionAccuracy": 0.5,
-  "mae": 0.013564753928818953,
-  "rmse": 0.019402278516659776,
+  "sampleCount": 80,
+  "bias": -0.001093452642314818,
+  "scale": 1.1046221254112045,
+  "directionAccuracy": 0,
+  "mae": 0.007850601524688423,
+  "rmse": 0.007850601524688423,
   "appliedEvaluationKeys": [
     "cn-001595:2026-10-08:cn-baseline-v1",
     "cn-002983:2026-10-08:cn-baseline-v1",
@@ -87,6 +87,7 @@
     "cn-018736:2026-10-27:cn-baseline-v1",
     "cn-018993:2026-10-27:cn-baseline-v1",
     "cn-025852:2026-10-27:cn-baseline-v1",
-    "cn-161723:2026-10-27:cn-baseline-v1"
+    "cn-161723:2026-10-27:cn-baseline-v1",
+    "cn-017641:2026-10-27:cn-baseline-v1"
   ]
 }
