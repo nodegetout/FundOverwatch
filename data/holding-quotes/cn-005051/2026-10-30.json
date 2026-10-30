@@ -1,6 +1,6 @@
 {
   "fundId": "cn-005051",
-  "collectedAt": "2026-10-30T22:30:00+08:00",
+  "collectedAt": "2026-10-30T10:30:00+08:00",
   "quotes": [
     {
       "assetKey": "stock:00144",
@@ -64,13 +64,11 @@
     },
     {
       "assetKey": "stock:00941",
-      "status": "stale",
-      "dayChange": 0.0058,
-      "asOf": "2026-10-29T08:08:19.000Z",
+      "status": "available",
+      "dayChange": 0.0191,
+      "asOf": "2026-10-30T08:08:06.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "最新可用行情时间为 2026-10-29T08:08:19.000Z。"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:01997",
