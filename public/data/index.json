@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-30T10:30:00+08:00",
+  "generatedAt": "2026-10-31T22:30:00+08:00",
   "asOf": "2026-10-29",
-  "phase": "morning",
+  "phase": "weekly",
   "dataStatus": "partial",
   "dataMode": "real",
   "summaries": [
@@ -467,8 +467,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-30",
-        "reason": "2026-10-30 上午预测已生成。"
+        "date": "2026-10-31",
+        "reason": "2026-10-31 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -905,8 +905,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-30",
-        "reason": "2026-10-30 上午预测已生成。"
+        "date": "2026-10-31",
+        "reason": "2026-10-31 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -1414,8 +1414,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-30",
-        "reason": "2026-10-30 上午预测已生成。"
+        "date": "2026-10-31",
+        "reason": "2026-10-31 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -2315,8 +2315,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-30",
-        "reason": "2026-10-30 上午预测已生成。"
+        "date": "2026-10-31",
+        "reason": "2026-10-31 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -2739,8 +2739,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-30",
-        "reason": "2026-10-30 上午预测已生成。"
+        "date": "2026-10-31",
+        "reason": "2026-10-31 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -3186,8 +3186,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-30",
-        "reason": "2026-10-30 上午预测已生成。"
+        "date": "2026-10-31",
+        "reason": "2026-10-31 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -3624,8 +3624,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-30",
-        "reason": "2026-10-30 上午预测已生成。"
+        "date": "2026-10-31",
+        "reason": "2026-10-31 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -3998,8 +3998,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-10-30",
-        "reason": "2026-10-30 上午预测已生成。"
+        "date": "2026-10-31",
+        "reason": "2026-10-31 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -4011,5 +4011,109 @@
       }
     }
   ],
-  "reports": []
+  "reports": [
+    {
+      "reportKey": "weekly:2026-W44",
+      "period": "weekly",
+      "periodKey": "2026-W44",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-30",
+      "status": "final",
+      "generatedAt": "2026-10-31T22:30:00+08:00",
+      "modelVersion": "cn-baseline-v1",
+      "metrics": {
+        "sampleCount": 16,
+        "directionAccuracy": 0.4375,
+        "mae": 0.013685162635189695,
+        "rmse": 0.017820719938544317,
+        "meanError": -0.00038560594791441267
+      },
+      "missingRate": 0,
+      "byFund": {
+        "cn-001595": {
+          "sampleCount": 2,
+          "directionAccuracy": 0,
+          "mae": 0.01679276051295401,
+          "rmse": 0.016893437598615394,
+          "meanError": 0.01679276051295401
+        },
+        "cn-002983": {
+          "sampleCount": 2,
+          "directionAccuracy": 1,
+          "mae": 0.03325183382645731,
+          "rmse": 0.035711017088005885,
+          "meanError": -0.03325183382645731
+        },
+        "cn-005051": {
+          "sampleCount": 2,
+          "directionAccuracy": 0,
+          "mae": 0.009560913412350214,
+          "rmse": 0.010756203986578894,
+          "meanError": 0.009560913412350214
+        },
+        "cn-017641": {
+          "sampleCount": 2,
+          "directionAccuracy": 0,
+          "mae": 0.007671292630231592,
+          "rmse": 0.007673387928306301,
+          "meanError": 0.007671292630231592
+        },
+        "cn-018736": {
+          "sampleCount": 2,
+          "directionAccuracy": 1,
+          "mae": 0.0005903285513185583,
+          "rmse": 0.000624410364066823,
+          "meanError": 0.0002034711386221513
+        },
+        "cn-018993": {
+          "sampleCount": 2,
+          "directionAccuracy": 1,
+          "mae": 0.022391411095960073,
+          "rmse": 0.022703630313168913,
+          "meanError": -0.022391411095960073
+        },
+        "cn-025852": {
+          "sampleCount": 2,
+          "directionAccuracy": 0.5,
+          "mae": 0.0025867351497830355,
+          "rmse": 0.003092023651112618,
+          "meanError": 0.0016939337424813118
+        },
+        "cn-161723": {
+          "sampleCount": 2,
+          "directionAccuracy": 0,
+          "mae": 0.0166360259024628,
+          "rmse": 0.01673252411347667,
+          "meanError": 0.0166360259024628
+        }
+      },
+      "byConfidence": {
+        "low": {
+          "sampleCount": 16,
+          "directionAccuracy": 0.4375,
+          "mae": 0.013685162635189695,
+          "rmse": 0.017820719938544317,
+          "meanError": -0.00038560594791441267
+        }
+      },
+      "byCoverage": {
+        "low": {
+          "sampleCount": 16,
+          "directionAccuracy": 0.4375,
+          "mae": 0.013685162635189695,
+          "rmse": 0.017820719938544317,
+          "meanError": -0.00038560594791441267
+        }
+      },
+      "bestCase": "cn-018736:2026-10-26:cn-baseline-v1",
+      "worstCase": "cn-002983:2026-10-27:cn-baseline-v1",
+      "modelChange": {
+        "previousBias": -0.001093452642314818,
+        "newBias": -0.001093452642314818,
+        "previousScale": 1.1046221254112045,
+        "newScale": 1.1046221254112045,
+        "applied": false
+      }
+    }
+  ]
 }
