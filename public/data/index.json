@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-03T22:30:00+08:00",
+  "generatedAt": "2026-11-03T10:30:00+08:00",
   "asOf": "2026-11-02",
-  "phase": "evening",
+  "phase": "morning",
   "dataStatus": "partial",
   "dataMode": "real",
   "summaries": [
@@ -32,7 +32,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-02。"
@@ -328,7 +328,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -340,124 +340,104 @@
       },
       "holdingQuotes": {
         "fundId": "cn-025852",
-        "collectedAt": "2026-11-03T22:30:00+08:00",
+        "collectedAt": "2026-11-03T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:00005",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.003,
+            "asOf": "2026-11-03T08:08:06.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00700",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0127,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00939",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.003,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00941",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0044,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00992",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0611,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:01070",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0688,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:01398",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0045,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:02315",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0835,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:02888",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0175,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:09988",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.001,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-025852:2026-10-30:cn-baseline-v1",
+        "predictionKey": "cn-025852:2026-11-03:cn-baseline-v1",
         "fundId": "cn-025852",
-        "predictionDate": "2026-10-30",
-        "targetTradeDate": "2026-10-30",
-        "predictedReturn": -0.0015776914361965836,
+        "predictionDate": "2026-11-03",
+        "targetTradeDate": "2026-11-03",
+        "predictedReturn": -0.002389395463797883,
         "direction": "down",
-        "confidence": 0.18881185195994338,
-        "featureTimestamp": "2026-10-30T10:30:00+08:00",
+        "confidence": 0.18843268443602673,
+        "featureTimestamp": "2026-11-03T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 80,
+        "sampleCount": 88,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -468,14 +448,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": -0.0016740541670239306,
-            "contribution": -0.00033481083340478616,
+            "value": -0.0012144167549050344,
+            "contribution": -0.0002428833509810069,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.001093452642314818,
-            "contribution": -0.001093452642314818,
+            "value": -0.0018987884737504917,
+            "contribution": -0.0018987884737504917,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -490,25 +470,7 @@
         "date": "2026-11-03",
         "reason": "2026-11-03 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-025852:2026-10-30:cn-baseline-v1",
-        "predictionKey": "cn-025852:2026-10-30:cn-baseline-v1",
-        "fundId": "cn-025852",
-        "targetTradeDate": "2026-10-30",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-03T22:30:00+08:00",
-        "actualStartDate": "2026-10-29",
-        "actualEndDate": "2026-10-30",
-        "actualReturn": 0.00846929879187952,
-        "error": 0.010046990228076104,
-        "absoluteError": 0.010046990228076104,
-        "squaredError": 0.00010094201264305671,
-        "directionCorrect": false,
-        "confidence": 0.18881185195994338,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 11,
         "directionAccuracy": 0.5454545454545454,
@@ -544,7 +506,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-02。",
@@ -803,7 +765,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -815,124 +777,104 @@
       },
       "holdingQuotes": {
         "fundId": "cn-002983",
-        "collectedAt": "2026-11-03T22:30:00+08:00",
+        "collectedAt": "2026-11-03T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:000738",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0017,
+            "asOf": "2026-11-03T07:35:00.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:000801",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0088,
+            "asOf": "2026-11-03T07:34:42.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002025",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0469,
+            "asOf": "2026-11-03T07:34:45.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300855",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0313,
+            "asOf": "2026-11-03T07:34:54.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:301571",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0207,
+            "asOf": "2026-11-03T07:34:30.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:603268",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0144,
+            "asOf": "2026-11-03T08:12:00.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:605123",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.019,
+            "asOf": "2026-11-03T08:11:44.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688002",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0049,
+            "asOf": "2026-11-03T08:11:44.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688231",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0613,
+            "asOf": "2026-11-03T08:11:53.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688239",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0534,
+            "asOf": "2026-11-03T08:11:56.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-002983:2026-10-30:cn-baseline-v1",
+        "predictionKey": "cn-002983:2026-11-03:cn-baseline-v1",
         "fundId": "cn-002983",
-        "predictionDate": "2026-10-30",
-        "targetTradeDate": "2026-10-30",
-        "predictedReturn": -0.0024342428405976415,
+        "predictionDate": "2026-11-03",
+        "targetTradeDate": "2026-11-03",
+        "predictedReturn": -0.0037868265490429236,
         "direction": "down",
-        "confidence": 0.17000980276147873,
-        "featureTimestamp": "2026-10-30T10:30:00+08:00",
+        "confidence": 0.16748052204508931,
+        "featureTimestamp": "2026-11-03T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 80,
+        "sampleCount": 88,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -943,14 +885,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": -0.005551178229165088,
-            "contribution": -0.0011102356458330177,
+            "value": -0.007477169881413915,
+            "contribution": -0.001495433976282783,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.001093452642314818,
-            "contribution": -0.001093452642314818,
+            "value": -0.0018987884737504917,
+            "contribution": -0.0018987884737504917,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -964,25 +906,7 @@
         "date": "2026-11-03",
         "reason": "2026-11-03 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-002983:2026-10-30:cn-baseline-v1",
-        "predictionKey": "cn-002983:2026-10-30:cn-baseline-v1",
-        "fundId": "cn-002983",
-        "targetTradeDate": "2026-10-30",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-03T22:30:00+08:00",
-        "actualStartDate": "2026-10-29",
-        "actualEndDate": "2026-10-30",
-        "actualReturn": -0.038570956003969536,
-        "error": -0.03613671316337189,
-        "absoluteError": 0.03613671316337189,
-        "squaredError": 0.0013058620382518154,
-        "directionCorrect": true,
-        "confidence": 0.17000980276147873,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 11,
         "directionAccuracy": 0.8181818181818182,
@@ -1018,7 +942,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-02。"
@@ -1332,7 +1256,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -1344,124 +1268,104 @@
       },
       "holdingQuotes": {
         "fundId": "cn-005051",
-        "collectedAt": "2026-11-03T22:30:00+08:00",
+        "collectedAt": "2026-11-03T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:00144",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0036,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00293",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0368,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00384",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0359,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00728",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0055,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00836",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0239,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00902",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0091,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00941",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0044,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:01997",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0045,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:02688",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0139,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:03360",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0167,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-005051:2026-10-30:cn-baseline-v1",
+        "predictionKey": "cn-005051:2026-11-03:cn-baseline-v1",
         "fundId": "cn-005051",
-        "predictionDate": "2026-10-30",
-        "targetTradeDate": "2026-10-30",
-        "predictedReturn": -0.0007129751102388611,
+        "predictionDate": "2026-11-03",
+        "targetTradeDate": "2026-11-03",
+        "predictedReturn": -0.0014075901731253212,
         "direction": "down",
-        "confidence": 0.195944279620714,
-        "featureTimestamp": "2026-10-30T10:30:00+08:00",
+        "confidence": 0.193752561484281,
+        "featureTimestamp": "2026-11-03T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 80,
+        "sampleCount": 88,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -1472,14 +1376,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": 0.002240027879973927,
-            "contribution": 0.0004480055759947854,
+            "value": 0.0031856600851663643,
+            "contribution": 0.0006371320170332729,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.001093452642314818,
-            "contribution": -0.001093452642314818,
+            "value": -0.0018987884737504917,
+            "contribution": -0.0018987884737504917,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -1493,25 +1397,7 @@
         "date": "2026-11-03",
         "reason": "2026-11-03 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-005051:2026-10-30:cn-baseline-v1",
-        "predictionKey": "cn-005051:2026-10-30:cn-baseline-v1",
-        "fundId": "cn-005051",
-        "targetTradeDate": "2026-10-30",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-03T22:30:00+08:00",
-        "actualStartDate": "2026-10-29",
-        "actualEndDate": "2026-10-30",
-        "actualReturn": 0.019109840751327045,
-        "error": 0.019822815861565906,
-        "absoluteError": 0.019822815861565906,
-        "squaredError": 0.0003929440286815489,
-        "directionCorrect": false,
-        "confidence": 0.195944279620714,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 11,
         "directionAccuracy": 0.36363636363636365,
@@ -1547,7 +1433,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-02。"
@@ -2100,7 +1986,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -2112,7 +1998,7 @@
       },
       "holdingQuotes": {
         "fundId": "cn-018736",
-        "collectedAt": "2026-11-03T22:30:00+08:00",
+        "collectedAt": "2026-11-03T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "bond:212680034",
@@ -2266,120 +2152,100 @@
           },
           {
             "assetKey": "stock:002384",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0441,
+            "asOf": "2026-11-03T07:34:12.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002436",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.1001,
+            "asOf": "2026-11-03T07:34:42.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002916",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.1,
+            "asOf": "2026-11-03T07:35:03.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00981",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0229,
+            "asOf": "2026-11-03T08:08:07.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300308",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.1269,
+            "asOf": "2026-11-03T07:34:21.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300502",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0946,
+            "asOf": "2026-11-03T07:34:18.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601138",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.055,
+            "asOf": "2026-11-03T08:11:58.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601899",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0227,
+            "asOf": "2026-11-03T08:11:55.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688256",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.1081,
+            "asOf": "2026-11-03T08:11:59.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688825",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.07,
+            "asOf": "2026-11-03T08:12:00.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-018736:2026-10-30:cn-baseline-v1",
+        "predictionKey": "cn-018736:2026-11-03:cn-baseline-v1",
         "fundId": "cn-018736",
-        "predictionDate": "2026-10-30",
-        "targetTradeDate": "2026-10-30",
-        "predictedReturn": -0.0012581600167730677,
+        "predictionDate": "2026-11-03",
+        "targetTradeDate": "2026-11-03",
+        "predictedReturn": -0.0023977996376786585,
         "direction": "down",
-        "confidence": 0.20533356113493587,
-        "featureTimestamp": "2026-10-30T10:30:00+08:00",
+        "confidence": 0.2054161079799891,
+        "featureTimestamp": "2026-11-03T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 80,
+        "sampleCount": 88,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -2390,14 +2256,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": -0.00022771603893072533,
-            "contribution": -0.00004554320778614507,
+            "value": -0.0012520810567824502,
+            "contribution": -0.00025041621135649003,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.001093452642314818,
-            "contribution": -0.001093452642314818,
+            "value": -0.0018987884737504917,
+            "contribution": -0.0018987884737504917,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -2412,25 +2278,7 @@
         "date": "2026-11-03",
         "reason": "2026-11-03 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-018736:2026-10-30:cn-baseline-v1",
-        "predictionKey": "cn-018736:2026-10-30:cn-baseline-v1",
-        "fundId": "cn-018736",
-        "targetTradeDate": "2026-10-30",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-03T22:30:00+08:00",
-        "actualStartDate": "2026-10-29",
-        "actualEndDate": "2026-10-30",
-        "actualReturn": -0.003881097292052549,
-        "error": -0.002622937275279481,
-        "absoluteError": 0.002622937275279481,
-        "squaredError": 0.000006879799950050549,
-        "directionCorrect": true,
-        "confidence": 0.20533356113493587,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 11,
         "directionAccuracy": 0.5454545454545454,
@@ -2466,7 +2314,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-02。"
@@ -2673,7 +2521,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -2685,7 +2533,7 @@
       },
       "holdingQuotes": {
         "fundId": "cn-001595",
-        "collectedAt": "2026-11-03T22:30:00+08:00",
+        "collectedAt": "2026-11-03T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "bond:019792",
@@ -2699,103 +2547,83 @@
           },
           {
             "assetKey": "stock:000001",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0199,
+            "asOf": "2026-11-03T07:35:00.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002142",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0015,
+            "asOf": "2026-11-03T07:34:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600000",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.003,
+            "asOf": "2026-11-03T08:11:33.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600036",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0113,
+            "asOf": "2026-11-03T08:11:38.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600919",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0094,
+            "asOf": "2026-11-03T08:11:55.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601166",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0168,
+            "asOf": "2026-11-03T08:11:34.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601229",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0188,
+            "asOf": "2026-11-03T08:11:45.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601288",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.004,
+            "asOf": "2026-11-03T08:11:44.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601328",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.021,
+            "asOf": "2026-11-03T08:11:44.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601398",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0115,
+            "asOf": "2026-11-03T08:11:53.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "target-etf:515290",
@@ -2810,19 +2638,19 @@
         ]
       },
       "prediction": {
-        "predictionKey": "cn-001595:2026-10-30:cn-baseline-v1",
+        "predictionKey": "cn-001595:2026-11-03:cn-baseline-v1",
         "fundId": "cn-001595",
-        "predictionDate": "2026-10-30",
-        "targetTradeDate": "2026-10-30",
-        "predictedReturn": 0.0001915737569607156,
-        "direction": "flat",
-        "confidence": 0.18997890646467075,
-        "featureTimestamp": "2026-10-30T10:30:00+08:00",
+        "predictionDate": "2026-11-03",
+        "targetTradeDate": "2026-11-03",
+        "predictedReturn": -0.0011060754707684051,
+        "direction": "down",
+        "confidence": 0.19007938312605915,
+        "featureTimestamp": "2026-11-03T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 80,
+        "sampleCount": 88,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -2833,14 +2661,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": 0.00633440932676439,
-            "contribution": 0.001266881865352878,
+            "value": 0.004536933979680491,
+            "contribution": 0.0009073867959360983,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.001093452642314818,
-            "contribution": -0.001093452642314818,
+            "value": -0.0018987884737504917,
+            "contribution": -0.0018987884737504917,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -2854,25 +2682,7 @@
         "date": "2026-11-03",
         "reason": "2026-11-03 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-001595:2026-10-30:cn-baseline-v1",
-        "predictionKey": "cn-001595:2026-10-30:cn-baseline-v1",
-        "fundId": "cn-001595",
-        "targetTradeDate": "2026-10-30",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-03T22:30:00+08:00",
-        "actualStartDate": "2026-10-29",
-        "actualEndDate": "2026-10-30",
-        "actualReturn": 0.0052842950750369155,
-        "error": 0.0050927213180762,
-        "absoluteError": 0.0050927213180762,
-        "squaredError": 0.000025935810423587784,
-        "directionCorrect": false,
-        "confidence": 0.18997890646467075,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 11,
         "directionAccuracy": 0.36363636363636365,
@@ -2908,7 +2718,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-02。"
@@ -3128,7 +2938,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -3140,7 +2950,7 @@
       },
       "holdingQuotes": {
         "fundId": "cn-161723",
-        "collectedAt": "2026-11-03T22:30:00+08:00",
+        "collectedAt": "2026-11-03T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "bond:019792",
@@ -3174,120 +2984,100 @@
           },
           {
             "assetKey": "stock:000001",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0199,
+            "asOf": "2026-11-03T07:35:00.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002142",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0015,
+            "asOf": "2026-11-03T07:34:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600000",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.003,
+            "asOf": "2026-11-03T08:11:33.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600036",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0113,
+            "asOf": "2026-11-03T08:11:38.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600919",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0094,
+            "asOf": "2026-11-03T08:11:55.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601166",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.0168,
+            "asOf": "2026-11-03T08:11:34.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601229",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0188,
+            "asOf": "2026-11-03T08:11:45.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601288",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": 0.004,
+            "asOf": "2026-11-03T08:11:44.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601328",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.021,
+            "asOf": "2026-11-03T08:11:44.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601398",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0115,
+            "asOf": "2026-11-03T08:11:53.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-161723:2026-10-30:cn-baseline-v1",
+        "predictionKey": "cn-161723:2026-11-03:cn-baseline-v1",
         "fundId": "cn-161723",
-        "predictionDate": "2026-10-30",
-        "targetTradeDate": "2026-10-30",
-        "predictedReturn": 0.00017588808128925955,
-        "direction": "flat",
-        "confidence": 0.19018245866135156,
-        "featureTimestamp": "2026-10-30T10:30:00+08:00",
+        "predictionDate": "2026-11-03",
+        "targetTradeDate": "2026-11-03",
+        "predictedReturn": -0.0011255616460744754,
+        "direction": "down",
+        "confidence": 0.19026784301278463,
+        "featureTimestamp": "2026-11-03T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 80,
+        "sampleCount": 88,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -3298,14 +3088,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": 0.006263409138959819,
-            "contribution": 0.0012526818277919637,
+            "value": 0.004449604374227789,
+            "contribution": 0.0008899208748455577,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.001093452642314818,
-            "contribution": -0.001093452642314818,
+            "value": -0.0018987884737504917,
+            "contribution": -0.0018987884737504917,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -3319,25 +3109,7 @@
         "date": "2026-11-03",
         "reason": "2026-11-03 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-161723:2026-10-30:cn-baseline-v1",
-        "predictionKey": "cn-161723:2026-10-30:cn-baseline-v1",
-        "fundId": "cn-161723",
-        "targetTradeDate": "2026-10-30",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-03T22:30:00+08:00",
-        "actualStartDate": "2026-10-29",
-        "actualEndDate": "2026-10-30",
-        "actualReturn": 0.005198358413132764,
-        "error": 0.005022470331843504,
-        "absoluteError": 0.005022470331843504,
-        "squaredError": 0.0000252252082342482,
-        "directionCorrect": false,
-        "confidence": 0.19018245866135156,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 11,
         "directionAccuracy": 0.36363636363636365,
@@ -3373,7 +3145,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-02。"
@@ -3614,7 +3386,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -3626,124 +3398,104 @@
       },
       "holdingQuotes": {
         "fundId": "cn-018993",
-        "collectedAt": "2026-11-03T22:30:00+08:00",
+        "collectedAt": "2026-11-03T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:002463",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0919,
+            "asOf": "2026-11-03T07:34:12.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002916",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.1,
+            "asOf": "2026-11-03T07:35:03.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002938",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0866,
+            "asOf": "2026-11-03T07:34:51.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300308",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.1269,
+            "asOf": "2026-11-03T07:34:21.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300502",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0946,
+            "asOf": "2026-11-03T07:34:18.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300661",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0567,
+            "asOf": "2026-11-03T07:34:57.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:301550",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0501,
+            "asOf": "2026-11-03T07:35:03.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:603179",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.0089,
+            "asOf": "2026-11-03T08:11:35.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688256",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.1081,
+            "asOf": "2026-11-03T08:11:59.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688498",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "available",
+            "dayChange": -0.1078,
+            "asOf": "2026-11-03T08:11:33.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "Eastmoney request failed after 3 attempts"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-018993:2026-10-30:cn-baseline-v1",
+        "predictionKey": "cn-018993:2026-11-03:cn-baseline-v1",
         "fundId": "cn-018993",
-        "predictionDate": "2026-10-30",
-        "targetTradeDate": "2026-10-30",
-        "predictedReturn": -0.002227844639495195,
+        "predictionDate": "2026-11-03",
+        "targetTradeDate": "2026-11-03",
+        "predictedReturn": -0.005343856685187229,
         "direction": "down",
-        "confidence": 0.15758045377010368,
-        "featureTimestamp": "2026-10-30T10:30:00+08:00",
+        "confidence": 0.1596417345233853,
+        "featureTimestamp": "2026-11-03T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 80,
+        "sampleCount": 88,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -3754,14 +3506,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": -0.0046169302345143715,
-            "contribution": -0.0009233860469028744,
+            "value": -0.014455185080994503,
+            "contribution": -0.0028910370161989007,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.001093452642314818,
-            "contribution": -0.001093452642314818,
+            "value": -0.0018987884737504917,
+            "contribution": -0.0018987884737504917,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -3775,25 +3527,7 @@
         "date": "2026-11-03",
         "reason": "2026-11-03 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-018993:2026-10-30:cn-baseline-v1",
-        "predictionKey": "cn-018993:2026-10-30:cn-baseline-v1",
-        "fundId": "cn-018993",
-        "targetTradeDate": "2026-10-30",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-03T22:30:00+08:00",
-        "actualStartDate": "2026-10-29",
-        "actualEndDate": "2026-10-30",
-        "actualReturn": -0.0520628683693517,
-        "error": -0.04983502372985651,
-        "absoluteError": 0.04983502372985651,
-        "squaredError": 0.002483529590155361,
-        "directionCorrect": true,
-        "confidence": 0.15758045377010368,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 11,
         "directionAccuracy": 0.8181818181818182,
@@ -3829,7 +3563,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-10-30。"
@@ -4005,7 +3739,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-03T22:30:00+08:00",
+          "collectedAt": "2026-11-03T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -4017,148 +3751,147 @@
       },
       "holdingQuotes": {
         "fundId": "cn-017641",
-        "collectedAt": "2026-11-03T22:30:00+08:00",
+        "collectedAt": "2026-11-03T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:AAPL",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": -0.0183,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:AMZN",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": 0.022,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:AVGO",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": -0.0118,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:GOOG",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": -0.0006,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:GOOGL",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": -0.003,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:META",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": -0.0134,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:MSFT",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": -0.0283,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:MU",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": -0.0578,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:NVDA",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": -0.0126,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:TSLA",
-            "status": "unavailable",
-            "dayChange": null,
-            "asOf": null,
+            "status": "stale",
+            "dayChange": 0.01,
+            "asOf": "2026-11-02T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "Eastmoney request failed after 3 attempts"
+              "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
             ]
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-017641:2026-10-30:cn-baseline-v1",
+        "predictionKey": "cn-017641:2026-11-03:cn-baseline-v1",
         "fundId": "cn-017641",
-        "predictionDate": "2026-10-30",
-        "targetTradeDate": "2026-10-30",
-        "predictedReturn": -0.00130347826733105,
+        "predictionDate": "2026-11-03",
+        "targetTradeDate": "2026-11-03",
+        "predictedReturn": -0.005734058893544978,
         "direction": "down",
-        "confidence": 0.19685024785404634,
-        "featureTimestamp": "2026-10-30T10:30:00+08:00",
+        "confidence": 0.3196804995632819,
+        "featureTimestamp": "2026-11-03T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
-        "featureCoverage": 0,
+        "featureCoverage": 0.3701,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 80,
-        "dataQuality": "unavailable",
+        "sampleCount": 88,
+        "dataQuality": "partial",
         "contributions": [
           {
             "feature": "disclosed-holdings",
-            "value": 0,
-            "contribution": 0,
+            "value": -0.01246182112942448,
+            "contribution": -0.002997878,
             "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
           },
           {
             "feature": "nav-momentum",
-            "value": -0.00043284614412897326,
-            "contribution": -0.00008656922882579466,
+            "value": -0.0012145325508888805,
+            "contribution": -0.0002429065101777761,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.001093452642314818,
-            "contribution": -0.001093452642314818,
+            "value": -0.0018987884737504917,
+            "contribution": -0.0018987884737504917,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
         "warnings": [
           "披露持仓仅覆盖基金净值的 37.0%，不代表完整组合。",
-          "可报价持仓覆盖率低，预测已显著降权。",
           "QDII 净值与境外市场/汇率存在时差，上午行情覆盖有限。"
         ]
       },
@@ -4167,25 +3900,7 @@
         "date": "2026-11-03",
         "reason": "2026-11-03 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-017641:2026-10-30:cn-baseline-v1",
-        "predictionKey": "cn-017641:2026-10-30:cn-baseline-v1",
-        "fundId": "cn-017641",
-        "targetTradeDate": "2026-10-30",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-03T22:30:00+08:00",
-        "actualStartDate": "2026-10-29",
-        "actualEndDate": "2026-10-30",
-        "actualReturn": -0.017120668353238777,
-        "error": -0.015817190085907727,
-        "absoluteError": 0.015817190085907727,
-        "squaredError": 0.0002501835022137377,
-        "directionCorrect": true,
-        "confidence": 0.19685024785404634,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 11,
         "directionAccuracy": 0.18181818181818182,
@@ -4195,116 +3910,5 @@
       }
     }
   ],
-  "reports": [
-    {
-      "reportKey": "monthly:2026-10",
-      "period": "monthly",
-      "periodKey": "2026-10",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "status": "final",
-      "generatedAt": "2026-11-03T22:30:00+08:00",
-      "modelVersion": "cn-baseline-v1",
-      "metrics": {
-        "sampleCount": 88,
-        "directionAccuracy": 0.5,
-        "mae": 0.011907710430363318,
-        "rmse": 0.01679797452708389,
-        "meanError": -0.004414923420889693
-      },
-      "missingRate": 0,
-      "byFund": {
-        "cn-001595": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.36363636363636365,
-          "mae": 0.009576626789844977,
-          "rmse": 0.011797159700698149,
-          "meanError": 0.005832624643610251
-        },
-        "cn-002983": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.8181818181818182,
-          "mae": 0.022199546437550108,
-          "rmse": 0.02675241080765942,
-          "meanError": -0.02052968675785566
-        },
-        "cn-005051": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.36363636363636365,
-          "mae": 0.007494772395119729,
-          "rmse": 0.009663802976297648,
-          "meanError": 0.0018003572634794497
-        },
-        "cn-017641": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.18181818181818182,
-          "mae": 0.008352266002467308,
-          "rmse": 0.009401701137905855,
-          "meanError": 0.0013083202155891086
-        },
-        "cn-018736": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.5454545454545454,
-          "mae": 0.0013560002518521264,
-          "rmse": 0.0015120250649241183,
-          "meanError": -0.000578365282538731
-        },
-        "cn-018993": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.8181818181818182,
-          "mae": 0.02612868022960803,
-          "rmse": 0.029546514366831214,
-          "meanError": -0.023090731570489267
-        },
-        "cn-025852": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.5454545454545454,
-          "mae": 0.010664122213827131,
-          "rmse": 0.014444111792448262,
-          "meanError": -0.005837061403546751
-        },
-        "cn-161723": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.36363636363636365,
-          "mae": 0.009489669122637117,
-          "rmse": 0.011696792548586146,
-          "meanError": 0.005775155524634049
-        }
-      },
-      "byConfidence": {
-        "low": {
-          "sampleCount": 88,
-          "directionAccuracy": 0.5,
-          "mae": 0.011907710430363318,
-          "rmse": 0.01679797452708389,
-          "meanError": -0.004414923420889693
-        }
-      },
-      "byCoverage": {
-        "low": {
-          "sampleCount": 87,
-          "directionAccuracy": 0.5057471264367817,
-          "mae": 0.011952324223987874,
-          "rmse": 0.0168723094183041,
-          "meanError": -0.004557926108314025
-        },
-        "medium": {
-          "sampleCount": 1,
-          "directionAccuracy": 0,
-          "mae": 0.008026310385027104,
-          "rmse": 0.008026310385027104,
-          "meanError": 0.008026310385027104
-        }
-      },
-      "bestCase": "cn-002983:2026-10-21:cn-baseline-v1",
-      "worstCase": "cn-018993:2026-10-30:cn-baseline-v1",
-      "modelChange": {
-        "previousBias": -0.001093452642314818,
-        "newBias": -0.001093452642314818,
-        "previousScale": 1.1046221254112045,
-        "newScale": 1.1046221254112045,
-        "applied": false
-      }
-    }
-  ]
+  "reports": []
 }

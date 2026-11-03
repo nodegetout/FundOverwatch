@@ -1,106 +1,86 @@
 {
   "fundId": "cn-018993",
-  "collectedAt": "2026-11-03T22:30:00+08:00",
+  "collectedAt": "2026-11-03T10:30:00+08:00",
   "quotes": [
     {
       "assetKey": "stock:002463",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.0919,
+      "asOf": "2026-11-03T07:34:12.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:002916",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.1,
+      "asOf": "2026-11-03T07:35:03.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:002938",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.0866,
+      "asOf": "2026-11-03T07:34:51.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:300308",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.1269,
+      "asOf": "2026-11-03T07:34:21.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:300502",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.0946,
+      "asOf": "2026-11-03T07:34:18.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:300661",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.0567,
+      "asOf": "2026-11-03T07:34:57.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:301550",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.0501,
+      "asOf": "2026-11-03T07:35:03.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:603179",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.0089,
+      "asOf": "2026-11-03T08:11:35.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:688256",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.1081,
+      "asOf": "2026-11-03T08:11:59.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     },
     {
       "assetKey": "stock:688498",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "available",
+      "dayChange": -0.1078,
+      "asOf": "2026-11-03T08:11:33.000Z",
       "source": "eastmoney-push2-v1",
-      "warnings": [
-        "Eastmoney request failed after 3 attempts"
-      ]
+      "warnings": []
     }
   ]
 }

@@ -1,105 +1,105 @@
 {
   "fundId": "cn-017641",
-  "collectedAt": "2026-11-03T22:30:00+08:00",
+  "collectedAt": "2026-11-03T10:30:00+08:00",
   "quotes": [
     {
       "assetKey": "stock:AAPL",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0183,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:AMZN",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": 0.022,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:AVGO",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0118,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:GOOG",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0006,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:GOOGL",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.003,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:META",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0134,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:MSFT",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0283,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:MU",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0578,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:NVDA",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": -0.0126,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     },
     {
       "assetKey": "stock:TSLA",
-      "status": "unavailable",
-      "dayChange": null,
-      "asOf": null,
+      "status": "stale",
+      "dayChange": 0.01,
+      "asOf": "2026-11-02T21:00:00.000Z",
       "source": "eastmoney-push2-v1",
       "warnings": [
-        "Eastmoney request failed after 3 attempts"
+        "最新可用行情时间为 2026-11-02T21:00:00.000Z。"
       ]
     }
   ]
