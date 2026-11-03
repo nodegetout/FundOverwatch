@@ -129,6 +129,9 @@ export const fundSummarySchema = z.object({
 
 export const siteIndexSchema = z.object({
   generatedAt: timestamp,
+  businessDate: z.string().regex(isoDate).optional(),
+  scheduledAt: timestamp.optional(),
+  startedAt: timestamp.optional(),
   asOf: z.string().regex(isoDate),
   phase: z.enum(["morning", "evening", "weekly", "monthly", "yearly", "all"]),
   dataStatus: z.enum(["complete", "partial", "error"]),

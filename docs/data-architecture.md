@@ -14,7 +14,9 @@
 
 ## 时间与无前视约束
 
-上午 feature timestamp 固定为目标上海日期 `10:30+08:00`。持仓行情 `asOf` 晚于该时间的一律排除；NAV 动量只使用 `quote.date < predictionDate` 的已披露值。模型参数只接受预测产生后已对齐的 `evaluated` 样本，每个 evaluation key 最多训练一次。
+上午 feature timestamp 为真实采集完成时间，开始和完成采集均须在目标上海日期 `09:30–11:30+08:00` 内；错过窗口不创建预测。持仓行情 `asOf` 晚于特征截止时间的一律排除；NAV 动量只使用 `quote.date < predictionDate` 的已披露值。模型参数只接受预测产生后已对齐的 `evaluated` 样本，每个 evaluation key 最多训练一次。
+
+`businessDate` 是计划任务所属的上海日期，不随排队跨午夜改变；`scheduledAt` 是该阶段的计划时间，`startedAt`、采集 `collectedAt`、索引 `generatedAt` 和运行 `completedAt` 是真实时间。原始 workflow 创建时间用于定时业务日期解析，手动任务可明确指定日期。上午历史回填被拒绝；晚间可补评持久化预测。
 
 预测目标为“基金下一可对齐 NAV 的日涨跌幅/方向”。当前日目标 NAV 未披露时，晚间结果是 `pending` 而不是当日最终值；后续运行用目标交易日 NAV 和之前最近一个 NAV 计算实际收益。
 
@@ -47,7 +49,7 @@ public/data/
   series/<fund-id>.json
 ```
 
-历史、预测和评估按年分区；public 只保存页面需要的最近汇总和最多 260 个 NAV 点，不复制完整行情。数组按稳定 key 排序，同一 key 替换而不追加重复记录。`runs.json` 使用 `<date>:<phase>:cn-loop-v1`。
+历史、预测和评估按年分区；public 只保存页面需要的最近汇总和最多 260 个 NAV 点，不复制完整行情。数组按稳定 key 排序，同一 key 替换而不追加重复记录。`runs.json` 新运行使用 `<businessDate>:<phase>:cn-loop-v2`，保存计划、开始、完成时间；旧 v1 记录保留但不阻止 v2 执行。已完成的 v2 任务重跑无写入，即使已经错过上午窗口。
 
 ## 周期关闭
 
