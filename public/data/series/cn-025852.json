@@ -1216,5 +1216,17 @@
     "nav": 0.8082,
     "price": null,
     "benchmarkPrice": null
+  },
+  {
+    "date": "2026-11-03",
+    "nav": 0.8104,
+    "price": null,
+    "benchmarkPrice": null
+  },
+  {
+    "date": "2026-11-04",
+    "nav": 0.8228,
+    "price": null,
+    "benchmarkPrice": null
   }
 ]

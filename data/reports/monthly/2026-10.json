@@ -5,7 +5,7 @@
   "startDate": "2026-10-01",
   "endDate": "2026-10-31",
   "status": "final",
-  "generatedAt": "2026-11-03T22:30:00+08:00",
+  "generatedAt": "2026-11-05T22:30:00+08:00",
   "modelVersion": "cn-baseline-v1",
   "metrics": {
     "sampleCount": 88,
@@ -101,10 +101,10 @@
   "bestCase": "cn-002983:2026-10-21:cn-baseline-v1",
   "worstCase": "cn-018993:2026-10-30:cn-baseline-v1",
   "modelChange": {
-    "previousBias": -0.001093452642314818,
-    "newBias": -0.001093452642314818,
-    "previousScale": 1.1046221254112045,
-    "newScale": 1.1046221254112045,
+    "previousBias": -0.0018987884737504917,
+    "newBias": -0.0018987884737504917,
+    "previousScale": 1.1156683466653166,
+    "newScale": 1.1156683466653166,
     "applied": false
   }
 }

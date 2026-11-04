@@ -1,0 +1,126 @@
+{
+  "fundId": "cn-001595",
+  "collectedAt": "2026-11-05T22:30:00+08:00",
+  "quotes": [
+    {
+      "assetKey": "bond:019792",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "stock:000001",
+      "status": "stale",
+      "dayChange": -0.0025,
+      "asOf": "2026-11-04T07:34:45.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T07:34:45.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:002142",
+      "status": "stale",
+      "dayChange": -0.0053,
+      "asOf": "2026-11-04T07:34:51.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T07:34:51.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:600000",
+      "status": "stale",
+      "dayChange": 0,
+      "asOf": "2026-11-04T08:11:57.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T08:11:57.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:600036",
+      "status": "stale",
+      "dayChange": -0.0035,
+      "asOf": "2026-11-04T08:11:37.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T08:11:37.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:600919",
+      "status": "stale",
+      "dayChange": -0.004,
+      "asOf": "2026-11-04T08:11:50.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T08:11:50.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:601166",
+      "status": "stale",
+      "dayChange": -0.011,
+      "asOf": "2026-11-04T08:12:01.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T08:12:01.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:601229",
+      "status": "stale",
+      "dayChange": -0.0084,
+      "asOf": "2026-11-04T08:11:42.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T08:11:42.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:601288",
+      "status": "stale",
+      "dayChange": -0.0253,
+      "asOf": "2026-11-04T08:11:41.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T08:11:41.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:601328",
+      "status": "stale",
+      "dayChange": -0.0167,
+      "asOf": "2026-11-04T08:11:40.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T08:11:40.000Z。"
+      ]
+    },
+    {
+      "assetKey": "stock:601398",
+      "status": "stale",
+      "dayChange": -0.021,
+      "asOf": "2026-11-04T08:11:48.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "最新可用行情时间为 2026-11-04T08:11:48.000Z。"
+      ]
+    },
+    {
+      "assetKey": "target-etf:515290",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    }
+  ]
+}
