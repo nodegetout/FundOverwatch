@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-05T22:30:00+08:00",
+  "generatedAt": "2026-11-05T10:30:00+08:00",
   "asOf": "2026-11-04",
-  "phase": "evening",
+  "phase": "morning",
   "dataStatus": "partial",
   "dataMode": "real",
   "summaries": [
@@ -32,7 +32,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-04。"
@@ -328,7 +328,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -340,124 +340,104 @@
       },
       "holdingQuotes": {
         "fundId": "cn-025852",
-        "collectedAt": "2026-11-05T22:30:00+08:00",
+        "collectedAt": "2026-11-05T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:00005",
-            "status": "stale",
-            "dayChange": 0.0172,
-            "asOf": "2026-11-04T08:08:08.000Z",
+            "status": "available",
+            "dayChange": 0.0404,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:08.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00700",
-            "status": "stale",
-            "dayChange": 0.0111,
-            "asOf": "2026-11-04T08:08:08.000Z",
+            "status": "available",
+            "dayChange": 0.0717,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:08.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00939",
-            "status": "stale",
-            "dayChange": 0.0138,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0224,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00941",
-            "status": "stale",
-            "dayChange": -0.0012,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0099,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00992",
-            "status": "stale",
-            "dayChange": 0.06,
-            "asOf": "2026-11-04T08:08:08.000Z",
+            "status": "available",
+            "dayChange": -0.0686,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:08.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:01070",
-            "status": "stale",
-            "dayChange": 0.0219,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0501,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:01398",
-            "status": "stale",
-            "dayChange": 0.0103,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0147,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:02315",
-            "status": "stale",
-            "dayChange": 0.1694,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0209,
+            "asOf": "2026-11-05T08:08:16.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:02888",
-            "status": "stale",
-            "dayChange": 0.0281,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0383,
+            "asOf": "2026-11-05T08:08:16.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:09988",
-            "status": "stale",
-            "dayChange": 0.0105,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0845,
+            "asOf": "2026-11-05T08:08:16.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-025852:2026-11-03:cn-baseline-v1",
+        "predictionKey": "cn-025852:2026-11-05:cn-baseline-v1",
         "fundId": "cn-025852",
-        "predictionDate": "2026-11-03",
-        "targetTradeDate": "2026-11-03",
-        "predictedReturn": -0.002389395463797883,
+        "predictionDate": "2026-11-05",
+        "targetTradeDate": "2026-11-05",
+        "predictedReturn": -0.0022174970060415363,
         "direction": "down",
-        "confidence": 0.18843268443602673,
-        "featureTimestamp": "2026-11-03T10:30:00+08:00",
+        "confidence": 0.18466906963655777,
+        "featureTimestamp": "2026-11-05T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 88,
+        "sampleCount": 96,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -468,14 +448,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": -0.0012144167549050344,
-            "contribution": -0.0002428833509810069,
+            "value": 0.00300372605515995,
+            "contribution": 0.00060074521103199,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.0018987884737504917,
-            "contribution": -0.0018987884737504917,
+            "value": -0.0025686612110713495,
+            "contribution": -0.0025686612110713495,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -490,25 +470,7 @@
         "date": "2026-11-05",
         "reason": "2026-11-05 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-025852:2026-11-03:cn-baseline-v1",
-        "predictionKey": "cn-025852:2026-11-03:cn-baseline-v1",
-        "fundId": "cn-025852",
-        "targetTradeDate": "2026-11-03",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-05T22:30:00+08:00",
-        "actualStartDate": "2026-11-02",
-        "actualEndDate": "2026-11-03",
-        "actualReturn": 0.0027220984904725576,
-        "error": 0.00511149395427044,
-        "absoluteError": 0.00511149395427044,
-        "squaredError": 0.00002612737044454326,
-        "directionCorrect": false,
-        "confidence": 0.18843268443602673,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 12,
         "directionAccuracy": 0.5,
@@ -544,7 +506,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-04。",
@@ -803,7 +765,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -815,124 +777,104 @@
       },
       "holdingQuotes": {
         "fundId": "cn-002983",
-        "collectedAt": "2026-11-05T22:30:00+08:00",
+        "collectedAt": "2026-11-05T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:000738",
-            "status": "stale",
-            "dayChange": 0.0328,
-            "asOf": "2026-11-04T07:34:36.000Z",
+            "status": "available",
+            "dayChange": 0.0082,
+            "asOf": "2026-11-05T07:34:09.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:36.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:000801",
-            "status": "stale",
-            "dayChange": 0.0237,
-            "asOf": "2026-11-04T07:34:54.000Z",
+            "status": "available",
+            "dayChange": 0.0067,
+            "asOf": "2026-11-05T07:34:36.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:54.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002025",
-            "status": "stale",
-            "dayChange": 0.0628,
-            "asOf": "2026-11-04T07:34:00.000Z",
+            "status": "available",
+            "dayChange": 0.0172,
+            "asOf": "2026-11-05T07:34:45.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:00.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300855",
-            "status": "stale",
-            "dayChange": 0.0643,
-            "asOf": "2026-11-04T07:34:42.000Z",
+            "status": "available",
+            "dayChange": -0.0139,
+            "asOf": "2026-11-05T07:34:48.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:42.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:301571",
-            "status": "stale",
-            "dayChange": 0.0539,
-            "asOf": "2026-11-04T07:34:45.000Z",
+            "status": "available",
+            "dayChange": -0.0312,
+            "asOf": "2026-11-05T07:34:33.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:45.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:603268",
-            "status": "stale",
-            "dayChange": 0.077,
-            "asOf": "2026-11-04T08:12:00.000Z",
+            "status": "available",
+            "dayChange": -0.0784,
+            "asOf": "2026-11-05T08:11:50.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:12:00.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:605123",
-            "status": "stale",
-            "dayChange": 0.0454,
-            "asOf": "2026-11-04T08:11:37.000Z",
+            "status": "available",
+            "dayChange": 0.0202,
+            "asOf": "2026-11-05T08:12:01.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:37.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688002",
-            "status": "stale",
-            "dayChange": 0.0469,
-            "asOf": "2026-11-04T08:11:41.000Z",
+            "status": "available",
+            "dayChange": -0.1542,
+            "asOf": "2026-11-05T08:12:01.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:41.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688231",
-            "status": "stale",
-            "dayChange": 0.0691,
-            "asOf": "2026-11-04T08:11:48.000Z",
+            "status": "available",
+            "dayChange": 0.0262,
+            "asOf": "2026-11-05T08:11:46.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:48.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688239",
-            "status": "stale",
-            "dayChange": 0.0981,
-            "asOf": "2026-11-04T08:11:51.000Z",
+            "status": "available",
+            "dayChange": 0.0189,
+            "asOf": "2026-11-05T08:11:49.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:51.000Z。"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-002983:2026-11-03:cn-baseline-v1",
+        "predictionKey": "cn-002983:2026-11-05:cn-baseline-v1",
         "fundId": "cn-002983",
-        "predictionDate": "2026-11-03",
-        "targetTradeDate": "2026-11-03",
-        "predictedReturn": -0.0037868265490429236,
+        "predictionDate": "2026-11-05",
+        "targetTradeDate": "2026-11-05",
+        "predictedReturn": -0.002268493485794661,
         "direction": "down",
-        "confidence": 0.16748052204508931,
-        "featureTimestamp": "2026-11-03T10:30:00+08:00",
+        "confidence": 0.1600885499315779,
+        "featureTimestamp": "2026-11-05T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 88,
+        "sampleCount": 96,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -943,14 +885,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": -0.007477169881413915,
-            "contribution": -0.001495433976282783,
+            "value": 0.0027774421229191494,
+            "contribution": 0.0005554884245838299,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.0018987884737504917,
-            "contribution": -0.0018987884737504917,
+            "value": -0.0025686612110713495,
+            "contribution": -0.0025686612110713495,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -964,25 +906,7 @@
         "date": "2026-11-05",
         "reason": "2026-11-05 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-002983:2026-11-03:cn-baseline-v1",
-        "predictionKey": "cn-002983:2026-11-03:cn-baseline-v1",
-        "fundId": "cn-002983",
-        "targetTradeDate": "2026-11-03",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-05T22:30:00+08:00",
-        "actualStartDate": "2026-11-02",
-        "actualEndDate": "2026-11-03",
-        "actualReturn": -0.022063769675770173,
-        "error": -0.01827694312672725,
-        "absoluteError": 0.01827694312672725,
-        "squaredError": 0.0003340466500576225,
-        "directionCorrect": true,
-        "confidence": 0.16748052204508931,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 12,
         "directionAccuracy": 0.8333333333333334,
@@ -1018,7 +942,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-04。"
@@ -1332,7 +1256,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -1344,124 +1268,104 @@
       },
       "holdingQuotes": {
         "fundId": "cn-005051",
-        "collectedAt": "2026-11-05T22:30:00+08:00",
+        "collectedAt": "2026-11-05T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:00144",
-            "status": "stale",
-            "dayChange": 0.0383,
-            "asOf": "2026-11-04T08:08:08.000Z",
+            "status": "available",
+            "dayChange": -0.0105,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:08.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00293",
-            "status": "stale",
-            "dayChange": 0.0223,
-            "asOf": "2026-11-04T08:08:08.000Z",
+            "status": "available",
+            "dayChange": 0.0259,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:08.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00384",
-            "status": "stale",
-            "dayChange": -0.0029,
-            "asOf": "2026-11-04T08:08:08.000Z",
+            "status": "available",
+            "dayChange": -0.0174,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:08.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00728",
-            "status": "stale",
-            "dayChange": -0.0088,
-            "asOf": "2026-11-04T08:08:08.000Z",
+            "status": "available",
+            "dayChange": 0.0156,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:08.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00836",
-            "status": "stale",
+            "status": "available",
             "dayChange": 0.001,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00902",
-            "status": "stale",
-            "dayChange": -0.0131,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00941",
-            "status": "stale",
-            "dayChange": -0.0012,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0099,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:01997",
-            "status": "stale",
-            "dayChange": 0.0103,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": 0.0401,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:02688",
-            "status": "stale",
-            "dayChange": -0.0065,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": -0.0016,
+            "asOf": "2026-11-05T08:08:16.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:03360",
-            "status": "stale",
-            "dayChange": -0.0009,
-            "asOf": "2026-11-04T08:08:09.000Z",
+            "status": "available",
+            "dayChange": -0.0043,
+            "asOf": "2026-11-05T08:08:16.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:09.000Z。"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-005051:2026-11-03:cn-baseline-v1",
+        "predictionKey": "cn-005051:2026-11-05:cn-baseline-v1",
         "fundId": "cn-005051",
-        "predictionDate": "2026-11-03",
-        "targetTradeDate": "2026-11-03",
-        "predictedReturn": -0.0014075901731253212,
+        "predictionDate": "2026-11-05",
+        "targetTradeDate": "2026-11-05",
+        "predictedReturn": -0.0011950284811674246,
         "direction": "down",
-        "confidence": 0.193752561484281,
-        "featureTimestamp": "2026-11-03T10:30:00+08:00",
+        "confidence": 0.19005152279438375,
+        "featureTimestamp": "2026-11-05T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 88,
+        "sampleCount": 96,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -1472,14 +1376,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": 0.0031856600851663643,
-            "contribution": 0.0006371320170332729,
+            "value": 0.007540670556447626,
+            "contribution": 0.0015081341112895253,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.0018987884737504917,
-            "contribution": -0.0018987884737504917,
+            "value": -0.0025686612110713495,
+            "contribution": -0.0025686612110713495,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -1493,25 +1397,7 @@
         "date": "2026-11-05",
         "reason": "2026-11-05 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-005051:2026-11-03:cn-baseline-v1",
-        "predictionKey": "cn-005051:2026-11-03:cn-baseline-v1",
-        "fundId": "cn-005051",
-        "targetTradeDate": "2026-11-03",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-05T22:30:00+08:00",
-        "actualStartDate": "2026-11-02",
-        "actualEndDate": "2026-11-03",
-        "actualReturn": 0.011727849626476106,
-        "error": 0.013135439799601427,
-        "absoluteError": 0.013135439799601427,
-        "squaredError": 0.00017253977872895318,
-        "directionCorrect": false,
-        "confidence": 0.193752561484281,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 12,
         "directionAccuracy": 0.3333333333333333,
@@ -1547,7 +1433,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-04。"
@@ -2100,7 +1986,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -2112,7 +1998,7 @@
       },
       "holdingQuotes": {
         "fundId": "cn-018736",
-        "collectedAt": "2026-11-05T22:30:00+08:00",
+        "collectedAt": "2026-11-05T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "bond:212680034",
@@ -2266,120 +2152,100 @@
           },
           {
             "assetKey": "stock:002384",
-            "status": "stale",
-            "dayChange": 0.0704,
-            "asOf": "2026-11-04T07:34:00.000Z",
+            "status": "available",
+            "dayChange": -0.0554,
+            "asOf": "2026-11-05T07:34:42.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:00.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002436",
-            "status": "stale",
-            "dayChange": 0.0998,
-            "asOf": "2026-11-04T07:34:33.000Z",
+            "status": "available",
+            "dayChange": -0.0089,
+            "asOf": "2026-11-05T07:34:45.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:33.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002916",
-            "status": "stale",
-            "dayChange": 0.1,
-            "asOf": "2026-11-04T07:34:15.000Z",
+            "status": "available",
+            "dayChange": -0.0426,
+            "asOf": "2026-11-05T07:34:39.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:15.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:00981",
-            "status": "stale",
-            "dayChange": 0.0896,
-            "asOf": "2026-11-04T08:08:08.000Z",
+            "status": "available",
+            "dayChange": 0.0228,
+            "asOf": "2026-11-05T08:08:15.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:08:08.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300308",
-            "status": "stale",
-            "dayChange": 0.1107,
-            "asOf": "2026-11-04T07:34:03.000Z",
+            "status": "available",
+            "dayChange": -0.0751,
+            "asOf": "2026-11-05T07:34:09.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:03.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300502",
-            "status": "stale",
-            "dayChange": 0.1335,
-            "asOf": "2026-11-04T07:34:21.000Z",
+            "status": "available",
+            "dayChange": -0.0554,
+            "asOf": "2026-11-05T07:34:30.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:21.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601138",
-            "status": "stale",
-            "dayChange": 0.0787,
-            "asOf": "2026-11-04T08:11:56.000Z",
+            "status": "available",
+            "dayChange": -0.0212,
+            "asOf": "2026-11-05T08:11:51.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:56.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601899",
-            "status": "stale",
-            "dayChange": 0.0656,
-            "asOf": "2026-11-04T08:11:55.000Z",
+            "status": "available",
+            "dayChange": 0.0079,
+            "asOf": "2026-11-05T08:11:45.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:55.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688256",
-            "status": "stale",
-            "dayChange": 0.1038,
-            "asOf": "2026-11-04T08:11:56.000Z",
+            "status": "available",
+            "dayChange": -0.0031,
+            "asOf": "2026-11-05T08:11:49.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:56.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688825",
-            "status": "stale",
-            "dayChange": 0.1363,
-            "asOf": "2026-11-04T08:11:54.000Z",
+            "status": "available",
+            "dayChange": -0.0354,
+            "asOf": "2026-11-05T08:11:47.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:54.000Z。"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-018736:2026-11-03:cn-baseline-v1",
+        "predictionKey": "cn-018736:2026-11-05:cn-baseline-v1",
         "fundId": "cn-018736",
-        "predictionDate": "2026-11-03",
-        "targetTradeDate": "2026-11-03",
-        "predictedReturn": -0.0023977996376786585,
+        "predictionDate": "2026-11-05",
+        "targetTradeDate": "2026-11-05",
+        "predictedReturn": -0.003056479241895327,
         "direction": "down",
-        "confidence": 0.2054161079799891,
-        "featureTimestamp": "2026-11-03T10:30:00+08:00",
+        "confidence": 0.2049331005243727,
+        "featureTimestamp": "2026-11-05T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 88,
+        "sampleCount": 96,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -2390,14 +2256,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": -0.0012520810567824502,
-            "contribution": -0.00025041621135649003,
+            "value": -0.0007190446209384138,
+            "contribution": -0.00014380892418768278,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.0018987884737504917,
-            "contribution": -0.0018987884737504917,
+            "value": -0.0025686612110713495,
+            "contribution": -0.0025686612110713495,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -2412,25 +2278,7 @@
         "date": "2026-11-05",
         "reason": "2026-11-05 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-018736:2026-11-03:cn-baseline-v1",
-        "predictionKey": "cn-018736:2026-11-03:cn-baseline-v1",
-        "fundId": "cn-018736",
-        "targetTradeDate": "2026-11-03",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-05T22:30:00+08:00",
-        "actualStartDate": "2026-11-02",
-        "actualEndDate": "2026-11-03",
-        "actualReturn": -0.0006204573657154766,
-        "error": 0.001777342271963182,
-        "absoluteError": 0.001777342271963182,
-        "squaredError": 0.000003158945551707245,
-        "directionCorrect": true,
-        "confidence": 0.2054161079799891,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 12,
         "directionAccuracy": 0.5833333333333334,
@@ -2466,7 +2314,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-04。"
@@ -2673,7 +2521,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -2685,7 +2533,7 @@
       },
       "holdingQuotes": {
         "fundId": "cn-001595",
-        "collectedAt": "2026-11-05T22:30:00+08:00",
+        "collectedAt": "2026-11-05T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "bond:019792",
@@ -2699,103 +2547,83 @@
           },
           {
             "assetKey": "stock:000001",
-            "status": "stale",
-            "dayChange": -0.0025,
-            "asOf": "2026-11-04T07:34:45.000Z",
+            "status": "available",
+            "dayChange": -0.0085,
+            "asOf": "2026-11-05T07:34:03.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:45.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002142",
-            "status": "stale",
-            "dayChange": -0.0053,
-            "asOf": "2026-11-04T07:34:51.000Z",
+            "status": "available",
+            "dayChange": 0.0158,
+            "asOf": "2026-11-05T07:34:51.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:51.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600000",
-            "status": "stale",
-            "dayChange": 0,
-            "asOf": "2026-11-04T08:11:57.000Z",
+            "status": "available",
+            "dayChange": -0.0218,
+            "asOf": "2026-11-05T08:11:50.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:57.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600036",
-            "status": "stale",
-            "dayChange": -0.0035,
-            "asOf": "2026-11-04T08:11:37.000Z",
+            "status": "available",
+            "dayChange": 0,
+            "asOf": "2026-11-05T08:12:01.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:37.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600919",
-            "status": "stale",
-            "dayChange": -0.004,
-            "asOf": "2026-11-04T08:11:50.000Z",
+            "status": "available",
+            "dayChange": -0.0032,
+            "asOf": "2026-11-05T08:11:43.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:50.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601166",
-            "status": "stale",
-            "dayChange": -0.011,
-            "asOf": "2026-11-04T08:12:01.000Z",
+            "status": "available",
+            "dayChange": -0.0061,
+            "asOf": "2026-11-05T08:11:54.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:12:01.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601229",
-            "status": "stale",
-            "dayChange": -0.0084,
-            "asOf": "2026-11-04T08:11:42.000Z",
+            "status": "available",
+            "dayChange": -0.0109,
+            "asOf": "2026-11-05T08:11:32.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:42.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601288",
-            "status": "stale",
-            "dayChange": -0.0253,
-            "asOf": "2026-11-04T08:11:41.000Z",
+            "status": "available",
+            "dayChange": -0.0082,
+            "asOf": "2026-11-05T08:11:34.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:41.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601328",
-            "status": "stale",
-            "dayChange": -0.0167,
-            "asOf": "2026-11-04T08:11:40.000Z",
+            "status": "available",
+            "dayChange": -0.0061,
+            "asOf": "2026-11-05T08:11:33.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:40.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601398",
-            "status": "stale",
-            "dayChange": -0.021,
-            "asOf": "2026-11-04T08:11:48.000Z",
+            "status": "available",
+            "dayChange": -0.0071,
+            "asOf": "2026-11-05T08:11:41.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:48.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "target-etf:515290",
@@ -2810,19 +2638,19 @@
         ]
       },
       "prediction": {
-        "predictionKey": "cn-001595:2026-11-03:cn-baseline-v1",
+        "predictionKey": "cn-001595:2026-11-05:cn-baseline-v1",
         "fundId": "cn-001595",
-        "predictionDate": "2026-11-03",
-        "targetTradeDate": "2026-11-03",
-        "predictedReturn": -0.0011060754707684051,
+        "predictionDate": "2026-11-05",
+        "targetTradeDate": "2026-11-05",
+        "predictedReturn": -0.0027103079128478424,
         "direction": "down",
-        "confidence": 0.19007938312605915,
-        "featureTimestamp": "2026-11-03T10:30:00+08:00",
+        "confidence": 0.19036507801274508,
+        "featureTimestamp": "2026-11-05T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 88,
+        "sampleCount": 96,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -2833,14 +2661,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": 0.004536933979680491,
-            "contribution": 0.0009073867959360983,
+            "value": 0.000817002767922581,
+            "contribution": 0.00016340055358451621,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.0018987884737504917,
-            "contribution": -0.0018987884737504917,
+            "value": -0.0025686612110713495,
+            "contribution": -0.0025686612110713495,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -2854,25 +2682,7 @@
         "date": "2026-11-05",
         "reason": "2026-11-05 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-001595:2026-11-03:cn-baseline-v1",
-        "predictionKey": "cn-001595:2026-11-03:cn-baseline-v1",
-        "fundId": "cn-001595",
-        "targetTradeDate": "2026-11-03",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-05T22:30:00+08:00",
-        "actualStartDate": "2026-11-02",
-        "actualEndDate": "2026-11-03",
-        "actualReturn": -0.0037641819531333276,
-        "error": -0.0026581064823649227,
-        "absoluteError": 0.0026581064823649227,
-        "squaredError": 0.000007065530071590423,
-        "directionCorrect": true,
-        "confidence": 0.19007938312605915,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 12,
         "directionAccuracy": 0.4166666666666667,
@@ -2908,7 +2718,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-04。"
@@ -3128,7 +2938,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -3140,7 +2950,7 @@
       },
       "holdingQuotes": {
         "fundId": "cn-161723",
-        "collectedAt": "2026-11-05T22:30:00+08:00",
+        "collectedAt": "2026-11-05T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "bond:019792",
@@ -3174,120 +2984,100 @@
           },
           {
             "assetKey": "stock:000001",
-            "status": "stale",
-            "dayChange": -0.0025,
-            "asOf": "2026-11-04T07:34:45.000Z",
+            "status": "available",
+            "dayChange": -0.0085,
+            "asOf": "2026-11-05T07:34:03.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:45.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002142",
-            "status": "stale",
-            "dayChange": -0.0053,
-            "asOf": "2026-11-04T07:34:51.000Z",
+            "status": "available",
+            "dayChange": 0.0158,
+            "asOf": "2026-11-05T07:34:51.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:51.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600000",
-            "status": "stale",
-            "dayChange": 0,
-            "asOf": "2026-11-04T08:11:57.000Z",
+            "status": "available",
+            "dayChange": -0.0218,
+            "asOf": "2026-11-05T08:11:50.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:57.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600036",
-            "status": "stale",
-            "dayChange": -0.0035,
-            "asOf": "2026-11-04T08:11:37.000Z",
+            "status": "available",
+            "dayChange": 0,
+            "asOf": "2026-11-05T08:12:01.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:37.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:600919",
-            "status": "stale",
-            "dayChange": -0.004,
-            "asOf": "2026-11-04T08:11:50.000Z",
+            "status": "available",
+            "dayChange": -0.0032,
+            "asOf": "2026-11-05T08:11:43.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:50.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601166",
-            "status": "stale",
-            "dayChange": -0.011,
-            "asOf": "2026-11-04T08:12:01.000Z",
+            "status": "available",
+            "dayChange": -0.0061,
+            "asOf": "2026-11-05T08:11:54.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:12:01.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601229",
-            "status": "stale",
-            "dayChange": -0.0084,
-            "asOf": "2026-11-04T08:11:42.000Z",
+            "status": "available",
+            "dayChange": -0.0109,
+            "asOf": "2026-11-05T08:11:32.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:42.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601288",
-            "status": "stale",
-            "dayChange": -0.0253,
-            "asOf": "2026-11-04T08:11:41.000Z",
+            "status": "available",
+            "dayChange": -0.0082,
+            "asOf": "2026-11-05T08:11:34.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:41.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601328",
-            "status": "stale",
-            "dayChange": -0.0167,
-            "asOf": "2026-11-04T08:11:40.000Z",
+            "status": "available",
+            "dayChange": -0.0061,
+            "asOf": "2026-11-05T08:11:33.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:40.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:601398",
-            "status": "stale",
-            "dayChange": -0.021,
-            "asOf": "2026-11-04T08:11:48.000Z",
+            "status": "available",
+            "dayChange": -0.0071,
+            "asOf": "2026-11-05T08:11:41.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:48.000Z。"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-161723:2026-11-03:cn-baseline-v1",
+        "predictionKey": "cn-161723:2026-11-05:cn-baseline-v1",
         "fundId": "cn-161723",
-        "predictionDate": "2026-11-03",
-        "targetTradeDate": "2026-11-03",
-        "predictedReturn": -0.0011255616460744754,
+        "predictionDate": "2026-11-05",
+        "targetTradeDate": "2026-11-05",
+        "predictedReturn": -0.002707140155650398,
         "direction": "down",
-        "confidence": 0.19026784301278463,
-        "featureTimestamp": "2026-11-03T10:30:00+08:00",
+        "confidence": 0.1905689774720897,
+        "featureTimestamp": "2026-11-05T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 88,
+        "sampleCount": 96,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -3298,14 +3088,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": 0.004449604374227789,
-            "contribution": 0.0008899208748455577,
+            "value": 0.0008310588862760815,
+            "contribution": 0.0001662117772552163,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.0018987884737504917,
-            "contribution": -0.0018987884737504917,
+            "value": -0.0025686612110713495,
+            "contribution": -0.0025686612110713495,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -3319,25 +3109,7 @@
         "date": "2026-11-05",
         "reason": "2026-11-05 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-161723:2026-11-03:cn-baseline-v1",
-        "predictionKey": "cn-161723:2026-11-03:cn-baseline-v1",
-        "fundId": "cn-161723",
-        "targetTradeDate": "2026-11-03",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-05T22:30:00+08:00",
-        "actualStartDate": "2026-11-02",
-        "actualEndDate": "2026-11-03",
-        "actualReturn": -0.0036237852083675914,
-        "error": -0.002498223562293116,
-        "absoluteError": 0.002498223562293116,
-        "squaredError": 0.000006241120967196507,
-        "directionCorrect": true,
-        "confidence": 0.19026784301278463,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 12,
         "directionAccuracy": 0.4166666666666667,
@@ -3373,7 +3145,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-04。"
@@ -3614,7 +3386,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -3626,124 +3398,104 @@
       },
       "holdingQuotes": {
         "fundId": "cn-018993",
-        "collectedAt": "2026-11-05T22:30:00+08:00",
+        "collectedAt": "2026-11-05T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:002463",
-            "status": "stale",
-            "dayChange": 0.0999,
-            "asOf": "2026-11-04T07:34:57.000Z",
+            "status": "available",
+            "dayChange": -0.0576,
+            "asOf": "2026-11-05T07:34:39.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:57.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002916",
-            "status": "stale",
-            "dayChange": 0.1,
-            "asOf": "2026-11-04T07:34:15.000Z",
+            "status": "available",
+            "dayChange": -0.0426,
+            "asOf": "2026-11-05T07:34:39.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:15.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:002938",
-            "status": "stale",
-            "dayChange": 0.0632,
-            "asOf": "2026-11-04T07:34:27.000Z",
+            "status": "available",
+            "dayChange": -0.0356,
+            "asOf": "2026-11-05T07:34:33.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:27.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300308",
-            "status": "stale",
-            "dayChange": 0.1107,
-            "asOf": "2026-11-04T07:34:03.000Z",
+            "status": "available",
+            "dayChange": -0.0751,
+            "asOf": "2026-11-05T07:34:09.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:03.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300502",
-            "status": "stale",
-            "dayChange": 0.1335,
-            "asOf": "2026-11-04T07:34:21.000Z",
+            "status": "available",
+            "dayChange": -0.0554,
+            "asOf": "2026-11-05T07:34:30.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:21.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:300661",
-            "status": "stale",
-            "dayChange": 0.1348,
-            "asOf": "2026-11-04T07:34:06.000Z",
+            "status": "available",
+            "dayChange": 0.0011,
+            "asOf": "2026-11-05T07:34:27.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:06.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:301550",
-            "status": "stale",
-            "dayChange": 0.0716,
-            "asOf": "2026-11-04T07:34:48.000Z",
+            "status": "available",
+            "dayChange": 0.0087,
+            "asOf": "2026-11-05T07:34:48.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T07:34:48.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:603179",
-            "status": "stale",
-            "dayChange": 0.0433,
-            "asOf": "2026-11-04T08:11:58.000Z",
+            "status": "available",
+            "dayChange": 0.0256,
+            "asOf": "2026-11-05T08:11:52.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:58.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688256",
-            "status": "stale",
-            "dayChange": 0.1038,
-            "asOf": "2026-11-04T08:11:56.000Z",
+            "status": "available",
+            "dayChange": -0.0031,
+            "asOf": "2026-11-05T08:11:49.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:56.000Z。"
-            ]
+            "warnings": []
           },
           {
             "assetKey": "stock:688498",
-            "status": "stale",
-            "dayChange": 0.0927,
-            "asOf": "2026-11-04T08:11:58.000Z",
+            "status": "available",
+            "dayChange": -0.0106,
+            "asOf": "2026-11-05T08:11:56.000Z",
             "source": "eastmoney-push2-v1",
-            "warnings": [
-              "最新可用行情时间为 2026-11-04T08:11:58.000Z。"
-            ]
+            "warnings": []
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-018993:2026-11-03:cn-baseline-v1",
+        "predictionKey": "cn-018993:2026-11-05:cn-baseline-v1",
         "fundId": "cn-018993",
-        "predictionDate": "2026-11-03",
-        "targetTradeDate": "2026-11-03",
-        "predictedReturn": -0.005343856685187229,
+        "predictionDate": "2026-11-05",
+        "targetTradeDate": "2026-11-05",
+        "predictedReturn": -0.007329311360631876,
         "direction": "down",
-        "confidence": 0.1596417345233853,
-        "featureTimestamp": "2026-11-03T10:30:00+08:00",
+        "confidence": 0.1448913338994711,
+        "featureTimestamp": "2026-11-05T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 88,
+        "sampleCount": 96,
         "dataQuality": "unavailable",
         "contributions": [
           {
@@ -3754,14 +3506,14 @@
           },
           {
             "feature": "nav-momentum",
-            "value": -0.014455185080994503,
-            "contribution": -0.0028910370161989007,
+            "value": -0.01967865238824249,
+            "contribution": -0.003935730477648498,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.0018987884737504917,
-            "contribution": -0.0018987884737504917,
+            "value": -0.0025686612110713495,
+            "contribution": -0.0025686612110713495,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -3775,25 +3527,7 @@
         "date": "2026-11-05",
         "reason": "2026-11-05 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-018993:2026-11-03:cn-baseline-v1",
-        "predictionKey": "cn-018993:2026-11-03:cn-baseline-v1",
-        "fundId": "cn-018993",
-        "targetTradeDate": "2026-11-03",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-05T22:30:00+08:00",
-        "actualStartDate": "2026-11-02",
-        "actualEndDate": "2026-11-03",
-        "actualReturn": -0.06474766908391294,
-        "error": -0.05940381239872571,
-        "absoluteError": 0.05940381239872571,
-        "squaredError": 0.0035288129275029985,
-        "directionCorrect": true,
-        "confidence": 0.1596417345233853,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 12,
         "directionAccuracy": 0.8333333333333334,
@@ -3829,7 +3563,7 @@
           "source": "eastmoney-fund-v2",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "日终单位净值，不是盘中估值或交易价格。",
             "最近已公布净值日期为 2026-11-03。"
@@ -4005,7 +3739,7 @@
           "source": "eastmoney-position-v1",
           "dataMode": "real",
           "isSimulated": false,
-          "collectedAt": "2026-11-05T22:30:00+08:00",
+          "collectedAt": "2026-11-05T10:30:00+08:00",
           "warnings": [
             "定期报告持仓，非实时仓位；权重为占基金净值比例。",
             "地域未由源数据可靠披露，因此不做推断。"
@@ -4017,142 +3751,142 @@
       },
       "holdingQuotes": {
         "fundId": "cn-017641",
-        "collectedAt": "2026-11-05T22:30:00+08:00",
+        "collectedAt": "2026-11-05T10:30:00+08:00",
         "quotes": [
           {
             "assetKey": "stock:AAPL",
             "status": "stale",
-            "dayChange": 0.0546,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": 0.0531,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:AMZN",
             "status": "stale",
-            "dayChange": 0.0649,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": 0.0612,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:AVGO",
             "status": "stale",
-            "dayChange": -0.0222,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": -0.02,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:GOOG",
             "status": "stale",
-            "dayChange": 0.0354,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": 0.0325,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:GOOGL",
             "status": "stale",
-            "dayChange": 0.0346,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": 0.0318,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:META",
             "status": "stale",
-            "dayChange": 0.0118,
-            "asOf": "2026-11-04T20:54:02.000Z",
+            "dayChange": 0.0144,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:02.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:MSFT",
             "status": "stale",
-            "dayChange": 0.0644,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": 0.0668,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:MU",
             "status": "stale",
-            "dayChange": -0.0672,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": -0.07,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:NVDA",
             "status": "stale",
-            "dayChange": -0.0291,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": -0.0317,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           },
           {
             "assetKey": "stock:TSLA",
             "status": "stale",
-            "dayChange": -0.0323,
-            "asOf": "2026-11-04T20:54:01.000Z",
+            "dayChange": -0.0334,
+            "asOf": "2026-11-04T21:00:00.000Z",
             "source": "eastmoney-push2-v1",
             "warnings": [
-              "最新可用行情时间为 2026-11-04T20:54:01.000Z。"
+              "最新可用行情时间为 2026-11-04T21:00:00.000Z。"
             ]
           }
         ]
       },
       "prediction": {
-        "predictionKey": "cn-017641:2026-11-03:cn-baseline-v1",
+        "predictionKey": "cn-017641:2026-11-05:cn-baseline-v1",
         "fundId": "cn-017641",
-        "predictionDate": "2026-11-03",
-        "targetTradeDate": "2026-11-03",
-        "predictedReturn": -0.005734058893544978,
-        "direction": "down",
-        "confidence": 0.3196804995632819,
-        "featureTimestamp": "2026-11-03T10:30:00+08:00",
+        "predictionDate": "2026-11-05",
+        "targetTradeDate": "2026-11-05",
+        "predictedReturn": 0.0011910976678125803,
+        "direction": "up",
+        "confidence": 0.3177522782752363,
+        "featureTimestamp": "2026-11-05T10:30:00+08:00",
         "holdingsReportDate": "2026-09-30",
         "featureCoverage": 0.3701,
         "modelVersion": "cn-baseline-v1",
         "modelStatus": "calibrated",
-        "sampleCount": 88,
+        "sampleCount": 96,
         "dataQuality": "partial",
         "contributions": [
           {
             "feature": "disclosed-holdings",
-            "value": -0.01246182112942448,
-            "contribution": -0.002997878,
+            "value": 0.018309348824641986,
+            "contribution": 0.0044045885,
             "note": "已披露持仓权重内归一，并按可报价覆盖率折扣"
           },
           {
             "feature": "nav-momentum",
-            "value": -0.0012145325508888805,
-            "contribution": -0.0002429065101777761,
+            "value": -0.003894442932066222,
+            "contribution": -0.0007788885864132445,
             "note": "仅使用预测日前已经披露的最近净值"
           },
           {
             "feature": "online-bias",
-            "value": -0.0018987884737504917,
-            "contribution": -0.0018987884737504917,
+            "value": -0.0025686612110713495,
+            "contribution": -0.0025686612110713495,
             "note": "仅由历史已评估预测更新，参数有界"
           }
         ],
@@ -4166,25 +3900,7 @@
         "date": "2026-11-05",
         "reason": "2026-11-05 上午预测已生成。"
       },
-      "evaluation": {
-        "evaluationKey": "cn-017641:2026-11-03:cn-baseline-v1",
-        "predictionKey": "cn-017641:2026-11-03:cn-baseline-v1",
-        "fundId": "cn-017641",
-        "targetTradeDate": "2026-11-03",
-        "status": "evaluated",
-        "evaluatedAt": "2026-11-05T22:30:00+08:00",
-        "actualStartDate": "2026-11-02",
-        "actualEndDate": "2026-11-03",
-        "actualReturn": 0.003488931665062367,
-        "error": 0.009222990558607345,
-        "absoluteError": 0.009222990558607345,
-        "squaredError": 0.00008506355484416022,
-        "directionCorrect": false,
-        "confidence": 0.3196804995632819,
-        "confidenceBin": "low",
-        "trainingApplied": true,
-        "reason": null
-      },
+      "evaluation": null,
       "rollingMetrics": {
         "sampleCount": 12,
         "directionAccuracy": 0.16666666666666666,
@@ -4194,116 +3910,5 @@
       }
     }
   ],
-  "reports": [
-    {
-      "reportKey": "monthly:2026-10",
-      "period": "monthly",
-      "periodKey": "2026-10",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-31",
-      "status": "final",
-      "generatedAt": "2026-11-05T22:30:00+08:00",
-      "modelVersion": "cn-baseline-v1",
-      "metrics": {
-        "sampleCount": 88,
-        "directionAccuracy": 0.5,
-        "mae": 0.011907710430363318,
-        "rmse": 0.01679797452708389,
-        "meanError": -0.004414923420889693
-      },
-      "missingRate": 0,
-      "byFund": {
-        "cn-001595": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.36363636363636365,
-          "mae": 0.009576626789844977,
-          "rmse": 0.011797159700698149,
-          "meanError": 0.005832624643610251
-        },
-        "cn-002983": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.8181818181818182,
-          "mae": 0.022199546437550108,
-          "rmse": 0.02675241080765942,
-          "meanError": -0.02052968675785566
-        },
-        "cn-005051": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.36363636363636365,
-          "mae": 0.007494772395119729,
-          "rmse": 0.009663802976297648,
-          "meanError": 0.0018003572634794497
-        },
-        "cn-017641": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.18181818181818182,
-          "mae": 0.008352266002467308,
-          "rmse": 0.009401701137905855,
-          "meanError": 0.0013083202155891086
-        },
-        "cn-018736": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.5454545454545454,
-          "mae": 0.0013560002518521264,
-          "rmse": 0.0015120250649241183,
-          "meanError": -0.000578365282538731
-        },
-        "cn-018993": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.8181818181818182,
-          "mae": 0.02612868022960803,
-          "rmse": 0.029546514366831214,
-          "meanError": -0.023090731570489267
-        },
-        "cn-025852": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.5454545454545454,
-          "mae": 0.010664122213827131,
-          "rmse": 0.014444111792448262,
-          "meanError": -0.005837061403546751
-        },
-        "cn-161723": {
-          "sampleCount": 11,
-          "directionAccuracy": 0.36363636363636365,
-          "mae": 0.009489669122637117,
-          "rmse": 0.011696792548586146,
-          "meanError": 0.005775155524634049
-        }
-      },
-      "byConfidence": {
-        "low": {
-          "sampleCount": 88,
-          "directionAccuracy": 0.5,
-          "mae": 0.011907710430363318,
-          "rmse": 0.01679797452708389,
-          "meanError": -0.004414923420889693
-        }
-      },
-      "byCoverage": {
-        "low": {
-          "sampleCount": 87,
-          "directionAccuracy": 0.5057471264367817,
-          "mae": 0.011952324223987874,
-          "rmse": 0.0168723094183041,
-          "meanError": -0.004557926108314025
-        },
-        "medium": {
-          "sampleCount": 1,
-          "directionAccuracy": 0,
-          "mae": 0.008026310385027104,
-          "rmse": 0.008026310385027104,
-          "meanError": 0.008026310385027104
-        }
-      },
-      "bestCase": "cn-002983:2026-10-21:cn-baseline-v1",
-      "worstCase": "cn-018993:2026-10-30:cn-baseline-v1",
-      "modelChange": {
-        "previousBias": -0.0018987884737504917,
-        "newBias": -0.0018987884737504917,
-        "previousScale": 1.1156683466653166,
-        "newScale": 1.1156683466653166,
-        "applied": false
-      }
-    }
-  ]
+  "reports": []
 }
