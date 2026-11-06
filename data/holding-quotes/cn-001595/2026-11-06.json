@@ -1,0 +1,106 @@
+{
+  "fundId": "cn-001595",
+  "collectedAt": "2026-11-06T10:30:00+08:00",
+  "quotes": [
+    {
+      "assetKey": "bond:019792",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "stock:000001",
+      "status": "available",
+      "dayChange": 0.0146,
+      "asOf": "2026-11-06T07:34:42.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:002142",
+      "status": "available",
+      "dayChange": 0.0079,
+      "asOf": "2026-11-06T07:34:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:600000",
+      "status": "available",
+      "dayChange": 0.0162,
+      "asOf": "2026-11-06T08:11:48.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:600036",
+      "status": "available",
+      "dayChange": 0.008,
+      "asOf": "2026-11-06T08:11:32.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:600919",
+      "status": "available",
+      "dayChange": 0.0184,
+      "asOf": "2026-11-06T08:11:41.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601166",
+      "status": "available",
+      "dayChange": 0.0071,
+      "asOf": "2026-11-06T08:11:52.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601229",
+      "status": "available",
+      "dayChange": 0.0024,
+      "asOf": "2026-11-06T08:11:59.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601288",
+      "status": "available",
+      "dayChange": 0.0041,
+      "asOf": "2026-11-06T08:11:31.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601328",
+      "status": "available",
+      "dayChange": 0.0122,
+      "asOf": "2026-11-06T08:11:31.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601398",
+      "status": "available",
+      "dayChange": 0.0108,
+      "asOf": "2026-11-06T08:11:39.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "target-etf:515290",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    }
+  ]
+}
