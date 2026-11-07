@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-06T10:30:00+08:00",
+  "generatedAt": "2026-11-07T22:30:00+08:00",
   "asOf": "2026-11-05",
-  "phase": "morning",
+  "phase": "weekly",
   "dataStatus": "partial",
   "dataMode": "real",
   "summaries": [
@@ -467,8 +467,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-11-06",
-        "reason": "2026-11-06 上午预测已生成。"
+        "date": "2026-11-07",
+        "reason": "2026-11-07 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -903,8 +903,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-11-06",
-        "reason": "2026-11-06 上午预测已生成。"
+        "date": "2026-11-07",
+        "reason": "2026-11-07 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -1394,8 +1394,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-11-06",
-        "reason": "2026-11-06 上午预测已生成。"
+        "date": "2026-11-07",
+        "reason": "2026-11-07 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -2275,8 +2275,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-11-06",
-        "reason": "2026-11-06 上午预测已生成。"
+        "date": "2026-11-07",
+        "reason": "2026-11-07 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -2679,8 +2679,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-11-06",
-        "reason": "2026-11-06 上午预测已生成。"
+        "date": "2026-11-07",
+        "reason": "2026-11-07 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -3106,8 +3106,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-11-06",
-        "reason": "2026-11-06 上午预测已生成。"
+        "date": "2026-11-07",
+        "reason": "2026-11-07 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -3524,8 +3524,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-11-06",
-        "reason": "2026-11-06 上午预测已生成。"
+        "date": "2026-11-07",
+        "reason": "2026-11-07 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -3897,8 +3897,8 @@
       },
       "predictionAvailability": {
         "status": "available",
-        "date": "2026-11-06",
-        "reason": "2026-11-06 上午预测已生成。"
+        "date": "2026-11-07",
+        "reason": "2026-11-07 上午预测已生成。"
       },
       "evaluation": null,
       "rollingMetrics": {
@@ -3910,5 +3910,116 @@
       }
     }
   ],
-  "reports": []
+  "reports": [
+    {
+      "reportKey": "weekly:2026-W45",
+      "period": "weekly",
+      "periodKey": "2026-W45",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-06",
+      "status": "final",
+      "generatedAt": "2026-11-07T22:30:00+08:00",
+      "modelVersion": "cn-baseline-v1",
+      "metrics": {
+        "sampleCount": 8,
+        "directionAccuracy": 0.625,
+        "mae": 0.014010544019319175,
+        "rmse": 0.02281188253457168,
+        "meanError": -0.006698727373208576
+      },
+      "missingRate": 0,
+      "byFund": {
+        "cn-001595": {
+          "sampleCount": 1,
+          "directionAccuracy": 1,
+          "mae": 0.0026581064823649227,
+          "rmse": 0.0026581064823649227,
+          "meanError": -0.0026581064823649227
+        },
+        "cn-002983": {
+          "sampleCount": 1,
+          "directionAccuracy": 1,
+          "mae": 0.01827694312672725,
+          "rmse": 0.01827694312672725,
+          "meanError": -0.01827694312672725
+        },
+        "cn-005051": {
+          "sampleCount": 1,
+          "directionAccuracy": 0,
+          "mae": 0.013135439799601427,
+          "rmse": 0.013135439799601427,
+          "meanError": 0.013135439799601427
+        },
+        "cn-017641": {
+          "sampleCount": 1,
+          "directionAccuracy": 0,
+          "mae": 0.009222990558607345,
+          "rmse": 0.009222990558607345,
+          "meanError": 0.009222990558607345
+        },
+        "cn-018736": {
+          "sampleCount": 1,
+          "directionAccuracy": 1,
+          "mae": 0.001777342271963182,
+          "rmse": 0.001777342271963182,
+          "meanError": 0.001777342271963182
+        },
+        "cn-018993": {
+          "sampleCount": 1,
+          "directionAccuracy": 1,
+          "mae": 0.05940381239872571,
+          "rmse": 0.05940381239872571,
+          "meanError": -0.05940381239872571
+        },
+        "cn-025852": {
+          "sampleCount": 1,
+          "directionAccuracy": 0,
+          "mae": 0.00511149395427044,
+          "rmse": 0.00511149395427044,
+          "meanError": 0.00511149395427044
+        },
+        "cn-161723": {
+          "sampleCount": 1,
+          "directionAccuracy": 1,
+          "mae": 0.002498223562293116,
+          "rmse": 0.002498223562293116,
+          "meanError": -0.002498223562293116
+        }
+      },
+      "byConfidence": {
+        "low": {
+          "sampleCount": 8,
+          "directionAccuracy": 0.625,
+          "mae": 0.014010544019319175,
+          "rmse": 0.02281188253457168,
+          "meanError": -0.006698727373208576
+        }
+      },
+      "byCoverage": {
+        "low": {
+          "sampleCount": 7,
+          "directionAccuracy": 0.7142857142857143,
+          "mae": 0.014694480227992293,
+          "rmse": 0.02413649377816745,
+          "meanError": -0.008973258506325136
+        },
+        "medium": {
+          "sampleCount": 1,
+          "directionAccuracy": 0,
+          "mae": 0.009222990558607345,
+          "rmse": 0.009222990558607345,
+          "meanError": 0.009222990558607345
+        }
+      },
+      "bestCase": "cn-018736:2026-11-03:cn-baseline-v1",
+      "worstCase": "cn-018993:2026-11-03:cn-baseline-v1",
+      "modelChange": {
+        "previousBias": -0.0025686612110713495,
+        "newBias": -0.0025686612110713495,
+        "previousScale": 1.1268250301319698,
+        "newScale": 1.1268250301319698,
+        "applied": false
+      }
+    }
+  ]
 }
