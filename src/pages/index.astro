@@ -98,6 +98,12 @@ const initialHoldingQuotes = new Map(
         <span>最近更新时间</span>
         <strong>{new Date(index.generatedAt).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" })}</strong>
         <small>北京时间 · {index.phase} 阶段 · 净值以来源实际披露为准</small>
+        <small>
+          交易日历 {index.calendar.date}：{index.calendar.reason} · {index.calendar.source}（截至 {index.calendar.asOf}）
+        </small>
+        {index.runTiming.delayedAcrossShanghaiDate ? (
+          <small>延迟运行：计划 {index.runTiming.scheduledAt}，实际 {index.runTiming.actualRunAt}</small>
+        ) : null}
       </div>
     </section>
 
@@ -225,13 +231,22 @@ const initialHoldingQuotes = new Map(
               {reports.length ? reports.slice(-6).reverse().map((report) => (
                 <article class="report-card">
                   <strong>{report.periodKey} · {report.period}</strong>
-                  <span>{report.status === "final" ? "已完成" : "暂定，等待最终 NAV"}</span>
+                  <span>
+                    {report.status === "final"
+                      ? "final · 已完成"
+                      : report.status === "provisional"
+                        ? "provisional · 等待最终 NAV"
+                        : "no-data · 无交易样本，未校准"}
+                  </span>
+                  <small>{report.startDate} → {report.endDate} · 最后实际交易日 {report.lastTradingDate ?? "无"}</small>
                   <dl>
                     <div><dt>样本</dt><dd>{report.metrics.sampleCount}</dd></div>
                     <div><dt>方向准确率</dt><dd>{percent(report.metrics.directionAccuracy)}</dd></div>
                     <div><dt>MAE / RMSE</dt><dd>{percent(report.metrics.mae)} / {percent(report.metrics.rmse)}</dd></div>
-                    <div><dt>缺失率</dt><dd>{percent(report.missingRate)}</dd></div>
+                    <div><dt>缺失 NAV</dt><dd>{report.missingNavCount} / {report.tradingDateCount} 个交易日</dd></div>
+                    <div><dt>交易日历</dt><dd>{report.calendarSource} · {report.calendarAsOf}</dd></div>
                   </dl>
+                  <p class="card-note">{report.statusReason}</p>
                 </article>
               )) : <p class="empty-state">尚无完整周期报告；到达周/月/年 gate 后生成。</p>}
             </div>

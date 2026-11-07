@@ -106,9 +106,30 @@ describe("baseline prediction model", () => {
     expect(predictionAvailability("2026-10-05", null)).toEqual({
       status: "non-trading",
       date: "2026-10-05",
-      reason: "2026-10-05 为休市/非交易日，未生成上午预测。"
+      reason: "2026-10-05 国庆节休市，未生成上午预测。"
     });
+    expect(predictionAvailability("2027-01-04", null).status).toBe(
+      "calendar-unavailable"
+    );
     expect(predictionAvailability("2026-09-30", null).status).toBe("not-run");
+    expect(predictionAvailability("2026-10-05", {
+      predictionKey: "old",
+      fundId: fund.id,
+      predictionDate: "2026-09-30",
+      targetTradeDate: "2026-09-30",
+      predictedReturn: 0,
+      direction: "flat",
+      confidence: 0.1,
+      featureTimestamp: "2026-09-30T10:30:00+08:00",
+      holdingsReportDate: null,
+      featureCoverage: 0,
+      modelVersion: "cn-baseline-v1",
+      modelStatus: "cold-start",
+      sampleCount: 0,
+      dataQuality: "unavailable",
+      contributions: [],
+      warnings: []
+    }).reason).toContain("国庆节休市");
     expect(predictionAvailability("2026-09-30", null, "HTTP 503").status).toBe(
       "source-error"
     );

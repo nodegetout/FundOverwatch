@@ -4,6 +4,22 @@
   "phase": "weekly",
   "dataStatus": "partial",
   "dataMode": "real",
+  "calendar": {
+    "date": "2026-10-26",
+    "status": "trading",
+    "reason": "SSE/SZSE 已发布日历：交易日",
+    "source": "SSE/SZSE",
+    "asOf": "2025-12-22",
+    "coverage": {
+      "start": "2025-01-01",
+      "end": "2026-12-31"
+    }
+  },
+  "runTiming": {
+    "scheduledAt": "2026-10-26T10:30:00+08:00",
+    "actualRunAt": "2026-10-26T10:30:00+08:00",
+    "delayedAcrossShanghaiDate": false
+  },
   "summaries": [
     {
       "fund": {

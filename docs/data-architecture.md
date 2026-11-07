@@ -11,6 +11,7 @@
 - `PredictionEvaluation`：`pending/evaluated/unavailable`、实际 NAV 区间、误差与方向命中；`evaluationKey` 与 prediction 一一对应。
 - `ModelArtifact`：有界 bias/scale、样本数、训练截止日和已应用 evaluation keys。
 - `PeriodReport`：周/月/年总体与分组指标、缺失率、最佳/最差案例及模型变化。
+- `TradingCalendar`：SSE/SZSE 官方来源、as-of、覆盖区间、交易所休市日期与原因；周末闭市由算法表达。
 
 ## 时间与无前视约束
 
@@ -18,12 +19,9 @@
 
 预测目标为“基金下一可对齐 NAV 的日涨跌幅/方向”。当前日目标 NAV 未披露时，晚间结果是 `pending` 而不是当日最终值；后续运行用目标交易日 NAV 和之前最近一个 NAV 计算实际收益。
 
-交易日规则分两层：
+交易日只依据版本化的 SSE/SZSE 交易所公告，不依据国务院调休工作日：周六、周日始终闭市；工作日节假日和临时休市由日历记录。当前覆盖 2025–2026，2027 尚无已提交官方公告。覆盖外为 `calendar-unavailable`，来源冲突为 `source-error`，两者都 fail closed，不创建预测或训练样本。手动回放可显式 override 覆盖缺失年份，但默认关闭且不能把周末改为交易日。
 
-1. 调度层排除周末，并维护 2026 中国内地交易所明确休市日；通过月末/年末最后工作日生成 provisional gate。
-2. 数据层以公开源返回的交易日期/NAV 日期为准；法定节假日无新日期时不认为当日已开市。
-
-日历覆盖范围外尚未接入权威动态交易日服务，这是明确限制；这类日期使用 weekday fallback，但仍以源行情/NAV 日期防误判，不把“周一至周五”等同于真实开市。
+GitHub schedule 事件只有 cron 字符串，没有计划日期。`resolveScheduledRun` 从实际 UTC 时刻反推最近一次匹配的 cron，转换为 `Asia/Shanghai` 业务日期，并同时持久化 `scheduledAt` / `actualRunAt`。晚间跨日延迟可安全回填原目标日期；上午跨日会跳过，避免以后见数据生成过去预测。
 
 ## 存储布局
 
@@ -31,6 +29,7 @@
 data/
   funds.json
   runs.json
+  calendars/cn-exchange.json
   history/<fund-id>/<year>.json
   holdings/<fund-id>/<report-date>.json
   holding-quotes/<fund-id>/<collection-date>.json
@@ -47,13 +46,15 @@ public/data/
   series/<fund-id>.json
 ```
 
-历史、预测和评估按年分区；public 只保存页面需要的最近汇总和最多 260 个 NAV 点，不复制完整行情。数组按稳定 key 排序，同一 key 替换而不追加重复记录。`runs.json` 使用 `<date>:<phase>:cn-loop-v1`。
+历史、预测和评估按年分区；public 只保存页面需要的最近汇总和最多 260 个 NAV 点，不复制完整行情。数组按稳定 key 排序，同一 key 替换而不追加重复记录。`runs.json` 使用 `<date>:<phase>:cn-loop-v2` 幂等替换同一业务运行记录，并保存计划/实际时刻、日历状态和跳过原因。流水线允许同一 evening 日期再次采集，以便补齐延迟 NAV；prediction/evaluation/report 仍按稳定 key 替换，模型以 `appliedEvaluationKeys` 保证每个样本只消费一次。
+
+本地 macOS watcher 只负责在 GitHub schedule 缺失时调用 `workflow_dispatch phase/date`，不直接读写上述生产数据。它使用同一业务日期和 phase，因此 schedule 与 dispatch 先后到达时仍由 pipeline 稳定 key、evaluation key 和 report key 保持幂等。watcher 自身状态不入库，保存在 `~/Library/Application Support/FundOverwatch/scheduler-state.json`。
 
 ## 周期关闭
 
-- 周报：周六处理上一完整周一至周五。
-- 月报：日历月末工作日生成 final；月末为周末时最后工作日生成 provisional。
-- 年报：12 月最后工作日生成 provisional/final；已评估年度样本参与之后校准。
-- NAV 延迟导致 report 中存在 pending 时状态保持 provisional；后续 gate/补全运行以同一 report key 覆盖，不重复写。
+- 周报：每个日历周五 evening 在当晚评估之后生成；周五休市仍统计周一至周五范围内的实际样本。
+- 月报/年报：报告期最后实际交易日晚生成；日历期末尚未到达或 NAV 未齐时为 provisional。
+- 同日顺序固定为 evaluation → weekly → monthly → yearly。周期报告只汇总和审计，不更新模型；online calibration 只在 evening 消费新增 evaluation key。
+- `provisional` 报告在后续每个 evening 以同一 report key 重算；齐全后成为 `final`。报告期无预测/评估样本时为 `no-data`，不拿上期数据填充或训练。
 
-指标包括样本数、方向准确率、MAE、RMSE、平均误差、缺失率，以及按基金、confidence bin、coverage bin 分组结果。
+指标包括日历范围、最后实际交易日、交易日数、缺失 NAV 数、样本数、方向准确率、MAE、RMSE、平均误差，以及按基金、confidence bin、coverage bin 分组结果。每份报告记录交易日历来源与 as-of。
