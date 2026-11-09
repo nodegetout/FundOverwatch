@@ -1,0 +1,116 @@
+{
+  "fundId": "cn-161723",
+  "collectedAt": "2026-11-09T10:30:00+08:00",
+  "quotes": [
+    {
+      "assetKey": "bond:019792",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "bond:019827",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "bond:102317",
+      "status": "unavailable",
+      "dayChange": null,
+      "asOf": null,
+      "source": "eastmoney-push2-v1",
+      "warnings": [
+        "源持仓未提供可靠行情市场标识。"
+      ]
+    },
+    {
+      "assetKey": "stock:000001",
+      "status": "available",
+      "dayChange": 0.0068,
+      "asOf": "2026-11-09T07:34:36.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:002142",
+      "status": "available",
+      "dayChange": 0.0026,
+      "asOf": "2026-11-09T07:34:57.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:600000",
+      "status": "available",
+      "dayChange": 0.007,
+      "asOf": "2026-11-09T08:11:50.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:600036",
+      "status": "available",
+      "dayChange": 0.003,
+      "asOf": "2026-11-09T08:11:36.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:600919",
+      "status": "available",
+      "dayChange": 0.0063,
+      "asOf": "2026-11-09T08:11:42.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601166",
+      "status": "available",
+      "dayChange": -0.002,
+      "asOf": "2026-11-09T08:11:54.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601229",
+      "status": "available",
+      "dayChange": 0.0085,
+      "asOf": "2026-11-09T08:11:36.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601288",
+      "status": "available",
+      "dayChange": 0.0151,
+      "asOf": "2026-11-09T08:11:34.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601328",
+      "status": "available",
+      "dayChange": 0.0181,
+      "asOf": "2026-11-09T08:11:34.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:601398",
+      "status": "available",
+      "dayChange": 0.0201,
+      "asOf": "2026-11-09T08:11:40.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    }
+  ]
+}
