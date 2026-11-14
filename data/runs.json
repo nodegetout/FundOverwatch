@@ -256,5 +256,11 @@
     "date": "2026-11-13",
     "phase": "evening",
     "completedAt": "2026-11-13T22:30:00+08:00"
+  },
+  {
+    "runKey": "2026-11-14:weekly:cn-loop-v1",
+    "date": "2026-11-14",
+    "phase": "weekly",
+    "completedAt": "2026-11-14T22:30:00+08:00"
   }
 ]
