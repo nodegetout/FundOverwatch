@@ -24,6 +24,8 @@
 
 周/月/年报告只统计当期目标日期内已经评估的样本，并单独计算 missing rate。模型 artifact 保存版本、样本数、训练截止日期、bias、scale、MAE/RMSE 和方向准确率。
 
+模型校准只有一个入口：晚间补评完成后的 online update。周、月、年报告是只读汇总/审计，即使多个周期在同一天关闭，也按周→月→年生成且不会再次消费 evaluation。`no-data` 周期不复制上一期样本，`provisional` 周期在 NAV 补齐后用稳定 report key 替换。
+
 ## 回测限制
 
 `npm run backtest` 是严格时间顺序的持久化快照审计。项目不会用今天看到的持仓报告和行情倒推过去的“预测”，因此当前历史 feature snapshot 少时，回测会诚实报告样本不足。长期积累真实上午快照后才能讨论稳健性。
