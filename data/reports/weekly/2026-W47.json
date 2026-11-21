@@ -1,0 +1,110 @@
+{
+  "reportKey": "weekly:2026-W47",
+  "period": "weekly",
+  "periodKey": "2026-W47",
+  "startDate": "2026-11-16",
+  "endDate": "2026-11-20",
+  "status": "provisional",
+  "generatedAt": "2026-11-21T22:30:00+08:00",
+  "modelVersion": "cn-baseline-v1",
+  "metrics": {
+    "sampleCount": 15,
+    "directionAccuracy": 0.6666666666666666,
+    "mae": 0.004919506208549854,
+    "rmse": 0.007706384813995999,
+    "meanError": -0.0019004018871492578
+  },
+  "missingRate": 0.0625,
+  "byFund": {
+    "cn-001595": {
+      "sampleCount": 2,
+      "directionAccuracy": 0.5,
+      "mae": 0.0019085609638791168,
+      "rmse": 0.0026700038609458305,
+      "meanError": 0.0019085609638791168
+    },
+    "cn-002983": {
+      "sampleCount": 2,
+      "directionAccuracy": 1,
+      "mae": 0.0040719996214276764,
+      "rmse": 0.004123748084345369,
+      "meanError": -0.0040719996214276764
+    },
+    "cn-005051": {
+      "sampleCount": 2,
+      "directionAccuracy": 0.5,
+      "mae": 0.0031946998594361473,
+      "rmse": 0.0032196893600625392,
+      "meanError": -0.0004003653124567425
+    },
+    "cn-017641": {
+      "sampleCount": 1,
+      "directionAccuracy": 1,
+      "mae": 0.00005076227271544678,
+      "rmse": 0.00005076227271544678,
+      "meanError": 0.00005076227271544678
+    },
+    "cn-018736": {
+      "sampleCount": 2,
+      "directionAccuracy": 0,
+      "mae": 0.002945121942632323,
+      "rmse": 0.002987701758567237,
+      "meanError": 0.002945121942632323
+    },
+    "cn-018993": {
+      "sampleCount": 2,
+      "directionAccuracy": 1,
+      "mae": 0.01512528661289906,
+      "rmse": 0.01756927676049723,
+      "meanError": -0.008938970341409825
+    },
+    "cn-025852": {
+      "sampleCount": 2,
+      "directionAccuracy": 1,
+      "mae": 0.00767299467434311,
+      "rmse": 0.00927116299345621,
+      "meanError": -0.00767299467434311
+    },
+    "cn-161723": {
+      "sampleCount": 2,
+      "directionAccuracy": 0.5,
+      "mae": 0.0019522517531487564,
+      "rmse": 0.002711186818353206,
+      "meanError": 0.0019522517531487564
+    }
+  },
+  "byConfidence": {
+    "low": {
+      "sampleCount": 15,
+      "directionAccuracy": 0.6666666666666666,
+      "mae": 0.004919506208549854,
+      "rmse": 0.007706384813995999,
+      "meanError": -0.0019004018871492578
+    }
+  },
+  "byCoverage": {
+    "low": {
+      "sampleCount": 14,
+      "directionAccuracy": 0.6428571428571429,
+      "mae": 0.0052672736325380266,
+      "rmse": 0.007976854583787536,
+      "meanError": -0.002039770755711022
+    },
+    "medium": {
+      "sampleCount": 1,
+      "directionAccuracy": 1,
+      "mae": 0.00005076227271544678,
+      "rmse": 0.00005076227271544678,
+      "meanError": 0.00005076227271544678
+    }
+  },
+  "bestCase": "cn-001595:2026-11-19:cn-baseline-v1",
+  "worstCase": "cn-018993:2026-11-17:cn-baseline-v1",
+  "modelChange": {
+    "previousBias": -0.0023118232731017107,
+    "newBias": -0.0023118232731017107,
+    "previousScale": 1.2081089504435316,
+    "newScale": 1.2081089504435316,
+    "applied": false
+  }
+}
