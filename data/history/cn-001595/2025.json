@@ -1,30 +1,6 @@
 [
   {
     "fundId": "cn-001595",
-    "date": "2025-10-29",
-    "nav": 1.7311,
-    "price": null,
-    "benchmarkPrice": null,
-    "currency": "CNY",
-    "valuation": "final",
-    "quality": {
-      "status": "stale",
-      "source": "eastmoney-fund-v2",
-      "dataMode": "real",
-      "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
-      "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
-      ],
-      "missingFields": [
-        "price",
-        "benchmarkPrice"
-      ]
-    }
-  },
-  {
-    "fundId": "cn-001595",
     "date": "2025-10-30",
     "nav": 1.7317,
     "price": null,
@@ -32,14 +8,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -56,14 +31,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -80,14 +54,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -104,14 +77,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -128,14 +100,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -152,14 +123,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -176,14 +146,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -200,14 +169,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -224,14 +192,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -248,14 +215,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -272,14 +238,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -296,14 +261,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -320,14 +284,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -344,14 +307,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -368,14 +330,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -392,14 +353,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -416,14 +376,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -440,14 +399,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -464,14 +422,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -488,14 +445,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -512,14 +468,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -536,14 +491,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -560,14 +514,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -584,14 +537,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -608,14 +560,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -632,14 +583,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -656,14 +606,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -680,14 +629,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -704,14 +652,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -728,14 +675,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -752,14 +698,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -776,14 +721,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -800,14 +744,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -824,14 +767,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -848,14 +790,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -872,14 +813,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -896,14 +836,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -920,14 +859,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -944,14 +882,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -968,14 +905,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -992,14 +928,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -1016,14 +951,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -1040,14 +974,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -1064,14 +997,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",
@@ -1088,14 +1020,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
-        "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。"
+        "日终单位净值，不是盘中估值或交易价格。"
       ],
       "missingFields": [
         "price",

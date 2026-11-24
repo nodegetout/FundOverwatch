@@ -8,14 +8,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -33,14 +32,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -58,14 +56,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -83,14 +80,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -108,14 +104,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -133,14 +128,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -158,14 +152,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -183,14 +176,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -208,14 +200,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -233,14 +224,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -258,14 +248,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -283,14 +272,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -308,14 +296,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -333,14 +320,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -358,14 +344,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -383,14 +368,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -408,14 +392,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -433,14 +416,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -458,14 +440,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -483,14 +464,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -508,14 +488,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -533,14 +512,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -558,14 +536,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -583,14 +560,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -608,14 +584,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -633,14 +608,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -658,14 +632,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -683,14 +656,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -708,14 +680,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -733,14 +704,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -758,14 +728,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -783,14 +752,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -808,14 +776,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -833,14 +800,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -858,14 +824,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -883,14 +848,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -908,14 +872,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -933,14 +896,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -958,14 +920,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -983,14 +944,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1008,14 +968,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1033,14 +992,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1058,14 +1016,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1083,14 +1040,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1108,14 +1064,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1133,14 +1088,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1158,14 +1112,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1183,14 +1136,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1208,14 +1160,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1233,14 +1184,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1258,14 +1208,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1283,14 +1232,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1308,14 +1256,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1333,14 +1280,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1358,14 +1304,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1383,14 +1328,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1408,14 +1352,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1433,14 +1376,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1458,14 +1400,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1483,14 +1424,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1508,14 +1448,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1533,14 +1472,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1558,14 +1496,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1583,14 +1520,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1608,14 +1544,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1633,14 +1568,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1658,14 +1592,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1683,14 +1616,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1708,14 +1640,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1733,14 +1664,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1758,14 +1688,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1783,14 +1712,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1808,14 +1736,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1833,14 +1760,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1858,14 +1784,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1883,14 +1808,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1908,14 +1832,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1933,14 +1856,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1958,14 +1880,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -1983,14 +1904,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2008,14 +1928,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2033,14 +1952,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2058,14 +1976,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2083,14 +2000,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2108,14 +2024,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2133,14 +2048,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2158,14 +2072,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2183,14 +2096,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2208,14 +2120,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2233,14 +2144,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2258,14 +2168,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2283,14 +2192,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2308,14 +2216,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2333,14 +2240,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2358,14 +2264,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2383,14 +2288,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2408,14 +2312,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2433,14 +2336,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2458,14 +2360,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2483,14 +2384,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2508,14 +2408,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2533,14 +2432,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2558,14 +2456,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2583,14 +2480,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2608,14 +2504,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2633,14 +2528,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2658,14 +2552,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2683,14 +2576,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2708,14 +2600,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2733,14 +2624,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2758,14 +2648,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2783,14 +2672,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2808,14 +2696,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2833,14 +2720,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2858,14 +2744,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2883,14 +2768,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2908,14 +2792,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2933,14 +2816,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2958,14 +2840,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -2983,14 +2864,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3008,14 +2888,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3033,14 +2912,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3058,14 +2936,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3083,14 +2960,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3108,14 +2984,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3133,14 +3008,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3158,14 +3032,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3183,14 +3056,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3208,14 +3080,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3233,14 +3104,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3258,14 +3128,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3283,14 +3152,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3308,14 +3176,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3333,14 +3200,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3358,14 +3224,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3383,14 +3248,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3408,14 +3272,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3433,14 +3296,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3458,14 +3320,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3483,14 +3344,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3508,14 +3368,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3533,14 +3392,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3558,14 +3416,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3583,14 +3440,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3608,14 +3464,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3633,14 +3488,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3658,14 +3512,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3683,14 +3536,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3708,14 +3560,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3733,14 +3584,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3758,14 +3608,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3783,14 +3632,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3808,14 +3656,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3833,14 +3680,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3858,14 +3704,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3883,14 +3728,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3908,14 +3752,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3933,14 +3776,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3958,14 +3800,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -3983,14 +3824,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4008,14 +3848,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4033,14 +3872,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4058,14 +3896,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4083,14 +3920,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4108,14 +3944,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4133,14 +3968,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4158,14 +3992,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4183,14 +4016,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4208,14 +4040,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4233,14 +4064,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4258,14 +4088,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4283,14 +4112,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4308,14 +4136,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4333,14 +4160,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4358,14 +4184,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4383,14 +4208,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4408,14 +4232,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4433,14 +4256,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4458,14 +4280,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4483,14 +4304,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4508,14 +4328,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4533,14 +4352,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4558,14 +4376,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4583,14 +4400,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4608,14 +4424,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4633,14 +4448,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4658,14 +4472,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4683,14 +4496,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4708,14 +4520,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4733,14 +4544,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4758,14 +4568,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4783,14 +4592,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4808,14 +4616,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4833,14 +4640,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4858,14 +4664,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4883,14 +4688,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4908,14 +4712,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4933,14 +4736,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4958,14 +4760,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -4983,14 +4784,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5008,14 +4808,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5033,14 +4832,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5058,14 +4856,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5083,14 +4880,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5108,14 +4904,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5133,14 +4928,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5158,14 +4952,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5183,14 +4976,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5208,14 +5000,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5233,14 +5024,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5258,14 +5048,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5283,14 +5072,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5308,14 +5096,13 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
@@ -5333,14 +5120,37 @@
     "currency": "CNY",
     "valuation": "final",
     "quality": {
-      "status": "stale",
+      "status": "partial",
       "source": "eastmoney-fund-v2",
       "dataMode": "real",
       "isSimulated": false,
-      "collectedAt": "2026-11-24T22:30:00+08:00",
+      "collectedAt": "2026-11-24T10:30:00+08:00",
       "warnings": [
         "日终单位净值，不是盘中估值或交易价格。",
-        "最近已公布净值日期为 2026-11-23。",
+        "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
+      ],
+      "missingFields": [
+        "price",
+        "benchmarkPrice"
+      ]
+    }
+  },
+  {
+    "fundId": "cn-002983",
+    "date": "2026-11-24",
+    "nav": 1.34,
+    "price": null,
+    "benchmarkPrice": null,
+    "currency": "CNY",
+    "valuation": "final",
+    "quality": {
+      "status": "partial",
+      "source": "eastmoney-fund-v2",
+      "dataMode": "real",
+      "isSimulated": false,
+      "collectedAt": "2026-11-24T10:30:00+08:00",
+      "warnings": [
+        "日终单位净值，不是盘中估值或交易价格。",
         "数据源名称为“长信国防军工量化混合A”，展示名称按项目基金清单维护。"
       ],
       "missingFields": [
