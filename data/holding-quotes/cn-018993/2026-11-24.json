@@ -1,0 +1,86 @@
+{
+  "fundId": "cn-018993",
+  "collectedAt": "2026-11-24T22:30:00+08:00",
+  "quotes": [
+    {
+      "assetKey": "stock:002463",
+      "status": "available",
+      "dayChange": 0.0683,
+      "asOf": "2026-11-24T01:49:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:002916",
+      "status": "available",
+      "dayChange": 0.0331,
+      "asOf": "2026-11-24T01:48:33.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:002938",
+      "status": "available",
+      "dayChange": 0.0537,
+      "asOf": "2026-11-24T01:49:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:300308",
+      "status": "available",
+      "dayChange": 0.0726,
+      "asOf": "2026-11-24T01:48:33.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:300502",
+      "status": "available",
+      "dayChange": 0.0483,
+      "asOf": "2026-11-24T01:48:33.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:300661",
+      "status": "available",
+      "dayChange": 0.0473,
+      "asOf": "2026-11-24T01:49:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:301550",
+      "status": "available",
+      "dayChange": 0.1044,
+      "asOf": "2026-11-24T01:48:57.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:603179",
+      "status": "available",
+      "dayChange": 0.0987,
+      "asOf": "2026-11-24T01:49:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:688256",
+      "status": "available",
+      "dayChange": 0.025,
+      "asOf": "2026-11-24T01:48:35.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    },
+    {
+      "assetKey": "stock:688498",
+      "status": "available",
+      "dayChange": 0.0798,
+      "asOf": "2026-11-24T01:49:00.000Z",
+      "source": "eastmoney-push2-v1",
+      "warnings": []
+    }
+  ]
+}
