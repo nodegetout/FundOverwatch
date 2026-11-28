@@ -110,9 +110,33 @@ export const analyticsSchema = z.object({
 });
 
 export const predictionAvailabilitySchema = z.object({
-  status: z.enum(["available", "non-trading", "not-run", "source-error"]),
+  status: z.enum([
+    "available",
+    "non-trading",
+    "calendar-unavailable",
+    "not-run",
+    "source-error"
+  ]),
   date: z.string().regex(isoDate),
   reason: z.string().min(1)
+});
+
+export const calendarStatusSchema = z.object({
+  date: z.string().regex(isoDate),
+  status: z.enum(["trading", "closed", "calendar-unavailable", "source-error"]),
+  reason: z.string().min(1),
+  source: z.string().min(1),
+  asOf: z.string().regex(isoDate),
+  coverage: z.object({
+    start: z.string().regex(isoDate),
+    end: z.string().regex(isoDate)
+  })
+});
+
+export const runTimingSchema = z.object({
+  scheduledAt: timestamp,
+  actualRunAt: timestamp,
+  delayedAcrossShanghaiDate: z.boolean()
 });
 
 export const fundSummarySchema = z.object({
@@ -133,6 +157,8 @@ export const siteIndexSchema = z.object({
   phase: z.enum(["morning", "evening", "weekly", "monthly", "yearly", "all"]),
   dataStatus: z.enum(["complete", "partial", "error"]),
   dataMode: z.literal("real"),
+  calendar: calendarStatusSchema,
+  runTiming: runTimingSchema,
   summaries: z.array(fundSummarySchema),
   reports: z.array(z.unknown()).default([])
 });
@@ -146,6 +172,7 @@ export type HoldingQuote = z.infer<typeof holdingQuoteSchema>;
 export type HoldingQuoteBatch = z.infer<typeof holdingQuoteBatchSchema>;
 export type FundAnalytics = z.infer<typeof analyticsSchema>;
 export type PredictionAvailability = z.infer<typeof predictionAvailabilitySchema>;
+export type CalendarStatus = z.infer<typeof calendarStatusSchema>;
 export type SiteIndex = z.infer<typeof siteIndexSchema>;
 
 export function parseFunds(input: unknown): Fund[] {

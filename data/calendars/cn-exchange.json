@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "market": "SSE/SZSE",
+  "timezone": "Asia/Shanghai",
+  "asOf": "2025-12-22",
+  "generatedAt": "2026-10-05T19:36:32+08:00",
+  "coverage": {
+    "start": "2025-01-01",
+    "end": "2026-12-31",
+    "years": [
+      2025,
+      2026
+    ]
+  },
+  "years": [
+    {
+      "year": 2025,
+      "sources": [
+        {
+          "exchange": "SSE",
+          "notice": "上证公告〔2024〕38号",
+          "publishedAt": "2024-12-23T17:00:00+08:00",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20241223_10767108.shtml",
+          "jsonUrl": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20241223_10767108.json"
+        },
+        {
+          "exchange": "SZSE",
+          "notice": "深证会〔2024〕413号",
+          "publishedAt": "2024-12-23T17:00:00+08:00",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20241223_611283.html",
+          "jsonUrl": "https://www.szse.cn/disclosure/notice/general/t20241223_611283.json"
+        }
+      ],
+      "closures": [
+        { "date": "2025-01-01", "reason": "元旦" },
+        { "date": "2025-01-28", "reason": "春节" },
+        { "date": "2025-01-29", "reason": "春节" },
+        { "date": "2025-01-30", "reason": "春节" },
+        { "date": "2025-01-31", "reason": "春节" },
+        { "date": "2025-02-03", "reason": "春节" },
+        { "date": "2025-02-04", "reason": "春节" },
+        { "date": "2025-04-04", "reason": "清明节" },
+        { "date": "2025-05-01", "reason": "劳动节" },
+        { "date": "2025-05-02", "reason": "劳动节" },
+        { "date": "2025-05-05", "reason": "劳动节" },
+        { "date": "2025-06-02", "reason": "端午节" },
+        { "date": "2025-10-01", "reason": "国庆节、中秋节" },
+        { "date": "2025-10-02", "reason": "国庆节、中秋节" },
+        { "date": "2025-10-03", "reason": "国庆节、中秋节" },
+        { "date": "2025-10-06", "reason": "国庆节、中秋节" },
+        { "date": "2025-10-07", "reason": "国庆节、中秋节" },
+        { "date": "2025-10-08", "reason": "国庆节、中秋节" }
+      ]
+    },
+    {
+      "year": 2026,
+      "sources": [
+        {
+          "exchange": "SSE",
+          "notice": "上证公告〔2025〕45号",
+          "publishedAt": "2025-12-22T17:00:00+08:00",
+          "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+          "jsonUrl": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.json"
+        },
+        {
+          "exchange": "SZSE",
+          "notice": "深证会〔2025〕481号",
+          "publishedAt": "2025-12-22T17:00:00+08:00",
+          "url": "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+          "jsonUrl": "https://www.szse.cn/disclosure/notice/general/t20251222_618087.json"
+        }
+      ],
+      "closures": [
+        { "date": "2026-01-01", "reason": "元旦" },
+        { "date": "2026-01-02", "reason": "元旦" },
+        { "date": "2026-02-16", "reason": "春节" },
+        { "date": "2026-02-17", "reason": "春节" },
+        { "date": "2026-02-18", "reason": "春节" },
+        { "date": "2026-02-19", "reason": "春节" },
+        { "date": "2026-02-20", "reason": "春节" },
+        { "date": "2026-02-23", "reason": "春节" },
+        { "date": "2026-04-06", "reason": "清明节" },
+        { "date": "2026-05-01", "reason": "劳动节" },
+        { "date": "2026-05-04", "reason": "劳动节" },
+        { "date": "2026-05-05", "reason": "劳动节" },
+        { "date": "2026-06-19", "reason": "端午节" },
+        { "date": "2026-09-25", "reason": "中秋节" },
+        { "date": "2026-10-01", "reason": "国庆节" },
+        { "date": "2026-10-02", "reason": "国庆节" },
+        { "date": "2026-10-05", "reason": "国庆节" },
+        { "date": "2026-10-06", "reason": "国庆节" },
+        { "date": "2026-10-07", "reason": "国庆节" }
+      ]
+    }
+  ]
+}

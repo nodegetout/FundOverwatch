@@ -3,8 +3,10 @@ import { siteIndexSchema } from "../src/lib/domain";
 import {
   evaluationSchema,
   metricSetSchema,
+  periodReportSchema,
   predictionSchema
 } from "../src/lib/prediction-contract";
+import { tradingDayDecision } from "../src/lib/trading-calendar";
 
 const index = siteIndexSchema.parse(
   JSON.parse(await readFile("public/data/index.json", "utf8")) as unknown
@@ -44,6 +46,23 @@ for (const summary of index.summaries) {
   if (summary.prediction !== null) predictionSchema.parse(summary.prediction);
   if (summary.evaluation !== null) evaluationSchema.parse(summary.evaluation);
   if (summary.rollingMetrics !== null) metricSetSchema.parse(summary.rollingMetrics);
+}
+for (const raw of index.reports) {
+  const report = periodReportSchema.parse(raw);
+  if (report.status === "no-data" && report.metrics.sampleCount !== 0) {
+    throw new Error(`${report.reportKey} cannot contain samples when marked no-data.`);
+  }
+  if (report.modelChange.applied) {
+    throw new Error(`${report.reportKey} must not calibrate the model.`);
+  }
+}
+const expectedCalendar = tradingDayDecision(index.calendar.date);
+if (
+  index.calendar.source !== "manual-workflow-override" &&
+  (index.calendar.status !== expectedCalendar.status ||
+    index.calendar.reason !== expectedCalendar.reason)
+) {
+  throw new Error("Public index calendar status does not match the versioned exchange calendar.");
 }
 const serialized = JSON.stringify(index);
 if (/deterministic-mock|simulated|us-spy|hk-2800|jp-1321/.test(serialized)) {
